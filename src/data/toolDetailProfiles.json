@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Mono-Blade Scalpel Profile",
+    "specialisation": "One-handed",
+    "damage": 1,
+    "bonus": " StrB",
+    "encumbrance": 0,
+    "cost": 400,
+    "availability": "Rare",
+    "traits": [
+      {
+        "name": "Penetrating",
+        "value": 2
+      }
+    ],
+    "source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "name": "Silent Needle Profile",
+    "specialisation": "One-handed",
+    "damage": 1,
+    "bonus": " StrB",
+    "encumbrance": 0,
+    "cost": 600,
+    "availability": "Rare",
+    "traits": [
+      {
+        "name": "Inflict",
+        "value": null
+      },
+      {
+        "name": "character takes 1 Damage at the start of their turn"
+      },
+      {
+        "name": "ignoring Armour."
+      }
+    ],
+    "source": "Adeptus Mechanicus Player's Guide"
+  }
+]

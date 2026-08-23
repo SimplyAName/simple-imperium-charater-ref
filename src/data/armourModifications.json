@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Additional Armour Plating",
+    "cost": null,
+    "availability": "Scarce",
+    "effect": "Increases Armour Value by 1. Prevents further modifications. Any armour not Mesh gains the Loud trait.",
+    "source": "Macharian Requisition Guide"
+  },
+  {
+    "name": "Auspex Array Helmet",
+    "cost": 1200,
+    "availability": "Rare",
+    "effect": "While wearing, gain Advantage on Tests to avoid being ambushed. Can use an Action to reveal energy emissions, life signs, and movement up to Medium Range. May require Tech Test to interpret or overcome interference.",
+    "source": "Macharian Requisition Guide"
+  },
+  {
+    "name": "Ceramite Plating & Coating",
+    "cost": null,
+    "availability": "Rare",
+    "effect": "Adds +2 Armour against Flamer and Spread weapons. Grants Loud trait. Prevents further modifications.",
+    "source": "Macharian Requisition Guide"
+  },
+  {
+    "name": "Mounted Pict Recorder",
+    "cost": 1200,
+    "availability": "Rare",
+    "effect": "Records from front of armour piece for 10 hours. Data can be accessed via cogitator or Tech-Priest extraction. Used for evidence or analysis.",
+    "source": "Macharian Requisition Guide"
+  },
+  {
+    "name": "Reinforced Mirror-visor",
+    "cost": 1000,
+    "availability": "Rare",
+    "effect": "While worn, grants Advantage on Tests to resist effects causing the Blinded Condition.",
+    "source": "Macharian Requisition Guide"
+  },
+  {
+    "name": "Adamantine Plating",
+    "cost": 1000,
+    "availability": "Scarce",
+    "effect": "Can only be fitted to augmetic limbs. Provides +1 Armour to that location and counts as an additional augment. May grant Advantage on Presence Tests or Disadvantage on Stealth Tests, depending on situation.",
+    "source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "name": "Neurostatic Generator",
+    "cost": 2500,
+    "availability": "Exotic",
+    "effect": "Must be tuned to one known species. Creatures of that species suffer -2 SL on melee or ranged attack rolls made in the same Zone as the wearer.",
+    "source": "Adeptus Mechanicus Player's Guide"
+  }
+]

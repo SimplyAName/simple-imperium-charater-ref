@@ -1,0 +1,264 @@
+[
+  {
+    "name": "Bleeder Rounds",
+    "damage": null,
+    "cost": null,
+    "availability": "Rare",
+    "usedWith": "Solid Projectile Weapons, excluding Shotguns",
+    "traits": [
+      {
+        "name": "Inflict",
+        "value": null
+      }
+    ],
+    "source": "Core Rulebook"
+  },
+  {
+    "name": "Executioner Rounds",
+    "damage": null,
+    "cost": null,
+    "availability": "Rare",
+    "usedWith": "Bolt weapons, Shotguns",
+    "traits": [
+      {
+        "name": "Range",
+        "value": null
+      }
+    ],
+    "source": "Core Rulebook"
+  },
+  {
+    "name": "Hot-Shot Las Pack",
+    "damage": 2,
+    "cost": null,
+    "availability": "Scarce",
+    "usedWith": "Las weapons with the Reliable trait",
+    "traits": [
+      {
+        "name": "Penetrating",
+        "value": 2
+      }
+    ],
+    "source": "Core Rulebook"
+  },
+  {
+    "name": "Inferno Shells",
+    "damage": null,
+    "cost": null,
+    "availability": "Rare",
+    "usedWith": "Bolt weapons, Shotguns",
+    "traits": [
+      {
+        "name": "Inflict",
+        "value": null
+      }
+    ],
+    "source": "Core Rulebook"
+  },
+  {
+    "name": "Man-Stopper Bullets",
+    "damage": null,
+    "cost": null,
+    "availability": "Scarce",
+    "usedWith": "Solid Projectile Weapons, excluding Shotguns",
+    "traits": [
+      {
+        "name": "Penetrating",
+        "value": 3
+      }
+    ],
+    "source": "Core Rulebook"
+  },
+  {
+    "name": "Tox Rounds",
+    "damage": null,
+    "cost": null,
+    "availability": "Scarce",
+    "usedWith": "Any Bolt weapon or Solid Projectile weapon, excluding Shotguns",
+    "traits": [
+      {
+        "name": "Inflict",
+        "value": null
+      }
+    ],
+    "source": "Core Rulebook"
+  },
+  {
+    "name": "Blessed Rounds",
+    "damage": null,
+    "cost": null,
+    "availability": "Exotic",
+    "usedWith": "Any Bolt weapon, Crossbow, or Solid Projectile weapon",
+    "traits": [
+      {
+        "name": "Adds WilB to Dmg when attacking a daemon or creature with a Warp Threshold"
+      }
+    ],
+    "source": "Inquisition Player's Guide"
+  },
+  {
+    "name": "Poison Stake",
+    "damage": null,
+    "cost": null,
+    "availability": "Exotic",
+    "usedWith": "Crossbow Weapons",
+    "traits": [
+      {
+        "name": "Inflict",
+        "value": null
+      }
+    ],
+    "source": "Inquisition Player's Guide"
+  },
+  {
+    "name": "Psybolt Rounds",
+    "damage": null,
+    "cost": null,
+    "availability": "Exotic",
+    "usedWith": "Bolt Weapons",
+    "traits": [
+      {
+        "name": "Double damage against Psykers and Daemons"
+      }
+    ],
+    "source": "Inquisition Player's Guide"
+  },
+  {
+    "name": "Purgatus Stake",
+    "damage": null,
+    "cost": null,
+    "availability": "Exotic",
+    "usedWith": "Crossbow Weapons",
+    "traits": [
+      {
+        "name": "Rend",
+        "value": null
+      }
+    ],
+    "source": "Inquisition Player's Guide"
+  },
+  {
+    "name": "Silver Stake",
+    "damage": null,
+    "cost": null,
+    "availability": "Exotic",
+    "usedWith": "Crossbow Weapons",
+    "traits": [
+      {
+        "name": "Inflict",
+        "value": null
+      }
+    ],
+    "source": "Inquisition Player's Guide"
+  },
+  {
+    "name": "Tainted Rounds",
+    "damage": null,
+    "cost": null,
+    "availability": "Exotic",
+    "usedWith": "Solid Projectile Weapons, excluding Shotguns",
+    "traits": [
+      {
+        "name": "Bonus Dmg equal to the wielder’s Corruption up to their",
+        "value": null
+      }
+    ],
+    "source": "Inquisition Player's Guide"
+  },
+  {
+    "name": "Amputator Rounds",
+    "damage": 0,
+    "cost": null,
+    "availability": "Rare",
+    "usedWith": "Solid Projectile Weapons",
+    "traits": [
+      {
+        "name": "Penetrating",
+        "value": 1
+      },
+      {
+        "name": "If attack causes Critical Hit to Head Arm or Leg Roll twice on Crit table and pick highest result."
+      }
+    ],
+    "source": "Macharian Requisition Guide"
+  },
+  {
+    "name": "CX-19 Web Agent",
+    "damage": 0,
+    "cost": null,
+    "availability": "Rare",
+    "usedWith": "Web Guns",
+    "traits": [
+      {
+        "name": "Inflict",
+        "value": null
+      },
+      {
+        "name": "Once per mission gain Spread"
+      }
+    ],
+    "source": "Macharian Requisition Guide"
+  },
+  {
+    "name": "Promethium Rounds",
+    "damage": 0,
+    "cost": null,
+    "availability": "Scarce",
+    "usedWith": "Solid Projectile Weapons, excluding Shotguns",
+    "traits": [
+      {
+        "name": "Inflict",
+        "value": null
+      },
+      {
+        "name": "Spread"
+      },
+      {
+        "name": "Can target a Zone to create Minor Hazard for 1d10+5 rounds."
+      }
+    ],
+    "source": "Macharian Requisition Guide"
+  },
+  {
+    "name": "Electroplasmic Gel Canister",
+    "damage": 2,
+    "cost": null,
+    "availability": "Rare",
+    "usedWith": "Flamer",
+    "traits": [
+      {
+        "name": "Inflict",
+        "value": null
+      }
+    ],
+    "source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "name": "Enriched Rounds",
+    "damage": 4,
+    "cost": null,
+    "availability": "Scarce",
+    "usedWith": "Solid Projectile, Flechette, Radium",
+    "traits": [
+      {
+        "name": "Inflict",
+        "value": null
+      }
+    ],
+    "source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "name": "Haywire Rounds",
+    "damage": 2,
+    "cost": null,
+    "availability": "Rare",
+    "usedWith": "Bolt, Solid Projectile (excluding pistols), Needle Rifles",
+    "traits": [
+      {
+        "name": "Penetrating",
+        "value": 2
+      }
+    ],
+    "source": "Adeptus Mechanicus Player's Guide"
+  }
+]

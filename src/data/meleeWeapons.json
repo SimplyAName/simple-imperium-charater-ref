@@ -1,0 +1,1499 @@
+[
+  {
+    "name": "Chainaxe",
+    "specialisation": "One-handed",
+    "damage": 3,
+    "bonus": "StrB",
+    "encumbrance": 1,
+    "cost": 600,
+    "availability": "Rare",
+    "source": "Core Rulebook",
+    "traits": [
+      {
+        "name": "Loud"
+      },
+      {
+        "name": "Rend",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "name": "Chainsword",
+    "specialisation": "One-handed",
+    "damage": 3,
+    "bonus": "StrB",
+    "encumbrance": 1,
+    "cost": 500,
+    "availability": "Scarce",
+    "source": "Core Rulebook",
+    "traits": [
+      {
+        "name": "Loud"
+      },
+      {
+        "name": "Rend",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "Eviscerator",
+    "specialisation": "Two-handed",
+    "damage": 5,
+    "bonus": "StrB",
+    "encumbrance": 3,
+    "cost": 800,
+    "availability": "Rare",
+    "source": "Core Rulebook",
+    "traits": [
+      {
+        "name": "Heavy",
+        "value": 4
+      },
+      {
+        "name": "Loud"
+      },
+      {
+        "name": "Rend",
+        "value": 4
+      },
+      {
+        "name": "Two-handed"
+      }
+    ]
+  },
+  {
+    "name": "Force Staff",
+    "specialisation": "Two-handed",
+    "damage": 1,
+    "bonus": "StrB",
+    "encumbrance": 2,
+    "cost": 7000,
+    "availability": "Exotic",
+    "source": "Core Rulebook",
+    "traits": [
+      {
+        "name": "Defensive"
+      },
+      {
+        "name": "Two-handed"
+      }
+    ]
+  },
+  {
+    "name": "Force Sword",
+    "specialisation": "One-handed",
+    "damage": 2,
+    "bonus": "StrB",
+    "encumbrance": 1,
+    "cost": 8000,
+    "availability": "Exotic",
+    "source": "Core Rulebook"
+  },
+  {
+    "name": "Axe",
+    "specialisation": "One-handed",
+    "damage": 2,
+    "bonus": "StrB",
+    "encumbrance": 1,
+    "cost": 80,
+    "availability": "Common",
+    "source": "Core Rulebook",
+    "traits": [
+      {
+        "name": "Rend",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "Brass Knuckles",
+    "specialisation": "Brawling",
+    "damage": 0,
+    "bonus": "StrB",
+    "encumbrance": 0,
+    "cost": 30,
+    "availability": "Common",
+    "source": "Core Rulebook",
+    "traits": [
+      {
+        "name": "Subtle"
+      }
+    ]
+  },
+  {
+    "name": "Flail",
+    "specialisation": "Two-handed",
+    "damage": 3,
+    "bonus": "StrB",
+    "encumbrance": 2,
+    "cost": 200,
+    "availability": "Common",
+    "source": "Core Rulebook",
+    "traits": [
+      {
+        "name": "Heavy",
+        "value": 3
+      },
+      {
+        "name": "Two-handed"
+      }
+    ]
+  },
+  {
+    "name": "Great Weapon",
+    "specialisation": "Two-handed",
+    "damage": 4,
+    "bonus": "StrB",
+    "encumbrance": 2,
+    "cost": 300,
+    "availability": "Scarce",
+    "source": "Core Rulebook",
+    "traits": [
+      {
+        "name": "Heavy",
+        "value": 4
+      },
+      {
+        "name": "Two-handed"
+      }
+    ]
+  },
+  {
+    "name": "Hammer",
+    "specialisation": "One-handed",
+    "damage": 2,
+    "bonus": "StrB",
+    "encumbrance": 1,
+    "cost": 25,
+    "availability": "Common",
+    "source": "Core Rulebook"
+  },
+  {
+    "name": "Improvised (One-handed)",
+    "specialisation": "One-handed",
+    "damage": 1,
+    "bonus": "StrB",
+    "encumbrance": 1,
+    "cost": null,
+    "availability": "-",
+    "source": "Core Rulebook",
+    "traits": [
+      {
+        "name": "Ineffective"
+      }
+    ]
+  },
+  {
+    "name": "Improvised (Two-handed)",
+    "specialisation": "Two-handed",
+    "damage": 2,
+    "bonus": "StrB",
+    "encumbrance": 3,
+    "cost": null,
+    "availability": "-",
+    "source": "Core Rulebook",
+    "traits": [
+      {
+        "name": "Ineffective"
+      },
+      {
+        "name": "Two-handed"
+      }
+    ]
+  },
+  {
+    "name": "Knife",
+    "specialisation": "One-handed",
+    "damage": 0,
+    "bonus": "StrB",
+    "encumbrance": 0,
+    "cost": 50,
+    "availability": "Common",
+    "source": "Core Rulebook",
+    "traits": [
+      {
+        "name": "Subtle"
+      },
+      {
+        "name": "Thrown",
+        "value": null
+      }
+    ]
+  },
+  {
+    "name": "Staff",
+    "specialisation": "Two-handed",
+    "damage": 1,
+    "bonus": "StrB",
+    "encumbrance": 2,
+    "cost": 25,
+    "availability": "Common",
+    "source": "Core Rulebook",
+    "traits": [
+      {
+        "name": "Defensive"
+      },
+      {
+        "name": "Two-handed"
+      }
+    ]
+  },
+  {
+    "name": "Sword",
+    "specialisation": "One-handed",
+    "damage": 2,
+    "bonus": "StrB",
+    "encumbrance": 1,
+    "cost": 150,
+    "availability": "Common",
+    "source": "Core Rulebook"
+  },
+  {
+    "name": "Unarmed",
+    "specialisation": "Brawling",
+    "damage": 0,
+    "bonus": "StrB",
+    "encumbrance": 0,
+    "cost": null,
+    "availability": "-",
+    "source": "Core Rulebook",
+    "traits": [
+      {
+        "name": "Ineffective"
+      }
+    ]
+  },
+  {
+    "name": "Whip",
+    "specialisation": "One-handed",
+    "damage": 0,
+    "bonus": "StrB",
+    "encumbrance": 1,
+    "cost": 60,
+    "availability": "Scarce",
+    "source": "Core Rulebook",
+    "traits": [
+      {
+        "name": "Loud"
+      },
+      {
+        "name": "Reach"
+      }
+    ]
+  },
+  {
+    "name": "Electro-Flail",
+    "specialisation": "One-handed",
+    "damage": 0,
+    "bonus": "StrB",
+    "encumbrance": 1,
+    "cost": 500,
+    "availability": "Scarce",
+    "source": "Core Rulebook",
+    "traits": [
+      {
+        "name": "Loud"
+      },
+      {
+        "name": "Reach"
+      },
+      {
+        "name": "Inflict",
+        "value": null
+      }
+    ]
+  },
+  {
+    "name": "Shock Maul",
+    "specialisation": "One-handed",
+    "damage": 2,
+    "bonus": "StrB",
+    "encumbrance": 1,
+    "cost": 250,
+    "availability": "Scarce",
+    "source": "Core Rulebook",
+    "traits": [
+      {
+        "name": "Loud"
+      },
+      {
+        "name": "Inflict",
+        "value": null
+      }
+    ]
+  },
+  {
+    "name": "Power Axe",
+    "specialisation": "Two-handed",
+    "damage": 6,
+    "bonus": "StrB",
+    "encumbrance": 2,
+    "cost": 3400,
+    "availability": "Rare",
+    "source": "Core Rulebook",
+    "traits": [
+      {
+        "name": "Heavy",
+        "value": 4
+      },
+      {
+        "name": "Penetrating",
+        "value": 6
+      },
+      {
+        "name": "Two-handed"
+      }
+    ]
+  },
+  {
+    "name": "Power Fist",
+    "specialisation": "Brawling",
+    "damage": 6,
+    "bonus": "StrB",
+    "encumbrance": 2,
+    "cost": 4000,
+    "availability": "Rare",
+    "source": "Core Rulebook",
+    "traits": [
+      {
+        "name": "Heavy",
+        "value": 4
+      },
+      {
+        "name": "Penetrating",
+        "value": 6
+      }
+    ]
+  },
+  {
+    "name": "Power Knife",
+    "specialisation": "One-handed",
+    "damage": 2,
+    "bonus": "StrB",
+    "encumbrance": 1,
+    "cost": 2000,
+    "availability": "Rare",
+    "source": "Core Rulebook",
+    "traits": [
+      {
+        "name": "Penetrating",
+        "value": 2
+      },
+      {
+        "name": "Subtle"
+      },
+      {
+        "name": "Thrown",
+        "value": null
+      }
+    ]
+  },
+  {
+    "name": "Power Maul",
+    "specialisation": "One-handed",
+    "damage": 5,
+    "bonus": "StrB",
+    "encumbrance": 1,
+    "cost": 3000,
+    "availability": "Rare",
+    "source": "Core Rulebook",
+    "traits": [
+      {
+        "name": "Penetrating",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "Power Sword",
+    "specialisation": "One-handed",
+    "damage": 4,
+    "bonus": "StrB",
+    "encumbrance": 1,
+    "cost": 3000,
+    "availability": "Rare",
+    "source": "Core Rulebook",
+    "traits": [
+      {
+        "name": "Penetrating",
+        "value": 4
+      }
+    ]
+  },
+  {
+    "name": "Blink-Blade",
+    "specialisation": "One-handed",
+    "damage": 3,
+    "bonus": "StrB",
+    "encumbrance": 1,
+    "cost": 8000,
+    "availability": "Exotic",
+    "source": "Inquisitor Player's Guide",
+    "traits": [
+      {
+        "name": "Penetrating",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "Scythian Venom Talon",
+    "specialisation": "One-handed",
+    "damage": 2,
+    "bonus": "StrB",
+    "encumbrance": 1,
+    "cost": 5000,
+    "availability": "Exotic",
+    "source": "Inquisitor Player's Guide",
+    "traits": [
+      {
+        "name": "Inflict",
+        "value": null
+      },
+      {
+        "name": "Inflict",
+        "value": null
+      }
+    ]
+  },
+  {
+    "name": "Duelling Glaive",
+    "specialisation": "Two-handed",
+    "damage": 5,
+    "bonus": "StrB",
+    "encumbrance": 2,
+    "cost": 1000,
+    "availability": "Rare",
+    "source": "Inquisitor Player's Guide",
+    "traits": [
+      {
+        "name": "Defensive"
+      },
+      {
+        "name": "Reach"
+      },
+      {
+        "name": "Two-handed"
+      }
+    ]
+  },
+  {
+    "name": "Daemonhammer",
+    "specialisation": "One-handed",
+    "damage": 5,
+    "bonus": "StrB",
+    "encumbrance": 1,
+    "cost": 150000,
+    "availability": "Exotic",
+    "source": "Inquisitor Player's Guide"
+  },
+  {
+    "name": "Daemonhammer",
+    "specialisation": "Two-handed",
+    "damage": 6,
+    "bonus": "StrB",
+    "encumbrance": 2,
+    "cost": 200000,
+    "availability": "Exotic",
+    "source": "Inquisitor Player's Guide",
+    "traits": [
+      {
+        "name": "Heavy",
+        "value": 4
+      },
+      {
+        "name": "Two-handed"
+      }
+    ]
+  },
+  {
+    "name": "Nemesis Daemonhammer",
+    "specialisation": "One-handed",
+    "damage": 5,
+    "bonus": "StrB",
+    "encumbrance": 1,
+    "cost": 250000,
+    "availability": "Exotic",
+    "source": "Inquisitor Player's Guide",
+    "traits": [
+      {
+        "name": "Penetrating",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "Nemesis Daemonhammer",
+    "specialisation": "Two-handed",
+    "damage": 6,
+    "bonus": "StrB",
+    "encumbrance": 2,
+    "cost": 300000,
+    "availability": "Exotic",
+    "source": "Inquisitor Player's Guide",
+    "traits": [
+      {
+        "name": "Heavy",
+        "value": 4
+      },
+      {
+        "name": "Penetrating",
+        "value": 2
+      },
+      {
+        "name": "Two-handed"
+      }
+    ]
+  },
+  {
+    "name": "Truename Staff",
+    "specialisation": "Two-handed",
+    "damage": 2,
+    "bonus": "StrB",
+    "encumbrance": 2,
+    "cost": 200000,
+    "availability": "Exotic",
+    "source": "Inquisitor Player's Guide",
+    "traits": [
+      {
+        "name": "Defensive"
+      },
+      {
+        "name": "Two-handed"
+      }
+    ]
+  },
+  {
+    "name": "Null Rod",
+    "specialisation": "Two-handed",
+    "damage": 1,
+    "bonus": "StrB",
+    "encumbrance": 2,
+    "cost": 150000,
+    "availability": "Rare",
+    "source": "Inquisitor Player's Guide",
+    "traits": [
+      {
+        "name": "Defensive"
+      },
+      {
+        "name": "Two-handed"
+      }
+    ]
+  },
+  {
+    "name": "Aeldari Power Sword",
+    "specialisation": "One-handed",
+    "damage": 4,
+    "bonus": "StrB or 4",
+    "encumbrance": 1,
+    "cost": 150000,
+    "availability": "Exotic",
+    "source": "Inquisitor Player's Guide",
+    "traits": [
+      {
+        "name": "Penetrating",
+        "value": 4
+      }
+    ]
+  },
+  {
+    "name": "Executioner Greatblade",
+    "specialisation": "Two-handed",
+    "damage": 5,
+    "bonus": "StrB",
+    "encumbrance": 2,
+    "cost": 150000,
+    "availability": "Exotic",
+    "source": "Inquisitor Player's Guide",
+    "traits": [
+      {
+        "name": "Defensive"
+      },
+      {
+        "name": "Heavy",
+        "value": 4
+      },
+      {
+        "name": "Two-handed"
+      },
+      {
+        "name": "Penetrating",
+        "value": 4
+      }
+    ]
+  },
+  {
+    "name": "Power Stake",
+    "specialisation": "Two-handed",
+    "damage": 4,
+    "bonus": "StrB",
+    "encumbrance": 2,
+    "cost": 10000,
+    "availability": "Rare",
+    "source": "Inquisitor Player's Guide",
+    "traits": [
+      {
+        "name": "Two-handed"
+      },
+      {
+        "name": "Penetrating",
+        "value": 4
+      }
+    ]
+  },
+  {
+    "name": "Xenophase Blade",
+    "specialisation": "One-handed",
+    "damage": 4,
+    "bonus": "StrB",
+    "encumbrance": 1,
+    "cost": 500000,
+    "availability": "Exotic",
+    "source": "Inquisitor Player's Guide",
+    "traits": [
+      {
+        "name": "Penetrating",
+        "value": 4
+      }
+    ]
+  },
+  {
+    "name": "Daemonblade",
+    "specialisation": "Two-handed",
+    "damage": 5,
+    "bonus": "StrB",
+    "encumbrance": 2,
+    "cost": 1000000,
+    "availability": "Exotic",
+    "source": "Inquisitor Player's Guide",
+    "traits": [
+      {
+        "name": "Depends on specific Daemonblade"
+      }
+    ]
+  },
+  {
+    "name": "Tainted Blade",
+    "specialisation": "One-handed",
+    "damage": 4,
+    "bonus": "StrB",
+    "encumbrance": 1,
+    "cost": 1000000,
+    "availability": "Exotic",
+    "source": "Inquisitor Player's Guide",
+    "traits": [
+      {
+        "name": "Rend",
+        "value": 4
+      }
+    ]
+  },
+  {
+    "name": "Tran’lo ‘Burnout’ Chainsword",
+    "specialisation": "One-handed",
+    "damage": 3,
+    "bonus": "StrB",
+    "encumbrance": 1,
+    "cost": 650,
+    "availability": "Rare",
+    "source": "Macharian Requisition Guide",
+    "traits": [
+      {
+        "name": "Loud"
+      },
+      {
+        "name": "Rend",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "Viridan Mk II Chain Halberd",
+    "specialisation": "Two-handed",
+    "damage": 5,
+    "bonus": "StrB",
+    "encumbrance": 4,
+    "cost": 1200,
+    "availability": "Rare",
+    "source": "Macharian Requisition Guide",
+    "traits": [
+      {
+        "name": "Heavy",
+        "value": 4
+      },
+      {
+        "name": "Loud"
+      },
+      {
+        "name": "Reach"
+      },
+      {
+        "name": "Rend",
+        "value": 4
+      },
+      {
+        "name": "Two-handed"
+      }
+    ]
+  },
+  {
+    "name": "Death World Combat Blade",
+    "specialisation": "One-handed",
+    "damage": 2,
+    "bonus": "StrB",
+    "encumbrance": 1,
+    "cost": 250,
+    "availability": "Scarce",
+    "source": "Macharian Requisition Guide",
+    "traits": [
+      {
+        "name": "Heavy",
+        "value": 3
+      },
+      {
+        "name": "Penetrating",
+        "value": 1
+      },
+      {
+        "name": "Reliable"
+      }
+    ]
+  },
+  {
+    "name": "Death World Combat Blade",
+    "specialisation": "Two-handed",
+    "damage": 3,
+    "bonus": "StrB",
+    "encumbrance": 1,
+    "cost": 250,
+    "availability": "Scarce",
+    "source": "Macharian Requisition Guide",
+    "traits": [
+      {
+        "name": "Heavy",
+        "value": 3
+      },
+      {
+        "name": "Penetrating",
+        "value": 2
+      },
+      {
+        "name": "Reliable"
+      },
+      {
+        "name": "Two-handed"
+      }
+    ]
+  },
+  {
+    "name": "Heavy Lascutter",
+    "specialisation": "Two-handed",
+    "damage": 6,
+    "bonus": "StrB",
+    "encumbrance": 3,
+    "cost": 3000,
+    "availability": "Rare",
+    "source": "Macharian Requisition Guide",
+    "traits": [
+      {
+        "name": "Heavy",
+        "value": 4
+      },
+      {
+        "name": "Loud"
+      },
+      {
+        "name": "Penetrating",
+        "value": 4
+      },
+      {
+        "name": "Two-handed"
+      }
+    ]
+  },
+  {
+    "name": "Heavy Rock Cutter",
+    "specialisation": "Two-handed",
+    "damage": 6,
+    "bonus": "StrB",
+    "encumbrance": 5,
+    "cost": 5000,
+    "availability": "Scarce",
+    "source": "Macharian Requisition Guide",
+    "traits": [
+      {
+        "name": "Heavy",
+        "value": 4
+      },
+      {
+        "name": "Loud"
+      },
+      {
+        "name": "Penetrating",
+        "value": 5
+      },
+      {
+        "name": "Rend",
+        "value": 3
+      },
+      {
+        "name": "Two-handed"
+      }
+    ]
+  },
+  {
+    "name": "Heavy Rock Drill",
+    "specialisation": "Two-handed",
+    "damage": 6,
+    "bonus": "StrB",
+    "encumbrance": 5,
+    "cost": 4000,
+    "availability": "Scarce",
+    "source": "Macharian Requisition Guide",
+    "traits": [
+      {
+        "name": "Heavy",
+        "value": 4
+      },
+      {
+        "name": "Loud"
+      },
+      {
+        "name": "Rend",
+        "value": 5
+      },
+      {
+        "name": "Two-handed"
+      }
+    ]
+  },
+  {
+    "name": "Heavy Rock Saw",
+    "specialisation": "Two-handed",
+    "damage": 4,
+    "bonus": "StrB",
+    "encumbrance": 3,
+    "cost": 3500,
+    "availability": "Scarce",
+    "source": "Macharian Requisition Guide",
+    "traits": [
+      {
+        "name": "Bulky"
+      },
+      {
+        "name": "Heavy",
+        "value": 4
+      },
+      {
+        "name": "Loud"
+      },
+      {
+        "name": "Rend",
+        "value": 4
+      },
+      {
+        "name": "Two-handed"
+      }
+    ]
+  },
+  {
+    "name": "Servo Claw",
+    "specialisation": "Brawling",
+    "damage": 4,
+    "bonus": "StrB",
+    "encumbrance": 1,
+    "cost": 1000,
+    "availability": "Scarce",
+    "source": "Macharian Requisition Guide",
+    "traits": [
+      {
+        "name": "Heavy",
+        "value": 4
+      },
+      {
+        "name": "Penetrating",
+        "value": 4
+      }
+    ]
+  },
+  {
+    "name": "Staff of Office",
+    "specialisation": "Two-handed",
+    "damage": 2,
+    "bonus": "StrB",
+    "encumbrance": 2,
+    "cost": 8000,
+    "availability": "Exotic",
+    "source": "Macharian Requisition Guide",
+    "traits": [
+      {
+        "name": "Defensive"
+      },
+      {
+        "name": "Ornamental"
+      },
+      {
+        "name": "Two-handed"
+      }
+    ]
+  },
+  {
+    "name": "Compliance Pattern Power Maul",
+    "specialisation": "One-handed",
+    "damage": 5,
+    "bonus": "StrB",
+    "encumbrance": 1,
+    "cost": 5000,
+    "availability": "Rare",
+    "source": "Macharian Requisition Guide",
+    "traits": [
+      {
+        "name": "Heavy",
+        "value": 4
+      },
+      {
+        "name": "Penetrating",
+        "value": 3
+      },
+      {
+        "name": "Two-handed"
+      }
+    ]
+  },
+  {
+    "name": "Macharian Regimental Power Sword",
+    "specialisation": "One-handed",
+    "damage": 4,
+    "bonus": "StrB",
+    "encumbrance": 1,
+    "cost": 10000,
+    "availability": "Exotic",
+    "source": "Macharian Requisition Guide",
+    "traits": [
+      {
+        "name": "Master-crafted"
+      },
+      {
+        "name": "Ornamental"
+      },
+      {
+        "name": "Penetrating",
+        "value": 4
+      }
+    ]
+  },
+  {
+    "name": "Mortis Alpha Ceremonial Blade",
+    "specialisation": "Two-handed",
+    "damage": 6,
+    "bonus": "StrB",
+    "encumbrance": 2,
+    "cost": 11000,
+    "availability": "Exotic",
+    "source": "Macharian Requisition Guide",
+    "traits": [
+      {
+        "name": "Durable"
+      },
+      {
+        "name": "Master-crafted"
+      },
+      {
+        "name": "Ornamental"
+      },
+      {
+        "name": "Penetrating",
+        "value": 4
+      }
+    ]
+  },
+  {
+    "name": "Shock Knuckles",
+    "specialisation": "Brawling",
+    "damage": 0,
+    "bonus": "StrB",
+    "encumbrance": 0,
+    "cost": 1000,
+    "availability": "Rare",
+    "source": "Macharian Requisition Guide",
+    "traits": [
+      {
+        "name": "Inflict",
+        "value": null
+      },
+      {
+        "name": "Loud"
+      },
+      {
+        "name": "Subtle"
+      }
+    ]
+  },
+  {
+    "name": "Shock Staff",
+    "specialisation": "Two-handed",
+    "damage": 1,
+    "bonus": "StrB",
+    "encumbrance": 2,
+    "cost": 150,
+    "availability": "Common",
+    "source": "Macharian Requisition Guide",
+    "traits": [
+      {
+        "name": "Defensive"
+      },
+      {
+        "name": "Inflict",
+        "value": null
+      },
+      {
+        "name": "Loud"
+      },
+      {
+        "name": "Two-handed"
+      }
+    ]
+  },
+  {
+    "name": "Skitarii Cavalry Arc Maul",
+    "specialisation": "One-handed",
+    "damage": 4,
+    "bonus": "StrB",
+    "encumbrance": 1,
+    "cost": 5000,
+    "availability": "Rare",
+    "source": "Adeptus Mechanicus Player's Guide",
+    "traits": [
+      {
+        "name": "Inflict",
+        "value": null
+      },
+      {
+        "name": "Secret of Mars"
+      }
+    ]
+  },
+  {
+    "name": "Skitarii Cavalry Sabre",
+    "specialisation": "One-handed",
+    "damage": 5,
+    "bonus": "StrB",
+    "encumbrance": 1,
+    "cost": 3000,
+    "availability": "Scarce",
+    "source": "Adeptus Mechanicus Player's Guide",
+    "traits": [
+      {
+        "name": "Penetrating",
+        "value": 3
+      },
+      {
+        "name": "Secret of Mars"
+      }
+    ]
+  },
+  {
+    "name": "Skitarii Taser Lance",
+    "specialisation": "One-handed",
+    "damage": 4,
+    "bonus": "StrB",
+    "encumbrance": 2,
+    "cost": 5000,
+    "availability": "Rare",
+    "source": "Adeptus Mechanicus Player's Guide",
+    "traits": [
+      {
+        "name": "Heavy",
+        "value": 3
+      },
+      {
+        "name": "Inflict",
+        "value": null
+      },
+      {
+        "name": "Reach"
+      },
+      {
+        "name": "Secret of Mars"
+      }
+    ]
+  },
+  {
+    "name": "Electrostatic Gauntlets",
+    "specialisation": "Brawling",
+    "damage": 6,
+    "bonus": "StrB",
+    "encumbrance": 2,
+    "cost": 4000,
+    "availability": "Exotic",
+    "source": "Adeptus Mechanicus Player's Guide",
+    "traits": [
+      {
+        "name": "Inflict",
+        "value": null
+      },
+      {
+        "name": "Reach"
+      },
+      {
+        "name": "Secret of Mars"
+      }
+    ]
+  },
+  {
+    "name": "Electroleech Stave",
+    "specialisation": "Two-handed",
+    "damage": 4,
+    "bonus": "StrB",
+    "encumbrance": 3,
+    "cost": 4000,
+    "availability": "Exotic",
+    "source": "Adeptus Mechanicus Player's Guide",
+    "traits": [
+      {
+        "name": "Defensive"
+      },
+      {
+        "name": "Inflict",
+        "value": null
+      },
+      {
+        "name": "Secret of Mars"
+      }
+    ]
+  },
+  {
+    "name": "Omnissian Axe (One-Handed)",
+    "specialisation": "One-handed",
+    "damage": 4,
+    "bonus": "StrB",
+    "encumbrance": 1,
+    "cost": 4000,
+    "availability": "Exotic",
+    "source": "Adeptus Mechanicus Player's Guide",
+    "traits": [
+      {
+        "name": "Master Crafted"
+      },
+      {
+        "name": "Ornamental"
+      },
+      {
+        "name": "Penetrating",
+        "value": 4
+      },
+      {
+        "name": "Secret of Mars"
+      }
+    ]
+  },
+  {
+    "name": "Omnissian Axe (Two-Handed)",
+    "specialisation": "Two-handed",
+    "damage": 6,
+    "bonus": "StrB",
+    "encumbrance": 3,
+    "cost": 6000,
+    "availability": "Exotic",
+    "source": "Adeptus Mechanicus Player's Guide",
+    "traits": [
+      {
+        "name": "Heavy",
+        "value": 3
+      },
+      {
+        "name": "Master Crafted"
+      },
+      {
+        "name": "Ornamental"
+      },
+      {
+        "name": "Penetrating",
+        "value": 6
+      },
+      {
+        "name": "Two-handed"
+      },
+      {
+        "name": "Secret of Mars"
+      }
+    ]
+  },
+  {
+    "name": "Omnissian Glaive",
+    "specialisation": "Two-handed",
+    "damage": 7,
+    "bonus": "StrB",
+    "encumbrance": 3,
+    "cost": 6000,
+    "availability": "Exotic",
+    "source": "Adeptus Mechanicus Player's Guide",
+    "traits": [
+      {
+        "name": "Heavy",
+        "value": 5
+      },
+      {
+        "name": "Master Crafted"
+      },
+      {
+        "name": "Ornamental"
+      },
+      {
+        "name": "Penetrating",
+        "value": 6
+      },
+      {
+        "name": "Two-handed"
+      },
+      {
+        "name": "Secret of Mars"
+      }
+    ]
+  },
+  {
+    "name": "Omnissian Rod",
+    "specialisation": "Two-handed",
+    "damage": 4,
+    "bonus": "StrB",
+    "encumbrance": 3,
+    "cost": 10000,
+    "availability": "Exotic",
+    "source": "Adeptus Mechanicus Player's Guide",
+    "traits": [
+      {
+        "name": "Master Crafted"
+      },
+      {
+        "name": "Ornamental"
+      },
+      {
+        "name": "Penetrating",
+        "value": 5
+      },
+      {
+        "name": "Two-handed"
+      },
+      {
+        "name": "Secret of Mars"
+      }
+    ]
+  },
+  {
+    "name": "Transonic Blade",
+    "specialisation": "One-handed",
+    "damage": 3,
+    "bonus": "StrB",
+    "encumbrance": 2,
+    "cost": 5000,
+    "availability": "Rare",
+    "source": "Adeptus Mechanicus Player's Guide",
+    "traits": [
+      {
+        "name": "Secret of Mars"
+      }
+    ]
+  },
+  {
+    "name": "Transonic Chordclaw",
+    "specialisation": "Brawling",
+    "damage": 3,
+    "bonus": "StrB",
+    "encumbrance": 2,
+    "cost": 5000,
+    "availability": "Rare",
+    "source": "Adeptus Mechanicus Player's Guide",
+    "traits": [
+      {
+        "name": "Secret of Mars"
+      }
+    ]
+  },
+  {
+    "name": "Transonic Razor",
+    "specialisation": "One-handed",
+    "damage": 2,
+    "bonus": "StrB",
+    "encumbrance": 1,
+    "cost": 4000,
+    "availability": "Rare",
+    "source": "Adeptus Mechanicus Player's Guide",
+    "traits": [
+      {
+        "name": "Lightweight"
+      },
+      {
+        "name": "Secret of Mars"
+      }
+    ]
+  },
+  {
+    "name": "Breacher",
+    "specialisation": "One-handed",
+    "damage": 5,
+    "bonus": "StrB",
+    "encumbrance": 3,
+    "cost": 7000,
+    "availability": "Scarce",
+    "source": "Adeptus Mechanicus Player's Guide",
+    "traits": [
+      {
+        "name": "Heavy",
+        "value": 2
+      },
+      {
+        "name": "Loud"
+      },
+      {
+        "name": "Rend",
+        "value": 4
+      },
+      {
+        "name": "Secret of Mars"
+      }
+    ]
+  },
+  {
+    "name": "Control Stave",
+    "specialisation": "One-handed",
+    "damage": 3,
+    "bonus": "StrB",
+    "encumbrance": 1,
+    "cost": 2000,
+    "availability": "Exotic",
+    "source": "Adeptus Mechanicus Player's Guide",
+    "traits": [
+      {
+        "name": "Defensive"
+      },
+      {
+        "name": "Inflict",
+        "value": null
+      },
+      {
+        "name": "Ornamental"
+      },
+      {
+        "name": "Secret of Mars"
+      }
+    ]
+  },
+  {
+    "name": "Pteraxii Talons",
+    "specialisation": "Brawling",
+    "damage": 3,
+    "bonus": "StrB",
+    "encumbrance": 1,
+    "cost": 2000,
+    "availability": "Rare",
+    "source": "Adeptus Mechanicus Player's Guide",
+    "traits": [
+      {
+        "name": "Inflict",
+        "value": null
+      },
+      {
+        "name": "Rend",
+        "value": 4
+      },
+      {
+        "name": "Secret of Mars"
+      }
+    ]
+  },
+  {
+    "name": "Rod of Office",
+    "specialisation": "One-handed",
+    "damage": 2,
+    "bonus": "StrB",
+    "encumbrance": 1,
+    "cost": 3000,
+    "availability": "Exotic",
+    "source": "Adeptus Mechanicus Player's Guide",
+    "traits": [
+      {
+        "name": "Defensive"
+      },
+      {
+        "name": "Ornamental"
+      },
+      {
+        "name": "Secret of Mars"
+      }
+    ]
+  },
+  {
+    "name": "Servo Arm",
+    "specialisation": "Brawling",
+    "damage": 6,
+    "bonus": "StrB",
+    "encumbrance": 2,
+    "cost": 4000,
+    "availability": "Rare",
+    "source": "Adeptus Mechanicus Player's Guide",
+    "traits": [
+      {
+        "name": "Heavy",
+        "value": 4
+      },
+      {
+        "name": "Loud"
+      },
+      {
+        "name": "Penetrating"
+      },
+      {
+        "name": "Reliable"
+      },
+      {
+        "name": "Secret of Mars"
+      }
+    ]
+  },
+  {
+    "name": "Taser Goad",
+    "specialisation": "One-handed",
+    "damage": 2,
+    "bonus": "StrB",
+    "encumbrance": 1,
+    "cost": 900,
+    "availability": "Rare",
+    "source": "Adeptus Mechanicus Player's Guide",
+    "traits": [
+      {
+        "name": "Inflict",
+        "value": null
+      },
+      {
+        "name": "Loud"
+      },
+      {
+        "name": "Defensive"
+      },
+      {
+        "name": "Secret of Mars"
+      }
+    ]
+  },
+  {
+    "name": "Vivisector",
+    "specialisation": "Brawling",
+    "damage": 2,
+    "bonus": "StrB",
+    "encumbrance": 1,
+    "cost": 10000,
+    "availability": "Rare",
+    "source": "Adeptus Mechanicus Player's Guide",
+    "traits": [
+      {
+        "name": "Master Crafted"
+      },
+      {
+        "name": "Secret of Mars"
+      }
+    ]
+  }
+]

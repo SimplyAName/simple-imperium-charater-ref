@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Refractor Field",
+    "protection": "1d10",
+    "overload": 10,
+    "encumbrance": 0,
+    "cost": 1000,
+    "availability": "Exotic",
+    "effect": "While the field is active, the user automatically fails most Stealth Tests.",
+    "source": "Core Rulebook"
+  },
+  {
+    "name": "Conversion Field",
+    "protection": "2d10",
+    "overload": 20,
+    "encumbrance": 0,
+    "cost": 6000,
+    "availability": "Exotic",
+    "effect": "If the Conversion Field reduces 10 or more Damage from a single attack, it inflicts the Blinded Condition on all creatures in the Zone for one round. This does not affect the user.",
+    "source": "Core Rulebook"
+  },
+  {
+    "name": "Icon of the Just",
+    "protection": "1d10+5",
+    "overload": 15,
+    "encumbrance": 0,
+    "cost": 7000,
+    "availability": "Exotic",
+    "effect": "Daemons or creatures with a Warp Threshold have a -20 penalty to Tests against the bearer.",
+    "source": "Inquisitor Player's Guide"
+  }
+]
