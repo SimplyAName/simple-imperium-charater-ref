@@ -1,4 +1,10 @@
-# React + TypeScript + Vite
+# Imperium Maledictum character quick reference
+
+A
+
+## Project tech stack
+
+### React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
@@ -7,13 +13,13 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+### React Compiler
 
 The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
 
 Note: This will impact Vite dev & build performances.
 
-## Expanding the Oxlint configuration
+### Expanding the Oxlint configuration
 
 If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
 
@@ -32,3 +38,9 @@ If you are developing a production application, we recommend enabling type-aware
 ```
 
 See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+
+## Data source
+
+This project is inspired by [ppiques quickref repo](https://github.com/ppiques/imperium-maledictum-quickref). They created the original data set, Thanks!
+
+Data further refined by myself
