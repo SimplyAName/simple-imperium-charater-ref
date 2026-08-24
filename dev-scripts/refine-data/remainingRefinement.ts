@@ -110,9 +110,9 @@ export type NewToolDetailProfileRecord = {
 	source: string;
 };
 
-function parseNumberOrText(value: string | number): number {
+export function parseNumberOrText(value: string | number): number {
 	if (typeof value === "number") return value;
-	return Number.parseInt(value, 10);
+	return Number.parseInt(value);
 }
 
 function parseMeleeWeaponDamage(value: string): { damage: number; bonus: string } {
@@ -288,6 +288,7 @@ export function runRemainingRefinements() {
 		generateJsonFile(refineEnvironmentalTraitData(environmentalTraits), "environmentalTraits.json"),
 		generateJsonFile(refineConditionData(conditions), "conditions.json"),
 		generateJsonFile(refineToolDetailProfilesData(toolDetailProfiles), "toolDetailProfiles.json"),
+		generateJsonFile(refineConditionData(conditions), "conditions.json"),
 	]);
 }
 function refineToolDetailProfilesData(
