@@ -12,7 +12,10 @@ import type {
 	NewCombatActionJson,
 	NewToolDetailProfileJson,
 	NewConditionJson,
-	NewEnvironmentalTraitJson,
+	NewTraitJson,
+	NewPsychicPhenomenaJson,
+	NewSkillSpecialisationJsonProp,
+	NewCharacteristicImprovementJsonProp,
 } from "../../src/types/json/JsonDataTypes";
 import { parseNumberRange } from "../utils/parseNumberRange";
 import { parseNumberOrText, parseRequiredNumber } from "../utils/parseTypesUtils";
@@ -244,7 +247,7 @@ export function refineToolDetailProfilesData(
 
 export function refineEnvironmentalTraitData(
 	jsonData: { Name: string; Description: string }[],
-): NewEnvironmentalTraitJson[] {
+): NewTraitJson[] {
 	return jsonData.map((field) => ({
 		name: field.Name,
 		description: field.Description,
@@ -266,6 +269,12 @@ export function refineConditionData(jsonData: {
 	Stunned: string;
 	Unconscious: string;
 }): NewConditionJson[] {
+	return Object.keys(jsonData).map((key) => {
+		return { name: key, description: jsonData[key as keyof typeof jsonData] };
+	});
+}
+
+export function refineTraitsData(jsonData: { [x: string]: any }): NewTraitJson[] {
 	return Object.keys(jsonData).map((key) => {
 		return { name: key, description: jsonData[key as keyof typeof jsonData] };
 	});
@@ -368,6 +377,46 @@ export function refinePerilsOfTheWarpData(
 			roll: parseNumberRange(perilData["1d100"]),
 			corruption: parseNumberOrText(perilData.Corruption),
 			peril: perilData.Peril,
+		};
+	});
+}
+
+export function refinePsychicPhenomenaData(
+	jsonData: { "1d100": string; Phenomenon: string; Lingering: string }[],
+): NewPsychicPhenomenaJson[] {
+	return jsonData.map((psyPhenoData) => {
+		return {
+			roll: parseNumberRange(psyPhenoData["1d100"]),
+			phenomenon: psyPhenoData.Phenomenon,
+			lingering: psyPhenoData.Lingering.includes("-") ? undefined : psyPhenoData.Lingering,
+		};
+	});
+}
+
+export function refineCharacteristicImprovementData(
+	jsonData: { "New Value": string; "Cost per Advance": number }[],
+): NewCharacteristicImprovementJsonProp[] {
+	return jsonData.map((charImpData) => {
+		return {
+			newValue: parseNumberRange(charImpData["New Value"]),
+			costPerAdvance: charImpData["Cost per Advance"],
+		};
+	});
+}
+export function refineSkillSpecialisationData(
+	jsonData: {
+		Advances: number;
+		"Skill Total Increase": string;
+		"XP Cost": number;
+		"Cumulative XP Cost": number;
+	}[],
+): NewSkillSpecialisationJsonProp[] {
+	return jsonData.map((skillSpecData) => {
+		return {
+			advances: skillSpecData.Advances,
+			totalIncrease: parseNumberOrText(skillSpecData["Skill Total Increase"]),
+			xpCost: skillSpecData["XP Cost"],
+			totalXpCost: skillSpecData["Cumulative XP Cost"],
 		};
 	});
 }

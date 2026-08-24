@@ -22,11 +22,14 @@ import names from "../src/data/archiveData/names.json" with { type: "json" };
 import perilsOfTheWarp from "../src/data/archiveData/perilsOfTheWarp.json" with { type: "json" };
 import planetaryTravel from "../src/data/archiveData/planetaryTravel.json" with { type: "json" };
 import provisionsServices from "../src/data/archiveData/provisionsServices.json" with { type: "json" };
+import psychicPhenomena from "../src/data/archiveData/psychicPhenomena.json" with { type: "json" };
 import rangedWeapons from "../src/data/archiveData/rangedWeapons.json" with { type: "json" };
 import skills from "../src/data/archiveData/skills.json" with { type: "json" };
 import systemTravel from "../src/data/archiveData/systemTravel.json" with { type: "json" };
 import toolDetailProfiles from "../src/data/archiveData/toolDetailProfiles.json" with { type: "json" };
 import tools from "../src/data/archiveData/tools.json" with { type: "json" };
+import traits from "../src/data/archiveData/traits.json" with { type: "json" };
+import xpCosts from "../src/data/archiveData/xpCosts.json" with { type: "json" };
 import { refineArmourModificationsData } from "./refine-data/armourModificationsRefinement";
 import { refineArmourData } from "./refine-data/armourRefinement";
 import { refineAugmeticsData } from "./refine-data/augmeticsRefinement";
@@ -34,6 +37,7 @@ import { refineCriticalWoundsData } from "./refine-data/criticalWoundsRefinement
 import { refinePersonalGearData } from "./refine-data/personalGearRefinement";
 import {
 	refineAmmunitionData,
+	refineCharacteristicImprovementData,
 	refineCombatActionData,
 	refineConditionData,
 	refineEnvironmentalTraitData,
@@ -46,7 +50,10 @@ import {
 	refineMeleeWeaponData,
 	refineNamesData,
 	refinePerilsOfTheWarpData,
+	refinePsychicPhenomenaData,
+	refineSkillSpecialisationData,
 	refineToolDetailProfilesData,
+	refineTraitsData,
 	refineWeaponData,
 } from "./refine-data/remainingRefinement";
 import { refineServiceData } from "./refine-data/serviceRefinement";
@@ -78,13 +85,22 @@ export function runAllRefinements() {
 		generateJsonFile(refineEnvironmentalTraitData(environmentalTraits), "environmentalTraits.json"),
 		generateJsonFile(refineConditionData(conditions), "conditions.json"),
 		generateJsonFile(refineToolDetailProfilesData(toolDetailProfiles), "toolDetailProfiles.json"),
-		generateJsonFile(refineConditionData(conditions), "conditions.json"),
+		generateJsonFile(refineTraitsData(traits), "traits.json"),
 		generateJsonFile(refineFumbleData(fumbles), "fumbles.json"),
 		generateJsonFile(refineNamesData(names.names.data), "names.json"),
 		generateJsonFile(refineHitLocationsData(hitLocations), "hitLocations.json"),
 		generateJsonFile(refineInjuriesData(injuries), "injuries.json"),
+		generateJsonFile(
+			refineCharacteristicImprovementData(xpCosts.characteristicImprovement.data),
+			"xpCosts/characteristicImprovement.json",
+		),
+		generateJsonFile(
+			refineSkillSpecialisationData(xpCosts.skillSpecialisation.data),
+			"xpCosts/skillSpecialisation.json",
+		),
 		generateJsonFile(refineMedicalServicesData(medicalServices), "medicalServices.json"),
 		generateJsonFile(refinePerilsOfTheWarpData(perilsOfTheWarp), "perilsOfTheWarp.json"),
+		generateJsonFile(refinePsychicPhenomenaData(psychicPhenomena), "psychicPhenomena.json"),
 	]);
 }
 

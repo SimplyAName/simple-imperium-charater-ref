@@ -1,6 +1,7 @@
+import type { NewTraitJsonProp } from "../../src/types/json/JsonDataTypes";
 import { generateJsonFile } from "../utils/generateJsonFile";
 import { extractValueFromBrackets } from "../utils/splitBracketProps";
-import { extractTraitArray, type NewTraitJson } from "./traits/extractTraitArray";
+import { extractTraitArray } from "./traits/extractTraitArray";
 
 type NewArmourJson = {
 	name: string;
@@ -10,7 +11,7 @@ type NewArmourJson = {
 	wornEncumbrance?: number;
 	cost: number;
 	availability: string;
-	traits?: NewTraitJson[];
+	traits?: NewTraitJsonProp[];
 	source: string;
 };
 

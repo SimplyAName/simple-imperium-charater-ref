@@ -38,7 +38,7 @@ export type NewWeaponJson = {
 	cost: number;
 	magazineCost?: number;
 	availability: string;
-	traits?: NewTraitJson[];
+	traits?: NewTraitJsonProp[];
 	source: string;
 };
 
@@ -53,7 +53,7 @@ export type NewMeleeWeaponJson = {
 	cost: number;
 	magazineCost?: number;
 	availability: string;
-	traits?: NewTraitJson[];
+	traits?: NewTraitJsonProp[];
 	source: string;
 };
 
@@ -63,7 +63,7 @@ export type NewAmmunitionJson = {
 	cost: number;
 	availability: string;
 	usedWith: string;
-	traits?: NewTraitJson[];
+	traits?: NewTraitJsonProp[];
 	source: string;
 };
 
@@ -98,9 +98,27 @@ export type NewFumbleJson = {
 	result: string;
 };
 
-export type NewTraitJson = {
+export type NewTraitJsonProp = {
 	name: string;
 	value?: number;
+};
+
+export type NewCharacteristicImprovementJsonProp = {
+	newValue: NumberRange;
+	costPerAdvance: number;
+};
+
+export type NewSkillSpecialisationJsonProp = {
+	advances: number;
+	totalIncrease: number;
+	xpCost: number;
+	totalXpCost: number;
+};
+
+export type NewPsychicPhenomenaJson = {
+	roll: NumberRange | number;
+	phenomenon: string;
+	lingering?: string;
 };
 
 export type NewToolDetailProfileJson = {
@@ -111,7 +129,7 @@ export type NewToolDetailProfileJson = {
 	encumbrance: number;
 	cost: number;
 	availability: string;
-	traits?: NewTraitJson[];
+	traits?: NewTraitJsonProp[];
 	source: string;
 };
 
@@ -126,6 +144,11 @@ export type NewConditionJson = {
 };
 
 export type NewEnvironmentalTraitJson = {
+	name: string;
+	description: string;
+};
+
+export type NewTraitJson = {
 	name: string;
 	description: string;
 };

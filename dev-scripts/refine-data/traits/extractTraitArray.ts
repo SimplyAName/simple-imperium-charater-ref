@@ -1,13 +1,13 @@
-import type { NewTraitJson } from "../../../src/types/json/JsonDataTypes";
+import type { NewTraitJsonProp } from "../../../src/types/json/JsonDataTypes";
 import { extractValueFromBrackets } from "../../utils/splitBracketProps";
 import { isTraitsEmpty } from "./null-traits";
 
-export function extractTraitArray(traitString: string): NewTraitJson[] | undefined {
+export function extractTraitArray(traitString: string): NewTraitJsonProp[] | undefined {
 	if (isTraitsEmpty(traitString)) {
 		return;
 	}
 
-	const traitsArray: NewTraitJson[] = [];
+	const traitsArray: NewTraitJsonProp[] = [];
 
 	const traitsSplit = traitString.split(",").map((value) => value.trim());
 
@@ -24,7 +24,7 @@ export function extractTraitArray(traitString: string): NewTraitJson[] | undefin
 	return traitsArray;
 }
 
-function generateTraitJson(traitString: string): NewTraitJson {
+function generateTraitJson(traitString: string): NewTraitJsonProp {
 	const { baseValue, bracketValue } = extractValueFromBrackets(traitString);
 	const parsedValue = bracketValue === undefined ? undefined : Number.parseInt(bracketValue, 10);
 

@@ -1,0 +1,26 @@
+[
+  {
+    "advances": 1,
+    "totalIncrease": 5,
+    "xpCost": 50,
+    "totalXpCost": 50
+  },
+  {
+    "advances": 2,
+    "totalIncrease": 10,
+    "xpCost": 100,
+    "totalXpCost": 150
+  },
+  {
+    "advances": 3,
+    "totalIncrease": 15,
+    "xpCost": 150,
+    "totalXpCost": 300
+  },
+  {
+    "advances": 4,
+    "totalIncrease": 20,
+    "xpCost": 200,
+    "totalXpCost": 500
+  }
+]

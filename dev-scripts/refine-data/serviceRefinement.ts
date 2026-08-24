@@ -1,5 +1,5 @@
+import type { NewServiceJson } from "../../src/types/json/JsonDataTypes";
 import { generateJsonFile } from "../utils/generateJsonFile";
-import type { NewServiceJson } from "./remainingRefinement";
 
 export function refineServiceData(
 	jsonData: { Quality: string; Cost: string; Examples: string; Source: string }[],
