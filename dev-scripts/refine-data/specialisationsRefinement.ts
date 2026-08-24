@@ -1,4 +1,4 @@
-import { generateJsonFile } from "../utils/generate-json-file";
+import { generateJsonFile } from "../utils/generateJsonFile";
 
 type NewSkillJson = {
 	skill: string;

@@ -1,5 +1,5 @@
-import { generateJsonFile } from "../utils/generate-json-file";
-import { extractValueFromBrackets } from "../utils/split-bracket-props";
+import { generateJsonFile } from "../utils/generateJsonFile";
+import { extractValueFromBrackets } from "../utils/splitBracketProps";
 import { extractTraitArray, type NewTraitJson } from "./traits/extractTraitArray";
 
 type NewArmourJson = {

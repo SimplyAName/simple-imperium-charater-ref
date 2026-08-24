@@ -1,4 +1,4 @@
-import { extractValueFromBrackets } from "../../utils/split-bracket-props";
+import { extractValueFromBrackets } from "../../utils/splitBracketProps";
 import { isTraitsEmpty } from "./null-traits";
 
 export type NewTraitJson = {

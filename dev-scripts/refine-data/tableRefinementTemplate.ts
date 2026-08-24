@@ -1,4 +1,4 @@
-import { generateJsonFile } from "../utils/generate-json-file";
+import { generateJsonFile } from "../utils/generateJsonFile";
 
 export type TableRow = Record<string, string | number | boolean | null>;
 

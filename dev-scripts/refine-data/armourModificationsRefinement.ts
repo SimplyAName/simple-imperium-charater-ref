@@ -1,27 +1,29 @@
-import { generateJsonFile } from "../utils/generate-json-file";
+import { generateJsonFile } from "../utils/generateJsonFile";
 
-type NewAccommodationJson = {
-	quality: string;
+export type NewArmourModificationsJson = {
+	name: string;
 	cost: number;
-	examples: string;
+	availability: string;
+	effect: string;
 	source: string;
 };
 
-export function refineAccommodationData(
-	jsonData: { Quality: string; Cost: string; Examples: string; Source: string }[],
+export function refineArmourModificationsData(
+	jsonData: { Name: string; Cost: string; Availability: string; Effect: string; Source: string }[],
 ) {
-	const newAccommodationJsonData: NewAccommodationJson[] = [];
+	const newArmourModificationsJsonData: NewArmourModificationsJson[] = [];
 
-	for (const accommodation of jsonData) {
-		const newAccommodationJson: NewAccommodationJson = {
-			quality: accommodation.Quality,
-			cost: Number.parseInt(accommodation.Cost),
-			examples: accommodation.Examples,
-			source: accommodation.Source,
+	for (const armourMod of jsonData) {
+		const newArmourModificationsJson: NewArmourModificationsJson = {
+			name: armourMod.Name,
+			cost: Number.parseInt(armourMod.Cost),
+			availability: armourMod.Availability,
+			effect: armourMod.Effect,
+			source: armourMod.Source,
 		};
 
-		newAccommodationJsonData.push(newAccommodationJson);
+		newArmourModificationsJsonData.push(newArmourModificationsJson);
 	}
 
-	return generateJsonFile(newAccommodationJsonData, "accommodationsServices.json");
+	return generateJsonFile(newArmourModificationsJsonData, "armourModifications.json");
 }
