@@ -1,10 +1,6 @@
+import type { NewTraitJson } from "../../../src/types/json/JsonDataTypes";
 import { extractValueFromBrackets } from "../../utils/splitBracketProps";
 import { isTraitsEmpty } from "./null-traits";
-
-export type NewTraitJson = {
-	name: string;
-	value?: number;
-};
 
 export function extractTraitArray(traitString: string): NewTraitJson[] | undefined {
 	if (isTraitsEmpty(traitString)) {

@@ -1,86 +1,23 @@
-import combatActions from "../../src/data/archiveData/combatActions.json" with { type: "json" };
-import conditions from "../../src/data/archiveData/conditions.json" with { type: "json" };
-import customAmmunitions from "../../src/data/archiveData/customAmmunitions.json" with { type: "json" };
-import environmentalTraits from "../../src/data/archiveData/environmentalTraits.json" with { type: "json" };
-import explosiveWeapons from "../../src/data/archiveData/explosiveWeapons.json" with { type: "json" };
-import forceFields from "../../src/data/archiveData/forceFields.json" with { type: "json" };
-import fumbles from "../../src/data/archiveData/fumbles.json" with { type: "json" };
-import hitLocations from "../../src/data/archiveData/hitLocations.json" with { type: "json" };
-import injuries from "../../src/data/archiveData/injuries.json" with { type: "json" };
-import medicaeEquipment from "../../src/data/archiveData/medicaeEquipement.json" with { type: "json" };
-import medicalServices from "../../src/data/archiveData/medicalServices.json" with { type: "json" };
-import meleeWeapons from "../../src/data/archiveData/meleeWeapons.json" with { type: "json" };
-import names from "../../src/data/archiveData/names.json" with { type: "json" };
-import perilsOfTheWarp from "../../src/data/archiveData/perilsOfTheWarp.json" with { type: "json" };
-import rangedWeapons from "../../src/data/archiveData/rangedWeapons.json" with { type: "json" };
-import toolDetailProfiles from "../../src/data/archiveData/toolDetailProfiles.json" with { type: "json" };
-import tools from "../../src/data/archiveData/tools.json" with { type: "json" };
-import { generateJsonFile } from "../utils/generateJsonFile";
+import type {
+	NewEquipmentJson,
+	NewWeaponJson,
+	NewMeleeWeaponJson,
+	NewAmmunitionJson,
+	NewMedicalServiceJson,
+	NewFumbleJson,
+	NewHitLocationsJson,
+	NewInjuriesJson,
+	NewNameJson,
+	NewPerilsOfTheWarpJson,
+	NewCombatActionJson,
+	NewToolDetailProfileJson,
+	NewConditionJson,
+	NewEnvironmentalTraitJson,
+} from "../../src/types/json/JsonDataTypes";
 import { parseNumberRange } from "../utils/parseNumberRange";
 import { parseNumberOrText, parseRequiredNumber } from "../utils/parseTypesUtils";
 import { extractValueFromBrackets } from "../utils/splitBracketProps";
-import type { NumberRange } from "./criticalWoundsRefinement";
-import { extractTraitArray, type NewTraitJson } from "./traits/extractTraitArray";
-
-export type NewServiceJson = {
-	quality: string;
-	cost: number;
-	examples: string;
-	source: string;
-};
-
-export type NewMedicalServiceJson = {
-	medicae: number;
-	additionalResources?: string[];
-} & NewServiceJson;
-
-export type NewEquipmentJson = {
-	name: string;
-	cost: number;
-	availability: string;
-	encumbrance: number;
-	effect: string;
-	source: string;
-};
-
-export type NewWeaponJson = {
-	name: string;
-	specialisation: string;
-	damage: number;
-	range?: string;
-	magazine?: number;
-	encumbrance: number;
-	cost: number;
-	magazineCost?: number;
-	availability: string;
-	traits?: NewTraitJson[];
-	source: string;
-};
-
-export type NewMeleeWeaponJson = {
-	name: string;
-	specialisation: string;
-	damage: number;
-	bonus: string;
-	range?: string;
-	magazine?: number;
-	encumbrance: number;
-	cost: number;
-	magazineCost?: number;
-	availability: string;
-	traits?: NewTraitJson[];
-	source: string;
-};
-
-export type NewAmmunitionJson = {
-	name: string;
-	damage: number;
-	cost: number;
-	availability: string;
-	usedWith: string;
-	traits?: NewTraitJson[];
-	source: string;
-};
+import { extractTraitArray } from "./traits/extractTraitArray";
 
 type EquipmentRecord = {
 	Name: string;
@@ -119,19 +56,12 @@ type MeleeWeaponRecord = {
 	Source: string;
 };
 
-export type NewToolDetailProfileRecord = {
-	name: string;
-	specialisation: string;
+type ParsedWeaponDamage = {
 	damage: number;
 	bonus: string;
-	encumbrance: number;
-	cost: number;
-	availability: string;
-	traits?: NewTraitJson[];
-	source: string;
 };
 
-function parseMeleeWeaponDamage(value: string): { damage: number; bonus: string } {
+function parseMeleeWeaponDamage(value: string): ParsedWeaponDamage {
 	const split = value.split("+");
 
 	return {
@@ -269,33 +199,28 @@ export function refineForceFieldData(
 	}));
 }
 
-export type NewCombatActionRecord = {
-	name: string;
-	description: string;
-};
-
 export function refineCombatActionData(
 	jsonData: { Name: string; Description: string }[],
-): NewCombatActionRecord[] {
+): NewCombatActionJson[] {
 	return jsonData.map((field) => ({
 		name: field.Name,
 		description: field.Description,
 	}));
 }
 
-function refineToolDetailProfilesData(
+export function refineToolDetailProfilesData(
 	jsonData: {
 		id: string;
 		type: string;
 		headers: string[];
 		rows: { Spec: string; DMG: string; Cost: string; Avail: string; Enc: string; Traits: string }[];
 	}[],
-): NewToolDetailProfileRecord[] {
+): NewToolDetailProfileJson[] {
 	return jsonData.flatMap((toolDetailProfile) => {
 		const newToolDetailProfileName = toolDetailProfile.id;
 		const newToolDetailProfileSource = "Adeptus Mechanicus Player's Guide";
 
-		return toolDetailProfile.rows.map((toolDetailProfileData): NewToolDetailProfileRecord => {
+		return toolDetailProfile.rows.map((toolDetailProfileData): NewToolDetailProfileJson => {
 			const dmg = parseMeleeWeaponDamage(toolDetailProfileData.DMG);
 
 			return {
@@ -317,24 +242,14 @@ function refineToolDetailProfilesData(
 	});
 }
 
-export type NewEnvironmentalTraitRecord = {
-	name: string;
-	description: string;
-};
-
-function refineEnvironmentalTraitData(
+export function refineEnvironmentalTraitData(
 	jsonData: { Name: string; Description: string }[],
-): NewEnvironmentalTraitRecord[] {
+): NewEnvironmentalTraitJson[] {
 	return jsonData.map((field) => ({
 		name: field.Name,
 		description: field.Description,
 	}));
 }
-
-export type NewConditionRecord = {
-	name: string;
-	description: string;
-};
 
 export function refineConditionData(jsonData: {
 	Bleeding: string;
@@ -350,16 +265,11 @@ export function refineConditionData(jsonData: {
 	Restrained: string;
 	Stunned: string;
 	Unconscious: string;
-}): NewConditionRecord[] {
+}): NewConditionJson[] {
 	return Object.keys(jsonData).map((key) => {
 		return { name: key, description: jsonData[key as keyof typeof jsonData] };
 	});
 }
-
-export type NewFumbleJson = {
-	roll: number;
-	result: string;
-};
 
 export function refineFumbleData(jsonData: { Roll: string; Result: string }[]): NewFumbleJson[] {
 	return jsonData.map((fumbleData) => {
@@ -369,15 +279,6 @@ export function refineFumbleData(jsonData: { Roll: string; Result: string }[]): 
 		};
 	});
 }
-
-export type NewNameJson = {
-	roll: NumberRange;
-	lowGothic: string;
-	highGothic: string;
-	archaic: string;
-	informal: string;
-	esoteric: string;
-};
 
 export function refineNamesData(
 	jsonData: {
@@ -400,10 +301,6 @@ export function refineNamesData(
 		};
 	});
 }
-export type NewHitLocationsJson = {
-	roll: NumberRange | number;
-	location: string;
-};
 
 export function refineHitLocationsData(
 	jsonData: {
@@ -419,13 +316,7 @@ export function refineHitLocationsData(
 	});
 }
 
-export type NewInjuriesJson = {
-	location: string;
-	minor: string;
-	major: string;
-};
-
-function refineInjuriesData(
+export function refineInjuriesData(
 	jsonData: {
 		Location: string;
 		Minor: string;
@@ -441,7 +332,7 @@ function refineInjuriesData(
 	});
 }
 
-function refineMedicalServicesData(
+export function refineMedicalServicesData(
 	jsonData: {
 		Quality: string;
 		Cost: string;
@@ -469,13 +360,7 @@ function refineMedicalServicesData(
 	});
 }
 
-export type NewPerilsOfTheWarpJson = {
-	roll: NumberRange;
-	corruption: number;
-	peril: string;
-};
-
-function refinePerilsOfTheWarpData(
+export function refinePerilsOfTheWarpData(
 	jsonData: { "1d100": string; Corruption: string; Peril: string }[],
 ): NewPerilsOfTheWarpJson[] {
 	return jsonData.map((perilData) => {
@@ -485,27 +370,4 @@ function refinePerilsOfTheWarpData(
 			peril: perilData.Peril,
 		};
 	});
-}
-
-export function runRemainingRefinements() {
-	return Promise.all([
-		generateJsonFile(refineEquipmentData(medicaeEquipment), "medicaeEquipement.json"),
-		generateJsonFile(refineEquipmentData(tools), "tools.json"),
-		generateJsonFile(refineMeleeWeaponData(meleeWeapons), "meleeWeapons.json"),
-		generateJsonFile(refineWeaponData(rangedWeapons), "rangedWeapons.json"),
-		generateJsonFile(refineWeaponData(explosiveWeapons), "explosiveWeapons.json"),
-		generateJsonFile(refineAmmunitionData(customAmmunitions), "customAmmunitions.json"),
-		generateJsonFile(refineForceFieldData(forceFields), "forceFields.json"),
-		generateJsonFile(refineCombatActionData(combatActions), "combatActions.json"),
-		generateJsonFile(refineEnvironmentalTraitData(environmentalTraits), "environmentalTraits.json"),
-		generateJsonFile(refineConditionData(conditions), "conditions.json"),
-		generateJsonFile(refineToolDetailProfilesData(toolDetailProfiles), "toolDetailProfiles.json"),
-		generateJsonFile(refineConditionData(conditions), "conditions.json"),
-		generateJsonFile(refineFumbleData(fumbles), "fumbles.json"),
-		generateJsonFile(refineNamesData(names.names.data), "names.json"),
-		generateJsonFile(refineHitLocationsData(hitLocations), "hitLocations.json"),
-		generateJsonFile(refineInjuriesData(injuries), "injuries.json"),
-		generateJsonFile(refineMedicalServicesData(medicalServices), "medicalServices.json"),
-		generateJsonFile(refinePerilsOfTheWarpData(perilsOfTheWarp), "perilsOfTheWarp.json"),
-	]);
 }

@@ -1,17 +1,6 @@
+import type { NewCriticalWoundsJson } from "../../src/types/json/JsonDataTypes";
 import { generateJsonFile } from "../utils/generateJsonFile";
 import { parseNumberRange } from "../utils/parseNumberRange";
-
-/**
- * -1 represents infinity/max/min. E.g: {min: 10, max: -1} = 10+
- */
-export type NumberRange = { min: number; max?: number };
-
-export type NewCriticalWoundsJson = {
-	roll: number | NumberRange;
-	description: string;
-	effects: string;
-	treatment: string;
-};
 
 export type NewCriticalWoundsSections = {
 	head: NewCriticalWoundsJson;
