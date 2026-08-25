@@ -8,7 +8,7 @@
     "traits": [
       {
         "name": "Inflict",
-        "value": null
+        "value": "Bleeding"
       }
     ],
     "source": "Core Rulebook"
@@ -22,7 +22,7 @@
     "traits": [
       {
         "name": "Range",
-        "value": null
+        "value": "Extreme"
       }
     ],
     "source": "Core Rulebook"
@@ -50,7 +50,7 @@
     "traits": [
       {
         "name": "Inflict",
-        "value": null
+        "value": "Ablaze"
       }
     ],
     "source": "Core Rulebook"
@@ -78,7 +78,7 @@
     "traits": [
       {
         "name": "Inflict",
-        "value": null
+        "value": "Poisoned"
       }
     ],
     "source": "Core Rulebook"
@@ -105,7 +105,7 @@
     "traits": [
       {
         "name": "Inflict",
-        "value": null
+        "value": "Poison"
       }
     ],
     "source": "Inquisition Player's Guide"
@@ -132,7 +132,7 @@
     "traits": [
       {
         "name": "Rend",
-        "value": null
+        "value": "X"
       }
     ],
     "source": "Inquisition Player's Guide"
@@ -146,7 +146,7 @@
     "traits": [
       {
         "name": "Inflict",
-        "value": null
+        "value": "Stunned"
       }
     ],
     "source": "Inquisition Player's Guide"
@@ -160,7 +160,7 @@
     "traits": [
       {
         "name": "Bonus Dmg equal to the wielder’s Corruption up to their",
-        "value": null
+        "value": "WilB"
       }
     ],
     "source": "Inquisition Player's Guide"
@@ -191,7 +191,7 @@
     "traits": [
       {
         "name": "Inflict",
-        "value": null
+        "value": "Restrained"
       },
       {
         "name": "Once per mission gain Spread"
@@ -208,7 +208,7 @@
     "traits": [
       {
         "name": "Inflict",
-        "value": null
+        "value": "Ablaze"
       },
       {
         "name": "Spread"
@@ -228,7 +228,7 @@
     "traits": [
       {
         "name": "Inflict",
-        "value": null
+        "value": "Restrained — Major"
       }
     ],
     "source": "Adeptus Mechanicus Player's Guide"
@@ -242,7 +242,7 @@
     "traits": [
       {
         "name": "Inflict",
-        "value": null
+        "value": "Poisoned"
       }
     ],
     "source": "Adeptus Mechanicus Player's Guide"

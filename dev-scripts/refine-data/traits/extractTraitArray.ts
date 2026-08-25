@@ -1,4 +1,5 @@
 import type { NewTraitJsonProp } from "../../../src/types/json/JsonDataTypes";
+import { parseNumberOrText } from "../../utils/parseTypesUtils";
 import { extractValueFromBrackets } from "../../utils/splitBracketProps";
 import { isTraitsEmpty } from "./null-traits";
 
@@ -26,10 +27,19 @@ export function extractTraitArray(traitString: string): NewTraitJsonProp[] | und
 
 function generateTraitJson(traitString: string): NewTraitJsonProp {
 	const { baseValue, bracketValue } = extractValueFromBrackets(traitString);
-	const parsedValue = bracketValue === undefined ? undefined : Number.parseInt(bracketValue, 10);
+	const parsedValue = bracketValue ? parseBracketValue(bracketValue) : undefined;
 
 	return {
 		name: baseValue,
 		value: parsedValue,
 	};
+}
+
+function parseBracketValue(bracketValue: string) {
+	const numParse = parseNumberOrText(bracketValue);
+	if (!Number.isNaN(numParse)) {
+		return numParse;
+	}
+
+	return bracketValue as string;
 }

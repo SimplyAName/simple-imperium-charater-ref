@@ -1,0 +1,32 @@
+{
+  "name": "Watchward Table",
+  "description": "Results (Cumulative)",
+  "data": [
+    {
+      "sl": 1,
+      "effect": "You know you're being watched by something."
+    },
+    {
+      "sl": 2,
+      "effect": "You know how many beings or devices are watching you."
+    },
+    {
+      "sl": 3,
+      "effect": "You know the means of observation (such as natural senses, technological, or psychic)."
+    },
+    {
+      "sl": 4,
+      "effect": "You know generally which direction and how far your observers are from you."
+    },
+    {
+      "sl": 5,
+      "effect": "You know the exact location of your observers."
+    },
+    {
+      "sl": {
+        "min": 6
+      },
+      "effect": "You know what your observers look like."
+    }
+  ]
+}

@@ -1,3 +1,4 @@
+import type { NumberRange } from "../../src/types/NumberRange";
 import { parseNumberOrText } from "./parseTypesUtils";
 
 function parseSplit(splitString: string, splitIndex: number) {
@@ -24,8 +25,8 @@ export function parseNumberRange(rangeData: string | number): number | NumberRan
 		return parseSplit(rangeData, splitIndex);
 	}
 
-	const plusMod = rangeData.indexOf("+");
-	if (plusMod != -1) {
+	const plusMod = rangeData.endsWith("+") || rangeData.endsWith("or more");
+	if (plusMod) {
 		return {
 			min: parseNumberOrText(rangeData),
 		};

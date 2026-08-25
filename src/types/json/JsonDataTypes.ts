@@ -100,7 +100,7 @@ export type NewFumbleJson = {
 
 export type NewTraitJsonProp = {
 	name: string;
-	value?: number;
+	value?: number | string;
 };
 
 export type NewCharacteristicImprovementJsonProp = {
@@ -133,6 +133,17 @@ export type NewToolDetailProfileJson = {
 	source: string;
 };
 
+export type NewWeaponProfileJson = {
+	name: string;
+	specialisation?: string;
+	damage?: number;
+	bonus?: string;
+	encumbrance: number;
+	cost?: number;
+	availability: string;
+	traits?: NewTraitJsonProp[];
+};
+
 export type NewCombatActionJson = {
 	name: string;
 	description: string;
@@ -151,4 +162,42 @@ export type NewEnvironmentalTraitJson = {
 export type NewTraitJson = {
 	name: string;
 	description: string;
+};
+
+export type NewTableProfileJson = {
+	name: string;
+	description: string;
+	data: {
+		sl: number | NumberRange;
+		effect: string;
+	}[];
+};
+
+export type NewTalentJson = {
+	name: string;
+	requirements?: string[];
+	description: string;
+	source: string;
+};
+
+export type NewPsychicPowersJson = {
+	name: string;
+	warpRating: number;
+	difficulty: string;
+	range: string;
+	target: string;
+	duration: string;
+	effect: string;
+	discipline: string;
+	source: string;
+};
+
+export type NewWeaponModificationsJson = {
+	name: string;
+	cost: number;
+	availability: string;
+	type: string;
+	usedWith: string;
+	effects: string;
+	source: string;
 };

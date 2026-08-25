@@ -16,6 +16,10 @@ import type {
 	NewPsychicPhenomenaJson,
 	NewSkillSpecialisationJsonProp,
 	NewCharacteristicImprovementJsonProp,
+	NewTalentJson,
+	NewPsychicPowersJson,
+	NewWeaponProfileJson,
+	NewTableProfileJson,
 } from "../../src/types/json/JsonDataTypes";
 import { parseNumberRange } from "../utils/parseNumberRange";
 import { parseNumberOrText, parseRequiredNumber } from "../utils/parseTypesUtils";
@@ -251,6 +255,164 @@ export function refineEnvironmentalTraitData(
 	return jsonData.map((field) => ({
 		name: field.Name,
 		description: field.Description,
+	}));
+}
+
+// TODO: Refine the splitting of Requirement into an array. Can be used later for character creator and validating picks
+export function refineTalentData(
+	jsonData: { Name: string; Requirement: string; Description: string; Source: string }[],
+): NewTalentJson[] {
+	return jsonData.map((field) => ({
+		name: field.Name,
+		requirements:
+			field.Requirement === "-"
+				? undefined
+				: field.Requirement.split(",").map((value) => value.trim()),
+		description: field.Description,
+		source: field.Source,
+	}));
+}
+
+type WeaponProfileProps = {
+	id: string;
+	type: string;
+	rows: {
+		Name?: string;
+		Spec?: string;
+		Specialisation?: string;
+		DMG?: string;
+		Dmg?: string;
+		Cost?: string;
+		Avail: string;
+		Enc: string;
+		Traits: string;
+	}[];
+};
+
+export function refineWeaponProfileData(jsonData: WeaponProfileProps): NewWeaponProfileJson {
+	const weaponProfileName = jsonData.id;
+
+	const weaponProfileData = jsonData.rows[0];
+
+	const weaponProfileDmg = weaponProfileData.DMG ?? weaponProfileData.Dmg;
+
+	if (weaponProfileDmg === undefined) {
+		throw new Error(`No dmg found in weapon profile! Data: ${JSON.stringify(weaponProfileData)}`);
+	}
+
+	const dmg = weaponProfileDmg === "-" ? undefined : parseMeleeWeaponDamage(weaponProfileDmg);
+
+	const weaponProfileSpec = weaponProfileData.Spec ?? weaponProfileData.Specialisation;
+
+	return {
+		name: weaponProfileName,
+		specialisation: weaponProfileSpec,
+		damage: dmg?.damage,
+		bonus: dmg?.bonus,
+		encumbrance: parseNumberOrText(weaponProfileData.Enc),
+		cost:
+			weaponProfileData.Cost == undefined ? undefined : parseNumberOrText(weaponProfileData.Cost),
+		availability: weaponProfileData.Avail,
+		traits: Array.isArray(weaponProfileData.Traits)
+			? weaponProfileData.Traits.map(({ name, value }) =>
+					value === null ? { name } : { name, value },
+				)
+			: extractTraitArray(weaponProfileData.Traits),
+	};
+}
+
+export type PsychicDetailProfileJson = {
+	tableProfiles: NewTableProfileJson[];
+	weaponProfiles: NewWeaponProfileJson[];
+};
+
+export function refinePsychicDetailProfilesData(
+	jsonData: {
+		id: string;
+		header?: string;
+		type: string;
+		table?: { sl: string; effect: string }[];
+		rows?: {
+			Name: string;
+			Spec?: string;
+			Specialisation?: string;
+			Dmg: string;
+			Enc: string;
+			Traits: string;
+		}[];
+	}[],
+): PsychicDetailProfileJson {
+	//TODO: Split the two types of data. Then process them through the correct parsers
+
+	const result: PsychicDetailProfileJson = {
+		tableProfiles: [],
+		weaponProfiles: [],
+	};
+
+	for (const field of jsonData) {
+		if (field.table) {
+			// Parse table profile
+			result.tableProfiles.push(refineTableProfileData(field as TableProfileProps));
+			continue;
+		}
+
+		if (field.rows) {
+			//Parse weapon profile
+
+			result.weaponProfiles.push(refineWeaponProfileData(field as WeaponProfileProps));
+			continue;
+		}
+
+		throw new Error("No data found!");
+	}
+
+	return result;
+}
+
+type TableProfileProps = {
+	id: string;
+	type: string;
+	header: string;
+	table: { sl: string; effect: string }[];
+};
+
+function refineTableProfileData({ id, header, table }: TableProfileProps): NewTableProfileJson {
+	return {
+		name: id,
+		description: header,
+		data: table.map((value) => {
+			return {
+				sl: parseNumberRange(value.sl),
+				effect: value.effect,
+			};
+		}),
+	};
+}
+
+//TODO: Refine Difficulty into a number and have a enum with another file for the text
+export function refinePsychicPowersData(
+	jsonData: {
+		Name: string;
+		"Warp Rating": string;
+		Difficulty: string;
+		Range: string;
+		Target: string;
+		Duration: string;
+		Effect: string;
+		Discipline: string;
+		Source: string;
+	}[],
+): NewPsychicPowersJson[] {
+	return jsonData.map((field) => ({
+		name: field.Name,
+		warpRating: parseNumberOrText(field["Warp Rating"]),
+		difficulty: field.Difficulty,
+		range: field.Range,
+		target: field.Target,
+		duration: field.Duration,
+		effect: field.Effect,
+		discipline: field.Discipline,
+		source: field.Source,
 	}));
 }
 

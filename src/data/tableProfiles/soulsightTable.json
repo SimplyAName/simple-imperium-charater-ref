@@ -1,0 +1,24 @@
+{
+  "name": "Soulsight Table",
+  "description": "You know... (Cumulative)",
+  "data": [
+    {
+      "sl": 1,
+      "effect": "How many sentient creatures are within range."
+    },
+    {
+      "sl": 2,
+      "effect": "The species of each sentient creature within range."
+    },
+    {
+      "sl": 3,
+      "effect": "How many sentient creatures are in each Zone within range."
+    },
+    {
+      "sl": {
+        "min": 4
+      },
+      "effect": "The exact location of each sentient creature within range."
+    }
+  ]
+}

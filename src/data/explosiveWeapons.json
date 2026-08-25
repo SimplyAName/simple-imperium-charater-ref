@@ -16,7 +16,7 @@
       },
       {
         "name": "Thrown",
-        "value": null
+        "value": "Medium"
       },
       {
         "name": "Unstable"
@@ -37,11 +37,11 @@
       },
       {
         "name": "Inflict",
-        "value": null
+        "value": "Stunned"
       },
       {
         "name": "Thrown",
-        "value": null
+        "value": "Medium"
       }
     ]
   },
@@ -82,11 +82,11 @@
       },
       {
         "name": "Inflict",
-        "value": null
+        "value": "Ablaze"
       },
       {
         "name": "Thrown",
-        "value": null
+        "value": "Medium"
       },
       {
         "name": "Unstable"
@@ -110,7 +110,7 @@
       },
       {
         "name": "Thrown",
-        "value": null
+        "value": "Medium"
       },
       {
         "name": "Unstable"
@@ -158,7 +158,7 @@
       },
       {
         "name": "Thrown",
-        "value": null
+        "value": "Medium"
       },
       {
         "name": "Unstable"
@@ -224,11 +224,11 @@
       },
       {
         "name": "Inflict",
-        "value": null
+        "value": "Blinded"
       },
       {
         "name": "Thrown",
-        "value": null
+        "value": "Medium"
       },
       {
         "name": "Unstable"
@@ -249,7 +249,7 @@
       },
       {
         "name": "Thrown",
-        "value": null
+        "value": "Medium"
       },
       {
         "name": "Unstable"
@@ -270,11 +270,11 @@
       },
       {
         "name": "Inflict",
-        "value": null
+        "value": "Restrained"
       },
       {
         "name": "Thrown",
-        "value": null
+        "value": "Medium"
       },
       {
         "name": "Unstable"
@@ -295,7 +295,7 @@
       },
       {
         "name": "Inflict",
-        "value": null
+        "value": "Stunned"
       },
       {
         "name": "Unstable"
@@ -356,7 +356,7 @@
       },
       {
         "name": "Inflict",
-        "value": null
+        "value": "Stunned"
       },
       {
         "name": "Loud"
@@ -380,7 +380,7 @@
       },
       {
         "name": "Inflict",
-        "value": null
+        "value": "Fatigued"
       },
       {
         "name": "Loud"
@@ -425,7 +425,7 @@
       },
       {
         "name": "Inflict",
-        "value": null
+        "value": "Ablaze*"
       },
       {
         "name": "Loud"
@@ -452,7 +452,7 @@
       },
       {
         "name": "Inflict",
-        "value": null
+        "value": "Ablaze*"
       },
       {
         "name": "Loud"
@@ -494,14 +494,14 @@
     "traits": [
       {
         "name": "Inflict",
-        "value": null
+        "value": "Frightened"
       },
       {
         "name": "Loud"
       },
       {
         "name": "Thrown",
-        "value": null
+        "value": "Medium"
       },
       {
         "name": "Unstable"
@@ -522,14 +522,14 @@
       },
       {
         "name": "Inflict",
-        "value": null
+        "value": "Stunned — Minor"
       },
       {
         "name": "Loud"
       },
       {
         "name": "Thrown",
-        "value": null
+        "value": "Medium"
       },
       {
         "name": "Unstable"
@@ -550,14 +550,14 @@
     "traits": [
       {
         "name": "Inflict",
-        "value": null
+        "value": "Deafened"
       },
       {
         "name": "Loud"
       },
       {
         "name": "Thrown",
-        "value": null
+        "value": "Short"
       },
       {
         "name": "Unstable"
@@ -581,7 +581,7 @@
       },
       {
         "name": "Thrown",
-        "value": null
+        "value": "Short"
       },
       {
         "name": "Unstable"
@@ -605,14 +605,14 @@
       },
       {
         "name": "Inflict",
-        "value": null
+        "value": "Restrained"
       },
       {
         "name": "Loud"
       },
       {
         "name": "Thrown",
-        "value": null
+        "value": "Medium"
       },
       {
         "name": "Unstable"

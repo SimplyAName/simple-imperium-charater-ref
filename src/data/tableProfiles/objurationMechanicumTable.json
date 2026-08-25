@@ -1,0 +1,28 @@
+{
+  "name": "Objuration Mechanicum Table",
+  "description": "Results",
+  "data": [
+    {
+      "sl": 1,
+      "effect": "The machine becomes momentarily glitchy. Until the start of your next turn, roll 1d10 each time it should function. On a result of 6+, the machine does nothing."
+    },
+    {
+      "sl": 2,
+      "effect": "The machine jams, unable to function until the start of your next turn."
+    },
+    {
+      "sl": 3,
+      "effect": "The machine breaks, unable to function at all until it’s repaired."
+    },
+    {
+      "sl": 4,
+      "effect": "The machine suffers irreparable damage and is destroyed."
+    },
+    {
+      "sl": {
+        "min": 5
+      },
+      "effect": "The machine is destroyed and fails catastrophically, inflicting 4 Damage to everything within Immediate Range."
+    }
+  ]
+}
