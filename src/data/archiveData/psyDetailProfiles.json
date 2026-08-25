@@ -6,7 +6,7 @@
     "table": [
       {
         "sl": "+1",
-        "effect": "How many sentient creaturs are within range."
+        "effect": "How many sentient creatures are within range."
       },
       {
         "sl": "+2",
@@ -130,7 +130,7 @@
     "table": [
       {
         "sl": "+1",
-        "effect": "A fragile object, such as a glass window or pictrecorder"
+        "effect": "A fragile object, such as a glass window or pict recorder"
       },
       {
         "sl": "+2",
