@@ -1,0 +1,26 @@
+{
+  "name": "Shape Flesh Table",
+  "description": "You can... (Cumulative)",
+  "data": [
+    {
+      "sl": {
+        "min": 1,
+        "max": 2
+      },
+      "effect": "Alter minor cosmetic features such as hair/eye/skin colour, facial features or blemishes."
+    },
+    {
+      "sl": {
+        "min": 3,
+        "max": 4
+      },
+      "effect": "Moderately alter height, weight, natural posture and physique."
+    },
+    {
+      "sl": {
+        "min": 5
+      },
+      "effect": "Drastically alter features and body structure. This includes rebuilding, removing, or disabling body parts such as limbs and sensory organs. You can cause or repair one Injury or Amputation (see page 217)."
+    }
+  ]
+}

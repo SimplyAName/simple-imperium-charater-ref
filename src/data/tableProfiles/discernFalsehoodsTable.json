@@ -1,0 +1,20 @@
+{
+  "name": "Discern Falsehoods Table",
+  "description": "You know... (Cumulative)",
+  "data": [
+    {
+      "sl": 1,
+      "effect": "When someone speaks an outright lie."
+    },
+    {
+      "sl": 3,
+      "effect": "When someone speaks something technically true, or with deceptive intent."
+    },
+    {
+      "sl": {
+        "min": 5
+      },
+      "effect": "A general idea of the speaker's motivation for speaking a falsehood (greed, duress, malice, etc...)."
+    }
+  ]
+}

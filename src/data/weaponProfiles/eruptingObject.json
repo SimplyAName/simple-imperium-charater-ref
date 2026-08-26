@@ -1,0 +1,13 @@
+{
+  "name": "Erupting Object",
+  "encumbrance": 0,
+  "traits": [
+    {
+      "name": "Inflict",
+      "value": "Ablaze"
+    },
+    {
+      "name": "Spread"
+    }
+  ]
+}

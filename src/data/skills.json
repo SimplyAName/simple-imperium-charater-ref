@@ -1,0 +1,410 @@
+[
+  {
+    "skill": "Athletics",
+    "characteristic": "STR",
+    "specialisations": [
+      {
+        "name": "Climbing"
+      },
+      {
+        "name": " Might"
+      },
+      {
+        "name": " Riding"
+      },
+      {
+        "name": " Running"
+      },
+      {
+        "name": " Swimming"
+      }
+    ]
+  },
+  {
+    "skill": "Awareness",
+    "characteristic": "PER",
+    "specialisations": [
+      {
+        "name": "Sight"
+      },
+      {
+        "name": " Smell"
+      },
+      {
+        "name": " Hearing"
+      },
+      {
+        "name": " Taste"
+      },
+      {
+        "name": " Touch"
+      },
+      {
+        "name": " Psyniscience (Restricted)"
+      }
+    ]
+  },
+  {
+    "skill": "Dexterity",
+    "characteristic": "AG",
+    "specialisations": [
+      {
+        "name": "Lock Picking"
+      },
+      {
+        "name": " Pickpocket"
+      },
+      {
+        "name": " Sleight of Hand"
+      },
+      {
+        "name": " Defuse (Restricted)"
+      },
+      {
+        "name": " Disguise"
+      }
+    ]
+  },
+  {
+    "skill": "Discipline",
+    "characteristic": "WIL",
+    "specialisations": [
+      {
+        "name": "Composure"
+      },
+      {
+        "name": " Fear"
+      },
+      {
+        "name": " Psychic"
+      }
+    ]
+  },
+  {
+    "skill": "Fortitude",
+    "characteristic": "TGH",
+    "specialisations": [
+      {
+        "name": "Endurance"
+      },
+      {
+        "name": " Pain"
+      },
+      {
+        "name": " Poison"
+      }
+    ]
+  },
+  {
+    "skill": "Intuition",
+    "characteristic": "PER",
+    "specialisations": [
+      {
+        "name": "People"
+      },
+      {
+        "name": " Group (Various)"
+      },
+      {
+        "name": " Surroundings"
+      }
+    ]
+  },
+  {
+    "skill": "Linguistics",
+    "characteristic": "INT",
+    "specialisations": [
+      {
+        "name": "Cypher"
+      },
+      {
+        "name": " High Gothic"
+      },
+      {
+        "name": " Forbidden (Various"
+      },
+      {
+        "name": " Restricted)"
+      },
+      {
+        "name": " Cant Mechanicus (Restricted)"
+      }
+    ]
+  },
+  {
+    "skill": "Logic",
+    "characteristic": "INT",
+    "specialisations": [
+      {
+        "name": "Evaluation"
+      },
+      {
+        "name": " Investigation"
+      }
+    ]
+  },
+  {
+    "skill": "Lore",
+    "characteristic": "INT",
+    "specialisations": [
+      {
+        "name": "Academics"
+      },
+      {
+        "name": " Adeptus Terra"
+      },
+      {
+        "name": " Planet"
+      },
+      {
+        "name": " Sector"
+      },
+      {
+        "name": " Theology (Restricted)"
+      },
+      {
+        "name": " Forbidden (Various"
+      },
+      {
+        "name": " Restricted)"
+      },
+      {
+        "name": " Major Ordos (Various"
+      },
+      {
+        "name": " Restricted)"
+      },
+      {
+        "name": " Cult Mechanicus (Restricted)"
+      }
+    ]
+  },
+  {
+    "skill": "Medicae",
+    "characteristic": "INT",
+    "specialisations": [
+      {
+        "name": "Animal"
+      },
+      {
+        "name": " Human"
+      },
+      {
+        "name": " Forbidden (Various"
+      },
+      {
+        "name": " Restricted)"
+      },
+      {
+        "name": " Chem-Use"
+      }
+    ]
+  },
+  {
+    "skill": "Melee",
+    "characteristic": "WS",
+    "specialisations": [
+      {
+        "name": "Brawling"
+      },
+      {
+        "name": " One-handed"
+      },
+      {
+        "name": " Two-handed"
+      }
+    ]
+  },
+  {
+    "skill": "Navigation",
+    "characteristic": "INT",
+    "specialisations": [
+      {
+        "name": "Surface"
+      },
+      {
+        "name": " Tracking"
+      },
+      {
+        "name": " Void"
+      },
+      {
+        "name": " Warp (Restricted)"
+      }
+    ]
+  },
+  {
+    "skill": "Piloting",
+    "characteristic": "AG",
+    "specialisations": [
+      {
+        "name": "Aeronautica"
+      },
+      {
+        "name": " Civilian"
+      },
+      {
+        "name": " Military (Restricted)"
+      },
+      {
+        "name": " Minor Voidship (Restricted)"
+      },
+      {
+        "name": " Major Voidship (Restricted)"
+      }
+    ]
+  },
+  {
+    "skill": "Presence",
+    "characteristic": "WIL",
+    "specialisations": [
+      {
+        "name": "Interrogation"
+      },
+      {
+        "name": " Intimidation"
+      },
+      {
+        "name": " Leadership"
+      }
+    ]
+  },
+  {
+    "skill": "Psychic Mastery",
+    "characteristic": "WIL",
+    "specialisations": [
+      {
+        "name": "Biomancy"
+      },
+      {
+        "name": " Divination"
+      },
+      {
+        "name": " Pyromancy"
+      },
+      {
+        "name": " Telekinesis"
+      },
+      {
+        "name": " Telepathy"
+      },
+      {
+        "name": " Various (Restricted)"
+      }
+    ]
+  },
+  {
+    "skill": "Ranged",
+    "characteristic": "BS",
+    "specialisations": [
+      {
+        "name": "Long Guns"
+      },
+      {
+        "name": " Ordnance"
+      },
+      {
+        "name": " Pistols"
+      },
+      {
+        "name": " Thrown"
+      }
+    ]
+  },
+  {
+    "skill": "Rapport",
+    "characteristic": "FEL",
+    "specialisations": [
+      {
+        "name": "Animals"
+      },
+      {
+        "name": " Charm"
+      },
+      {
+        "name": " Deception"
+      },
+      {
+        "name": " Haggle"
+      },
+      {
+        "name": " Inquiry"
+      },
+      {
+        "name": " Xeno-Cant"
+      }
+    ]
+  },
+  {
+    "skill": "Reflexes",
+    "characteristic": "AG",
+    "specialisations": [
+      {
+        "name": "Acrobatics"
+      },
+      {
+        "name": " Balance"
+      },
+      {
+        "name": " Dodge"
+      }
+    ]
+  },
+  {
+    "skill": "Stealth",
+    "characteristic": "AG",
+    "specialisations": [
+      {
+        "name": "Conceal"
+      },
+      {
+        "name": " Hide"
+      },
+      {
+        "name": " Move Silently"
+      },
+      {
+        "name": " Disguise"
+      }
+    ]
+  },
+  {
+    "skill": "Tech",
+    "characteristic": "INT",
+    "specialisations": [
+      {
+        "name": "Augmetics (Restricted)"
+      },
+      {
+        "name": " Engineering"
+      },
+      {
+        "name": " Security"
+      },
+      {
+        "name": " Automata"
+      },
+      {
+        "name": " Augmetics (Restricted)"
+      },
+      {
+        "name": " Biologis (Restricted)"
+      },
+      {
+        "name": " Engineering"
+      },
+      {
+        "name": " Security"
+      },
+      {
+        "name": " Forbidden (Various"
+      },
+      {
+        "name": " Restricted)"
+      },
+      {
+        "name": " Xenos (Restricted)"
+      }
+    ]
+  }
+]

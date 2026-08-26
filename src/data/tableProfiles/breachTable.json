@@ -1,0 +1,32 @@
+{
+  "name": "Breach Table",
+  "description": "You can Destroy...",
+  "data": [
+    {
+      "sl": 1,
+      "effect": "A fragile object, such as a glass window or pict recorder"
+    },
+    {
+      "sl": 2,
+      "effect": "A common object, such as a plastic tray or wooden stool."
+    },
+    {
+      "sl": 3,
+      "effect": "A rugged object, such as a Lasgun or a wooden door."
+    },
+    {
+      "sl": 4,
+      "effect": "An exceptionally sturdy object, such as a Bolt Pistol or a compressed gas canister."
+    },
+    {
+      "sl": 5,
+      "effect": "An object designed to withstand severe stress, such as a plasteel wall or ferrocrete pillar."
+    },
+    {
+      "sl": {
+        "min": 6
+      },
+      "effect": "An object made from nigh-unbreakable materials like ceramite or adamantium."
+    }
+  ]
+}

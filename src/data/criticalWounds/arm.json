@@ -1,0 +1,106 @@
+[
+  {
+    "roll": 1,
+    "description": "Jolted Wrist",
+    "effects": "You are struck in the wrist, jarring your hand. Drop any item held in the hand.",
+    "treatment": "None."
+  },
+  {
+    "roll": 2,
+    "description": "Dead Arm",
+    "effects": "You are struck by a rattling blow in your arm, causing it to temporarily go numb. You have Disadvantage on all Tests using the arm for 1 minute.",
+    "treatment": "None."
+  },
+  {
+    "roll": 3,
+    "description": "Laceration",
+    "effects": "You suffer a laceration to the arm. You are Bleeding.",
+    "treatment": "A Routine (+20) Medicae Test to stop the bleeding; application of bandages; or the laceration will close naturally after 1 hour."
+  },
+  {
+    "roll": 4,
+    "description": "Sliced Hand",
+    "effects": "Your hand is sliced open, sending jolts of pain through your arm. You are Bleeding and drop any item held in the hand.",
+    "treatment": "A Challenging (+0) Medicae Test to stop the Bleeding; application of bandages; or the laceration will close naturally after 1 hour."
+  },
+  {
+    "roll": 5,
+    "description": "Dislocated Shoulder",
+    "effects": "The strike dislocates your shoulder from the socket. The arm is useless until popped back into place. At the start of each turn while you have a dislocated shoulder you must make a Challenging (+0) Fortitude (Pain) Test. On a failure, you are Stunned until the start of your next turn.",
+    "treatment": "A Challenging (+0) Medicae Test to pop the shoulder back into place."
+  },
+  {
+    "roll": 6,
+    "description": "Severed Finger",
+    "effects": "The attack tears off one of your fingers. You are Bleeding (Major).",
+    "treatment": "A Challenging (+0) Medicae Test performed by someone with the Chirurgeon Talent."
+  },
+  {
+    "roll": 7,
+    "description": "Clean Break",
+    "effects": "The attack fractures a bone in your arm. Your arm is completely useless, and you drop any item held in the hand. Additionally, you must make a Challenging (+0) Fortitude (Pain) Test or be Stunned for one minute.",
+    "treatment": "A Difficult (-10) Medicae Test to treat shock. This Test does not count as treating the broken bone."
+  },
+  {
+    "roll": 8,
+    "description": "Deep Cut",
+    "effects": "You suffer a deep gash on your arm, reducing your effectiveness. You are Bleeding (Major) and have Disadvantage on all Tests using the arm.",
+    "treatment": "A Difficult (-10) Medicae Test using a chirurgeon’s kit to stop the Bleeding."
+  },
+  {
+    "roll": 9,
+    "description": "Mangled Hand",
+    "effects": "The blow devastates your hand, breaking bones and potentially severing fingers. You are Bleeding (Major) and immediately drop any item held in the hand. Additionally, you lose 1d10 – 5 fingers. If your result is 0, you manage to keep all of your digits. Otherwise, you suffer the Amputation (Fingers) Injury.",
+    "treatment": "A Difficult (-10) Medicae Test performed by someone with the Chirurgeon Talent."
+  },
+  {
+    "roll": 10,
+    "description": "Shattered Elbow",
+    "effects": "The attack shatters the bones in your elbow. Your arm is completely useless, and you immediately drop any item held in the hand. Additionally, you must make a Difficult (-10) Fortitude (Pain) Test or be Stunned for one minute.",
+    "treatment": "A Hard (-20) Medicae Test to treat shock. This Test does not count as treating the broken bone."
+  },
+  {
+    "roll": {
+      "min": 11,
+      "max": 12
+    },
+    "description": "Cleft Hand",
+    "effects": "Your hand is played apart, causing a major injury and severing fingers. You are Bleeding (Major) and Stunned for 1 hour. Additionally, you must make a Difficult (-10) Fortitude (Pain) Test or be Stunned for one minute.",
+    "treatment": "A Hard (-20) Medicae Test performed by someone with the Chirurgeon Talent or similar expertise."
+  },
+  {
+    "roll": {
+      "min": 13,
+      "max": 14
+    },
+    "description": "Sliced Artery",
+    "effects": "You suffer a serious wound to a major artery. You are Bleeding (Major), Fatigued from blood loss, your arm is completely useless, and you immediately drop any item held in the hand.",
+    "treatment": "A Hard (-20) Medicae Test using a chirurgeon’s kit to stop the Bleeding."
+  },
+  {
+    "roll": {
+      "min": 15,
+      "max": 16
+    },
+    "description": "Severed Hand",
+    "effects": "Your hand is taken clean off. You are Bleeding (Major) and Stunned for 1 hour.",
+    "treatment": "A Very Hard (-30) Medicae Test performed by someone with the Chirurgeon Talent or similar expertise."
+  },
+  {
+    "roll": {
+      "min": 17,
+      "max": 19
+    },
+    "description": "Ruined Arm",
+    "effects": "Your arm is mangled and torn apart, with only the barest piece of flesh attaching it to your body. Your arm is completely useless, and you drop any item held in the hand. Additionally, you must make a Very Hard (-30) Fortitude (Pain) Test or be Stunned for 1 hour. If you suffer any further Damage to the arm, you automatically suffer the Brutal Dismemberment Critical Wound and die.",
+    "treatment": "A Very Hard (-30) Medicae Test performed by someone with the Chirurgeon Talent or similar expertise to fully remove the arm."
+  },
+  {
+    "roll": {
+      "min": 20
+    },
+    "description": "Brutal Dismemberment",
+    "effects": "Your arm is completely destroyed and torn from your body, causing shock and catastrophic blood loss. You are dead.",
+    "treatment": "None."
+  }
+]

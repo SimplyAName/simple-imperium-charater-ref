@@ -1,0 +1,39 @@
+[
+  {
+    "quality": "Poor",
+    "cost": 100,
+    "medicae": 30,
+    "examples": "Hive gang bonecutter, frontier apprentice healer",
+    "source": "Core Rulebook"
+  },
+  {
+    "quality": "Standard",
+    "cost": 200,
+    "medicae": 40,
+    "additionalResources": [
+      "Chirurgeon's Kit"
+    ],
+    "examples": "Manufactorum medic, Militarum medicae",
+    "source": "Core Rulebook"
+  },
+  {
+    "quality": "Good",
+    "cost": 600,
+    "medicae": 50,
+    "additionalResources": [
+      "Chirurgeon's Kit, and the Chirurgeon Talent"
+    ],
+    "examples": "Trained hive medicae, feudal ruler’s learned chirurgeon",
+    "source": "Core Rulebook"
+  },
+  {
+    "quality": "Excellent",
+    "cost": 1,
+    "medicae": 70,
+    "additionalResources": [
+      "Chirurgeon's Kit, the Chirurgeon Talent, and a Medicae Servo-Skull"
+    ],
+    "examples": "A noble’s personal medicae, Rogue Trader’s Med-Servitor",
+    "source": "Core Rulebook"
+  }
+]

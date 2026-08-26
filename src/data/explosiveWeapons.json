@@ -1,0 +1,625 @@
+[
+  {
+    "name": "Blasting Charge",
+    "specialisation": "Thrown",
+    "damage": 10,
+    "encumbrance": 0,
+    "cost": 40,
+    "availability": "Common",
+    "source": "Core Rulebook",
+    "traits": [
+      {
+        "name": "Loud"
+      },
+      {
+        "name": "Spread"
+      },
+      {
+        "name": "Thrown",
+        "value": "Medium"
+      },
+      {
+        "name": "Unstable"
+      }
+    ]
+  },
+  {
+    "name": "Choke Grenade",
+    "specialisation": "Thrown, Ordnance",
+    "damage": null,
+    "encumbrance": 0,
+    "cost": 40,
+    "availability": "Scarce",
+    "source": "Core Rulebook",
+    "traits": [
+      {
+        "name": "Unstable"
+      },
+      {
+        "name": "Inflict",
+        "value": "Stunned"
+      },
+      {
+        "name": "Thrown",
+        "value": "Medium"
+      }
+    ]
+  },
+  {
+    "name": "Demolition Charge",
+    "specialisation": "Engineering",
+    "damage": 16,
+    "encumbrance": 0,
+    "cost": 50,
+    "availability": "Common",
+    "source": "Core Rulebook",
+    "traits": [
+      {
+        "name": "Loud"
+      },
+      {
+        "name": "Spread"
+      },
+      {
+        "name": "Unstable"
+      }
+    ]
+  },
+  {
+    "name": "Fire Bomb",
+    "specialisation": "Thrown",
+    "damage": null,
+    "encumbrance": 0,
+    "cost": 10,
+    "availability": "Common",
+    "source": "Core Rulebook",
+    "traits": [
+      {
+        "name": "Blast"
+      },
+      {
+        "name": "Loud"
+      },
+      {
+        "name": "Inflict",
+        "value": "Ablaze"
+      },
+      {
+        "name": "Thrown",
+        "value": "Medium"
+      },
+      {
+        "name": "Unstable"
+      }
+    ]
+  },
+  {
+    "name": "Frag Grenade",
+    "specialisation": "Thrown, Ordnance",
+    "damage": 6,
+    "encumbrance": 0,
+    "cost": 50,
+    "availability": "Common",
+    "source": "Core Rulebook",
+    "traits": [
+      {
+        "name": "Blast"
+      },
+      {
+        "name": "Loud"
+      },
+      {
+        "name": "Thrown",
+        "value": "Medium"
+      },
+      {
+        "name": "Unstable"
+      }
+    ]
+  },
+  {
+    "name": "Frag Missile",
+    "specialisation": "Ordnance",
+    "damage": 8,
+    "encumbrance": 1,
+    "cost": 200,
+    "availability": "Scarce",
+    "source": "Core Rulebook",
+    "traits": [
+      {
+        "name": "Blast"
+      },
+      {
+        "name": "Loud"
+      },
+      {
+        "name": "Unstable"
+      }
+    ]
+  },
+  {
+    "name": "Krak Grenade",
+    "specialisation": "Thrown, Ordnance",
+    "damage": 12,
+    "encumbrance": 0,
+    "cost": 60,
+    "availability": "Scarce",
+    "source": "Core Rulebook",
+    "traits": [
+      {
+        "name": "Loud"
+      },
+      {
+        "name": "Penetrating",
+        "value": 4
+      },
+      {
+        "name": "Spread"
+      },
+      {
+        "name": "Thrown",
+        "value": "Medium"
+      },
+      {
+        "name": "Unstable"
+      }
+    ]
+  },
+  {
+    "name": "Krak Missile",
+    "specialisation": "Ordnance",
+    "damage": 16,
+    "encumbrance": 1,
+    "cost": 400,
+    "availability": "Scarce",
+    "source": "Core Rulebook",
+    "traits": [
+      {
+        "name": "Loud"
+      },
+      {
+        "name": "Penetrating",
+        "value": 6
+      },
+      {
+        "name": "Spread"
+      },
+      {
+        "name": "Unstable"
+      }
+    ]
+  },
+  {
+    "name": "Melta Bomb",
+    "specialisation": "Engineering",
+    "damage": 16,
+    "encumbrance": 2,
+    "cost": 1000,
+    "availability": "Exotic",
+    "source": "Core Rulebook",
+    "traits": [
+      {
+        "name": "Rend",
+        "value": 12
+      },
+      {
+        "name": "Spread"
+      },
+      {
+        "name": "Unstable"
+      }
+    ]
+  },
+  {
+    "name": "Photon Flash Grenade",
+    "specialisation": "Thrown, Ordnance",
+    "damage": null,
+    "encumbrance": 0,
+    "cost": 200,
+    "availability": "Rare",
+    "source": "Core Rulebook",
+    "traits": [
+      {
+        "name": "Loud"
+      },
+      {
+        "name": "Inflict",
+        "value": "Blinded"
+      },
+      {
+        "name": "Thrown",
+        "value": "Medium"
+      },
+      {
+        "name": "Unstable"
+      }
+    ]
+  },
+  {
+    "name": "Smoke Grenade",
+    "specialisation": "Thrown, Ordnance",
+    "damage": null,
+    "encumbrance": 0,
+    "cost": 30,
+    "availability": "Common",
+    "source": "Core Rulebook",
+    "traits": [
+      {
+        "name": "Blast"
+      },
+      {
+        "name": "Thrown",
+        "value": "Medium"
+      },
+      {
+        "name": "Unstable"
+      }
+    ]
+  },
+  {
+    "name": "Web Grenade",
+    "specialisation": "Thrown",
+    "damage": null,
+    "encumbrance": 0,
+    "cost": 150,
+    "availability": "Rare",
+    "source": "Core Rulebook",
+    "traits": [
+      {
+        "name": "Blast"
+      },
+      {
+        "name": "Inflict",
+        "value": "Restrained"
+      },
+      {
+        "name": "Thrown",
+        "value": "Medium"
+      },
+      {
+        "name": "Unstable"
+      }
+    ]
+  },
+  {
+    "name": "Empyrean Brain Mines",
+    "specialisation": "Engineering",
+    "damage": null,
+    "encumbrance": 1,
+    "cost": 1000,
+    "availability": "Exotic",
+    "source": "Inquisitor Player's Guide",
+    "traits": [
+      {
+        "name": "Loud"
+      },
+      {
+        "name": "Inflict",
+        "value": "Stunned"
+      },
+      {
+        "name": "Unstable"
+      }
+    ]
+  },
+  {
+    "name": "Hallucinogen Grenade",
+    "specialisation": "Thrown, Ordnance",
+    "damage": null,
+    "encumbrance": 0,
+    "cost": 200,
+    "availability": "Exotic",
+    "source": "Inquisitor Player's Guide",
+    "traits": [
+      {
+        "name": "Blast"
+      },
+      {
+        "name": "Loud"
+      },
+      {
+        "name": "Unstable"
+      }
+    ]
+  },
+  {
+    "name": "Psychotroke Grenade",
+    "specialisation": "Thrown, Ordnance",
+    "damage": null,
+    "encumbrance": 0,
+    "cost": 300,
+    "availability": "Exotic",
+    "source": "Inquisitor Player's Guide",
+    "traits": [
+      {
+        "name": "Blast"
+      },
+      {
+        "name": "Loud"
+      },
+      {
+        "name": "Unstable"
+      }
+    ]
+  },
+  {
+    "name": "Psyk-out Grenade",
+    "specialisation": "Thrown, Ordnance",
+    "damage": null,
+    "encumbrance": 0,
+    "cost": 400,
+    "availability": "Exotic",
+    "source": "Inquisitor Player's Guide",
+    "traits": [
+      {
+        "name": "Blast"
+      },
+      {
+        "name": "Inflict",
+        "value": "Stunned"
+      },
+      {
+        "name": "Loud"
+      },
+      {
+        "name": "Unstable"
+      }
+    ]
+  },
+  {
+    "name": "Rad Grenade",
+    "specialisation": "Thrown, Ordnance",
+    "damage": null,
+    "encumbrance": 0,
+    "cost": 400,
+    "availability": "Exotic",
+    "source": "Inquisitor Player's Guide",
+    "traits": [
+      {
+        "name": "Blast"
+      },
+      {
+        "name": "Inflict",
+        "value": "Fatigued"
+      },
+      {
+        "name": "Loud"
+      },
+      {
+        "name": "Unstable"
+      }
+    ]
+  },
+  {
+    "name": "Breaching Charge",
+    "specialisation": "Ordnance",
+    "damage": 12,
+    "encumbrance": 1,
+    "cost": 150,
+    "availability": "Scarce",
+    "source": "Macharian Requisition Guide",
+    "traits": [
+      {
+        "name": "Loud"
+      },
+      {
+        "name": "Rend",
+        "value": 12
+      },
+      {
+        "name": "Unstable"
+      }
+    ]
+  },
+  {
+    "name": "Incendiary Charges",
+    "specialisation": "Engineering",
+    "damage": 6,
+    "encumbrance": 1,
+    "cost": 100,
+    "availability": "Scarce",
+    "source": "Macharian Requisition Guide",
+    "traits": [
+      {
+        "name": "Blast"
+      },
+      {
+        "name": "Inflict",
+        "value": "Ablaze*"
+      },
+      {
+        "name": "Loud"
+      },
+      {
+        "name": "Spread"
+      },
+      {
+        "name": "Unstable"
+      }
+    ]
+  },
+  {
+    "name": "Emergency Flare",
+    "specialisation": "Engineering",
+    "damage": 4,
+    "encumbrance": 1,
+    "cost": 50,
+    "availability": "Scarce",
+    "source": "Macharian Requisition Guide",
+    "traits": [
+      {
+        "name": "Ineffective"
+      },
+      {
+        "name": "Inflict",
+        "value": "Ablaze*"
+      },
+      {
+        "name": "Loud"
+      }
+    ]
+  },
+  {
+    "name": "Mines",
+    "specialisation": "Engineering",
+    "damage": 12,
+    "encumbrance": 1,
+    "cost": 50,
+    "availability": "Common",
+    "source": "Macharian Requisition Guide",
+    "traits": [
+      {
+        "name": "Blast"
+      },
+      {
+        "name": "Loud"
+      },
+      {
+        "name": "Penetrating",
+        "value": 2
+      },
+      {
+        "name": "Unstable"
+      }
+    ]
+  },
+  {
+    "name": "Scare Gas Grenade",
+    "specialisation": "Thrown",
+    "damage": null,
+    "encumbrance": 0,
+    "cost": 200,
+    "availability": "Rare",
+    "source": "Macharian Requisition Guide",
+    "traits": [
+      {
+        "name": "Inflict",
+        "value": "Frightened"
+      },
+      {
+        "name": "Loud"
+      },
+      {
+        "name": "Thrown",
+        "value": "Medium"
+      },
+      {
+        "name": "Unstable"
+      }
+    ]
+  },
+  {
+    "name": "Arc Grenades",
+    "specialisation": "Thrown",
+    "damage": 6,
+    "encumbrance": 0,
+    "cost": 800,
+    "availability": "Scarce",
+    "source": "Adeptus Mechanicus Player's Guide",
+    "traits": [
+      {
+        "name": "Blast"
+      },
+      {
+        "name": "Inflict",
+        "value": "Stunned — Minor"
+      },
+      {
+        "name": "Loud"
+      },
+      {
+        "name": "Thrown",
+        "value": "Medium"
+      },
+      {
+        "name": "Unstable"
+      },
+      {
+        "name": "Secret of Mars"
+      }
+    ]
+  },
+  {
+    "name": "Cant Grenades",
+    "specialisation": "Thrown",
+    "damage": 0,
+    "encumbrance": 1,
+    "cost": 1000,
+    "availability": "Rare",
+    "source": "Adeptus Mechanicus Player's Guide",
+    "traits": [
+      {
+        "name": "Inflict",
+        "value": "Deafened"
+      },
+      {
+        "name": "Loud"
+      },
+      {
+        "name": "Thrown",
+        "value": "Short"
+      },
+      {
+        "name": "Unstable"
+      },
+      {
+        "name": "Secret of Mars"
+      }
+    ]
+  },
+  {
+    "name": "Haywire Grenades",
+    "specialisation": "Thrown",
+    "damage": 0,
+    "encumbrance": 0,
+    "cost": 800,
+    "availability": "Scarce",
+    "source": "Adeptus Mechanicus Player's Guide",
+    "traits": [
+      {
+        "name": "Loud"
+      },
+      {
+        "name": "Thrown",
+        "value": "Short"
+      },
+      {
+        "name": "Unstable"
+      },
+      {
+        "name": "Secret of Mars"
+      }
+    ]
+  },
+  {
+    "name": "Mindscrambler Grenades",
+    "specialisation": "Thrown",
+    "damage": 4,
+    "encumbrance": 0,
+    "cost": 1000,
+    "availability": "Exotic",
+    "source": "Adeptus Mechanicus Player's Guide",
+    "traits": [
+      {
+        "name": "Blast"
+      },
+      {
+        "name": "Inflict",
+        "value": "Restrained"
+      },
+      {
+        "name": "Loud"
+      },
+      {
+        "name": "Thrown",
+        "value": "Medium"
+      },
+      {
+        "name": "Unstable"
+      },
+      {
+        "name": "Secret of Mars"
+      }
+    ]
+  }
+]

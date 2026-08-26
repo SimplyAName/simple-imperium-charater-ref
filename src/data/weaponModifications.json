@@ -1,0 +1,173 @@
+[
+  {
+    "name": "Exterminator Cartridge",
+    "cost": 100,
+    "type": "Combat Attachments",
+    "usedWith": "Any Melee or Ranged weapon with the Two-Handed Trait.",
+    "availability": "Common",
+    "effects": "Flamer attached to the weapon. Can be used as an Action as a Ranged Attack. Once fired, the Cartridge is expended and takes 5 minutes to replace or reload. Reloads are Common and cost 5 solars.",
+    "source": "Core Rulebook"
+  },
+  {
+    "name": "Melee Attachment",
+    "cost": 50,
+    "type": "Combat Attachments",
+    "usedWith": "Any Ranged Weapon with the Two-Handed Trait.",
+    "availability": "Scarce",
+    "effects": "Functions as a Sword and can be affixed or removed as an Action. While not attached, counts as a Knife.",
+    "source": "Core Rulebook"
+  },
+  {
+    "name": "Mono-edge",
+    "cost": 250,
+    "type": "Combat Attachments",
+    "usedWith": "Mundane melee weapons",
+    "availability": "Rare",
+    "effects": "Gives Penetrating (2) Trait, or increasing the rating by 2 if weapon already has the Trait. At the GM's discretion, can be used on other mundane weapons.",
+    "source": "Core Rulebook"
+  },
+  {
+    "name": "Photo Sight/Omnispex",
+    "cost": 200,
+    "type": "Sight Attachment",
+    "usedWith": "Any Ranged Weapon without the Blast, or Flamer Traits.",
+    "availability": "Rare",
+    "effects": "Removes Disadvantage when firing into a Zone that is Dark or Poorly Lit.",
+    "source": "Core Rulebook"
+  },
+  {
+    "name": "Laser Sight",
+    "cost": 50,
+    "type": "Sight Attachment",
+    "usedWith": "Any Ranged Weapon without the Blast, or Flamer Traits.",
+    "availability": "Scarce",
+    "effects": "Adds +1 SL to Ranged Attacks made with the weapon, but targets have Advantage on Awareness Tests to spot the wielder. If the target sees the red-dot, they may attempt to Dodge the ranged attack. The sight may be switched on or off once per round as a Free Action.",
+    "source": "Core Rulebook"
+  },
+  {
+    "name": "Telescopic Sight/Omniscope",
+    "cost": 50,
+    "type": "Sight Attachment",
+    "usedWith": "Any Ranged Weapon without the Blast, or Flamer Traits.",
+    "availability": "Common",
+    "effects": "Increases Range by one step, but removes Close Trait. Can be used as Magnoculars.",
+    "source": "Core Rulebook"
+  },
+  {
+    "name": "Backpack Ammo Supply",
+    "cost": null,
+    "type": "Support Attachments",
+    "usedWith": "Any Ranged Weapon",
+    "availability": "Same as linked Weapon",
+    "effects": "Quadruples linked weapon's magazine size. Adds +1 Encumbrance when worn. Takes 5 minutes to reload. If you suffer a Critical Hit while wearing it, roll 1d10. On 7+, the Backpack detonates, dealing double the weapon's damage to your Torso, and is permanently destroyed. Enough ammo to fill the Backpack costs four times the listed price for reloads for the linked weapon.",
+    "source": "Core Rulebook"
+  },
+  {
+    "name": "Bipod",
+    "cost": 30,
+    "type": "Support Attachments",
+    "usedWith": "Any Ranged Weapon",
+    "availability": "Common",
+    "effects": "Allows weapon with Heavy trait to brace anywhere.",
+    "source": "Core Rulebook"
+  },
+  {
+    "name": "Fire Selector",
+    "cost": 140,
+    "type": "Support Attachments",
+    "usedWith": "Bolt, Launcher, Low-Tech, and Solid Projectile ranged weapons",
+    "availability": "Rare",
+    "effects": "Choose to load up to three different ammunition types. Divide magazine as desired. Can switch between loaded ammunition as a Free action. Removes Reliable Trait.",
+    "source": "Core Rulebook"
+  },
+  {
+    "name": "Silencer",
+    "cost": 400,
+    "type": "Support Attachments",
+    "usedWith": "Solid Projectile ranged weapons",
+    "availability": "Common",
+    "effects": "Removes Weapon's Loud Trait while attached.",
+    "source": "Core Rulebook"
+  },
+  {
+    "name": "Black Market Focusing Crystal (Combat)",
+    "cost": 20,
+    "type": "Combat Attachment",
+    "usedWith": "Any Las Weapon",
+    "availability": "Rare",
+    "effects": "Grants Penetrating (2) and Unstable. Cost varies with type of lasgun.",
+    "source": "Macharian Requisition Guide"
+  },
+  {
+    "name": "Collapsible Stock (Support)",
+    "cost": 100,
+    "type": "Support Attachment",
+    "usedWith": "Any Ranged Weapon with the Two-handed Trait",
+    "availability": "Scarce",
+    "effects": "While folded: reduces Encumbrance by 1, grants -1 SL to attacks, Awareness (Sight) Tests to spot the weapon have -1 SL. Folding/unfolding requires an Action.",
+    "source": "Macharian Requisition Guide"
+  },
+  {
+    "name": "Foregrip (Support)",
+    "cost": 150,
+    "type": "Support Attachment",
+    "usedWith": "Any Ranged Weapon with the Two-handed Trait and base Encumbrance 2 or less",
+    "availability": "Rare",
+    "effects": "Weapon gains Close trait. Grants +1 SL when firing at targets within Close or Short Range.",
+    "source": "Macharian Requisition Guide"
+  },
+  {
+    "name": "Infrascope (Sight)",
+    "cost": 200,
+    "type": "Sight Attachment",
+    "usedWith": "Any Ranged Weapon",
+    "availability": "Rare",
+    "effects": "Grants +1 SL on Ranged Tests vs heat-emitting targets. Ignores Dark and Poorly Lit Environmental Traits. May impair vision in some conditions.",
+    "source": "Macharian Requisition Guide"
+  },
+  {
+    "name": "Strobing Phosphor-lumen (Combat)",
+    "cost": 800,
+    "type": "Combat Attachment",
+    "usedWith": "Any Ranged Weapon with the Two-handed Trait",
+    "availability": "Scarce",
+    "effects": "The Zone loses Dark or Poorly Lit Traits. Hostile creatures in Zone must pass Hard (–20) Reflexes Test or be Blinded until end of next turn.",
+    "source": "Macharian Requisition Guide"
+  },
+  {
+    "name": "Suspensor (Support)",
+    "cost": 500,
+    "type": "Support Attachment",
+    "usedWith": "Any Ranged Weapon",
+    "availability": "Exotic",
+    "effects": "Weapon gains Reliable trait. Reduces value of Heavy trait by 2.",
+    "source": "Macharian Requisition Guide"
+  },
+  {
+    "name": "Phase Helix Rifling (Combat)",
+    "cost": 500,
+    "type": "Combat Attachment",
+    "usedWith": "Solid Projectile ranged weapons",
+    "availability": "Rare",
+    "effects": "Increases the weapon’s effective Range by one step.",
+    "source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "name": "Rapid Tracking Optics (Sight)",
+    "cost": 1000,
+    "type": "Sight Attachment",
+    "usedWith": "Any Ranged Weapon",
+    "availability": "Scarce",
+    "effects": "Taking Aim or Overwatch grants Advantage on the next attack with this weapon. Requires ocular augmetic or technological sight.",
+    "source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "name": "Vent Shielding (Support)",
+    "cost": 300,
+    "type": "Support Attachment",
+    "usedWith": "Arc, Galvanic, Gamma, Eradication, Las, Plasma, and Volkite ranged weapons",
+    "availability": "Scarce",
+    "effects": "For weapons with Unstable, only a Fumble of 8+ causes self-destruction.",
+    "source": "Adeptus Mechanicus Player's Guide"
+  }
+]
