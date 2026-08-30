@@ -1,14 +1,14 @@
 {
-  "name": "Exploding Object",
-  "damage": 3,
-  "bonus": "WilB",
-  "encumbrance": 0,
-  "traits": [
-    {
-      "name": "Blast"
-    },
-    {
-      "name": "Loud"
-    }
-  ]
+	"name": "Exploding Object",
+	"damage": 3,
+	"bonus": "WilB",
+	"encumbrance": 0,
+	"traits": [
+		{
+			"name": "Blast"
+		},
+		{
+			"name": "Loud"
+		}
+	]
 }

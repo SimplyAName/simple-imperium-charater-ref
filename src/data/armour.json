@@ -1,815 +1,694 @@
 [
-  {
-    "name": "Robes/Light Leathers",
-    "locations": [
-      "Arms",
-      "Body",
-      "Legs"
-    ],
-    "armour": 1,
-    "encumbrance": 2,
-    "wornEncumbrance": 1,
-    "cost": 10,
-    "availability": "Common",
-    "traits": [
-      {
-        "name": "Subtle"
-      }
-    ],
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Heavy Leathers",
-    "locations": [
-      "Arms",
-      "Body",
-      "Legs"
-    ],
-    "armour": 2,
-    "encumbrance": 3,
-    "wornEncumbrance": 2,
-    "cost": 60,
-    "availability": "Common",
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Armoured Bodyglove",
-    "locations": [
-      "Arms",
-      "Body",
-      "Legs"
-    ],
-    "armour": 2,
-    "encumbrance": 2,
-    "wornEncumbrance": 1,
-    "cost": 1200,
-    "availability": "Rare",
-    "traits": [
-      {
-        "name": "Subtle"
-      }
-    ],
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Armoured Greatcoat",
-    "locations": [
-      "Arms",
-      "Body",
-      "Legs"
-    ],
-    "armour": 2,
-    "encumbrance": 3,
-    "wornEncumbrance": 2,
-    "cost": 500,
-    "availability": "Rare",
-    "traits": [
-      {
-        "name": "Subtle"
-      }
-    ],
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Scrap-plate",
-    "locations": [
-      "Body"
-    ],
-    "armour": 3,
-    "encumbrance": 5,
-    "wornEncumbrance": 4,
-    "cost": 300,
-    "availability": "Rare",
-    "traits": [
-      {
-        "name": "Heavy",
-        "value": 3
-      }
-    ],
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Scrap-shield",
-    "locations": [
-      "Special"
-    ],
-    "armour": null,
-    "encumbrance": 1,
-    "cost": 50,
-    "availability": "Common",
-    "traits": [
-      {
-        "name": "Shield",
-        "value": 1
-      }
-    ],
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Combat Shield",
-    "locations": [
-      "Special"
-    ],
-    "armour": null,
-    "encumbrance": 1,
-    "cost": 300,
-    "availability": "Common",
-    "traits": [
-      {
-        "name": "Shield",
-        "value": 2
-      }
-    ],
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Boarding Shield",
-    "locations": [
-      "Special"
-    ],
-    "armour": null,
-    "encumbrance": 2,
-    "cost": 800,
-    "availability": "Rare",
-    "traits": [
-      {
-        "name": "Shield",
-        "value": 4
-      }
-    ],
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Xenos Hide Vest",
-    "locations": [
-      "Body"
-    ],
-    "armour": 6,
-    "encumbrance": 2,
-    "wornEncumbrance": 1,
-    "cost": 5000,
-    "availability": "Exotic",
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Flak Boots",
-    "locations": [
-      "Legs"
-    ],
-    "armour": 2,
-    "encumbrance": 2,
-    "wornEncumbrance": 1,
-    "cost": 100,
-    "availability": "Common",
-    "traits": [
-      {
-        "name": "Flak"
-      }
-    ],
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Flak Helmet",
-    "locations": [
-      "Head"
-    ],
-    "armour": 2,
-    "encumbrance": 2,
-    "wornEncumbrance": 1,
-    "cost": 150,
-    "availability": "Common",
-    "traits": [
-      {
-        "name": "Flak"
-      }
-    ],
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Flak Gauntlets (Pair)",
-    "locations": [
-      "Arms"
-    ],
-    "armour": 2,
-    "encumbrance": 1,
-    "wornEncumbrance": 0,
-    "cost": 100,
-    "availability": "Common",
-    "traits": [
-      {
-        "name": "Flak"
-      }
-    ],
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Flak Vest",
-    "locations": [
-      "Body"
-    ],
-    "armour": 3,
-    "encumbrance": 3,
-    "wornEncumbrance": 2,
-    "cost": 500,
-    "availability": "Common",
-    "traits": [
-      {
-        "name": "Flak"
-      }
-    ],
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Flak Jacket",
-    "locations": [
-      "Arms",
-      "Body"
-    ],
-    "armour": 3,
-    "encumbrance": 3,
-    "wornEncumbrance": 2,
-    "cost": 800,
-    "availability": "Scarce",
-    "traits": [
-      {
-        "name": "Flak"
-      }
-    ],
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Astra Militarum Flak Armour",
-    "locations": [
-      "All"
-    ],
-    "armour": 4,
-    "encumbrance": 5,
-    "wornEncumbrance": 4,
-    "cost": 1000,
-    "availability": "Rare",
-    "traits": [
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Flak"
-      }
-    ],
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Mesh Boots",
-    "locations": [
-      "Legs"
-    ],
-    "armour": 3,
-    "encumbrance": 2,
-    "wornEncumbrance": 1,
-    "cost": 600,
-    "availability": "Rare",
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Mesh Cowl",
-    "locations": [
-      "Head"
-    ],
-    "armour": 3,
-    "encumbrance": 2,
-    "wornEncumbrance": 1,
-    "cost": 800,
-    "availability": "Rare",
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Mesh Gauntlets",
-    "locations": [
-      "Arms"
-    ],
-    "armour": 3,
-    "encumbrance": 1,
-    "wornEncumbrance": 0,
-    "cost": 600,
-    "availability": "Rare",
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Mesh Vest",
-    "locations": [
-      "Body"
-    ],
-    "armour": 4,
-    "encumbrance": 2,
-    "wornEncumbrance": 1,
-    "cost": 500,
-    "availability": "Rare",
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Xenos Mesh",
-    "locations": [
-      "Arms",
-      "Body",
-      "Legs"
-    ],
-    "armour": 4,
-    "encumbrance": 3,
-    "wornEncumbrance": 2,
-    "cost": 5000,
-    "availability": "Exotic",
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Carapace Helm",
-    "locations": [
-      "Head"
-    ],
-    "armour": 5,
-    "encumbrance": 2,
-    "wornEncumbrance": 1,
-    "cost": 400,
-    "availability": "Rare",
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Carapace Gauntlets",
-    "locations": [
-      "Arms"
-    ],
-    "armour": 5,
-    "encumbrance": 2,
-    "wornEncumbrance": 1,
-    "cost": 300,
-    "availability": "Rare",
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Carapace Greaves",
-    "locations": [
-      "Legs"
-    ],
-    "armour": 5,
-    "encumbrance": 2,
-    "wornEncumbrance": 1,
-    "cost": 300,
-    "availability": "Rare",
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Enforcer Carapace",
-    "locations": [
-      "All"
-    ],
-    "armour": 5,
-    "encumbrance": 5,
-    "wornEncumbrance": 4,
-    "cost": 1800,
-    "availability": "Rare",
-    "traits": [
-      {
-        "name": "Heavy",
-        "value": 4
-      },
-      {
-        "name": "Loud"
-      }
-    ],
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Carapace Chestplate",
-    "locations": [
-      "Body"
-    ],
-    "armour": 6,
-    "encumbrance": 4,
-    "wornEncumbrance": 3,
-    "cost": 800,
-    "availability": "Rare",
-    "traits": [
-      {
-        "name": "Heavy",
-        "value": 4
-      },
-      {
-        "name": "Loud"
-      }
-    ],
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Tempestus Carapace",
-    "locations": [
-      "All"
-    ],
-    "armour": 6,
-    "encumbrance": 6,
-    "wornEncumbrance": 5,
-    "cost": 4000,
-    "availability": "Exotic",
-    "traits": [
-      {
-        "name": "Heavy",
-        "value": 4
-      },
-      {
-        "name": "Loud"
-      }
-    ],
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Light Power Armour",
-    "locations": [
-      "All"
-    ],
-    "armour": 8,
-    "encumbrance": 8,
-    "wornEncumbrance": 7,
-    "cost": 500000,
-    "availability": "Exotic",
-    "traits": [
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Power Armour"
-      }
-    ],
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Power Armour",
-    "locations": [
-      "All"
-    ],
-    "armour": 10,
-    "encumbrance": 10,
-    "wornEncumbrance": 9,
-    "cost": 1000000,
-    "availability": "Exotic",
-    "traits": [
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Power Armour"
-      }
-    ],
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Crusader Storm Shield",
-    "locations": [
-      "Special"
-    ],
-    "armour": null,
-    "encumbrance": 4,
-    "cost": 1000,
-    "availability": "Exotic",
-    "traits": [
-      {
-        "name": "Shield",
-        "value": 4
-      }
-    ],
-    "source": "Inquisitor Player's Guide"
-  },
-  {
-    "name": "Praesidium Protectiva",
-    "locations": [
-      "Special"
-    ],
-    "armour": null,
-    "encumbrance": 4,
-    "cost": 1500,
-    "availability": "Exotic",
-    "traits": [
-      {
-        "name": "Shield",
-        "value": 6
-      }
-    ],
-    "source": "Inquisitor Player's Guide"
-  },
-  {
-    "name": "Truesilver Weave",
-    "locations": [
-      "Arms",
-      "Body",
-      "Legs"
-    ],
-    "armour": 3,
-    "encumbrance": 3,
-    "cost": 5000,
-    "availability": "Exotic",
-    "source": "Inquisitor Player's Guide"
-  },
-  {
-    "name": "Warded Armour",
-    "locations": [
-      "Arms",
-      "Body",
-      "Legs"
-    ],
-    "armour": 5,
-    "encumbrance": 4,
-    "cost": 8000,
-    "availability": "Exotic",
-    "traits": [
-      {
-        "name": "Heavy",
-        "value": 4
-      },
-      {
-        "name": "Loud"
-      }
-    ],
-    "source": "Inquisitor Player's Guide"
-  },
-  {
-    "name": "Darkshroud Flak Armour",
-    "locations": [
-      "All"
-    ],
-    "armour": 3,
-    "encumbrance": 4,
-    "wornEncumbrance": 3,
-    "cost": 2000,
-    "availability": "Exotic",
-    "traits": [
-      {
-        "name": "Flak"
-      }
-    ],
-    "source": "Macharian Requisition Guide"
-  },
-  {
-    "name": "Flak-weave Greatcoat",
-    "locations": [
-      "Arms",
-      "Body",
-      "Legs"
-    ],
-    "armour": 2,
-    "encumbrance": 3,
-    "wornEncumbrance": 2,
-    "cost": 1000,
-    "availability": "Scarce",
-    "traits": [
-      {
-        "name": "Flak"
-      }
-    ],
-    "source": "Macharian Requisition Guide"
-  },
-  {
-    "name": "Macharian Honour Guard Armour",
-    "locations": [
-      "All"
-    ],
-    "armour": 6,
-    "encumbrance": 4,
-    "wornEncumbrance": 3,
-    "cost": 10000,
-    "availability": "Exotic",
-    "traits": [
-      {
-        "name": "Heavy",
-        "value": 4
-      }
-    ],
-    "source": "Macharian Requisition Guide"
-  },
-  {
-    "name": "Void Armour",
-    "locations": [
-      "All"
-    ],
-    "armour": 5,
-    "encumbrance": 6,
-    "wornEncumbrance": 5,
-    "cost": 4000,
-    "availability": "Rare",
-    "traits": [
-      {
-        "name": "Heavy",
-        "value": 4
-      },
-      {
-        "name": "Loud"
-      }
-    ],
-    "source": "Macharian Requisition Guide"
-  },
-  {
-    "name": "Light Protection Suit",
-    "locations": [
-      "Arms",
-      "Body",
-      "Legs"
-    ],
-    "armour": 2,
-    "encumbrance": 3,
-    "wornEncumbrance": 1,
-    "cost": 200,
-    "availability": "Common",
-    "source": "Macharian Requisition Guide"
-  },
-  {
-    "name": "Medium Protection Suit",
-    "locations": [
-      "Arms",
-      "Body",
-      "Legs"
-    ],
-    "armour": 3,
-    "encumbrance": 4,
-    "wornEncumbrance": 2,
-    "cost": 500,
-    "availability": "Common",
-    "source": "Macharian Requisition Guide"
-  },
-  {
-    "name": "Heavy Protection Suit",
-    "locations": [
-      "Arms",
-      "Body",
-      "Legs"
-    ],
-    "armour": 4,
-    "encumbrance": 5,
-    "wornEncumbrance": 3,
-    "cost": 1000,
-    "availability": "Scarce",
-    "traits": [
-      {
-        "name": "Heavy",
-        "value": 4
-      },
-      {
-        "name": "Loud"
-      }
-    ],
-    "source": "Macharian Requisition Guide"
-  },
-  {
-    "name": "Amulet of Warding",
-    "locations": [
-      "All"
-    ],
-    "encumbrance": 0,
-    "cost": 5000,
-    "availability": "Rare",
-    "traits": [
-      {
-        "name": "Ornamental"
-      },
-      {
-        "name": "Shield",
-        "value": 3
-      },
-      {
-        "name": "Subtle"
-      },
-      {
-        "name": "Secret of Mars"
-      }
-    ],
-    "source": "Adeptus Mechanicus Player's Guide"
-  },
-  {
-    "name": "Blessed Raiments",
-    "locations": [
-      "Arms",
-      "Body",
-      "Legs"
-    ],
-    "armour": 2,
-    "encumbrance": 4,
-    "wornEncumbrance": 3,
-    "cost": 1000,
-    "availability": "Exotic",
-    "traits": [
-      {
-        "name": "Durable"
-      },
-      {
-        "name": "Subtle"
-      },
-      {
-        "name": "Secret of Mars"
-      }
-    ],
-    "source": "Adeptus Mechanicus Player's Guide"
-  },
-  {
-    "name": "Dragon Scale",
-    "locations": [
-      "All"
-    ],
-    "armour": 8,
-    "encumbrance": 10,
-    "wornEncumbrance": 8,
-    "cost": 500000,
-    "availability": "Exotic",
-    "traits": [
-      {
-        "name": "Durable"
-      },
-      {
-        "name": "Heavy",
-        "value": 4
-      },
-      {
-        "name": "Ornamental"
-      },
-      {
-        "name": "Secret of Mars"
-      }
-    ],
-    "source": "Adeptus Mechanicus Player's Guide"
-  },
-  {
-    "name": "Mantle of the Gnosticar",
-    "locations": [
-      "Arms",
-      "Body",
-      "Legs"
-    ],
-    "armour": 2,
-    "encumbrance": 3,
-    "wornEncumbrance": 2,
-    "cost": 400,
-    "availability": "Rare",
-    "traits": [
-      {
-        "name": "Secret of Mars"
-      }
-    ],
-    "source": "Adeptus Mechanicus Player's Guide"
-  },
-  {
-    "name": "Mechanicus Robes",
-    "locations": [
-      "Arms",
-      "Body",
-      "Legs"
-    ],
-    "armour": 1,
-    "encumbrance": 2,
-    "wornEncumbrance": 1,
-    "cost": 100,
-    "availability": "Common",
-    "traits": [
-      {
-        "name": "Subtle"
-      },
-      {
-        "name": "Secret of Mars"
-      }
-    ],
-    "source": "Adeptus Mechanicus Player's Guide"
-  },
-  {
-    "name": "Sicarian Battle Armour",
-    "locations": [
-      "All"
-    ],
-    "armour": 4,
-    "encumbrance": 3,
-    "wornEncumbrance": 2,
-    "cost": 3000,
-    "availability": "Exotic",
-    "traits": [
-      {
-        "name": "Durable"
-      },
-      {
-        "name": "Secret of Mars"
-      }
-    ],
-    "source": "Adeptus Mechanicus Player's Guide"
-  },
-  {
-    "name": "Skitarii War Plate",
-    "locations": [
-      "All"
-    ],
-    "armour": 6,
-    "encumbrance": 4,
-    "wornEncumbrance": 3,
-    "cost": 3000,
-    "availability": "Exotic",
-    "traits": [
-      {
-        "name": "Heavy",
-        "value": 3
-      },
-      {
-        "name": "Secret of Mars"
-      }
-    ],
-    "source": "Adeptus Mechanicus Player's Guide"
-  }
+	{
+		"name": "Robes/Light Leathers",
+		"locations": ["Arms", "Body", "Legs"],
+		"armour": 1,
+		"encumbrance": 2,
+		"wornEncumbrance": 1,
+		"cost": 10,
+		"availability": "Common",
+		"traits": [
+			{
+				"name": "Subtle"
+			}
+		],
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Heavy Leathers",
+		"locations": ["Arms", "Body", "Legs"],
+		"armour": 2,
+		"encumbrance": 3,
+		"wornEncumbrance": 2,
+		"cost": 60,
+		"availability": "Common",
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Armoured Bodyglove",
+		"locations": ["Arms", "Body", "Legs"],
+		"armour": 2,
+		"encumbrance": 2,
+		"wornEncumbrance": 1,
+		"cost": 1200,
+		"availability": "Rare",
+		"traits": [
+			{
+				"name": "Subtle"
+			}
+		],
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Armoured Greatcoat",
+		"locations": ["Arms", "Body", "Legs"],
+		"armour": 2,
+		"encumbrance": 3,
+		"wornEncumbrance": 2,
+		"cost": 500,
+		"availability": "Rare",
+		"traits": [
+			{
+				"name": "Subtle"
+			}
+		],
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Scrap-plate",
+		"locations": ["Body"],
+		"armour": 3,
+		"encumbrance": 5,
+		"wornEncumbrance": 4,
+		"cost": 300,
+		"availability": "Rare",
+		"traits": [
+			{
+				"name": "Heavy",
+				"value": 3
+			}
+		],
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Scrap-shield",
+		"locations": ["Special"],
+		"armour": null,
+		"encumbrance": 1,
+		"cost": 50,
+		"availability": "Common",
+		"traits": [
+			{
+				"name": "Shield",
+				"value": 1
+			}
+		],
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Combat Shield",
+		"locations": ["Special"],
+		"armour": null,
+		"encumbrance": 1,
+		"cost": 300,
+		"availability": "Common",
+		"traits": [
+			{
+				"name": "Shield",
+				"value": 2
+			}
+		],
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Boarding Shield",
+		"locations": ["Special"],
+		"armour": null,
+		"encumbrance": 2,
+		"cost": 800,
+		"availability": "Rare",
+		"traits": [
+			{
+				"name": "Shield",
+				"value": 4
+			}
+		],
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Xenos Hide Vest",
+		"locations": ["Body"],
+		"armour": 6,
+		"encumbrance": 2,
+		"wornEncumbrance": 1,
+		"cost": 5000,
+		"availability": "Exotic",
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Flak Boots",
+		"locations": ["Legs"],
+		"armour": 2,
+		"encumbrance": 2,
+		"wornEncumbrance": 1,
+		"cost": 100,
+		"availability": "Common",
+		"traits": [
+			{
+				"name": "Flak"
+			}
+		],
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Flak Helmet",
+		"locations": ["Head"],
+		"armour": 2,
+		"encumbrance": 2,
+		"wornEncumbrance": 1,
+		"cost": 150,
+		"availability": "Common",
+		"traits": [
+			{
+				"name": "Flak"
+			}
+		],
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Flak Gauntlets (Pair)",
+		"locations": ["Arms"],
+		"armour": 2,
+		"encumbrance": 1,
+		"wornEncumbrance": 0,
+		"cost": 100,
+		"availability": "Common",
+		"traits": [
+			{
+				"name": "Flak"
+			}
+		],
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Flak Vest",
+		"locations": ["Body"],
+		"armour": 3,
+		"encumbrance": 3,
+		"wornEncumbrance": 2,
+		"cost": 500,
+		"availability": "Common",
+		"traits": [
+			{
+				"name": "Flak"
+			}
+		],
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Flak Jacket",
+		"locations": ["Arms", "Body"],
+		"armour": 3,
+		"encumbrance": 3,
+		"wornEncumbrance": 2,
+		"cost": 800,
+		"availability": "Scarce",
+		"traits": [
+			{
+				"name": "Flak"
+			}
+		],
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Astra Militarum Flak Armour",
+		"locations": ["All"],
+		"armour": 4,
+		"encumbrance": 5,
+		"wornEncumbrance": 4,
+		"cost": 1000,
+		"availability": "Rare",
+		"traits": [
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Flak"
+			}
+		],
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Mesh Boots",
+		"locations": ["Legs"],
+		"armour": 3,
+		"encumbrance": 2,
+		"wornEncumbrance": 1,
+		"cost": 600,
+		"availability": "Rare",
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Mesh Cowl",
+		"locations": ["Head"],
+		"armour": 3,
+		"encumbrance": 2,
+		"wornEncumbrance": 1,
+		"cost": 800,
+		"availability": "Rare",
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Mesh Gauntlets",
+		"locations": ["Arms"],
+		"armour": 3,
+		"encumbrance": 1,
+		"wornEncumbrance": 0,
+		"cost": 600,
+		"availability": "Rare",
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Mesh Vest",
+		"locations": ["Body"],
+		"armour": 4,
+		"encumbrance": 2,
+		"wornEncumbrance": 1,
+		"cost": 500,
+		"availability": "Rare",
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Xenos Mesh",
+		"locations": ["Arms", "Body", "Legs"],
+		"armour": 4,
+		"encumbrance": 3,
+		"wornEncumbrance": 2,
+		"cost": 5000,
+		"availability": "Exotic",
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Carapace Helm",
+		"locations": ["Head"],
+		"armour": 5,
+		"encumbrance": 2,
+		"wornEncumbrance": 1,
+		"cost": 400,
+		"availability": "Rare",
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Carapace Gauntlets",
+		"locations": ["Arms"],
+		"armour": 5,
+		"encumbrance": 2,
+		"wornEncumbrance": 1,
+		"cost": 300,
+		"availability": "Rare",
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Carapace Greaves",
+		"locations": ["Legs"],
+		"armour": 5,
+		"encumbrance": 2,
+		"wornEncumbrance": 1,
+		"cost": 300,
+		"availability": "Rare",
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Enforcer Carapace",
+		"locations": ["All"],
+		"armour": 5,
+		"encumbrance": 5,
+		"wornEncumbrance": 4,
+		"cost": 1800,
+		"availability": "Rare",
+		"traits": [
+			{
+				"name": "Heavy",
+				"value": 4
+			},
+			{
+				"name": "Loud"
+			}
+		],
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Carapace Chestplate",
+		"locations": ["Body"],
+		"armour": 6,
+		"encumbrance": 4,
+		"wornEncumbrance": 3,
+		"cost": 800,
+		"availability": "Rare",
+		"traits": [
+			{
+				"name": "Heavy",
+				"value": 4
+			},
+			{
+				"name": "Loud"
+			}
+		],
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Tempestus Carapace",
+		"locations": ["All"],
+		"armour": 6,
+		"encumbrance": 6,
+		"wornEncumbrance": 5,
+		"cost": 4000,
+		"availability": "Exotic",
+		"traits": [
+			{
+				"name": "Heavy",
+				"value": 4
+			},
+			{
+				"name": "Loud"
+			}
+		],
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Light Power Armour",
+		"locations": ["All"],
+		"armour": 8,
+		"encumbrance": 8,
+		"wornEncumbrance": 7,
+		"cost": 500000,
+		"availability": "Exotic",
+		"traits": [
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Power Armour"
+			}
+		],
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Power Armour",
+		"locations": ["All"],
+		"armour": 10,
+		"encumbrance": 10,
+		"wornEncumbrance": 9,
+		"cost": 1000000,
+		"availability": "Exotic",
+		"traits": [
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Power Armour"
+			}
+		],
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Crusader Storm Shield",
+		"locations": ["Special"],
+		"armour": null,
+		"encumbrance": 4,
+		"cost": 1000,
+		"availability": "Exotic",
+		"traits": [
+			{
+				"name": "Shield",
+				"value": 4
+			}
+		],
+		"source": "Inquisitor Player's Guide"
+	},
+	{
+		"name": "Praesidium Protectiva",
+		"locations": ["Special"],
+		"armour": null,
+		"encumbrance": 4,
+		"cost": 1500,
+		"availability": "Exotic",
+		"traits": [
+			{
+				"name": "Shield",
+				"value": 6
+			}
+		],
+		"source": "Inquisitor Player's Guide"
+	},
+	{
+		"name": "Truesilver Weave",
+		"locations": ["Arms", "Body", "Legs"],
+		"armour": 3,
+		"encumbrance": 3,
+		"cost": 5000,
+		"availability": "Exotic",
+		"source": "Inquisitor Player's Guide"
+	},
+	{
+		"name": "Warded Armour",
+		"locations": ["Arms", "Body", "Legs"],
+		"armour": 5,
+		"encumbrance": 4,
+		"cost": 8000,
+		"availability": "Exotic",
+		"traits": [
+			{
+				"name": "Heavy",
+				"value": 4
+			},
+			{
+				"name": "Loud"
+			}
+		],
+		"source": "Inquisitor Player's Guide"
+	},
+	{
+		"name": "Darkshroud Flak Armour",
+		"locations": ["All"],
+		"armour": 3,
+		"encumbrance": 4,
+		"wornEncumbrance": 3,
+		"cost": 2000,
+		"availability": "Exotic",
+		"traits": [
+			{
+				"name": "Flak"
+			}
+		],
+		"source": "Macharian Requisition Guide"
+	},
+	{
+		"name": "Flak-weave Greatcoat",
+		"locations": ["Arms", "Body", "Legs"],
+		"armour": 2,
+		"encumbrance": 3,
+		"wornEncumbrance": 2,
+		"cost": 1000,
+		"availability": "Scarce",
+		"traits": [
+			{
+				"name": "Flak"
+			}
+		],
+		"source": "Macharian Requisition Guide"
+	},
+	{
+		"name": "Macharian Honour Guard Armour",
+		"locations": ["All"],
+		"armour": 6,
+		"encumbrance": 4,
+		"wornEncumbrance": 3,
+		"cost": 10000,
+		"availability": "Exotic",
+		"traits": [
+			{
+				"name": "Heavy",
+				"value": 4
+			}
+		],
+		"source": "Macharian Requisition Guide"
+	},
+	{
+		"name": "Void Armour",
+		"locations": ["All"],
+		"armour": 5,
+		"encumbrance": 6,
+		"wornEncumbrance": 5,
+		"cost": 4000,
+		"availability": "Rare",
+		"traits": [
+			{
+				"name": "Heavy",
+				"value": 4
+			},
+			{
+				"name": "Loud"
+			}
+		],
+		"source": "Macharian Requisition Guide"
+	},
+	{
+		"name": "Light Protection Suit",
+		"locations": ["Arms", "Body", "Legs"],
+		"armour": 2,
+		"encumbrance": 3,
+		"wornEncumbrance": 1,
+		"cost": 200,
+		"availability": "Common",
+		"source": "Macharian Requisition Guide"
+	},
+	{
+		"name": "Medium Protection Suit",
+		"locations": ["Arms", "Body", "Legs"],
+		"armour": 3,
+		"encumbrance": 4,
+		"wornEncumbrance": 2,
+		"cost": 500,
+		"availability": "Common",
+		"source": "Macharian Requisition Guide"
+	},
+	{
+		"name": "Heavy Protection Suit",
+		"locations": ["Arms", "Body", "Legs"],
+		"armour": 4,
+		"encumbrance": 5,
+		"wornEncumbrance": 3,
+		"cost": 1000,
+		"availability": "Scarce",
+		"traits": [
+			{
+				"name": "Heavy",
+				"value": 4
+			},
+			{
+				"name": "Loud"
+			}
+		],
+		"source": "Macharian Requisition Guide"
+	},
+	{
+		"name": "Amulet of Warding",
+		"locations": ["All"],
+		"encumbrance": 0,
+		"cost": 5000,
+		"availability": "Rare",
+		"traits": [
+			{
+				"name": "Ornamental"
+			},
+			{
+				"name": "Shield",
+				"value": 3
+			},
+			{
+				"name": "Subtle"
+			},
+			{
+				"name": "Secret of Mars"
+			}
+		],
+		"source": "Adeptus Mechanicus Player's Guide"
+	},
+	{
+		"name": "Blessed Raiments",
+		"locations": ["Arms", "Body", "Legs"],
+		"armour": 2,
+		"encumbrance": 4,
+		"wornEncumbrance": 3,
+		"cost": 1000,
+		"availability": "Exotic",
+		"traits": [
+			{
+				"name": "Durable"
+			},
+			{
+				"name": "Subtle"
+			},
+			{
+				"name": "Secret of Mars"
+			}
+		],
+		"source": "Adeptus Mechanicus Player's Guide"
+	},
+	{
+		"name": "Dragon Scale",
+		"locations": ["All"],
+		"armour": 8,
+		"encumbrance": 10,
+		"wornEncumbrance": 8,
+		"cost": 500000,
+		"availability": "Exotic",
+		"traits": [
+			{
+				"name": "Durable"
+			},
+			{
+				"name": "Heavy",
+				"value": 4
+			},
+			{
+				"name": "Ornamental"
+			},
+			{
+				"name": "Secret of Mars"
+			}
+		],
+		"source": "Adeptus Mechanicus Player's Guide"
+	},
+	{
+		"name": "Mantle of the Gnosticar",
+		"locations": ["Arms", "Body", "Legs"],
+		"armour": 2,
+		"encumbrance": 3,
+		"wornEncumbrance": 2,
+		"cost": 400,
+		"availability": "Rare",
+		"traits": [
+			{
+				"name": "Secret of Mars"
+			}
+		],
+		"source": "Adeptus Mechanicus Player's Guide"
+	},
+	{
+		"name": "Mechanicus Robes",
+		"locations": ["Arms", "Body", "Legs"],
+		"armour": 1,
+		"encumbrance": 2,
+		"wornEncumbrance": 1,
+		"cost": 100,
+		"availability": "Common",
+		"traits": [
+			{
+				"name": "Subtle"
+			},
+			{
+				"name": "Secret of Mars"
+			}
+		],
+		"source": "Adeptus Mechanicus Player's Guide"
+	},
+	{
+		"name": "Sicarian Battle Armour",
+		"locations": ["All"],
+		"armour": 4,
+		"encumbrance": 3,
+		"wornEncumbrance": 2,
+		"cost": 3000,
+		"availability": "Exotic",
+		"traits": [
+			{
+				"name": "Durable"
+			},
+			{
+				"name": "Secret of Mars"
+			}
+		],
+		"source": "Adeptus Mechanicus Player's Guide"
+	},
+	{
+		"name": "Skitarii War Plate",
+		"locations": ["All"],
+		"armour": 6,
+		"encumbrance": 4,
+		"wornEncumbrance": 3,
+		"cost": 3000,
+		"availability": "Exotic",
+		"traits": [
+			{
+				"name": "Heavy",
+				"value": 3
+			},
+			{
+				"name": "Secret of Mars"
+			}
+		],
+		"source": "Adeptus Mechanicus Player's Guide"
+	}
 ]

@@ -1,94 +1,94 @@
 [
-  {
-    "roll": 1,
-    "description": "Black Eye",
-    "effects": "You are struck in the eye. You have Disadvantage on Awareness (Sight) and Ranged Tests for 1 hour.",
-    "treatment": "None."
-  },
-  {
-    "roll": 2,
-    "description": "Rattling Blow",
-    "effects": "The blow floods your vision with flashing lights. You are Stunned until the end of your next turn.",
-    "treatment": "None."
-  },
-  {
-    "roll": 3,
-    "description": "Laceration",
-    "effects": "You suffer a laceration to the cheek. You are Bleeding.",
-    "treatment": "A Routine (+20) Medicae Test to stop the bleeding; application of bandages; or the laceration will close naturally after 1 hour."
-  },
-  {
-    "roll": 4,
-    "description": "Sliced Ear",
-    "effects": "The attack slices your ear, leaving your ears ringing. You are Deafened until the end of your next turn, and are Bleeding.",
-    "treatment": "A Challenging (+0) Medicae Test to stop the Bleeding; application of bandages; or the laceration will close naturally after 1 hour."
-  },
-  {
-    "roll": 5,
-    "description": "Dislocated Jaw",
-    "effects": "The blow dislocates your jaw. You are Stunned until the start of your next turn.",
-    "treatment": "A Challenging (+0) Medicae Test to pop the jaw back into place."
-  },
-  {
-    "roll": 6,
-    "description": "Struck Forehead",
-    "effects": "You are struck in the head, causing blood to run down your face and impair your vision. You are Blinded and Bleeding.",
-    "treatment": "A Challenging (+0) Medicae Test to stop the Bleeding; application of bandages; or the laceration will close naturally after 1 hour."
-  },
-  {
-    "roll": 7,
-    "description": "Major Eye Wound",
-    "effects": "You are hit in the eye, causing serious damage. You are Bleeding, and have Disadvantage on Awareness (Sight) Tests. If you only have one eye, you are Blinded.",
-    "treatment": "A Difficult (-10) Medicae Test to treat the eye and stop the Bleeding."
-  },
-  {
-    "roll": 8,
-    "description": "Major Ear Wound",
-    "effects": "The blow strikes you in the ear or otherwise damages your ear drums. You are Deafened. If you suffer this result again, your hearing is permanently lost.",
-    "treatment": "A Difficult (-10) Medicae Test, usually using drugs to reduce swelling and inflammation in the ear."
-  },
-  {
-    "roll": 9,
-    "description": "Smashed Mouth",
-    "effects": "The blow smashes out several teeth. You are Bleeding and must make a Challenging (+0) Fortitude (Pain) Test or also fall Prone.",
-    "treatment": "A Difficult (-10) Medicae Test performed by someone with the Chirurgeon Talent or similar expertise."
-  },
-  {
-    "roll": 10,
-    "description": "Broken Nose",
-    "effects": "The blow tears your ear apart. You are Deafened and Bleeding (Major). You must make a Challenging (+0) Fortitude (Pain) Test. On a success you are Stunned until the end of your next turn; on a failure you are Incapacitated until the end of your next turn and fall Prone.",
-    "treatment": "A Hard (-20) Medicae Test using a chirurgeon’s kit to stop the Bleeding."
-  },
-  {
-    "roll": 11,
-    "description": "Mangled Ear",
-    "effects": "The blow tears your ear apart. You are Deafened and Bleeding (Major). You must make a Challenging (+0) Fortitude (Pain) Test or also gain the Stunned Condition until the end of your next turn.",
-    "treatment": "A Very Hard (-30) Medicae Test performed by someone with the Chirurgeon Talent or similar expertise."
-  },
-  {
-    "roll": 12,
-    "description": "Concussive Blow",
-    "effects": "You take a concussive blow to the head. You are Deafened and Stunned for 1 minute, and are Bleeding.",
-    "treatment": "A Hard (-20) Medicae Test using a chirurgeon’s kit to stop the Bleeding and restore hearing."
-  },
-  {
-    "roll": 13,
-    "description": "Devastated Eye",
-    "effects": "A strike to your eye causes it to burst. You are Bleeding (Major), and have Disadvantage on Awareness (Sight) Tests. If you only have one eye, you are Blinded.",
-    "treatment": "A Very Hard (-30) Medicae Test performed by someone with the Chirurgeon Talent or similar expertise."
-  },
-  {
-    "roll": 14,
-    "description": "Mangled Jaw",
-    "effects": "The blow shatters your jaw and destroys your tongue, sending teeth flying. You are Bleeding (Major). You must make a Challenging (+0) Fortitude (Pain) Test. On a success you are Stunned until the start of your next turn; on a failure you are Incapacitated until the end of your next turn and fall Prone. Additionally, your jaw is shattered, and you suffer the Broken Bone (Major) Injury to your jaw.",
-    "treatment": "A Very Hard (-30) Medicae Test performed by someone with the Chirurgeon Talent or similar expertise."
-  },
-  {
-    "roll": {
-      "min": 15
-    },
-    "description": "Shattered Skull",
-    "effects": "Your head is caved in or erupts in a shower of bone and gore. You are dead.",
-    "treatment": "None."
-  }
+	{
+		"roll": 1,
+		"description": "Black Eye",
+		"effects": "You are struck in the eye. You have Disadvantage on Awareness (Sight) and Ranged Tests for 1 hour.",
+		"treatment": "None."
+	},
+	{
+		"roll": 2,
+		"description": "Rattling Blow",
+		"effects": "The blow floods your vision with flashing lights. You are Stunned until the end of your next turn.",
+		"treatment": "None."
+	},
+	{
+		"roll": 3,
+		"description": "Laceration",
+		"effects": "You suffer a laceration to the cheek. You are Bleeding.",
+		"treatment": "A Routine (+20) Medicae Test to stop the bleeding; application of bandages; or the laceration will close naturally after 1 hour."
+	},
+	{
+		"roll": 4,
+		"description": "Sliced Ear",
+		"effects": "The attack slices your ear, leaving your ears ringing. You are Deafened until the end of your next turn, and are Bleeding.",
+		"treatment": "A Challenging (+0) Medicae Test to stop the Bleeding; application of bandages; or the laceration will close naturally after 1 hour."
+	},
+	{
+		"roll": 5,
+		"description": "Dislocated Jaw",
+		"effects": "The blow dislocates your jaw. You are Stunned until the start of your next turn.",
+		"treatment": "A Challenging (+0) Medicae Test to pop the jaw back into place."
+	},
+	{
+		"roll": 6,
+		"description": "Struck Forehead",
+		"effects": "You are struck in the head, causing blood to run down your face and impair your vision. You are Blinded and Bleeding.",
+		"treatment": "A Challenging (+0) Medicae Test to stop the Bleeding; application of bandages; or the laceration will close naturally after 1 hour."
+	},
+	{
+		"roll": 7,
+		"description": "Major Eye Wound",
+		"effects": "You are hit in the eye, causing serious damage. You are Bleeding, and have Disadvantage on Awareness (Sight) Tests. If you only have one eye, you are Blinded.",
+		"treatment": "A Difficult (-10) Medicae Test to treat the eye and stop the Bleeding."
+	},
+	{
+		"roll": 8,
+		"description": "Major Ear Wound",
+		"effects": "The blow strikes you in the ear or otherwise damages your ear drums. You are Deafened. If you suffer this result again, your hearing is permanently lost.",
+		"treatment": "A Difficult (-10) Medicae Test, usually using drugs to reduce swelling and inflammation in the ear."
+	},
+	{
+		"roll": 9,
+		"description": "Smashed Mouth",
+		"effects": "The blow smashes out several teeth. You are Bleeding and must make a Challenging (+0) Fortitude (Pain) Test or also fall Prone.",
+		"treatment": "A Difficult (-10) Medicae Test performed by someone with the Chirurgeon Talent or similar expertise."
+	},
+	{
+		"roll": 10,
+		"description": "Broken Nose",
+		"effects": "The blow tears your ear apart. You are Deafened and Bleeding (Major). You must make a Challenging (+0) Fortitude (Pain) Test. On a success you are Stunned until the end of your next turn; on a failure you are Incapacitated until the end of your next turn and fall Prone.",
+		"treatment": "A Hard (-20) Medicae Test using a chirurgeon’s kit to stop the Bleeding."
+	},
+	{
+		"roll": 11,
+		"description": "Mangled Ear",
+		"effects": "The blow tears your ear apart. You are Deafened and Bleeding (Major). You must make a Challenging (+0) Fortitude (Pain) Test or also gain the Stunned Condition until the end of your next turn.",
+		"treatment": "A Very Hard (-30) Medicae Test performed by someone with the Chirurgeon Talent or similar expertise."
+	},
+	{
+		"roll": 12,
+		"description": "Concussive Blow",
+		"effects": "You take a concussive blow to the head. You are Deafened and Stunned for 1 minute, and are Bleeding.",
+		"treatment": "A Hard (-20) Medicae Test using a chirurgeon’s kit to stop the Bleeding and restore hearing."
+	},
+	{
+		"roll": 13,
+		"description": "Devastated Eye",
+		"effects": "A strike to your eye causes it to burst. You are Bleeding (Major), and have Disadvantage on Awareness (Sight) Tests. If you only have one eye, you are Blinded.",
+		"treatment": "A Very Hard (-30) Medicae Test performed by someone with the Chirurgeon Talent or similar expertise."
+	},
+	{
+		"roll": 14,
+		"description": "Mangled Jaw",
+		"effects": "The blow shatters your jaw and destroys your tongue, sending teeth flying. You are Bleeding (Major). You must make a Challenging (+0) Fortitude (Pain) Test. On a success you are Stunned until the start of your next turn; on a failure you are Incapacitated until the end of your next turn and fall Prone. Additionally, your jaw is shattered, and you suffer the Broken Bone (Major) Injury to your jaw.",
+		"treatment": "A Very Hard (-30) Medicae Test performed by someone with the Chirurgeon Talent or similar expertise."
+	},
+	{
+		"roll": {
+			"min": 15
+		},
+		"description": "Shattered Skull",
+		"effects": "Your head is caved in or erupts in a shower of bone and gore. You are dead.",
+		"treatment": "None."
+	}
 ]

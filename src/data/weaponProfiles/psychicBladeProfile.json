@@ -1,13 +1,13 @@
 {
-  "name": "Psychic Blade Profile",
-  "specialisation": "One-Handed",
-  "damage": 3,
-  "bonus": "WilB",
-  "encumbrance": 0,
-  "traits": [
-    {
-      "name": "Penetrating",
-      "value": "SL"
-    }
-  ]
+	"name": "Psychic Blade Profile",
+	"specialisation": "One-Handed",
+	"damage": 3,
+	"bonus": "WilB",
+	"encumbrance": 0,
+	"traits": [
+		{
+			"name": "Penetrating",
+			"value": "SL"
+		}
+	]
 }

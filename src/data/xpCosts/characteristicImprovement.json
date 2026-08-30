@@ -1,86 +1,86 @@
 [
-  {
-    "newValue": {
-      "min": 20,
-      "max": 25
-    },
-    "costPerAdvance": 20
-  },
-  {
-    "newValue": {
-      "min": 26,
-      "max": 30
-    },
-    "costPerAdvance": 25
-  },
-  {
-    "newValue": {
-      "min": 31,
-      "max": 35
-    },
-    "costPerAdvance": 30
-  },
-  {
-    "newValue": {
-      "min": 36,
-      "max": 40
-    },
-    "costPerAdvance": 40
-  },
-  {
-    "newValue": {
-      "min": 41,
-      "max": 45
-    },
-    "costPerAdvance": 60
-  },
-  {
-    "newValue": {
-      "min": 46,
-      "max": 50
-    },
-    "costPerAdvance": 80
-  },
-  {
-    "newValue": {
-      "min": 51,
-      "max": 55
-    },
-    "costPerAdvance": 110
-  },
-  {
-    "newValue": {
-      "min": 56,
-      "max": 60
-    },
-    "costPerAdvance": 140
-  },
-  {
-    "newValue": {
-      "min": 61,
-      "max": 65
-    },
-    "costPerAdvance": 180
-  },
-  {
-    "newValue": {
-      "min": 66,
-      "max": 70
-    },
-    "costPerAdvance": 220
-  },
-  {
-    "newValue": {
-      "min": 71,
-      "max": 75
-    },
-    "costPerAdvance": 270
-  },
-  {
-    "newValue": {
-      "min": 76,
-      "max": 80
-    },
-    "costPerAdvance": 320
-  }
+	{
+		"newValue": {
+			"min": 20,
+			"max": 25
+		},
+		"costPerAdvance": 20
+	},
+	{
+		"newValue": {
+			"min": 26,
+			"max": 30
+		},
+		"costPerAdvance": 25
+	},
+	{
+		"newValue": {
+			"min": 31,
+			"max": 35
+		},
+		"costPerAdvance": 30
+	},
+	{
+		"newValue": {
+			"min": 36,
+			"max": 40
+		},
+		"costPerAdvance": 40
+	},
+	{
+		"newValue": {
+			"min": 41,
+			"max": 45
+		},
+		"costPerAdvance": 60
+	},
+	{
+		"newValue": {
+			"min": 46,
+			"max": 50
+		},
+		"costPerAdvance": 80
+	},
+	{
+		"newValue": {
+			"min": 51,
+			"max": 55
+		},
+		"costPerAdvance": 110
+	},
+	{
+		"newValue": {
+			"min": 56,
+			"max": 60
+		},
+		"costPerAdvance": 140
+	},
+	{
+		"newValue": {
+			"min": 61,
+			"max": 65
+		},
+		"costPerAdvance": 180
+	},
+	{
+		"newValue": {
+			"min": 66,
+			"max": 70
+		},
+		"costPerAdvance": 220
+	},
+	{
+		"newValue": {
+			"min": 71,
+			"max": 75
+		},
+		"costPerAdvance": 270
+	},
+	{
+		"newValue": {
+			"min": 76,
+			"max": 80
+		},
+		"costPerAdvance": 320
+	}
 ]

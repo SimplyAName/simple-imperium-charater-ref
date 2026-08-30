@@ -1,838 +1,838 @@
 [
-  {
-    "Name": "Acute Sense",
-    "Requirement": "-",
-    "Description": "Make Perception Tests to detect imperceptible details using one sense.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Adrenaline Acceleration",
-    "Requirement": "-",
-    "Description": "Speed increases by one step while having a Critical Wound. Gain Advantage on Athletics Tests during a Pursuit or Fleeing.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Agile Attacks",
-    "Requirement": "Agility 45, 2 Advances in Melee",
-    "Description": "Use Agility Bonus instead of Strength Bonus for Subtle melee weapons.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Air of Authority",
-    "Requirement": "2 Advances in Presence",
-    "Description": "Make a Challenging (+0) Presence or Rapport Test to gain +1 Influence with a group for mission duration.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Ambidextrous",
-    "Requirement": "-",
-    "Description": "No penalty for using your off-hand.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Applied Anatomy",
-    "Requirement": "2 Advances in Medicae",
-    "Description": "Increase Critical Hit/Wound severity by your Advances in Medicae.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Artistic",
-    "Requirement": "-",
-    "Description": "Gain +2 SL to Tests in Literature, Painting, Music, or Theatre.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Attentive Assistant",
-    "Requirement": "-",
-    "Description": "Use Help Action without Advances. Gain +1 SL if you have Advances.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Blank",
-    "Requirement": "Only during Character Creation",
-    "Description": "Immune to Psychic Powers, cannot be detected by Psyniscience, cannot be corrupted and cause discomfort to psykers and daemons.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Bone Breaker",
-    "Requirement": "2 Advances in Medicae (Specialisation)",
-    "Description": "Break bones of Restrained targets, causing Disadvantage.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Briber",
-    "Requirement": "2 Advances in Intuition (People)",
-    "Description": "Advantage on Intuition (People) Tests for bribes. Reduce bribe cost by 10% per Rapport Advance.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Bulwark",
-    "Requirement": "3 Advances in Reflexes",
-    "Description": "Defend both an ally and a Zone or two allies while using a shield and Defend Action.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Burglar",
-    "Requirement": "1 Advance in both Athletics and Stealth",
-    "Description": "Advantage on Tests for breaking, and entering.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Chirurgeon",
-    "Requirement": "2 Advances in Medicae",
-    "Description": "Become able to use Chirurgeon's Kit. Perform surgeries and gain Advantage when treating Critical Wounds in combat.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Close Quarters Discipline",
-    "Requirement": "2 Advances in both Discipline and Ranged",
-    "Description": "No Disadvantage on Ranged Attacks within Immediate Range.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Combat Master",
-    "Requirement": "2 Advances in Melee",
-    "Description": "Count as one more person for outnumbering in combat.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Condemn the Witch",
-    "Requirement": "Willpower 40, Psyker Talent",
-    "Description": "Deny the Witch causes Wounds equal to the Warp Rating of the power.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Contortionist",
-    "Requirement": "-",
-    "Description": "Advantage on Tests to resist or end Restrained Condition or grapples.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Counter Attack",
-    "Requirement": "3 Advances in Melee",
-    "Description": "Deal Damage to an opponent after winning an Opposed Melee Test.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Coup de Grâce",
-    "Requirement": "3 Advances in Reflexes",
-    "Description": "Take 2 turns in a row when dominating with 2+ Superiority.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Data Delver",
-    "Requirement": "2 Advances in Logic (Investigation)",
-    "Description": "Advantage on Tests to retrieve or analyze information. Read text twice as fast.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Deadeye",
-    "Requirement": "1 Advance in Ranged",
-    "Description": "+1 SL on Ranged Attacks when Aiming. Can be bought again to gain Advantage on Target Location Tests while Aiming.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Dealmaker",
-    "Requirement": "1 Advance in Intuition (People) and Rapport (Haggle)",
-    "Description": "Gain benefits in negotiations: bribes, discounts, or increased sale prices.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Demolition Specialist",
-    "Requirement": "2 Advances in Ranged (Ordnance) or Dexterity (Defuse)",
-    "Description": "Remove Unstable Trait from explosives. Increase Damage by Intelligence Bonus.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Devoted Servant",
-    "Requirement": "-",
-    "Description": "Gain Advantage on Tests related to your chosen service expertise.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Directed Strikes",
-    "Requirement": "3 Advances in Melee",
-    "Description": "No Disadvantage when taking the Target Location Action.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Dirty Fighting",
-    "Requirement": "2 Advances in Melee (Brawling)",
-    "Description": "Inflict Blinded or Deafened. Inflict Stunned with +3 SL.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Disarm",
-    "Requirement": "2 Advances in Melee",
-    "Description": "Disarm an opponent instead of dealing damage. Gain the object with +4 SL.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Disturbing Voice",
-    "Requirement": "-",
-    "Description": "+2 SL to Presence (Interrogation) and (Intimidation). -2 SL to Fellowship Tests with disturbed targets.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Distracting",
-    "Requirement": "-",
-    "Description": "Impose Disadvantage on a Test once per encounter. Gain additional effects with upgrades.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Drilled",
-    "Requirement": "1 Advance in Discipline",
-    "Description": "Advantage on Tests to resist Frightened. Can be bought again to gain the following : can play directly after an ally with Drilled in turn ordrer and +1 SL for the turn while in the same Zone.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Dual Wielder",
-    "Requirement": "Ambidextrous, 2 Advances in Melee (One-handed)",
-    "Description": "No Disadvantage when attacking with two melee weapons.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Duellist",
-    "Requirement": "2 Advances in Melee (One-handed)",
-    "Description": "All non-Subtle One-handed melee weapons count as having the Defensive trait. Can be retaken twice to gain Duellist Feint and Duellist Guard.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Eidetic Memory",
-    "Requirement": "-",
-    "Description": "Recall visual details perfectly. No Tests needed for memory recall.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Ever Vigilant",
-    "Requirement": "2 Advances in Awareness",
-    "Description": "+1 SL to detect hidden enemies. No penalties from Unconscious or Blinded while sleeping.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Exploit Vulnerability",
-    "Requirement": "2 Advances in Intuition (People)",
-    "Description": "Choose Hit Location of your first attack after using Know Thy Foe.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Extended Proprioception",
-    "Requirement": "3 Advances in Pilot (Specialisation)",
-    "Description": "Ignore Blinded in Pilot Tests. Detect vessel size/position in surroundings.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Faithful (Imperial Cult)",
-    "Requirement": "Adeptus Ministorum OR 2 Advances in Lore (Theology) OR +2 Ministorum Influence",
-    "Description": "Manifest faith for bonuses. Gain SL equal to Willpower Bonus in Tests.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "False Retreat",
-    "Requirement": "3 Advances in Rapport (Deception)",
-    "Description": "Feign cowardice to reposition. Hide and relocate within Long Range.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Familiar Terrain",
-    "Requirement": "-",
-    "Description": "Gain Advantage on Stealth and +1 Armour in chosen terrain type.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Fated",
-    "Requirement": "Character creation only",
-    "Description": "Gain 1 point of Fate. Can only take this Talent once.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Field Medicae",
-    "Requirement": "2 Advances in Medicae",
-    "Description": "Heal Critical Wounds in combat. Difficulty cannot exceed Challenging (+0).",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Flagellant",
-    "Requirement": "-",
-    "Description": "Advantage on resisting pain/interrogation. Ignore Critical Wounds temporarily.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Flanking Fire",
-    "Requirement": "2 Advances in Ranged",
-    "Description": "Bypass Cover Armour by 2 when targeting enemies in the same Zone as allies.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Flesh is Weak",
-    "Requirement": "2 Advances in Tech (Augmetics)",
-    "Description": "Can graft augmetics equal to double your Toughness Bonus.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Forger",
-    "Requirement": "2 Advances in both Linguistics and Lore",
-    "Description": "Forge documents to gain Influence. Influence depends on Test difficulty.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Forbidden Knowledge",
-    "Requirement": "Character creation, or GM permission",
-    "Description": "Access one Forbidden Specialisation: Linguistics, Lore, or Medicae.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Frenzy",
-    "Requirement": "-",
-    "Description": "Enter a frenzied state. Immune to Frightened. Gain Strength Bonus +1.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Full-Auto Fanatic",
-    "Requirement": "3 Advances in Ranged",
-    "Description": "Spend double bullets for Rapid Fire to target all individuals in Close Range of the target with Spread Trait.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Gallows Humour",
-    "Requirement": "2 Advances in Rapport (Charm)",
-    "Description": "Use Charm to stabilize allies. Remove Fatigued, Frightened, or Dying Conditions.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Gothic Gibberish",
-    "Requirement": "1 Advance in Linguistics",
-    "Description": "Confound targets with nonsense. Stun them if they fail opposed Rapport Test.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Guardian",
-    "Requirement": "3 Advances in Reflexes",
-    "Description": "Defend allies in Medium Range. Move to defend without Disadvantage.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Gunslinger",
-    "Requirement": "Ambidextrous, 2 Advances in Ranged (Pistols)",
-    "Description": "No Disadvantage when attacking with two ranged weapons simultaneously.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Hatred",
-    "Description": "Wield your fury as a weapon. Choose the object of your hatred. Difficult (-10) Discipline (Composure) Test to avoid being overcome by hate. Advantage on Discipline (Fear) Tests and +1 SL to attack Tests against the hated group. Must attempt to destroy the hated group. Can attempt another Discipline Test at the end of each turn to end the effect.",
-    "Requirement": "-",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Hit and Run",
-    "Requirement": "3 Advances in Reflexes (Acrobatics)",
-    "Description": "As a Free Action, when you deal one or more Wounds, make a Reflexes (Acrobatics) Test to Disengage and move to an adjacent Zone.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Holdout Expert",
-    "Description": "Conceal one small item. Hard (-20) Awareness (Touch), Dexterity (Pickpocket), or Logic (Investigation) Test to discover. Challenging (+0) if technology is used.",
-    "Requirement": "-",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Hypno-Indoctrination",
-    "Description": "Roll twice on the Random Talents Table. You now have those Talents. Can only be taken once.",
-    "Requirement": "-",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Icon Bearer",
-    "Requirements": "1 Advance in Lore (Theology) and 1 Advance in Presence",
-    "Description": "Allies within Medium Range gain the icon's benefit when you hold a Holy Icon.",
-    "Requirement": "1 Advance in Lore (Theology), 1 Advance in Presence",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Ignorance is my Shield",
-    "Requirements": "Less than 30 Intelligence, cannot have Advances in any (Forbidden) Specialisation",
-    "Description": "+4 SL on Tests to resist Corruption, psychic powers, and daemonic forces. -4 SL on Tests related to researching Daemons, psykers, and xenos.",
-    "Requirement": "Intelligence < 30",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Inspiring Presence",
-    "Requirement": "2 Advances in Presence (Leadership)",
-    "Description": "Allies in your Zone gain Advantage on Discipline Tests.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Inheritor",
-    "Requirement": "Must be taken at character creation",
-    "Description": "+1 Influence with an appropriate Faction, potential Inheritance (5,000 solars). May have access to specialisations or be a member of xenos-tainted bloodlines (GM's discretion).",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Lawbringer",
-    "Requirement": "2 Advances in Lore (Imperium)",
-    "Description": "+SL to Rapport or Presence Tests when referencing broken laws, equal to Advances in Lore (Imperium).",
-    "Source": "Inquisitor Player's Guide"
-  },
-  {
-    "Name": "Lickspittle",
-    "Requirement": "-",
-    "Description": "Advantage on Tests to ingratiate oneself with a superior.",
-    "Source": "Inquisitor Player's Guide"
-  },
-  {
-    "Name": "Martyrdom",
-    "Requirement": "2 Advances in Fortitude",
-    "Description": "+SL to Tests to directly confront your foes equal to Willpower Bonus when suffering from an untreated Critical Wound.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Medicae Maverick",
-    "Requirement": "1 Advance in any Medicae (Forbidden) Specialisation",
-    "Description": "Action: Turn a Major Break into a Minor Break or fix a Minor Break instantly. +1 Critical Wound, but negates Break effects.",
-    "Source": "Inquisitor Player's Guide"
-  },
-  {
-    "Name": "Mental Fortress",
-    "Requirement": "2 Advances in Discipline (Psychic)",
-    "Description": "Gain Armour equal to Willpower Bonus against psychic powers. Mind cannot be read.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Mimic",
-    "Requirement": "2 Advances in both Awareness (Sound) and Rapport (Deception)",
-    "Description": "Imitate a person's voice after hearing them speak. Cannot mimic unknown languages.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Overseer",
-    "Requirement": "2 Advances in Presence (Leadership)",
-    "Description": "Use a Challenging (+0) Leadership Test to let an ally use your Skill for their next Test.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Pathologist",
-    "Requirement": "2 Advances in Medicae (Human)",
-    "Description": "Gain Advantage when performing autopsies to determine cause of death or imbalances.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Phlebotomist",
-    "Requirement": "3 Advances in Medicae",
-    "Description": "Inflict Bleeding Condition instead of damage with a successful melee attack.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Porter",
-    "Requirement": "2 Advances in Fortitude (Endurance)",
-    "Description": "Double your Strength Bonus for carrying capacity. Add Toughness Bonus to Encumbrance.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Psychic Castigation",
-    "Requirement": "The Psyker Talent",
-    "Description": "Deal Wounds to psykers equal to SL difference when resisting psychic powers.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Psychic Flood",
-    "Requirement": "The Psyker Talent",
-    "Description": "Gain Warp Charge equal to Willpower Bonus. Add +1 SL per Warp Charge to Tests.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Psyker",
-    "Requirement": "Cannot have the Blank Talent",
-    "Description": "Gain Minor Psychic Power and one Psychic Discipline. Unlock Psychic Powers.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Quickdraw",
-    "Requirement": "2 Advances in Ranged (Pistols) and Reflexes",
-    "Description": "Draw and fire a Pistol before anyone else. Requires Hard (-20) Reflexes Test if Surprised.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Rapid Reload",
-    "Requirement": "2 Advances in both Dexterity and Ranged",
-    "Description": "Reload weapons faster. Choose a ranged Specialisation to reload as a Free Action.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Read Lips",
-    "Requirement": "1 Advance in both Awareness (Sight) and Linguistics",
-    "Description": "Understand speech by observing lip movements, even without hearing.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Registered Trader",
-    "Requirement": "2 Advances in Logic (Evaluation) and 2 Advances in Rapport (Haggle)",
-    "Description": "Sell items at 100% base cost. Administratum may request a tithe Between Missions.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Sanctioned Psyker",
-    "Requirement": "The Psyker Talent. Only during character creation.",
-    "Description": "Warp Threshold is now equal to double your Willpower Bonus. Gain a symbol of sanctioned status.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Secret Identity",
-    "Requirement": "-",
-    "Description": "Maintain a false identity. Gain +1 Influence with chosen Faction when dressed and behaving appropriately.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Shock Assault",
-    "Requirement": "Agility 45, 3 Advances in Stealth",
-    "Description": "Take 2 Actions during a Surprise Round.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Skulker",
-    "Requirement": "1 Advance in Navigation and Stealth",
-    "Description": "Avoid detection when following someone using Navigation (Tracking).",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Slippery",
-    "Requirement": "2 Advances in Reflexes",
-    "Description": "Opponents attacking you when moving out of Engagement have Disadvantage. Take twice to disengage as a free action.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Superior Commander",
-    "Requirement": "4 Advances in Presence (Leadership)",
-    "Description": "Use your Action to direct allies. Allies can Move or take an Action immediately.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Suppressing Fire",
-    "Requirement": "2 Advances in Ranged",
-    "Description": "Use Rapid Fire to suppress enemies.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Sure-Footed",
-    "Requirement": "1 Advance in each of Athletics, Fortitude, and Reflexes",
-    "Description": "Become fast when at at least 1 Superiority. Gain Advantage on Tests to resist being moved or knocked Prone. Stand up from Prone as a Free Action.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Tactical Movement",
-    "Requirement": "1 Advance in both Athletics and Discipline",
-    "Description": "Take Cover as a Free Action.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Tenacious",
-    "Requirement": "2 Advances in Fortitude (Endurance)",
-    "Description": "Make a Challenging (+0) Fortitude Test to recover from Stunned immediately.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Two-Handed Cleave",
-    "Requirement": "2 Advances in Melee (Two-handed)",
-    "Description": "Gain Spread Trait with Two-handed melee weapons. Additional effects on subsequent purchases.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Unflinching Presence",
-    "Requirement": "3 Advances in Presence (Leadership)",
-    "Description": "Make a Hard (-20) Presence Test to avoid losing Superiority.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Unremarkable",
-    "Requirement": "No Advances in Presence or Presence Specialisation unless randomly acquired.",
-    "Description": "Blend into crowds without Tests. Gain Disadvantage on Tests targeting high-status individuals.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Void Legs",
-    "Requirement": "-",
-    "Description": "Immune to void-sickness. Gain additional benefits when taken multiple times.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Well-Prepared",
-    "Requirement": "-",
-    "Description": "Once per mission, find a piece of equipment in your inventory. Deduct its cost from Solars.",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Amalanthian Apprentice",
-    "Requirement": "2 Advances in Rapport",
-    "Description": "Spend Fate point to make a Rapport Test with a representative of an Imperial Faction. On success, target becomes a contact.",
-    "Source": "Inquisitor Player's Guide"
-  },
-  {
-    "Name": "Apostle of the Lex",
-    "Requirement": "-",
-    "Description": "Can be taken multiple times. Each time, choose one : +2 SL on Lore Tests to recall Law, +2 SL on Presence (Interrogation) or Presence (Intimidation) Tests on criminals, +2 SL on Rapport Tests to work with Enforcers.",
-    "Source": "Inquisitor Player's Guide"
-  },
-  {
-    "Name": "Ballistics Forensics",
-    "Requirement": "1 Advance in both Logic (Investigation) and Ranged",
-    "Description": "Gain additional information on shooter and ballistics when using Logic (Investigation) on a scene.",
-    "Source": "Inquisitor Player's Guide"
-  },
-  {
-    "Name": "Blunt Force Authority",
-    "Requirement": "2 Advances in Presence (Intimidation)",
-    "Description": "Can decrease Subtlety by 1 to gain Advantage on Presence (Interrogation) or Presence (Intimidation) Tests or to gain +3 SL on any Rapport Tests using Influence.",
-    "Source": "Inquisitor Player's Guide"
-  },
-  {
-    "Name": "Clandestine",
-    "Requirement": "2 Advances in both Rapport and Presence",
-    "Description": "While party's Subtlety is at Suspiscious, Overt or below, spend 1 Fate Point to make it Covert for yourself for a day.",
-    "Source": "Inquisitor Player's Guide"
-  },
-  {
-    "Name": "Condemnor's Boon",
-    "Requirement": "Willpower 40, Psyker Talent or Condemn The Witch Talent",
-    "Description": "Gain Advantage when using Deny The Witch!. Can be taken two additional times to increase range by one Step each time.",
-    "Source": "Inquisitor Player's Guide"
-  },
-  {
-    "Name": "Cult Infiltrator",
-    "Requirement": "2 Advances in both Discipline and Rapport",
-    "Description": "Gain 2 Corruption Points to be able to gain one of the following disguises : Heretek (+2 SL on Tech tests), Aristocrat (+2 SL on Rapport Tests when interacting with people you know well), Tolerant (Advantage on Tests to resist drugs and poisons) or Tainted (Infiltrate chaos cults). Can be taken multiple times.",
-    "Source": "Inquisitor Player's Guide"
-  },
-  {
-    "Name": "Cypherist",
-    "Requirement": "2 Advances in both Linguistics (Cypher) and Logic",
-    "Description": "Gain Advantage on Tests to recognise or decipher symbols, marks and secret codes.",
-    "Source": "Inquisitor Player's Guide"
-  },
-  {
-    "Name": "Familiar Bonded",
-    "Requirement": "-",
-    "Description": "Bond with a Regular Familiar. Can be taken multiple times. Subsequent picks allow bonding with Cyber/Psyber-Familiars, then remaining types.",
-    "Source": "Inquisitor Player's Guide"
-  },
-  {
-    "Name": "Gut Instinct",
-    "Requirement": "2 Advances in Logic (Investigation)",
-    "Description": "Spend 1 Fate Point for a GM hint during an investigation or research.",
-    "Source": "Inquisitor Player's Guide"
-  },
-  {
-    "Name": "Hardened Suspicion",
-    "Requirement": "2 Advances in Awareness and Intuition",
-    "Description": "+1 SL on Awareness and Intuition Tests against xenos and Chaos-aligned creatures.",
-    "Source": "Inquisitor Player's Guide"
-  },
-  {
-    "Name": "Inspired Defiance",
-    "Requirement": "3 Advances in Discipline",
-    "Description": "Advantage on Fortitude and Discipline Tests against Corruption.",
-    "Source": "Inquisitor Player's Guide"
-  },
-  {
-    "Name": "Logical Liar",
-    "Requirement": "2 Advances in Logic",
-    "Description": "Spend 1 Fate Point to use Intelligence instead of Rapport for Deception Tests.",
-    "Source": "Inquisitor Player's Guide"
-  },
-  {
-    "Name": "Many Masks",
-    "Requirement": "2 Advances in Stealth (Disguise)",
-    "Description": "Advantage on Disguise Kit Tests. Additional picks grant 'Fall Guy' (burn disguise, reduce Subtlety loss) or 'Unmasked' (surprise in combat).",
-    "Source": "Inquisitor Player's Guide"
-  },
-  {
-    "Name": "Security Augur",
-    "Requirement": "3 Advances in Security (Tech)",
-    "Description": "Advantage on Tests to identify or interact with security systems. Additional pick allows erasing evidence of breaches.",
-    "Source": "Inquisitor Player's Guide"
-  },
-  {
-    "Name": "Shadow Operative",
-    "Requirement": "3 Advances in Stealth",
-    "Description": "Ignore Disadvantage on Stealth Tests due to Subtlety.",
-    "Source": "Inquisitor Player's Guide"
-  },
-  {
-    "Name": "Subtle Influencer",
-    "Requirement": "-",
-    "Description": "Negate first Subtlety loss when requisitioning aid from Factions.",
-    "Source": "Inquisitor Player's Guide"
-  },
-  {
-    "Name": "Subtle Mutation",
-    "Requirement": "-",
-    "Description": "Roll on Subtle Mutations Table for Positive and Negative Mutations. Can replace Corruption Mutations with Subtle Mutations.",
-    "Source": "Inquisitor Player's Guide"
-  },
-  {
-    "Name": "Subtle Psyker",
-    "Requirement": "Willpower 40, Psyker Talent, 3 Advances in Psychic Powers",
-    "Description": "Roll Psychic Phenomena with +10. Challenging Stealth Test to prevent Subtlety loss from psychic powers.",
-    "Source": "Inquisitor Player's Guide"
-  },
-  {
-    "Name": "Tainted Vessel",
-    "Requirement": "-",
-    "Description": "-1 SL on Fellowship Tests, Immune to Corruption Mutations, +1 SL on Awareness to detect daemonic entities, Immune to possession by the same daemon.",
-    "Source": "Inquisitor Player's Guide"
-  },
-  {
-    "Name": "Unwavering Will",
-    "Requirement": "Willpower 40, 2 Advances in Discipline",
-    "Description": "Spend 1 Fate Point to double Willpower Bonus for the encounter.",
-    "Source": "Inquisitor Player's Guide"
-  },
-  {
-    "Name": "You Didn't See Anything",
-    "Requirement": "2 Advances in Logic (Investigation), Stealth, or Tech (Security)",
-    "Description": "Negate Subtlety loss after encounters. Logic (Investigation) for physical evidence, Stealth for movement, Tech (Security) for device sabotage.",
-    "Source": "Inquisitor Player's Guide"
-  },
-  {
-    "Name": "Architectural Mind",
-    "Requirement": "2 Advances in Tech (Engineering)",
-    "Description": "In machine-heavy environments, you may use Tech (Engineering) instead of Navigation (Surface or Tracking). When searching architectural schematics or maps of such locations, you may use Tech (Engineering) instead of any Lore or Logic Test.",
-    "Source": "Adeptus Mechanicus Player's Guide"
-  },
-  {
-    "Name": "Battle Protocols",
-    "Requirement": "2 Advances in Tech (Automata)",
-    "Description": "Spend an Action to make a Challenging (+0) Tech (Automata) Test on a friendly Construct in immediate range. On success, choose one protocol active for SL turns (from end of current turn). Only one protocol may be active at a time. If the target is a Familiar, you may instead alter its Combat or Preservation Instincts. Aegis Protocol: Advantage on Defend or Overwatch Tests. Conqueror Protocol: Advantage on melee attacks. Protector Protocol: Advantage on ranged attacks.",
-    "Source": "Adeptus Mechanicus Player's Guide"
-  },
-  {
-    "Name": "Burden of Knowledge",
-    "Requirement": "2 Advances in Tech (Forbidden)",
-    "Description": "When making a Tech Test, after rolling but before resolving results, you may gain 1 Corruption to add your Advances in Tech (Forbidden) to the Test. This may be done multiple times for the same cost.",
-    "Source": "Adeptus Mechanicus Player's Guide"
-  },
-  {
-    "Name": "Cartogrammetrist",
-    "Requirement": "2 Advances in Navigation (Surface)",
-    "Description": "As an Endeavour, you may inload geophysical data for a single world. Gain Advantage on Navigation Tests regarding that world, Lore Tests about its physical features, and Piloting Tests within its atmosphere or surface. Inloading data for a new world deletes previous data.",
-    "Source": "Adeptus Mechanicus Player's Guide"
-  },
-  {
-    "Name": "Cognis Communion",
-    "Requirement": "2 Advances in Tech (Security)",
-    "Description": "When wielding a weapon with the Secrets of Mars Trait, you may use Tech instead of Weapon Skill.",
-    "Source": "Adeptus Mechanicus Player's Guide"
-  },
-  {
-    "Name": "Emotionless Clarity",
-    "Requirement": "Rite of Pure Thought Augmetic",
-    "Description": "When attempting to learn something through conversation, you may use Logic instead of Intuition or Rapport.",
-    "Source": "Adeptus Mechanicus Player's Guide"
-  },
-  {
-    "Name": "Faithful (Cult of Mars)",
-    "Requirement": "Adeptus Mechanicus OR +2 Adeptus Mechanicus Influence OR 2 Advances in Lore (Theology – Cult Mechanicus)",
-    "Description": "Once per session, when making a Test related to your faith, you may add your Willpower Bonus as SL.",
-    "Source": "Adeptus Mechanicus Player's Guide"
-  },
-  {
-    "Name": "Field Biologis",
-    "Requirement": "2 Advances in Tech (Biologis)",
-    "Description": "You may use Tech (Biologis) to heal Constructs with biological components. The Difficulty cannot exceed Challenging (+0). On a Critical Success, the construct gains Advantage on Tests until the end of the scene.",
-    "Source": "Adeptus Mechanicus Player's Guide"
-  },
-  {
-    "Name": "Necromechanic",
-    "Requirement": "2 Advances in Tech (Augmetics)",
-    "Description": "You may perform a necromechanical autopsy on cranial augmetics or destroyed machines. Make a Challenging (+0) Tech (Augmetics) Test to learn one piece of information about the subject’s demise. With 3+ SL, you may access an audio, sensory, or visual recording of the subject’s final moments.",
-    "Source": "Adeptus Mechanicus Player's Guide"
-  },
-  {
-    "Name": "Martian Pistoleer",
-    "Requirement": "1 Advance in Ranged (Pistol)",
-    "Description": "Increase the range of Pistols you wield by one step.",
-    "Source": "Adeptus Mechanicus Player's Guide"
-  },
-  {
-    "Name": "Opus Machina",
-    "Requirement": "2 Advances in Lore (Cult Mechanicus)",
-    "Description": "At the start of each in-game day, roll d100 and record the result. Once that day, replace the result of any d100 Tech Test (yours or a creature within medium range) with this value after the roll but before results are described. Advantage/Disadvantage still apply.",
-    "Source": "Adeptus Mechanicus Player's Guide"
-  },
-  {
-    "Name": "The Strength and Certainty of Steel",
-    "Requirement": "At least 6 Augments installed",
-    "Description": "Disadvantage on Intuition (People), Presence and Rapport Tests against non-Adeptus Mechanicus characters. Advantage on Group (Adeptus Mechanicus), Intuition (People), Presence and Rapport Tests against Adeptus Mechanicus or similarly augmented characters.",
-    "Source": "Adeptus Mechanicus Player's Guide"
-  },
-  {
-    "Name": "Skitarii Compliance Protocols",
-    "Requirement": "Transhuman Ideal Talent",
-    "Description": "Advantage on Discipline and Fortitude Tests. Disadvantage on Tests resisting orders from a superior Skitarii, Tech-Priest, or your Patron.",
-    "Source": "Adeptus Mechanicus Player's Guide"
-  },
-  {
-    "Name": "Skit-Code Discipline",
-    "Requirement": "Transhuman Ideal Talent, 1 Advance in Discipline",
-    "Description": "Advantage on Tests to resist the Frightened Condition. Gain +1 SL to Discipline Tests for each ally with this Talent in the same Zone. Combat communications cannot be understood outside the Adeptus Mechanicus. Can be bought again so you may act immediately after an ally with this Talent in Initiative and gain +1 SL to all Tests",
-    "Source": "Adeptus Mechanicus Player's Guide"
-  },
-  {
-    "Name": "Techsorcist",
-    "Requirement": "1+ Influence with the Inquisition",
-    "Description": "Gain access to Tech (Forbidden). You can create hexagrammic wards (≈1000 solars, 1 hour). While worn or attached, the first Psychic Power targeting the bearer suffers Disadvantage and the ward burns out. It can be restored with 1 hour of prayer. You do not risk Corruption when using mechadendrites on minor sources of corruption.",
-    "Source": "Adeptus Mechanicus Player's Guide"
-  },
-  {
-    "Name": "Transhuman Ideal",
-    "Requirement": "Flesh is Weak Talent or Character Creation",
-    "Description": "Maximum number of Augmetics you may install equals triple your Toughness Bonus.",
-    "Source": "Adeptus Mechanicus Player's Guide"
-  },
-  {
-    "Name": "Transhuman Rapport",
-    "Requirement": "Intelligence 45, 2 Advances in Logic",
-    "Description": "When making a Rapport Test against an Adeptus Mechanicus character, you may use Logic (or an appropriate specialisation) instead.",
-    "Source": "Adeptus Mechanicus Player's Guide"
-  },
-  {
-    "Name": "Wasteland Stalker",
-    "Requirement": "1 Advance in Stealth",
-    "Description": "Gain +2 Armour while benefiting from Cover.",
-    "Source": "Adeptus Mechanicus Player's Guide"
-  },
-  {
-    "Name": "Xenotechnician's Benevolence",
-    "Requirement": "2 Advances in Tech (Xenos)",
-    "Description": "Choose a xenos species. During the next mission, Corruption from interacting with that species' technology is halved (rounded down). If you understand a Xenos machine's function, you may spend an Action and a Fate Point to activate, disrupt, or shut it down without a Test.",
-    "Source": "Adeptus Mechanicus Player's Guide"
-  },
-  {
-    "Name": "Electro-Priest Indoctrination",
-    "Requirement": "-",
-    "Description": "You are trained to capture, conserve and share the sacred Motive Force. When your Motive Force Charges are above half your Maximum Threshold, you gain +1 Armour (All Locations). You may spend 1 minute connected to a power source to increase your Motive Force Charges to your threshold, potentially deactivating the machine. You may also spend 1 minute connected to a power source to reduce your Motive Force Charges to 0, feeding it your stored energy and potentially powering it.",
-    "Source": "Adeptus Mechanicus Player's Guide"
-  },
-  {
-    "Name": "Corpuscarii Benedictions",
-    "Requirement": "Electro-Priest Indoctrination, You have no ‘Fulgurite’ named Talents",
-    "Description": "As a Free Action, you may touch an electronically powered device or machine and expend 1 Motive Force Charge. For the next round, creatures have Advantage on any Tech or Piloting Test attempted on or while using the device.",
-    "Source": "Adeptus Mechanicus Player's Guide"
-  },
-  {
-    "Name": "Corpuscarii Mastery",
-    "Requirement": "Electro-Priest Indoctrination, You have no ‘Fulgurite’ named Talents",
-    "Description": "You may activate electronically powered devices and vehicles you touch. Make a Fortitude (Endurance) Test as an Action, with Difficulty based on the target’s size. On success, the machine activates and you expend Motive Force Charges based on its size. You cannot activate devices requiring more Charges than you currently have.",
-    "Source": "Adeptus Mechanicus Player's Guide"
-  },
-  {
-    "Name": "Fulgurite Hex",
-    "Requirement": "Electro-Priest Indoctrination, You have no ‘Corpuscarii’ named Talents",
-    "Description": "As a Free Action, you may touch an electronically powered device and gain 1 Motive Force Charge. For the next round, creatures have Disadvantage on any Tech or Piloting Test attempted using the device.",
-    "Source": "Adeptus Mechanicus Player's Guide"
-  },
-  {
-    "Name": "Fulgurite Mastery",
-    "Requirement": "Electro-Priest Indoctrination, You have no ‘Corpuscarii’ named Talents",
-    "Description": "You may shut down electronically powered devices and vehicles you touch. Make a Fortitude (Endurance) Test as an Action, with Difficulty based on the target’s size. On success, the machine shuts down and you gain Motive Force Charges based on its size. You cannot use this Talent if doing so would exceed your maximum threshold.",
-    "Source": "Adeptus Mechanicus Player's Guide"
-  }
+	{
+		"Name": "Acute Sense",
+		"Requirement": "-",
+		"Description": "Make Perception Tests to detect imperceptible details using one sense.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Adrenaline Acceleration",
+		"Requirement": "-",
+		"Description": "Speed increases by one step while having a Critical Wound. Gain Advantage on Athletics Tests during a Pursuit or Fleeing.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Agile Attacks",
+		"Requirement": "Agility 45, 2 Advances in Melee",
+		"Description": "Use Agility Bonus instead of Strength Bonus for Subtle melee weapons.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Air of Authority",
+		"Requirement": "2 Advances in Presence",
+		"Description": "Make a Challenging (+0) Presence or Rapport Test to gain +1 Influence with a group for mission duration.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Ambidextrous",
+		"Requirement": "-",
+		"Description": "No penalty for using your off-hand.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Applied Anatomy",
+		"Requirement": "2 Advances in Medicae",
+		"Description": "Increase Critical Hit/Wound severity by your Advances in Medicae.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Artistic",
+		"Requirement": "-",
+		"Description": "Gain +2 SL to Tests in Literature, Painting, Music, or Theatre.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Attentive Assistant",
+		"Requirement": "-",
+		"Description": "Use Help Action without Advances. Gain +1 SL if you have Advances.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Blank",
+		"Requirement": "Only during Character Creation",
+		"Description": "Immune to Psychic Powers, cannot be detected by Psyniscience, cannot be corrupted and cause discomfort to psykers and daemons.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Bone Breaker",
+		"Requirement": "2 Advances in Medicae (Specialisation)",
+		"Description": "Break bones of Restrained targets, causing Disadvantage.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Briber",
+		"Requirement": "2 Advances in Intuition (People)",
+		"Description": "Advantage on Intuition (People) Tests for bribes. Reduce bribe cost by 10% per Rapport Advance.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Bulwark",
+		"Requirement": "3 Advances in Reflexes",
+		"Description": "Defend both an ally and a Zone or two allies while using a shield and Defend Action.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Burglar",
+		"Requirement": "1 Advance in both Athletics and Stealth",
+		"Description": "Advantage on Tests for breaking, and entering.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Chirurgeon",
+		"Requirement": "2 Advances in Medicae",
+		"Description": "Become able to use Chirurgeon's Kit. Perform surgeries and gain Advantage when treating Critical Wounds in combat.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Close Quarters Discipline",
+		"Requirement": "2 Advances in both Discipline and Ranged",
+		"Description": "No Disadvantage on Ranged Attacks within Immediate Range.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Combat Master",
+		"Requirement": "2 Advances in Melee",
+		"Description": "Count as one more person for outnumbering in combat.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Condemn the Witch",
+		"Requirement": "Willpower 40, Psyker Talent",
+		"Description": "Deny the Witch causes Wounds equal to the Warp Rating of the power.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Contortionist",
+		"Requirement": "-",
+		"Description": "Advantage on Tests to resist or end Restrained Condition or grapples.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Counter Attack",
+		"Requirement": "3 Advances in Melee",
+		"Description": "Deal Damage to an opponent after winning an Opposed Melee Test.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Coup de Grâce",
+		"Requirement": "3 Advances in Reflexes",
+		"Description": "Take 2 turns in a row when dominating with 2+ Superiority.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Data Delver",
+		"Requirement": "2 Advances in Logic (Investigation)",
+		"Description": "Advantage on Tests to retrieve or analyze information. Read text twice as fast.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Deadeye",
+		"Requirement": "1 Advance in Ranged",
+		"Description": "+1 SL on Ranged Attacks when Aiming. Can be bought again to gain Advantage on Target Location Tests while Aiming.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Dealmaker",
+		"Requirement": "1 Advance in Intuition (People) and Rapport (Haggle)",
+		"Description": "Gain benefits in negotiations: bribes, discounts, or increased sale prices.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Demolition Specialist",
+		"Requirement": "2 Advances in Ranged (Ordnance) or Dexterity (Defuse)",
+		"Description": "Remove Unstable Trait from explosives. Increase Damage by Intelligence Bonus.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Devoted Servant",
+		"Requirement": "-",
+		"Description": "Gain Advantage on Tests related to your chosen service expertise.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Directed Strikes",
+		"Requirement": "3 Advances in Melee",
+		"Description": "No Disadvantage when taking the Target Location Action.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Dirty Fighting",
+		"Requirement": "2 Advances in Melee (Brawling)",
+		"Description": "Inflict Blinded or Deafened. Inflict Stunned with +3 SL.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Disarm",
+		"Requirement": "2 Advances in Melee",
+		"Description": "Disarm an opponent instead of dealing damage. Gain the object with +4 SL.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Disturbing Voice",
+		"Requirement": "-",
+		"Description": "+2 SL to Presence (Interrogation) and (Intimidation). -2 SL to Fellowship Tests with disturbed targets.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Distracting",
+		"Requirement": "-",
+		"Description": "Impose Disadvantage on a Test once per encounter. Gain additional effects with upgrades.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Drilled",
+		"Requirement": "1 Advance in Discipline",
+		"Description": "Advantage on Tests to resist Frightened. Can be bought again to gain the following : can play directly after an ally with Drilled in turn ordrer and +1 SL for the turn while in the same Zone.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Dual Wielder",
+		"Requirement": "Ambidextrous, 2 Advances in Melee (One-handed)",
+		"Description": "No Disadvantage when attacking with two melee weapons.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Duellist",
+		"Requirement": "2 Advances in Melee (One-handed)",
+		"Description": "All non-Subtle One-handed melee weapons count as having the Defensive trait. Can be retaken twice to gain Duellist Feint and Duellist Guard.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Eidetic Memory",
+		"Requirement": "-",
+		"Description": "Recall visual details perfectly. No Tests needed for memory recall.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Ever Vigilant",
+		"Requirement": "2 Advances in Awareness",
+		"Description": "+1 SL to detect hidden enemies. No penalties from Unconscious or Blinded while sleeping.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Exploit Vulnerability",
+		"Requirement": "2 Advances in Intuition (People)",
+		"Description": "Choose Hit Location of your first attack after using Know Thy Foe.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Extended Proprioception",
+		"Requirement": "3 Advances in Pilot (Specialisation)",
+		"Description": "Ignore Blinded in Pilot Tests. Detect vessel size/position in surroundings.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Faithful (Imperial Cult)",
+		"Requirement": "Adeptus Ministorum OR 2 Advances in Lore (Theology) OR +2 Ministorum Influence",
+		"Description": "Manifest faith for bonuses. Gain SL equal to Willpower Bonus in Tests.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "False Retreat",
+		"Requirement": "3 Advances in Rapport (Deception)",
+		"Description": "Feign cowardice to reposition. Hide and relocate within Long Range.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Familiar Terrain",
+		"Requirement": "-",
+		"Description": "Gain Advantage on Stealth and +1 Armour in chosen terrain type.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Fated",
+		"Requirement": "Character creation only",
+		"Description": "Gain 1 point of Fate. Can only take this Talent once.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Field Medicae",
+		"Requirement": "2 Advances in Medicae",
+		"Description": "Heal Critical Wounds in combat. Difficulty cannot exceed Challenging (+0).",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Flagellant",
+		"Requirement": "-",
+		"Description": "Advantage on resisting pain/interrogation. Ignore Critical Wounds temporarily.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Flanking Fire",
+		"Requirement": "2 Advances in Ranged",
+		"Description": "Bypass Cover Armour by 2 when targeting enemies in the same Zone as allies.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Flesh is Weak",
+		"Requirement": "2 Advances in Tech (Augmetics)",
+		"Description": "Can graft augmetics equal to double your Toughness Bonus.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Forger",
+		"Requirement": "2 Advances in both Linguistics and Lore",
+		"Description": "Forge documents to gain Influence. Influence depends on Test difficulty.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Forbidden Knowledge",
+		"Requirement": "Character creation, or GM permission",
+		"Description": "Access one Forbidden Specialisation: Linguistics, Lore, or Medicae.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Frenzy",
+		"Requirement": "-",
+		"Description": "Enter a frenzied state. Immune to Frightened. Gain Strength Bonus +1.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Full-Auto Fanatic",
+		"Requirement": "3 Advances in Ranged",
+		"Description": "Spend double bullets for Rapid Fire to target all individuals in Close Range of the target with Spread Trait.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Gallows Humour",
+		"Requirement": "2 Advances in Rapport (Charm)",
+		"Description": "Use Charm to stabilize allies. Remove Fatigued, Frightened, or Dying Conditions.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Gothic Gibberish",
+		"Requirement": "1 Advance in Linguistics",
+		"Description": "Confound targets with nonsense. Stun them if they fail opposed Rapport Test.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Guardian",
+		"Requirement": "3 Advances in Reflexes",
+		"Description": "Defend allies in Medium Range. Move to defend without Disadvantage.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Gunslinger",
+		"Requirement": "Ambidextrous, 2 Advances in Ranged (Pistols)",
+		"Description": "No Disadvantage when attacking with two ranged weapons simultaneously.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Hatred",
+		"Description": "Wield your fury as a weapon. Choose the object of your hatred. Difficult (-10) Discipline (Composure) Test to avoid being overcome by hate. Advantage on Discipline (Fear) Tests and +1 SL to attack Tests against the hated group. Must attempt to destroy the hated group. Can attempt another Discipline Test at the end of each turn to end the effect.",
+		"Requirement": "-",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Hit and Run",
+		"Requirement": "3 Advances in Reflexes (Acrobatics)",
+		"Description": "As a Free Action, when you deal one or more Wounds, make a Reflexes (Acrobatics) Test to Disengage and move to an adjacent Zone.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Holdout Expert",
+		"Description": "Conceal one small item. Hard (-20) Awareness (Touch), Dexterity (Pickpocket), or Logic (Investigation) Test to discover. Challenging (+0) if technology is used.",
+		"Requirement": "-",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Hypno-Indoctrination",
+		"Description": "Roll twice on the Random Talents Table. You now have those Talents. Can only be taken once.",
+		"Requirement": "-",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Icon Bearer",
+		"Requirements": "1 Advance in Lore (Theology) and 1 Advance in Presence",
+		"Description": "Allies within Medium Range gain the icon's benefit when you hold a Holy Icon.",
+		"Requirement": "1 Advance in Lore (Theology), 1 Advance in Presence",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Ignorance is my Shield",
+		"Requirements": "Less than 30 Intelligence, cannot have Advances in any (Forbidden) Specialisation",
+		"Description": "+4 SL on Tests to resist Corruption, psychic powers, and daemonic forces. -4 SL on Tests related to researching Daemons, psykers, and xenos.",
+		"Requirement": "Intelligence < 30",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Inspiring Presence",
+		"Requirement": "2 Advances in Presence (Leadership)",
+		"Description": "Allies in your Zone gain Advantage on Discipline Tests.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Inheritor",
+		"Requirement": "Must be taken at character creation",
+		"Description": "+1 Influence with an appropriate Faction, potential Inheritance (5,000 solars). May have access to specialisations or be a member of xenos-tainted bloodlines (GM's discretion).",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Lawbringer",
+		"Requirement": "2 Advances in Lore (Imperium)",
+		"Description": "+SL to Rapport or Presence Tests when referencing broken laws, equal to Advances in Lore (Imperium).",
+		"Source": "Inquisitor Player's Guide"
+	},
+	{
+		"Name": "Lickspittle",
+		"Requirement": "-",
+		"Description": "Advantage on Tests to ingratiate oneself with a superior.",
+		"Source": "Inquisitor Player's Guide"
+	},
+	{
+		"Name": "Martyrdom",
+		"Requirement": "2 Advances in Fortitude",
+		"Description": "+SL to Tests to directly confront your foes equal to Willpower Bonus when suffering from an untreated Critical Wound.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Medicae Maverick",
+		"Requirement": "1 Advance in any Medicae (Forbidden) Specialisation",
+		"Description": "Action: Turn a Major Break into a Minor Break or fix a Minor Break instantly. +1 Critical Wound, but negates Break effects.",
+		"Source": "Inquisitor Player's Guide"
+	},
+	{
+		"Name": "Mental Fortress",
+		"Requirement": "2 Advances in Discipline (Psychic)",
+		"Description": "Gain Armour equal to Willpower Bonus against psychic powers. Mind cannot be read.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Mimic",
+		"Requirement": "2 Advances in both Awareness (Sound) and Rapport (Deception)",
+		"Description": "Imitate a person's voice after hearing them speak. Cannot mimic unknown languages.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Overseer",
+		"Requirement": "2 Advances in Presence (Leadership)",
+		"Description": "Use a Challenging (+0) Leadership Test to let an ally use your Skill for their next Test.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Pathologist",
+		"Requirement": "2 Advances in Medicae (Human)",
+		"Description": "Gain Advantage when performing autopsies to determine cause of death or imbalances.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Phlebotomist",
+		"Requirement": "3 Advances in Medicae",
+		"Description": "Inflict Bleeding Condition instead of damage with a successful melee attack.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Porter",
+		"Requirement": "2 Advances in Fortitude (Endurance)",
+		"Description": "Double your Strength Bonus for carrying capacity. Add Toughness Bonus to Encumbrance.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Psychic Castigation",
+		"Requirement": "The Psyker Talent",
+		"Description": "Deal Wounds to psykers equal to SL difference when resisting psychic powers.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Psychic Flood",
+		"Requirement": "The Psyker Talent",
+		"Description": "Gain Warp Charge equal to Willpower Bonus. Add +1 SL per Warp Charge to Tests.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Psyker",
+		"Requirement": "Cannot have the Blank Talent",
+		"Description": "Gain Minor Psychic Power and one Psychic Discipline. Unlock Psychic Powers.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Quickdraw",
+		"Requirement": "2 Advances in Ranged (Pistols) and Reflexes",
+		"Description": "Draw and fire a Pistol before anyone else. Requires Hard (-20) Reflexes Test if Surprised.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Rapid Reload",
+		"Requirement": "2 Advances in both Dexterity and Ranged",
+		"Description": "Reload weapons faster. Choose a ranged Specialisation to reload as a Free Action.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Read Lips",
+		"Requirement": "1 Advance in both Awareness (Sight) and Linguistics",
+		"Description": "Understand speech by observing lip movements, even without hearing.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Registered Trader",
+		"Requirement": "2 Advances in Logic (Evaluation) and 2 Advances in Rapport (Haggle)",
+		"Description": "Sell items at 100% base cost. Administratum may request a tithe Between Missions.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Sanctioned Psyker",
+		"Requirement": "The Psyker Talent. Only during character creation.",
+		"Description": "Warp Threshold is now equal to double your Willpower Bonus. Gain a symbol of sanctioned status.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Secret Identity",
+		"Requirement": "-",
+		"Description": "Maintain a false identity. Gain +1 Influence with chosen Faction when dressed and behaving appropriately.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Shock Assault",
+		"Requirement": "Agility 45, 3 Advances in Stealth",
+		"Description": "Take 2 Actions during a Surprise Round.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Skulker",
+		"Requirement": "1 Advance in Navigation and Stealth",
+		"Description": "Avoid detection when following someone using Navigation (Tracking).",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Slippery",
+		"Requirement": "2 Advances in Reflexes",
+		"Description": "Opponents attacking you when moving out of Engagement have Disadvantage. Take twice to disengage as a free action.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Superior Commander",
+		"Requirement": "4 Advances in Presence (Leadership)",
+		"Description": "Use your Action to direct allies. Allies can Move or take an Action immediately.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Suppressing Fire",
+		"Requirement": "2 Advances in Ranged",
+		"Description": "Use Rapid Fire to suppress enemies.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Sure-Footed",
+		"Requirement": "1 Advance in each of Athletics, Fortitude, and Reflexes",
+		"Description": "Become fast when at at least 1 Superiority. Gain Advantage on Tests to resist being moved or knocked Prone. Stand up from Prone as a Free Action.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Tactical Movement",
+		"Requirement": "1 Advance in both Athletics and Discipline",
+		"Description": "Take Cover as a Free Action.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Tenacious",
+		"Requirement": "2 Advances in Fortitude (Endurance)",
+		"Description": "Make a Challenging (+0) Fortitude Test to recover from Stunned immediately.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Two-Handed Cleave",
+		"Requirement": "2 Advances in Melee (Two-handed)",
+		"Description": "Gain Spread Trait with Two-handed melee weapons. Additional effects on subsequent purchases.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Unflinching Presence",
+		"Requirement": "3 Advances in Presence (Leadership)",
+		"Description": "Make a Hard (-20) Presence Test to avoid losing Superiority.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Unremarkable",
+		"Requirement": "No Advances in Presence or Presence Specialisation unless randomly acquired.",
+		"Description": "Blend into crowds without Tests. Gain Disadvantage on Tests targeting high-status individuals.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Void Legs",
+		"Requirement": "-",
+		"Description": "Immune to void-sickness. Gain additional benefits when taken multiple times.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Well-Prepared",
+		"Requirement": "-",
+		"Description": "Once per mission, find a piece of equipment in your inventory. Deduct its cost from Solars.",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Amalanthian Apprentice",
+		"Requirement": "2 Advances in Rapport",
+		"Description": "Spend Fate point to make a Rapport Test with a representative of an Imperial Faction. On success, target becomes a contact.",
+		"Source": "Inquisitor Player's Guide"
+	},
+	{
+		"Name": "Apostle of the Lex",
+		"Requirement": "-",
+		"Description": "Can be taken multiple times. Each time, choose one : +2 SL on Lore Tests to recall Law, +2 SL on Presence (Interrogation) or Presence (Intimidation) Tests on criminals, +2 SL on Rapport Tests to work with Enforcers.",
+		"Source": "Inquisitor Player's Guide"
+	},
+	{
+		"Name": "Ballistics Forensics",
+		"Requirement": "1 Advance in both Logic (Investigation) and Ranged",
+		"Description": "Gain additional information on shooter and ballistics when using Logic (Investigation) on a scene.",
+		"Source": "Inquisitor Player's Guide"
+	},
+	{
+		"Name": "Blunt Force Authority",
+		"Requirement": "2 Advances in Presence (Intimidation)",
+		"Description": "Can decrease Subtlety by 1 to gain Advantage on Presence (Interrogation) or Presence (Intimidation) Tests or to gain +3 SL on any Rapport Tests using Influence.",
+		"Source": "Inquisitor Player's Guide"
+	},
+	{
+		"Name": "Clandestine",
+		"Requirement": "2 Advances in both Rapport and Presence",
+		"Description": "While party's Subtlety is at Suspiscious, Overt or below, spend 1 Fate Point to make it Covert for yourself for a day.",
+		"Source": "Inquisitor Player's Guide"
+	},
+	{
+		"Name": "Condemnor's Boon",
+		"Requirement": "Willpower 40, Psyker Talent or Condemn The Witch Talent",
+		"Description": "Gain Advantage when using Deny The Witch!. Can be taken two additional times to increase range by one Step each time.",
+		"Source": "Inquisitor Player's Guide"
+	},
+	{
+		"Name": "Cult Infiltrator",
+		"Requirement": "2 Advances in both Discipline and Rapport",
+		"Description": "Gain 2 Corruption Points to be able to gain one of the following disguises : Heretek (+2 SL on Tech tests), Aristocrat (+2 SL on Rapport Tests when interacting with people you know well), Tolerant (Advantage on Tests to resist drugs and poisons) or Tainted (Infiltrate chaos cults). Can be taken multiple times.",
+		"Source": "Inquisitor Player's Guide"
+	},
+	{
+		"Name": "Cypherist",
+		"Requirement": "2 Advances in both Linguistics (Cypher) and Logic",
+		"Description": "Gain Advantage on Tests to recognise or decipher symbols, marks and secret codes.",
+		"Source": "Inquisitor Player's Guide"
+	},
+	{
+		"Name": "Familiar Bonded",
+		"Requirement": "-",
+		"Description": "Bond with a Regular Familiar. Can be taken multiple times. Subsequent picks allow bonding with Cyber/Psyber-Familiars, then remaining types.",
+		"Source": "Inquisitor Player's Guide"
+	},
+	{
+		"Name": "Gut Instinct",
+		"Requirement": "2 Advances in Logic (Investigation)",
+		"Description": "Spend 1 Fate Point for a GM hint during an investigation or research.",
+		"Source": "Inquisitor Player's Guide"
+	},
+	{
+		"Name": "Hardened Suspicion",
+		"Requirement": "2 Advances in Awareness and Intuition",
+		"Description": "+1 SL on Awareness and Intuition Tests against xenos and Chaos-aligned creatures.",
+		"Source": "Inquisitor Player's Guide"
+	},
+	{
+		"Name": "Inspired Defiance",
+		"Requirement": "3 Advances in Discipline",
+		"Description": "Advantage on Fortitude and Discipline Tests against Corruption.",
+		"Source": "Inquisitor Player's Guide"
+	},
+	{
+		"Name": "Logical Liar",
+		"Requirement": "2 Advances in Logic",
+		"Description": "Spend 1 Fate Point to use Intelligence instead of Rapport for Deception Tests.",
+		"Source": "Inquisitor Player's Guide"
+	},
+	{
+		"Name": "Many Masks",
+		"Requirement": "2 Advances in Stealth (Disguise)",
+		"Description": "Advantage on Disguise Kit Tests. Additional picks grant 'Fall Guy' (burn disguise, reduce Subtlety loss) or 'Unmasked' (surprise in combat).",
+		"Source": "Inquisitor Player's Guide"
+	},
+	{
+		"Name": "Security Augur",
+		"Requirement": "3 Advances in Security (Tech)",
+		"Description": "Advantage on Tests to identify or interact with security systems. Additional pick allows erasing evidence of breaches.",
+		"Source": "Inquisitor Player's Guide"
+	},
+	{
+		"Name": "Shadow Operative",
+		"Requirement": "3 Advances in Stealth",
+		"Description": "Ignore Disadvantage on Stealth Tests due to Subtlety.",
+		"Source": "Inquisitor Player's Guide"
+	},
+	{
+		"Name": "Subtle Influencer",
+		"Requirement": "-",
+		"Description": "Negate first Subtlety loss when requisitioning aid from Factions.",
+		"Source": "Inquisitor Player's Guide"
+	},
+	{
+		"Name": "Subtle Mutation",
+		"Requirement": "-",
+		"Description": "Roll on Subtle Mutations Table for Positive and Negative Mutations. Can replace Corruption Mutations with Subtle Mutations.",
+		"Source": "Inquisitor Player's Guide"
+	},
+	{
+		"Name": "Subtle Psyker",
+		"Requirement": "Willpower 40, Psyker Talent, 3 Advances in Psychic Powers",
+		"Description": "Roll Psychic Phenomena with +10. Challenging Stealth Test to prevent Subtlety loss from psychic powers.",
+		"Source": "Inquisitor Player's Guide"
+	},
+	{
+		"Name": "Tainted Vessel",
+		"Requirement": "-",
+		"Description": "-1 SL on Fellowship Tests, Immune to Corruption Mutations, +1 SL on Awareness to detect daemonic entities, Immune to possession by the same daemon.",
+		"Source": "Inquisitor Player's Guide"
+	},
+	{
+		"Name": "Unwavering Will",
+		"Requirement": "Willpower 40, 2 Advances in Discipline",
+		"Description": "Spend 1 Fate Point to double Willpower Bonus for the encounter.",
+		"Source": "Inquisitor Player's Guide"
+	},
+	{
+		"Name": "You Didn't See Anything",
+		"Requirement": "2 Advances in Logic (Investigation), Stealth, or Tech (Security)",
+		"Description": "Negate Subtlety loss after encounters. Logic (Investigation) for physical evidence, Stealth for movement, Tech (Security) for device sabotage.",
+		"Source": "Inquisitor Player's Guide"
+	},
+	{
+		"Name": "Architectural Mind",
+		"Requirement": "2 Advances in Tech (Engineering)",
+		"Description": "In machine-heavy environments, you may use Tech (Engineering) instead of Navigation (Surface or Tracking). When searching architectural schematics or maps of such locations, you may use Tech (Engineering) instead of any Lore or Logic Test.",
+		"Source": "Adeptus Mechanicus Player's Guide"
+	},
+	{
+		"Name": "Battle Protocols",
+		"Requirement": "2 Advances in Tech (Automata)",
+		"Description": "Spend an Action to make a Challenging (+0) Tech (Automata) Test on a friendly Construct in immediate range. On success, choose one protocol active for SL turns (from end of current turn). Only one protocol may be active at a time. If the target is a Familiar, you may instead alter its Combat or Preservation Instincts. Aegis Protocol: Advantage on Defend or Overwatch Tests. Conqueror Protocol: Advantage on melee attacks. Protector Protocol: Advantage on ranged attacks.",
+		"Source": "Adeptus Mechanicus Player's Guide"
+	},
+	{
+		"Name": "Burden of Knowledge",
+		"Requirement": "2 Advances in Tech (Forbidden)",
+		"Description": "When making a Tech Test, after rolling but before resolving results, you may gain 1 Corruption to add your Advances in Tech (Forbidden) to the Test. This may be done multiple times for the same cost.",
+		"Source": "Adeptus Mechanicus Player's Guide"
+	},
+	{
+		"Name": "Cartogrammetrist",
+		"Requirement": "2 Advances in Navigation (Surface)",
+		"Description": "As an Endeavour, you may inload geophysical data for a single world. Gain Advantage on Navigation Tests regarding that world, Lore Tests about its physical features, and Piloting Tests within its atmosphere or surface. Inloading data for a new world deletes previous data.",
+		"Source": "Adeptus Mechanicus Player's Guide"
+	},
+	{
+		"Name": "Cognis Communion",
+		"Requirement": "2 Advances in Tech (Security)",
+		"Description": "When wielding a weapon with the Secrets of Mars Trait, you may use Tech instead of Weapon Skill.",
+		"Source": "Adeptus Mechanicus Player's Guide"
+	},
+	{
+		"Name": "Emotionless Clarity",
+		"Requirement": "Rite of Pure Thought Augmetic",
+		"Description": "When attempting to learn something through conversation, you may use Logic instead of Intuition or Rapport.",
+		"Source": "Adeptus Mechanicus Player's Guide"
+	},
+	{
+		"Name": "Faithful (Cult of Mars)",
+		"Requirement": "Adeptus Mechanicus OR +2 Adeptus Mechanicus Influence OR 2 Advances in Lore (Theology – Cult Mechanicus)",
+		"Description": "Once per session, when making a Test related to your faith, you may add your Willpower Bonus as SL.",
+		"Source": "Adeptus Mechanicus Player's Guide"
+	},
+	{
+		"Name": "Field Biologis",
+		"Requirement": "2 Advances in Tech (Biologis)",
+		"Description": "You may use Tech (Biologis) to heal Constructs with biological components. The Difficulty cannot exceed Challenging (+0). On a Critical Success, the construct gains Advantage on Tests until the end of the scene.",
+		"Source": "Adeptus Mechanicus Player's Guide"
+	},
+	{
+		"Name": "Necromechanic",
+		"Requirement": "2 Advances in Tech (Augmetics)",
+		"Description": "You may perform a necromechanical autopsy on cranial augmetics or destroyed machines. Make a Challenging (+0) Tech (Augmetics) Test to learn one piece of information about the subject’s demise. With 3+ SL, you may access an audio, sensory, or visual recording of the subject’s final moments.",
+		"Source": "Adeptus Mechanicus Player's Guide"
+	},
+	{
+		"Name": "Martian Pistoleer",
+		"Requirement": "1 Advance in Ranged (Pistol)",
+		"Description": "Increase the range of Pistols you wield by one step.",
+		"Source": "Adeptus Mechanicus Player's Guide"
+	},
+	{
+		"Name": "Opus Machina",
+		"Requirement": "2 Advances in Lore (Cult Mechanicus)",
+		"Description": "At the start of each in-game day, roll d100 and record the result. Once that day, replace the result of any d100 Tech Test (yours or a creature within medium range) with this value after the roll but before results are described. Advantage/Disadvantage still apply.",
+		"Source": "Adeptus Mechanicus Player's Guide"
+	},
+	{
+		"Name": "The Strength and Certainty of Steel",
+		"Requirement": "At least 6 Augments installed",
+		"Description": "Disadvantage on Intuition (People), Presence and Rapport Tests against non-Adeptus Mechanicus characters. Advantage on Group (Adeptus Mechanicus), Intuition (People), Presence and Rapport Tests against Adeptus Mechanicus or similarly augmented characters.",
+		"Source": "Adeptus Mechanicus Player's Guide"
+	},
+	{
+		"Name": "Skitarii Compliance Protocols",
+		"Requirement": "Transhuman Ideal Talent",
+		"Description": "Advantage on Discipline and Fortitude Tests. Disadvantage on Tests resisting orders from a superior Skitarii, Tech-Priest, or your Patron.",
+		"Source": "Adeptus Mechanicus Player's Guide"
+	},
+	{
+		"Name": "Skit-Code Discipline",
+		"Requirement": "Transhuman Ideal Talent, 1 Advance in Discipline",
+		"Description": "Advantage on Tests to resist the Frightened Condition. Gain +1 SL to Discipline Tests for each ally with this Talent in the same Zone. Combat communications cannot be understood outside the Adeptus Mechanicus. Can be bought again so you may act immediately after an ally with this Talent in Initiative and gain +1 SL to all Tests",
+		"Source": "Adeptus Mechanicus Player's Guide"
+	},
+	{
+		"Name": "Techsorcist",
+		"Requirement": "1+ Influence with the Inquisition",
+		"Description": "Gain access to Tech (Forbidden). You can create hexagrammic wards (≈1000 solars, 1 hour). While worn or attached, the first Psychic Power targeting the bearer suffers Disadvantage and the ward burns out. It can be restored with 1 hour of prayer. You do not risk Corruption when using mechadendrites on minor sources of corruption.",
+		"Source": "Adeptus Mechanicus Player's Guide"
+	},
+	{
+		"Name": "Transhuman Ideal",
+		"Requirement": "Flesh is Weak Talent or Character Creation",
+		"Description": "Maximum number of Augmetics you may install equals triple your Toughness Bonus.",
+		"Source": "Adeptus Mechanicus Player's Guide"
+	},
+	{
+		"Name": "Transhuman Rapport",
+		"Requirement": "Intelligence 45, 2 Advances in Logic",
+		"Description": "When making a Rapport Test against an Adeptus Mechanicus character, you may use Logic (or an appropriate specialisation) instead.",
+		"Source": "Adeptus Mechanicus Player's Guide"
+	},
+	{
+		"Name": "Wasteland Stalker",
+		"Requirement": "1 Advance in Stealth",
+		"Description": "Gain +2 Armour while benefiting from Cover.",
+		"Source": "Adeptus Mechanicus Player's Guide"
+	},
+	{
+		"Name": "Xenotechnician's Benevolence",
+		"Requirement": "2 Advances in Tech (Xenos)",
+		"Description": "Choose a xenos species. During the next mission, Corruption from interacting with that species' technology is halved (rounded down). If you understand a Xenos machine's function, you may spend an Action and a Fate Point to activate, disrupt, or shut it down without a Test.",
+		"Source": "Adeptus Mechanicus Player's Guide"
+	},
+	{
+		"Name": "Electro-Priest Indoctrination",
+		"Requirement": "-",
+		"Description": "You are trained to capture, conserve and share the sacred Motive Force. When your Motive Force Charges are above half your Maximum Threshold, you gain +1 Armour (All Locations). You may spend 1 minute connected to a power source to increase your Motive Force Charges to your threshold, potentially deactivating the machine. You may also spend 1 minute connected to a power source to reduce your Motive Force Charges to 0, feeding it your stored energy and potentially powering it.",
+		"Source": "Adeptus Mechanicus Player's Guide"
+	},
+	{
+		"Name": "Corpuscarii Benedictions",
+		"Requirement": "Electro-Priest Indoctrination, You have no ‘Fulgurite’ named Talents",
+		"Description": "As a Free Action, you may touch an electronically powered device or machine and expend 1 Motive Force Charge. For the next round, creatures have Advantage on any Tech or Piloting Test attempted on or while using the device.",
+		"Source": "Adeptus Mechanicus Player's Guide"
+	},
+	{
+		"Name": "Corpuscarii Mastery",
+		"Requirement": "Electro-Priest Indoctrination, You have no ‘Fulgurite’ named Talents",
+		"Description": "You may activate electronically powered devices and vehicles you touch. Make a Fortitude (Endurance) Test as an Action, with Difficulty based on the target’s size. On success, the machine activates and you expend Motive Force Charges based on its size. You cannot activate devices requiring more Charges than you currently have.",
+		"Source": "Adeptus Mechanicus Player's Guide"
+	},
+	{
+		"Name": "Fulgurite Hex",
+		"Requirement": "Electro-Priest Indoctrination, You have no ‘Corpuscarii’ named Talents",
+		"Description": "As a Free Action, you may touch an electronically powered device and gain 1 Motive Force Charge. For the next round, creatures have Disadvantage on any Tech or Piloting Test attempted using the device.",
+		"Source": "Adeptus Mechanicus Player's Guide"
+	},
+	{
+		"Name": "Fulgurite Mastery",
+		"Requirement": "Electro-Priest Indoctrination, You have no ‘Corpuscarii’ named Talents",
+		"Description": "You may shut down electronically powered devices and vehicles you touch. Make a Fortitude (Endurance) Test as an Action, with Difficulty based on the target’s size. On success, the machine shuts down and you gain Motive Force Charges based on its size. You cannot use this Talent if doing so would exceed your maximum threshold.",
+		"Source": "Adeptus Mechanicus Player's Guide"
+	}
 ]

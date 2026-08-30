@@ -1,106 +1,106 @@
 [
-  {
-    "name": "Auto-coagulant Injector",
-    "cost": 75,
-    "availability": "Common",
-    "encumbrance": 0,
-    "effect": "Requires an Easy (+40) Medicae Test to administer. If successful, removes the Bleeding Condition from the recipient. The Bleeding Condition returns within 3 hours if proper medicae treatment is not received.",
-    "source": "Macharian Requisition Guide"
-  },
-  {
-    "name": "Body Bag",
-    "cost": 10,
-    "availability": "Common",
-    "encumbrance": 1,
-    "effect": "Environmentally sealed to isolate the dead (and any disease or toxins) from the living. Allows safe transport of corpses to medical or processing facilities. Advanced versions with preservatives can keep a corpse intact for up to a decade.",
-    "source": "Macharian Requisition Guide"
-  },
-  {
-    "name": "Combat Diagnostor",
-    "cost": 2200,
-    "availability": "Exotic",
-    "encumbrance": 1,
-    "effect": "Functions as a Diagnostor but worn on the forearm. Provides +2 Armour to the arm it is worn on, which can be incorporated into existing armour. Grants battlefield diagnostics, vital sign monitoring, and micro-surgery tools. Breaks if that arm’s Armour is reduced to 0.",
-    "source": "Macharian Requisition Guide"
-  },
-  {
-    "name": "Officio Medicae Medipack",
-    "cost": 600,
-    "availability": "Scarce",
-    "encumbrance": 1,
-    "effect": "Contains standard medicae tools and drugs, including one Injector, and doses of De-tox and Hyper-coagulant. Grants the bearer +1 SL on any Medicae Test.",
-    "source": "Macharian Requisition Guide"
-  },
-  {
-    "name": "Militarum Issue Medipack",
-    "cost": 750,
-    "availability": "Rare",
-    "encumbrance": 1,
-    "effect": "Contains enhanced medicae tools including an Injector, Microfauna Inhibitor Spray, and doses of Adrenaline Shot, De-tox, Hyper-coagulant, and Stimm. Grants the bearer +2 SL on any Medicae Test.",
-    "source": "Macharian Requisition Guide"
-  },
-  {
-    "name": "Hospitaller Medipack",
-    "cost": 1000,
-    "availability": "Exotic",
-    "encumbrance": 1,
-    "effect": "Includes multiple Injectors, sacred medicae supplies, and doses of Adrenaline Shot, De-tox, Hyper-coagulant, and Stimm. Grants the bearer +2 SL on any Medicae Test. In addition, any patient treated gains +1 SL on Fortitude Tests for 1 hour.",
-    "source": "Macharian Requisition Guide"
-  },
-  {
-    "name": "Adrenaline Shot",
-    "cost": 10,
-    "availability": "Common",
-    "encumbrance": 0,
-    "effect": "When administered, immediately removes the Stunned Condition and allows the bearer to ignore the Fatigued Condition for 1 hour.",
-    "source": "Macharian Requisition Guide"
-  },
-  {
-    "name": "De-tox",
-    "cost": 30,
-    "availability": "Common",
-    "encumbrance": 0,
-    "effect": "Removes the Poisoned Condition and counters effects of other drugs. May cause side effects (vomiting, nosebleeds, cramps). Requires a Challenging (+0) Toughness Test or the bearer becomes Stunned for 1d10 minutes.",
-    "source": "Macharian Requisition Guide"
-  },
-  {
-    "name": "Hyper-coagulant",
-    "cost": 20,
-    "availability": "Common",
-    "encumbrance": 0,
-    "effect": "Immediately removes the Bleeding Condition. The Bleeding Condition returns within 3 hours if further medicae attention is not received.",
-    "source": "Macharian Requisition Guide"
-  },
-  {
-    "name": "Meta-regulant",
-    "cost": 30,
-    "availability": "Scarce",
-    "encumbrance": 0,
-    "effect": "When administered, the bearer gains +2 SL on Medicae Tests made on them for the next hour, but suffers –2 SL on any Fortitude Tests during that time.",
-    "source": "Macharian Requisition Guide"
-  },
-  {
-    "name": "Stimm",
-    "cost": 40,
-    "availability": "Common",
-    "encumbrance": 0,
-    "effect": "When administered, the bearer ignores the effects of Critical Wounds and Injuries for 1d10 rounds + their Toughness Bonus. Commonly used to push soldiers through firefights at the cost of collapse later.",
-    "source": "Macharian Requisition Guide"
-  },
-  {
-    "name": "Suspension Vat (Biochemical)",
-    "cost": 10000,
-    "availability": "Exotic",
-    "encumbrance": 5,
-    "effect": "Counts as Excellent Quality Medical Care. Capable of preserving a body in biochemical amniotic stasis. Can bring someone back from near death within days and extend lifespan seemingly by decades. Requires constant monitoring.",
-    "source": "Macharian Requisition Guide"
-  },
-  {
-    "name": "Suspension Vat (Cryogenic)",
-    "cost": 8000,
-    "availability": "Exotic",
-    "encumbrance": 5,
-    "effect": "Counts as Excellent Quality Medical Care. Preserves a body in cryogenic suspension for months or years. Can treat wounds and injuries, though recovery is slower than biochemical vats. Requires daily monitoring and immense energy.",
-    "source": "Macharian Requisition Guide"
-  }
+	{
+		"name": "Auto-coagulant Injector",
+		"cost": 75,
+		"availability": "Common",
+		"encumbrance": 0,
+		"effect": "Requires an Easy (+40) Medicae Test to administer. If successful, removes the Bleeding Condition from the recipient. The Bleeding Condition returns within 3 hours if proper medicae treatment is not received.",
+		"source": "Macharian Requisition Guide"
+	},
+	{
+		"name": "Body Bag",
+		"cost": 10,
+		"availability": "Common",
+		"encumbrance": 1,
+		"effect": "Environmentally sealed to isolate the dead (and any disease or toxins) from the living. Allows safe transport of corpses to medical or processing facilities. Advanced versions with preservatives can keep a corpse intact for up to a decade.",
+		"source": "Macharian Requisition Guide"
+	},
+	{
+		"name": "Combat Diagnostor",
+		"cost": 2200,
+		"availability": "Exotic",
+		"encumbrance": 1,
+		"effect": "Functions as a Diagnostor but worn on the forearm. Provides +2 Armour to the arm it is worn on, which can be incorporated into existing armour. Grants battlefield diagnostics, vital sign monitoring, and micro-surgery tools. Breaks if that arm’s Armour is reduced to 0.",
+		"source": "Macharian Requisition Guide"
+	},
+	{
+		"name": "Officio Medicae Medipack",
+		"cost": 600,
+		"availability": "Scarce",
+		"encumbrance": 1,
+		"effect": "Contains standard medicae tools and drugs, including one Injector, and doses of De-tox and Hyper-coagulant. Grants the bearer +1 SL on any Medicae Test.",
+		"source": "Macharian Requisition Guide"
+	},
+	{
+		"name": "Militarum Issue Medipack",
+		"cost": 750,
+		"availability": "Rare",
+		"encumbrance": 1,
+		"effect": "Contains enhanced medicae tools including an Injector, Microfauna Inhibitor Spray, and doses of Adrenaline Shot, De-tox, Hyper-coagulant, and Stimm. Grants the bearer +2 SL on any Medicae Test.",
+		"source": "Macharian Requisition Guide"
+	},
+	{
+		"name": "Hospitaller Medipack",
+		"cost": 1000,
+		"availability": "Exotic",
+		"encumbrance": 1,
+		"effect": "Includes multiple Injectors, sacred medicae supplies, and doses of Adrenaline Shot, De-tox, Hyper-coagulant, and Stimm. Grants the bearer +2 SL on any Medicae Test. In addition, any patient treated gains +1 SL on Fortitude Tests for 1 hour.",
+		"source": "Macharian Requisition Guide"
+	},
+	{
+		"name": "Adrenaline Shot",
+		"cost": 10,
+		"availability": "Common",
+		"encumbrance": 0,
+		"effect": "When administered, immediately removes the Stunned Condition and allows the bearer to ignore the Fatigued Condition for 1 hour.",
+		"source": "Macharian Requisition Guide"
+	},
+	{
+		"name": "De-tox",
+		"cost": 30,
+		"availability": "Common",
+		"encumbrance": 0,
+		"effect": "Removes the Poisoned Condition and counters effects of other drugs. May cause side effects (vomiting, nosebleeds, cramps). Requires a Challenging (+0) Toughness Test or the bearer becomes Stunned for 1d10 minutes.",
+		"source": "Macharian Requisition Guide"
+	},
+	{
+		"name": "Hyper-coagulant",
+		"cost": 20,
+		"availability": "Common",
+		"encumbrance": 0,
+		"effect": "Immediately removes the Bleeding Condition. The Bleeding Condition returns within 3 hours if further medicae attention is not received.",
+		"source": "Macharian Requisition Guide"
+	},
+	{
+		"name": "Meta-regulant",
+		"cost": 30,
+		"availability": "Scarce",
+		"encumbrance": 0,
+		"effect": "When administered, the bearer gains +2 SL on Medicae Tests made on them for the next hour, but suffers –2 SL on any Fortitude Tests during that time.",
+		"source": "Macharian Requisition Guide"
+	},
+	{
+		"name": "Stimm",
+		"cost": 40,
+		"availability": "Common",
+		"encumbrance": 0,
+		"effect": "When administered, the bearer ignores the effects of Critical Wounds and Injuries for 1d10 rounds + their Toughness Bonus. Commonly used to push soldiers through firefights at the cost of collapse later.",
+		"source": "Macharian Requisition Guide"
+	},
+	{
+		"name": "Suspension Vat (Biochemical)",
+		"cost": 10000,
+		"availability": "Exotic",
+		"encumbrance": 5,
+		"effect": "Counts as Excellent Quality Medical Care. Capable of preserving a body in biochemical amniotic stasis. Can bring someone back from near death within days and extend lifespan seemingly by decades. Requires constant monitoring.",
+		"source": "Macharian Requisition Guide"
+	},
+	{
+		"name": "Suspension Vat (Cryogenic)",
+		"cost": 8000,
+		"availability": "Exotic",
+		"encumbrance": 5,
+		"effect": "Counts as Excellent Quality Medical Care. Preserves a body in cryogenic suspension for months or years. Can treat wounds and injuries, though recovery is slower than biochemical vats. Requires daily monitoring and immense energy.",
+		"source": "Macharian Requisition Guide"
+	}
 ]

@@ -1,20 +1,20 @@
 {
-  "name": "Plasma Torch Profile",
-  "specialisation": "Brawling",
-  "damage": 4,
-  "bonus": "WilB",
-  "encumbrance": 0,
-  "traits": [
-    {
-      "name": "Inflict",
-      "value": "Ablaze"
-    },
-    {
-      "name": "Loud"
-    },
-    {
-      "name": "Rend",
-      "value": "WilB"
-    }
-  ]
+	"name": "Plasma Torch Profile",
+	"specialisation": "Brawling",
+	"damage": 4,
+	"bonus": "WilB",
+	"encumbrance": 0,
+	"traits": [
+		{
+			"name": "Inflict",
+			"value": "Ablaze"
+		},
+		{
+			"name": "Loud"
+		},
+		{
+			"name": "Rend",
+			"value": "WilB"
+		}
+	]
 }

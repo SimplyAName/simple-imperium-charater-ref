@@ -1,732 +1,732 @@
 [
-  {
-    "Name": "Chainaxe",
-    "Specialisation": "One-handed",
-    "Damage": "3+StrB",
-    "Encumbrance": "1",
-    "Cost": "600",
-    "Availability": "Rare",
-    "Traits": "Loud, Rend (3)",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Chainsword",
-    "Specialisation": "One-handed",
-    "Damage": "3+StrB",
-    "Encumbrance": "1",
-    "Cost": "500",
-    "Availability": "Scarce",
-    "Traits": "Loud, Rend (2)",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Eviscerator",
-    "Specialisation": "Two-handed",
-    "Damage": "5+StrB",
-    "Encumbrance": "3",
-    "Cost": "800",
-    "Availability": "Rare",
-    "Traits": "Heavy (4), Loud, Rend (4), Two-handed",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Force Staff",
-    "Specialisation": "Two-handed",
-    "Damage": "1+StrB",
-    "Encumbrance": "2",
-    "Cost": "7000",
-    "Availability": "Exotic",
-    "Traits": "Defensive, Two-handed",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Force Sword",
-    "Specialisation": "One-handed",
-    "Damage": "2+StrB",
-    "Encumbrance": "1",
-    "Cost": "8000",
-    "Availability": "Exotic",
-    "Traits": "-",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Axe",
-    "Specialisation": "One-handed",
-    "Damage": "2+StrB",
-    "Encumbrance": "1",
-    "Cost": "80",
-    "Availability": "Common",
-    "Traits": "Rend (1)",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Brass Knuckles",
-    "Specialisation": "Brawling",
-    "Damage": "0+StrB",
-    "Encumbrance": "0",
-    "Cost": "30",
-    "Availability": "Common",
-    "Traits": "Subtle",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Flail",
-    "Specialisation": "Two-handed",
-    "Damage": "3+StrB",
-    "Encumbrance": "2",
-    "Cost": "200",
-    "Availability": "Common",
-    "Traits": "Heavy (3), Two-handed",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Great Weapon",
-    "Specialisation": "Two-handed",
-    "Damage": "4+StrB",
-    "Encumbrance": "2",
-    "Cost": "300",
-    "Availability": "Scarce",
-    "Traits": "Heavy (4), Two-handed",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Hammer",
-    "Specialisation": "One-handed",
-    "Damage": "2+StrB",
-    "Encumbrance": "1",
-    "Cost": "25",
-    "Availability": "Common",
-    "Traits": "-",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Improvised (One-handed)",
-    "Specialisation": "One-handed",
-    "Damage": "1+StrB",
-    "Encumbrance": "1",
-    "Cost": "-",
-    "Availability": "-",
-    "Traits": "Ineffective",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Improvised (Two-handed)",
-    "Specialisation": "Two-handed",
-    "Damage": "2+StrB",
-    "Encumbrance": "3",
-    "Cost": "-",
-    "Availability": "-",
-    "Traits": "Ineffective, Two-handed",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Knife",
-    "Specialisation": "One-handed",
-    "Damage": "0+StrB",
-    "Encumbrance": "0",
-    "Cost": "50",
-    "Availability": "Common",
-    "Traits": "Subtle, Thrown (Short)",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Staff",
-    "Specialisation": "Two-handed",
-    "Damage": "1+StrB",
-    "Encumbrance": "2",
-    "Cost": "25",
-    "Availability": "Common",
-    "Traits": "Defensive, Two-handed",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Sword",
-    "Specialisation": "One-handed",
-    "Damage": "2+StrB",
-    "Encumbrance": "1",
-    "Cost": "150",
-    "Availability": "Common",
-    "Traits": "-",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Unarmed",
-    "Specialisation": "Brawling",
-    "Damage": "0+StrB",
-    "Encumbrance": "0",
-    "Cost": "-",
-    "Availability": "-",
-    "Traits": "Ineffective",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Whip",
-    "Specialisation": "One-handed",
-    "Damage": "0+StrB",
-    "Encumbrance": "1",
-    "Cost": "60",
-    "Availability": "Scarce",
-    "Traits": "Loud, Reach",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Electro-Flail",
-    "Specialisation": "One-handed",
-    "Damage": "0+StrB",
-    "Encumbrance": "1",
-    "Cost": "500",
-    "Availability": "Scarce",
-    "Traits": "Loud, Reach, Inflict (Stunned)",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Shock Maul",
-    "Specialisation": "One-handed",
-    "Damage": "2+StrB",
-    "Encumbrance": "1",
-    "Cost": "250",
-    "Availability": "Scarce",
-    "Traits": "Loud, Inflict (Stunned)",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Power Axe",
-    "Specialisation": "Two-handed",
-    "Damage": "6+StrB",
-    "Encumbrance": "2",
-    "Cost": "3400",
-    "Availability": "Rare",
-    "Traits": "Heavy (4), Penetrating (6), Two-handed",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Power Fist",
-    "Specialisation": "Brawling",
-    "Damage": "6+StrB",
-    "Encumbrance": "2",
-    "Cost": "4000",
-    "Availability": "Rare",
-    "Traits": "Heavy (4), Penetrating (6)",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Power Knife",
-    "Specialisation": "One-handed",
-    "Damage": "2+StrB",
-    "Encumbrance": "1",
-    "Cost": "2000",
-    "Availability": "Rare",
-    "Traits": "Penetrating (2), Subtle, Thrown (Short)",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Power Maul",
-    "Specialisation": "One-handed",
-    "Damage": "5+StrB",
-    "Encumbrance": "1",
-    "Cost": "3000",
-    "Availability": "Rare",
-    "Traits": "Penetrating (2)",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Power Sword",
-    "Specialisation": "One-handed",
-    "Damage": "4+StrB",
-    "Encumbrance": "1",
-    "Cost": "3000",
-    "Availability": "Rare",
-    "Traits": "Penetrating (4)",
-    "Source": "Core Rulebook"
-  },
-  {
-    "Name": "Blink-Blade",
-    "Specialisation": "One-handed",
-    "Damage": "3+StrB",
-    "Encumbrance": "1",
-    "Cost": "8000",
-    "Availability": "Exotic",
-    "Traits": "Penetrating (2)",
-    "Source": "Inquisitor Player's Guide"
-  },
-  {
-    "Name": "Scythian Venom Talon",
-    "Specialisation": "One-handed",
-    "Damage": "2+StrB",
-    "Encumbrance": "1",
-    "Cost": "5000",
-    "Availability": "Exotic",
-    "Traits": "Inflict (Poisoned), Inflict (Bleeding)",
-    "Source": "Inquisitor Player's Guide"
-  },
-  {
-    "Name": "Duelling Glaive",
-    "Specialisation": "Two-handed",
-    "Damage": "5+StrB",
-    "Encumbrance": "2",
-    "Cost": "1000",
-    "Availability": "Rare",
-    "Traits": "Defensive, Reach, Two-handed",
-    "Source": "Inquisitor Player's Guide"
-  },
-  {
-    "Name": "Daemonhammer",
-    "Specialisation": "One-handed",
-    "Damage": "5+StrB",
-    "Encumbrance": "1",
-    "Cost": "150000",
-    "Availability": "Exotic",
-    "Traits": "-",
-    "Source": "Inquisitor Player's Guide"
-  },
-  {
-    "Name": "Daemonhammer",
-    "Specialisation": "Two-handed",
-    "Damage": "6+StrB",
-    "Encumbrance": "2",
-    "Cost": "200000",
-    "Availability": "Exotic",
-    "Traits": "Heavy (4), Two-handed",
-    "Source": "Inquisitor Player's Guide"
-  },
-  {
-    "Name": "Nemesis Daemonhammer",
-    "Specialisation": "One-handed",
-    "Damage": "5+StrB",
-    "Encumbrance": "1",
-    "Cost": "250000",
-    "Availability": "Exotic",
-    "Traits": "Penetrating (2)",
-    "Source": "Inquisitor Player's Guide"
-  },
-  {
-    "Name": "Nemesis Daemonhammer",
-    "Specialisation": "Two-handed",
-    "Damage": "6+StrB",
-    "Encumbrance": "2",
-    "Cost": "300000",
-    "Availability": "Exotic",
-    "Traits": "Heavy (4), Penetrating (2), Two-handed",
-    "Source": "Inquisitor Player's Guide"
-  },
-  {
-    "Name": "Truename Staff",
-    "Specialisation": "Two-handed",
-    "Damage": "2+StrB",
-    "Encumbrance": "2",
-    "Cost": "200000",
-    "Availability": "Exotic",
-    "Traits": "Defensive, Two-handed",
-    "Source": "Inquisitor Player's Guide"
-  },
-  {
-    "Name": "Null Rod",
-    "Specialisation": "Two-handed",
-    "Damage": "1+StrB",
-    "Encumbrance": "2",
-    "Cost": "150000",
-    "Availability": "Rare",
-    "Traits": "Defensive, Two-handed",
-    "Source": "Inquisitor Player's Guide"
-  },
-  {
-    "Name": "Aeldari Power Sword",
-    "Specialisation": "One-handed",
-    "Damage": "4+StrB or 4+AgB",
-    "Encumbrance": "1",
-    "Cost": "150000",
-    "Availability": "Exotic",
-    "Traits": "Penetrating (4)",
-    "Source": "Inquisitor Player's Guide"
-  },
-  {
-    "Name": "Executioner Greatblade",
-    "Specialisation": "Two-handed",
-    "Damage": "5+StrB",
-    "Encumbrance": "2",
-    "Cost": "150000",
-    "Availability": "Exotic",
-    "Traits": "Defensive, Heavy (4), Two-handed, Penetrating (4)",
-    "Source": "Inquisitor Player's Guide"
-  },
-  {
-    "Name": "Power Stake",
-    "Specialisation": "Two-handed",
-    "Damage": "4+StrB",
-    "Encumbrance": "2",
-    "Cost": "10000",
-    "Availability": "Rare",
-    "Traits": "Two-handed, Penetrating (4)",
-    "Source": "Inquisitor Player's Guide"
-  },
-  {
-    "Name": "Xenophase Blade",
-    "Specialisation": "One-handed",
-    "Damage": "4+StrB",
-    "Encumbrance": "1",
-    "Cost": "500000",
-    "Availability": "Exotic",
-    "Traits": "Penetrating (4 or X)",
-    "Source": "Inquisitor Player's Guide"
-  },
-  {
-    "Name": "Daemonblade",
-    "Specialisation": "Two-handed",
-    "Damage": "5+StrB",
-    "Encumbrance": "2",
-    "Cost": "1000000",
-    "Availability": "Exotic",
-    "Traits": "Depends on specific Daemonblade",
-    "Source": "Inquisitor Player's Guide"
-  },
-  {
-    "Name": "Tainted Blade",
-    "Specialisation": "One-handed",
-    "Damage": "4+StrB",
-    "Encumbrance": "1",
-    "Cost": "1000000",
-    "Availability": "Exotic",
-    "Traits": "Rend (4)",
-    "Source": "Inquisitor Player's Guide"
-  },
-  {
-    "Name": "Tran’lo ‘Burnout’ Chainsword",
-    "Specialisation": "One-handed",
-    "Damage": "3+StrB",
-    "Encumbrance": "1",
-    "Cost": "650",
-    "Availability": "Rare",
-    "Traits": "Loud, Rend (2)",
-    "Source": "Macharian Requisition Guide"
-  },
-  {
-    "Name": "Viridan Mk II Chain Halberd",
-    "Specialisation": "Two-handed",
-    "Damage": "5+StrB",
-    "Encumbrance": "4",
-    "Cost": "1200",
-    "Availability": "Rare",
-    "Traits": "Heavy (4), Loud, Reach, Rend (4), Two-handed",
-    "Source": "Macharian Requisition Guide"
-  },
-  {
-    "Name": "Death World Combat Blade",
-    "Specialisation": "One-handed",
-    "Damage": "2+StrB",
-    "Encumbrance": "1",
-    "Cost": "250",
-    "Availability": "Scarce",
-    "Traits": "Heavy (3), Penetrating (1), Reliable",
-    "Source": "Macharian Requisition Guide"
-  },
-  {
-    "Name": "Death World Combat Blade",
-    "Specialisation": "Two-handed",
-    "Damage": "3+StrB",
-    "Encumbrance": "1",
-    "Cost": "250",
-    "Availability": "Scarce",
-    "Traits": "Heavy (3), Penetrating (2), Reliable, Two-handed",
-    "Source": "Macharian Requisition Guide"
-  },
-  {
-    "Name": "Heavy Lascutter",
-    "Specialisation": "Two-handed",
-    "Damage": "6+StrB",
-    "Encumbrance": "3",
-    "Cost": "3000",
-    "Availability": "Rare",
-    "Traits": "Heavy (4), Loud, Penetrating (4), Two-handed",
-    "Source": "Macharian Requisition Guide"
-  },
-  {
-    "Name": "Heavy Rock Cutter",
-    "Specialisation": "Two-handed",
-    "Damage": "6+StrB",
-    "Encumbrance": "5",
-    "Cost": "5000",
-    "Availability": "Scarce",
-    "Traits": "Heavy (4), Loud, Penetrating (5), Rend (3), Two-handed",
-    "Source": "Macharian Requisition Guide"
-  },
-  {
-    "Name": "Heavy Rock Drill",
-    "Specialisation": "Two-handed",
-    "Damage": "6+StrB",
-    "Encumbrance": "5",
-    "Cost": "4000",
-    "Availability": "Scarce",
-    "Traits": "Heavy (4), Loud, Rend (5), Two-handed",
-    "Source": "Macharian Requisition Guide"
-  },
-  {
-    "Name": "Heavy Rock Saw",
-    "Specialisation": "Two-handed",
-    "Damage": "4+StrB",
-    "Encumbrance": "3",
-    "Cost": "3500",
-    "Availability": "Scarce",
-    "Traits": "Bulky, Heavy (4), Loud, Rend (4), Two-handed",
-    "Source": "Macharian Requisition Guide"
-  },
-  {
-    "Name": "Servo Claw",
-    "Specialisation": "Brawling",
-    "Damage": "4+StrB",
-    "Encumbrance": "1",
-    "Cost": "1000",
-    "Availability": "Scarce",
-    "Traits": "Heavy (4), Penetrating (4)",
-    "Source": "Macharian Requisition Guide"
-  },
-  {
-    "Name": "Staff of Office",
-    "Specialisation": "Two-handed",
-    "Damage": "2+StrB",
-    "Encumbrance": "2",
-    "Cost": "8000",
-    "Availability": "Exotic",
-    "Traits": "Defensive, Ornamental, Two-handed",
-    "Source": "Macharian Requisition Guide"
-  },
-  {
-    "Name": "Compliance Pattern Power Maul",
-    "Specialisation": "One-handed",
-    "Damage": "5+StrB",
-    "Encumbrance": "1",
-    "Cost": "5000",
-    "Availability": "Rare",
-    "Traits": "Heavy (4), Penetrating (3), Two-handed",
-    "Source": "Macharian Requisition Guide"
-  },
-  {
-    "Name": "Macharian Regimental Power Sword",
-    "Specialisation": "One-handed",
-    "Damage": "4+StrB",
-    "Encumbrance": "1",
-    "Cost": "10000",
-    "Availability": "Exotic",
-    "Traits": "Master-crafted, Ornamental, Penetrating (4)",
-    "Source": "Macharian Requisition Guide"
-  },
-  {
-    "Name": "Mortis Alpha Ceremonial Blade",
-    "Specialisation": "Two-handed",
-    "Damage": "6+StrB",
-    "Encumbrance": "2",
-    "Cost": "11000",
-    "Availability": "Exotic",
-    "Traits": "Durable, Master-crafted, Ornamental, Penetrating (4)",
-    "Source": "Macharian Requisition Guide"
-  },
-  {
-    "Name": "Shock Knuckles",
-    "Specialisation": "Brawling",
-    "Damage": "0+StrB",
-    "Encumbrance": "0",
-    "Cost": "1000",
-    "Availability": "Rare",
-    "Traits": "Inflict (Stunned), Loud, Subtle",
-    "Source": "Macharian Requisition Guide"
-  },
-  {
-    "Name": "Shock Staff",
-    "Specialisation": "Two-handed",
-    "Damage": "1+StrB",
-    "Encumbrance": "2",
-    "Cost": "150",
-    "Availability": "Common",
-    "Traits": "Defensive, Inflict (Stunned), Loud, Two-handed",
-    "Source": "Macharian Requisition Guide"
-  },
-  {
-    "Name": "Skitarii Cavalry Arc Maul",
-    "Specialisation": "One-handed",
-    "Damage": "4+StrB",
-    "Encumbrance": "1",
-    "Cost": "5000",
-    "Availability": "Rare",
-    "Traits": "Inflict (Stunned), Secret of Mars",
-    "Source": "Adeptus Mechanicus Player's Guide"
-  },
-  {
-    "Name": "Skitarii Cavalry Sabre",
-    "Specialisation": "One-handed",
-    "Damage": "5+StrB",
-    "Encumbrance": "1",
-    "Cost": "3000",
-    "Availability": "Scarce",
-    "Traits": "Penetrating (3), Secret of Mars",
-    "Source": "Adeptus Mechanicus Player's Guide"
-  },
-  {
-    "Name": "Skitarii Taser Lance",
-    "Specialisation": "One-handed",
-    "Damage": "4+StrB",
-    "Encumbrance": "2",
-    "Cost": "5000",
-    "Availability": "Rare",
-    "Traits": "Heavy (3), Inflict (Stunned), Reach, Secret of Mars",
-    "Source": "Adeptus Mechanicus Player's Guide"
-  },
-  {
-    "Name": "Electrostatic Gauntlets",
-    "Specialisation": "Brawling",
-    "Damage": "6+StrB",
-    "Encumbrance": "2",
-    "Cost": "4000",
-    "Availability": "Exotic",
-    "Traits": "Inflict (Stunned), Reach, Secret of Mars",
-    "Source": "Adeptus Mechanicus Player's Guide"
-  },
-  {
-    "Name": "Electroleech Stave",
-    "Specialisation": "Two-handed",
-    "Damage": "4+StrB",
-    "Encumbrance": "3",
-    "Cost": "4000",
-    "Availability": "Exotic",
-    "Traits": "Defensive, Inflict (Stunned), Secret of Mars",
-    "Source": "Adeptus Mechanicus Player's Guide"
-  },
-  {
-    "Name": "Omnissian Axe (One-Handed)",
-    "Specialisation": "One-handed",
-    "Damage": "4+StrB",
-    "Encumbrance": "1",
-    "Cost": "4000",
-    "Availability": "Exotic",
-    "Traits": "Master Crafted, Ornamental, Penetrating (4), Secret of Mars",
-    "Source": "Adeptus Mechanicus Player's Guide"
-  },
-  {
-    "Name": "Omnissian Axe (Two-Handed)",
-    "Specialisation": "Two-handed",
-    "Damage": "6+StrB",
-    "Encumbrance": "3",
-    "Cost": "6000",
-    "Availability": "Exotic",
-    "Traits": "Heavy (3), Master Crafted, Ornamental, Penetrating (6), Two-handed, Secret of Mars",
-    "Source": "Adeptus Mechanicus Player's Guide"
-  },
-  {
-    "Name": "Omnissian Glaive",
-    "Specialisation": "Two-handed",
-    "Damage": "7+StrB",
-    "Encumbrance": "3",
-    "Cost": "6000",
-    "Availability": "Exotic",
-    "Traits": "Heavy (5), Master Crafted, Ornamental, Penetrating (6), Two-handed, Secret of Mars",
-    "Source": "Adeptus Mechanicus Player's Guide"
-  },
-  {
-    "Name": "Omnissian Rod",
-    "Specialisation": "Two-handed",
-    "Damage": "4+StrB",
-    "Encumbrance": "3",
-    "Cost": "10000",
-    "Availability": "Exotic",
-    "Traits": "Master Crafted, Ornamental, Penetrating (5), Two-handed, Secret of Mars",
-    "Source": "Adeptus Mechanicus Player's Guide"
-  },
-  {
-    "Name": "Transonic Blade",
-    "Specialisation": "One-handed",
-    "Damage": "3+StrB",
-    "Encumbrance": "2",
-    "Cost": "5000",
-    "Availability": "Rare",
-    "Traits": "Secret of Mars",
-    "Source": "Adeptus Mechanicus Player's Guide"
-  },
-  {
-    "Name": "Transonic Chordclaw",
-    "Specialisation": "Brawling",
-    "Damage": "3+StrB",
-    "Encumbrance": "2",
-    "Cost": "5000",
-    "Availability": "Rare",
-    "Traits": "Secret of Mars",
-    "Source": "Adeptus Mechanicus Player's Guide"
-  },
-  {
-    "Name": "Transonic Razor",
-    "Specialisation": "One-handed",
-    "Damage": "2+StrB",
-    "Encumbrance": "1",
-    "Cost": "4000",
-    "Availability": "Rare",
-    "Traits": "Lightweight, Secret of Mars",
-    "Source": "Adeptus Mechanicus Player's Guide"
-  },
-  {
-    "Name": "Breacher",
-    "Specialisation": "One-handed",
-    "Damage": "5+StrB",
-    "Encumbrance": "3",
-    "Cost": "7000",
-    "Availability": "Scarce",
-    "Traits": "Heavy (2), Loud, Rend (4), Secret of Mars",
-    "Source": "Adeptus Mechanicus Player's Guide"
-  },
-  {
-    "Name": "Control Stave",
-    "Specialisation": "One-handed",
-    "Damage": "3+StrB",
-    "Encumbrance": "1",
-    "Cost": "2000",
-    "Availability": "Exotic",
-    "Traits": "Defensive, Inflict (Stunned), Ornamental, Secret of Mars",
-    "Source": "Adeptus Mechanicus Player's Guide"
-  },
-  {
-    "Name": "Pteraxii Talons",
-    "Specialisation": "Brawling",
-    "Damage": "3+StrB",
-    "Encumbrance": "1",
-    "Cost": "2000",
-    "Availability": "Rare",
-    "Traits": "Inflict (Bleeding), Rend (4), Secret of Mars",
-    "Source": "Adeptus Mechanicus Player's Guide"
-  },
-  {
-    "Name": "Rod of Office",
-    "Specialisation": "One-handed",
-    "Damage": "2+StrB",
-    "Encumbrance": "1",
-    "Cost": "3000",
-    "Availability": "Exotic",
-    "Traits": "Defensive, Ornamental, Secret of Mars",
-    "Source": "Adeptus Mechanicus Player's Guide"
-  },
-  {
-    "Name": "Servo Arm",
-    "Specialisation": "Brawling",
-    "Damage": "6+StrB",
-    "Encumbrance": "2",
-    "Cost": "4000",
-    "Availability": "Rare",
-    "Traits": "Heavy (4), Loud, Penetrating, Reliable, Secret of Mars",
-    "Source": "Adeptus Mechanicus Player's Guide"
-  },
-  {
-    "Name": "Taser Goad",
-    "Specialisation": "One-handed",
-    "Damage": "2+StrB",
-    "Encumbrance": "1",
-    "Cost": "900",
-    "Availability": "Rare",
-    "Traits": "Inflict (Stunned), Loud, Defensive, Secret of Mars",
-    "Source": "Adeptus Mechanicus Player's Guide"
-  },
-  {
-    "Name": "Vivisector",
-    "Specialisation": "Brawling",
-    "Damage": "2+StrB",
-    "Encumbrance": "1",
-    "Cost": "10000",
-    "Availability": "Rare",
-    "Traits": "Master Crafted, Secret of Mars",
-    "Source": "Adeptus Mechanicus Player's Guide"
-  }
+	{
+		"Name": "Chainaxe",
+		"Specialisation": "One-handed",
+		"Damage": "3+StrB",
+		"Encumbrance": "1",
+		"Cost": "600",
+		"Availability": "Rare",
+		"Traits": "Loud, Rend (3)",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Chainsword",
+		"Specialisation": "One-handed",
+		"Damage": "3+StrB",
+		"Encumbrance": "1",
+		"Cost": "500",
+		"Availability": "Scarce",
+		"Traits": "Loud, Rend (2)",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Eviscerator",
+		"Specialisation": "Two-handed",
+		"Damage": "5+StrB",
+		"Encumbrance": "3",
+		"Cost": "800",
+		"Availability": "Rare",
+		"Traits": "Heavy (4), Loud, Rend (4), Two-handed",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Force Staff",
+		"Specialisation": "Two-handed",
+		"Damage": "1+StrB",
+		"Encumbrance": "2",
+		"Cost": "7000",
+		"Availability": "Exotic",
+		"Traits": "Defensive, Two-handed",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Force Sword",
+		"Specialisation": "One-handed",
+		"Damage": "2+StrB",
+		"Encumbrance": "1",
+		"Cost": "8000",
+		"Availability": "Exotic",
+		"Traits": "-",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Axe",
+		"Specialisation": "One-handed",
+		"Damage": "2+StrB",
+		"Encumbrance": "1",
+		"Cost": "80",
+		"Availability": "Common",
+		"Traits": "Rend (1)",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Brass Knuckles",
+		"Specialisation": "Brawling",
+		"Damage": "0+StrB",
+		"Encumbrance": "0",
+		"Cost": "30",
+		"Availability": "Common",
+		"Traits": "Subtle",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Flail",
+		"Specialisation": "Two-handed",
+		"Damage": "3+StrB",
+		"Encumbrance": "2",
+		"Cost": "200",
+		"Availability": "Common",
+		"Traits": "Heavy (3), Two-handed",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Great Weapon",
+		"Specialisation": "Two-handed",
+		"Damage": "4+StrB",
+		"Encumbrance": "2",
+		"Cost": "300",
+		"Availability": "Scarce",
+		"Traits": "Heavy (4), Two-handed",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Hammer",
+		"Specialisation": "One-handed",
+		"Damage": "2+StrB",
+		"Encumbrance": "1",
+		"Cost": "25",
+		"Availability": "Common",
+		"Traits": "-",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Improvised (One-handed)",
+		"Specialisation": "One-handed",
+		"Damage": "1+StrB",
+		"Encumbrance": "1",
+		"Cost": "-",
+		"Availability": "-",
+		"Traits": "Ineffective",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Improvised (Two-handed)",
+		"Specialisation": "Two-handed",
+		"Damage": "2+StrB",
+		"Encumbrance": "3",
+		"Cost": "-",
+		"Availability": "-",
+		"Traits": "Ineffective, Two-handed",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Knife",
+		"Specialisation": "One-handed",
+		"Damage": "0+StrB",
+		"Encumbrance": "0",
+		"Cost": "50",
+		"Availability": "Common",
+		"Traits": "Subtle, Thrown (Short)",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Staff",
+		"Specialisation": "Two-handed",
+		"Damage": "1+StrB",
+		"Encumbrance": "2",
+		"Cost": "25",
+		"Availability": "Common",
+		"Traits": "Defensive, Two-handed",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Sword",
+		"Specialisation": "One-handed",
+		"Damage": "2+StrB",
+		"Encumbrance": "1",
+		"Cost": "150",
+		"Availability": "Common",
+		"Traits": "-",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Unarmed",
+		"Specialisation": "Brawling",
+		"Damage": "0+StrB",
+		"Encumbrance": "0",
+		"Cost": "-",
+		"Availability": "-",
+		"Traits": "Ineffective",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Whip",
+		"Specialisation": "One-handed",
+		"Damage": "0+StrB",
+		"Encumbrance": "1",
+		"Cost": "60",
+		"Availability": "Scarce",
+		"Traits": "Loud, Reach",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Electro-Flail",
+		"Specialisation": "One-handed",
+		"Damage": "0+StrB",
+		"Encumbrance": "1",
+		"Cost": "500",
+		"Availability": "Scarce",
+		"Traits": "Loud, Reach, Inflict (Stunned)",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Shock Maul",
+		"Specialisation": "One-handed",
+		"Damage": "2+StrB",
+		"Encumbrance": "1",
+		"Cost": "250",
+		"Availability": "Scarce",
+		"Traits": "Loud, Inflict (Stunned)",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Power Axe",
+		"Specialisation": "Two-handed",
+		"Damage": "6+StrB",
+		"Encumbrance": "2",
+		"Cost": "3400",
+		"Availability": "Rare",
+		"Traits": "Heavy (4), Penetrating (6), Two-handed",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Power Fist",
+		"Specialisation": "Brawling",
+		"Damage": "6+StrB",
+		"Encumbrance": "2",
+		"Cost": "4000",
+		"Availability": "Rare",
+		"Traits": "Heavy (4), Penetrating (6)",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Power Knife",
+		"Specialisation": "One-handed",
+		"Damage": "2+StrB",
+		"Encumbrance": "1",
+		"Cost": "2000",
+		"Availability": "Rare",
+		"Traits": "Penetrating (2), Subtle, Thrown (Short)",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Power Maul",
+		"Specialisation": "One-handed",
+		"Damage": "5+StrB",
+		"Encumbrance": "1",
+		"Cost": "3000",
+		"Availability": "Rare",
+		"Traits": "Penetrating (2)",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Power Sword",
+		"Specialisation": "One-handed",
+		"Damage": "4+StrB",
+		"Encumbrance": "1",
+		"Cost": "3000",
+		"Availability": "Rare",
+		"Traits": "Penetrating (4)",
+		"Source": "Core Rulebook"
+	},
+	{
+		"Name": "Blink-Blade",
+		"Specialisation": "One-handed",
+		"Damage": "3+StrB",
+		"Encumbrance": "1",
+		"Cost": "8000",
+		"Availability": "Exotic",
+		"Traits": "Penetrating (2)",
+		"Source": "Inquisitor Player's Guide"
+	},
+	{
+		"Name": "Scythian Venom Talon",
+		"Specialisation": "One-handed",
+		"Damage": "2+StrB",
+		"Encumbrance": "1",
+		"Cost": "5000",
+		"Availability": "Exotic",
+		"Traits": "Inflict (Poisoned), Inflict (Bleeding)",
+		"Source": "Inquisitor Player's Guide"
+	},
+	{
+		"Name": "Duelling Glaive",
+		"Specialisation": "Two-handed",
+		"Damage": "5+StrB",
+		"Encumbrance": "2",
+		"Cost": "1000",
+		"Availability": "Rare",
+		"Traits": "Defensive, Reach, Two-handed",
+		"Source": "Inquisitor Player's Guide"
+	},
+	{
+		"Name": "Daemonhammer",
+		"Specialisation": "One-handed",
+		"Damage": "5+StrB",
+		"Encumbrance": "1",
+		"Cost": "150000",
+		"Availability": "Exotic",
+		"Traits": "-",
+		"Source": "Inquisitor Player's Guide"
+	},
+	{
+		"Name": "Daemonhammer",
+		"Specialisation": "Two-handed",
+		"Damage": "6+StrB",
+		"Encumbrance": "2",
+		"Cost": "200000",
+		"Availability": "Exotic",
+		"Traits": "Heavy (4), Two-handed",
+		"Source": "Inquisitor Player's Guide"
+	},
+	{
+		"Name": "Nemesis Daemonhammer",
+		"Specialisation": "One-handed",
+		"Damage": "5+StrB",
+		"Encumbrance": "1",
+		"Cost": "250000",
+		"Availability": "Exotic",
+		"Traits": "Penetrating (2)",
+		"Source": "Inquisitor Player's Guide"
+	},
+	{
+		"Name": "Nemesis Daemonhammer",
+		"Specialisation": "Two-handed",
+		"Damage": "6+StrB",
+		"Encumbrance": "2",
+		"Cost": "300000",
+		"Availability": "Exotic",
+		"Traits": "Heavy (4), Penetrating (2), Two-handed",
+		"Source": "Inquisitor Player's Guide"
+	},
+	{
+		"Name": "Truename Staff",
+		"Specialisation": "Two-handed",
+		"Damage": "2+StrB",
+		"Encumbrance": "2",
+		"Cost": "200000",
+		"Availability": "Exotic",
+		"Traits": "Defensive, Two-handed",
+		"Source": "Inquisitor Player's Guide"
+	},
+	{
+		"Name": "Null Rod",
+		"Specialisation": "Two-handed",
+		"Damage": "1+StrB",
+		"Encumbrance": "2",
+		"Cost": "150000",
+		"Availability": "Rare",
+		"Traits": "Defensive, Two-handed",
+		"Source": "Inquisitor Player's Guide"
+	},
+	{
+		"Name": "Aeldari Power Sword",
+		"Specialisation": "One-handed",
+		"Damage": "4+StrB or 4+AgB",
+		"Encumbrance": "1",
+		"Cost": "150000",
+		"Availability": "Exotic",
+		"Traits": "Penetrating (4)",
+		"Source": "Inquisitor Player's Guide"
+	},
+	{
+		"Name": "Executioner Greatblade",
+		"Specialisation": "Two-handed",
+		"Damage": "5+StrB",
+		"Encumbrance": "2",
+		"Cost": "150000",
+		"Availability": "Exotic",
+		"Traits": "Defensive, Heavy (4), Two-handed, Penetrating (4)",
+		"Source": "Inquisitor Player's Guide"
+	},
+	{
+		"Name": "Power Stake",
+		"Specialisation": "Two-handed",
+		"Damage": "4+StrB",
+		"Encumbrance": "2",
+		"Cost": "10000",
+		"Availability": "Rare",
+		"Traits": "Two-handed, Penetrating (4)",
+		"Source": "Inquisitor Player's Guide"
+	},
+	{
+		"Name": "Xenophase Blade",
+		"Specialisation": "One-handed",
+		"Damage": "4+StrB",
+		"Encumbrance": "1",
+		"Cost": "500000",
+		"Availability": "Exotic",
+		"Traits": "Penetrating (4 or X)",
+		"Source": "Inquisitor Player's Guide"
+	},
+	{
+		"Name": "Daemonblade",
+		"Specialisation": "Two-handed",
+		"Damage": "5+StrB",
+		"Encumbrance": "2",
+		"Cost": "1000000",
+		"Availability": "Exotic",
+		"Traits": "Depends on specific Daemonblade",
+		"Source": "Inquisitor Player's Guide"
+	},
+	{
+		"Name": "Tainted Blade",
+		"Specialisation": "One-handed",
+		"Damage": "4+StrB",
+		"Encumbrance": "1",
+		"Cost": "1000000",
+		"Availability": "Exotic",
+		"Traits": "Rend (4)",
+		"Source": "Inquisitor Player's Guide"
+	},
+	{
+		"Name": "Tran’lo ‘Burnout’ Chainsword",
+		"Specialisation": "One-handed",
+		"Damage": "3+StrB",
+		"Encumbrance": "1",
+		"Cost": "650",
+		"Availability": "Rare",
+		"Traits": "Loud, Rend (2)",
+		"Source": "Macharian Requisition Guide"
+	},
+	{
+		"Name": "Viridan Mk II Chain Halberd",
+		"Specialisation": "Two-handed",
+		"Damage": "5+StrB",
+		"Encumbrance": "4",
+		"Cost": "1200",
+		"Availability": "Rare",
+		"Traits": "Heavy (4), Loud, Reach, Rend (4), Two-handed",
+		"Source": "Macharian Requisition Guide"
+	},
+	{
+		"Name": "Death World Combat Blade",
+		"Specialisation": "One-handed",
+		"Damage": "2+StrB",
+		"Encumbrance": "1",
+		"Cost": "250",
+		"Availability": "Scarce",
+		"Traits": "Heavy (3), Penetrating (1), Reliable",
+		"Source": "Macharian Requisition Guide"
+	},
+	{
+		"Name": "Death World Combat Blade",
+		"Specialisation": "Two-handed",
+		"Damage": "3+StrB",
+		"Encumbrance": "1",
+		"Cost": "250",
+		"Availability": "Scarce",
+		"Traits": "Heavy (3), Penetrating (2), Reliable, Two-handed",
+		"Source": "Macharian Requisition Guide"
+	},
+	{
+		"Name": "Heavy Lascutter",
+		"Specialisation": "Two-handed",
+		"Damage": "6+StrB",
+		"Encumbrance": "3",
+		"Cost": "3000",
+		"Availability": "Rare",
+		"Traits": "Heavy (4), Loud, Penetrating (4), Two-handed",
+		"Source": "Macharian Requisition Guide"
+	},
+	{
+		"Name": "Heavy Rock Cutter",
+		"Specialisation": "Two-handed",
+		"Damage": "6+StrB",
+		"Encumbrance": "5",
+		"Cost": "5000",
+		"Availability": "Scarce",
+		"Traits": "Heavy (4), Loud, Penetrating (5), Rend (3), Two-handed",
+		"Source": "Macharian Requisition Guide"
+	},
+	{
+		"Name": "Heavy Rock Drill",
+		"Specialisation": "Two-handed",
+		"Damage": "6+StrB",
+		"Encumbrance": "5",
+		"Cost": "4000",
+		"Availability": "Scarce",
+		"Traits": "Heavy (4), Loud, Rend (5), Two-handed",
+		"Source": "Macharian Requisition Guide"
+	},
+	{
+		"Name": "Heavy Rock Saw",
+		"Specialisation": "Two-handed",
+		"Damage": "4+StrB",
+		"Encumbrance": "3",
+		"Cost": "3500",
+		"Availability": "Scarce",
+		"Traits": "Bulky, Heavy (4), Loud, Rend (4), Two-handed",
+		"Source": "Macharian Requisition Guide"
+	},
+	{
+		"Name": "Servo Claw",
+		"Specialisation": "Brawling",
+		"Damage": "4+StrB",
+		"Encumbrance": "1",
+		"Cost": "1000",
+		"Availability": "Scarce",
+		"Traits": "Heavy (4), Penetrating (4)",
+		"Source": "Macharian Requisition Guide"
+	},
+	{
+		"Name": "Staff of Office",
+		"Specialisation": "Two-handed",
+		"Damage": "2+StrB",
+		"Encumbrance": "2",
+		"Cost": "8000",
+		"Availability": "Exotic",
+		"Traits": "Defensive, Ornamental, Two-handed",
+		"Source": "Macharian Requisition Guide"
+	},
+	{
+		"Name": "Compliance Pattern Power Maul",
+		"Specialisation": "One-handed",
+		"Damage": "5+StrB",
+		"Encumbrance": "1",
+		"Cost": "5000",
+		"Availability": "Rare",
+		"Traits": "Heavy (4), Penetrating (3), Two-handed",
+		"Source": "Macharian Requisition Guide"
+	},
+	{
+		"Name": "Macharian Regimental Power Sword",
+		"Specialisation": "One-handed",
+		"Damage": "4+StrB",
+		"Encumbrance": "1",
+		"Cost": "10000",
+		"Availability": "Exotic",
+		"Traits": "Master-crafted, Ornamental, Penetrating (4)",
+		"Source": "Macharian Requisition Guide"
+	},
+	{
+		"Name": "Mortis Alpha Ceremonial Blade",
+		"Specialisation": "Two-handed",
+		"Damage": "6+StrB",
+		"Encumbrance": "2",
+		"Cost": "11000",
+		"Availability": "Exotic",
+		"Traits": "Durable, Master-crafted, Ornamental, Penetrating (4)",
+		"Source": "Macharian Requisition Guide"
+	},
+	{
+		"Name": "Shock Knuckles",
+		"Specialisation": "Brawling",
+		"Damage": "0+StrB",
+		"Encumbrance": "0",
+		"Cost": "1000",
+		"Availability": "Rare",
+		"Traits": "Inflict (Stunned), Loud, Subtle",
+		"Source": "Macharian Requisition Guide"
+	},
+	{
+		"Name": "Shock Staff",
+		"Specialisation": "Two-handed",
+		"Damage": "1+StrB",
+		"Encumbrance": "2",
+		"Cost": "150",
+		"Availability": "Common",
+		"Traits": "Defensive, Inflict (Stunned), Loud, Two-handed",
+		"Source": "Macharian Requisition Guide"
+	},
+	{
+		"Name": "Skitarii Cavalry Arc Maul",
+		"Specialisation": "One-handed",
+		"Damage": "4+StrB",
+		"Encumbrance": "1",
+		"Cost": "5000",
+		"Availability": "Rare",
+		"Traits": "Inflict (Stunned), Secret of Mars",
+		"Source": "Adeptus Mechanicus Player's Guide"
+	},
+	{
+		"Name": "Skitarii Cavalry Sabre",
+		"Specialisation": "One-handed",
+		"Damage": "5+StrB",
+		"Encumbrance": "1",
+		"Cost": "3000",
+		"Availability": "Scarce",
+		"Traits": "Penetrating (3), Secret of Mars",
+		"Source": "Adeptus Mechanicus Player's Guide"
+	},
+	{
+		"Name": "Skitarii Taser Lance",
+		"Specialisation": "One-handed",
+		"Damage": "4+StrB",
+		"Encumbrance": "2",
+		"Cost": "5000",
+		"Availability": "Rare",
+		"Traits": "Heavy (3), Inflict (Stunned), Reach, Secret of Mars",
+		"Source": "Adeptus Mechanicus Player's Guide"
+	},
+	{
+		"Name": "Electrostatic Gauntlets",
+		"Specialisation": "Brawling",
+		"Damage": "6+StrB",
+		"Encumbrance": "2",
+		"Cost": "4000",
+		"Availability": "Exotic",
+		"Traits": "Inflict (Stunned), Reach, Secret of Mars",
+		"Source": "Adeptus Mechanicus Player's Guide"
+	},
+	{
+		"Name": "Electroleech Stave",
+		"Specialisation": "Two-handed",
+		"Damage": "4+StrB",
+		"Encumbrance": "3",
+		"Cost": "4000",
+		"Availability": "Exotic",
+		"Traits": "Defensive, Inflict (Stunned), Secret of Mars",
+		"Source": "Adeptus Mechanicus Player's Guide"
+	},
+	{
+		"Name": "Omnissian Axe (One-Handed)",
+		"Specialisation": "One-handed",
+		"Damage": "4+StrB",
+		"Encumbrance": "1",
+		"Cost": "4000",
+		"Availability": "Exotic",
+		"Traits": "Master Crafted, Ornamental, Penetrating (4), Secret of Mars",
+		"Source": "Adeptus Mechanicus Player's Guide"
+	},
+	{
+		"Name": "Omnissian Axe (Two-Handed)",
+		"Specialisation": "Two-handed",
+		"Damage": "6+StrB",
+		"Encumbrance": "3",
+		"Cost": "6000",
+		"Availability": "Exotic",
+		"Traits": "Heavy (3), Master Crafted, Ornamental, Penetrating (6), Two-handed, Secret of Mars",
+		"Source": "Adeptus Mechanicus Player's Guide"
+	},
+	{
+		"Name": "Omnissian Glaive",
+		"Specialisation": "Two-handed",
+		"Damage": "7+StrB",
+		"Encumbrance": "3",
+		"Cost": "6000",
+		"Availability": "Exotic",
+		"Traits": "Heavy (5), Master Crafted, Ornamental, Penetrating (6), Two-handed, Secret of Mars",
+		"Source": "Adeptus Mechanicus Player's Guide"
+	},
+	{
+		"Name": "Omnissian Rod",
+		"Specialisation": "Two-handed",
+		"Damage": "4+StrB",
+		"Encumbrance": "3",
+		"Cost": "10000",
+		"Availability": "Exotic",
+		"Traits": "Master Crafted, Ornamental, Penetrating (5), Two-handed, Secret of Mars",
+		"Source": "Adeptus Mechanicus Player's Guide"
+	},
+	{
+		"Name": "Transonic Blade",
+		"Specialisation": "One-handed",
+		"Damage": "3+StrB",
+		"Encumbrance": "2",
+		"Cost": "5000",
+		"Availability": "Rare",
+		"Traits": "Secret of Mars",
+		"Source": "Adeptus Mechanicus Player's Guide"
+	},
+	{
+		"Name": "Transonic Chordclaw",
+		"Specialisation": "Brawling",
+		"Damage": "3+StrB",
+		"Encumbrance": "2",
+		"Cost": "5000",
+		"Availability": "Rare",
+		"Traits": "Secret of Mars",
+		"Source": "Adeptus Mechanicus Player's Guide"
+	},
+	{
+		"Name": "Transonic Razor",
+		"Specialisation": "One-handed",
+		"Damage": "2+StrB",
+		"Encumbrance": "1",
+		"Cost": "4000",
+		"Availability": "Rare",
+		"Traits": "Lightweight, Secret of Mars",
+		"Source": "Adeptus Mechanicus Player's Guide"
+	},
+	{
+		"Name": "Breacher",
+		"Specialisation": "One-handed",
+		"Damage": "5+StrB",
+		"Encumbrance": "3",
+		"Cost": "7000",
+		"Availability": "Scarce",
+		"Traits": "Heavy (2), Loud, Rend (4), Secret of Mars",
+		"Source": "Adeptus Mechanicus Player's Guide"
+	},
+	{
+		"Name": "Control Stave",
+		"Specialisation": "One-handed",
+		"Damage": "3+StrB",
+		"Encumbrance": "1",
+		"Cost": "2000",
+		"Availability": "Exotic",
+		"Traits": "Defensive, Inflict (Stunned), Ornamental, Secret of Mars",
+		"Source": "Adeptus Mechanicus Player's Guide"
+	},
+	{
+		"Name": "Pteraxii Talons",
+		"Specialisation": "Brawling",
+		"Damage": "3+StrB",
+		"Encumbrance": "1",
+		"Cost": "2000",
+		"Availability": "Rare",
+		"Traits": "Inflict (Bleeding), Rend (4), Secret of Mars",
+		"Source": "Adeptus Mechanicus Player's Guide"
+	},
+	{
+		"Name": "Rod of Office",
+		"Specialisation": "One-handed",
+		"Damage": "2+StrB",
+		"Encumbrance": "1",
+		"Cost": "3000",
+		"Availability": "Exotic",
+		"Traits": "Defensive, Ornamental, Secret of Mars",
+		"Source": "Adeptus Mechanicus Player's Guide"
+	},
+	{
+		"Name": "Servo Arm",
+		"Specialisation": "Brawling",
+		"Damage": "6+StrB",
+		"Encumbrance": "2",
+		"Cost": "4000",
+		"Availability": "Rare",
+		"Traits": "Heavy (4), Loud, Penetrating, Reliable, Secret of Mars",
+		"Source": "Adeptus Mechanicus Player's Guide"
+	},
+	{
+		"Name": "Taser Goad",
+		"Specialisation": "One-handed",
+		"Damage": "2+StrB",
+		"Encumbrance": "1",
+		"Cost": "900",
+		"Availability": "Rare",
+		"Traits": "Inflict (Stunned), Loud, Defensive, Secret of Mars",
+		"Source": "Adeptus Mechanicus Player's Guide"
+	},
+	{
+		"Name": "Vivisector",
+		"Specialisation": "Brawling",
+		"Damage": "2+StrB",
+		"Encumbrance": "1",
+		"Cost": "10000",
+		"Availability": "Rare",
+		"Traits": "Master Crafted, Secret of Mars",
+		"Source": "Adeptus Mechanicus Player's Guide"
+	}
 ]

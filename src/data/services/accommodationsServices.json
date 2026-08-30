@@ -1,26 +1,26 @@
 [
-  {
-    "quality": "Poor",
-    "cost": 20,
-    "examples": "Tavern back rooms, communal hab floors, barns",
-    "source": "Core Rulebook"
-  },
-  {
-    "quality": "Standard",
-    "cost": 50,
-    "examples": "Shared hab quarters, mid-hive worker rooms",
-    "source": "Core Rulebook"
-  },
-  {
-    "quality": "Good",
-    "cost": 100,
-    "examples": "Single hab room, mid-hive hostelry with staff",
-    "source": "Core Rulebook"
-  },
-  {
-    "quality": "Excellent",
-    "cost": 200,
-    "examples": "Private upper-hive suites, linked rooms with servants",
-    "source": "Core Rulebook"
-  }
+	{
+		"quality": "Poor",
+		"cost": 20,
+		"examples": "Tavern back rooms, communal hab floors, barns",
+		"source": "Core Rulebook"
+	},
+	{
+		"quality": "Standard",
+		"cost": 50,
+		"examples": "Shared hab quarters, mid-hive worker rooms",
+		"source": "Core Rulebook"
+	},
+	{
+		"quality": "Good",
+		"cost": 100,
+		"examples": "Single hab room, mid-hive hostelry with staff",
+		"source": "Core Rulebook"
+	},
+	{
+		"quality": "Excellent",
+		"cost": 200,
+		"examples": "Private upper-hive suites, linked rooms with servants",
+		"source": "Core Rulebook"
+	}
 ]

@@ -1,2919 +1,2919 @@
 [
-  {
-    "name": "Bolt Pistol",
-    "specialisation": "Pistol",
-    "damage": 8,
-    "encumbrance": 2,
-    "cost": 4000,
-    "availability": "Rare",
-    "source": "Core Rulebook",
-    "range": "Medium",
-    "magazine": 2,
-    "magazineCost": 400,
-    "traits": [
-      {
-        "name": "Burst"
-      },
-      {
-        "name": "Close"
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Penetrating",
-        "value": 4
-      },
-      {
-        "name": "Spread"
-      }
-    ]
-  },
-  {
-    "name": "Boltgun",
-    "specialisation": "Long Gun",
-    "damage": 8,
-    "encumbrance": 3,
-    "cost": 5000,
-    "availability": "Rare",
-    "source": "Core Rulebook",
-    "range": "Long",
-    "magazine": 4,
-    "magazineCost": 500,
-    "traits": [
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Penetrating",
-        "value": 4
-      },
-      {
-        "name": "Rapid Fire",
-        "value": 2
-      },
-      {
-        "name": "Spread"
-      },
-      {
-        "name": "Two-handed"
-      }
-    ]
-  },
-  {
-    "name": "Heavy Bolter",
-    "specialisation": "Ordnance",
-    "damage": 10,
-    "encumbrance": 4,
-    "cost": 9000,
-    "availability": "Rare",
-    "source": "Core Rulebook",
-    "range": "Long",
-    "magazine": 6,
-    "magazineCost": 900,
-    "traits": [
-      {
-        "name": "Heavy",
-        "value": 4
-      },
-      {
-        "name": "Penetrating",
-        "value": 5
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Rapid Fire",
-        "value": 3
-      },
-      {
-        "name": "Spread"
-      },
-      {
-        "name": "Two-handed"
-      }
-    ]
-  },
-  {
-    "name": "Hand Flamer",
-    "specialisation": "Pistol",
-    "damage": 7,
-    "encumbrance": 1,
-    "cost": 500,
-    "availability": "Rare",
-    "source": "Core Rulebook",
-    "range": "Short",
-    "magazine": 2,
-    "magazineCost": 25,
-    "traits": [
-      {
-        "name": "Close"
-      },
-      {
-        "name": "Flamer"
-      },
-      {
-        "name": "Inflict",
-        "value": "Ablaze"
-      },
-      {
-        "name": "Loud"
-      }
-    ]
-  },
-  {
-    "name": "Flamer",
-    "specialisation": "Long Gun",
-    "damage": 8,
-    "encumbrance": 2,
-    "cost": 1000,
-    "availability": "Scarce",
-    "source": "Core Rulebook",
-    "range": "Medium",
-    "magazine": 4,
-    "magazineCost": 50,
-    "traits": [
-      {
-        "name": "Flamer"
-      },
-      {
-        "name": "Inflict",
-        "value": "Ablaze"
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Two-handed"
-      }
-    ]
-  },
-  {
-    "name": "Laspistol",
-    "specialisation": "Pistol",
-    "damage": 5,
-    "encumbrance": 0,
-    "cost": 400,
-    "availability": "Common",
-    "source": "Core Rulebook",
-    "range": "Medium",
-    "magazine": 4,
-    "magazineCost": 100,
-    "traits": [
-      {
-        "name": "Burst"
-      },
-      {
-        "name": "Close"
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Reliable"
-      }
-    ]
-  },
-  {
-    "name": "Lasgun",
-    "specialisation": "Long Gun",
-    "damage": 6,
-    "encumbrance": 2,
-    "cost": 600,
-    "availability": "Common",
-    "source": "Core Rulebook",
-    "range": "Long",
-    "magazine": 8,
-    "magazineCost": 150,
-    "traits": [
-      {
-        "name": "Burst"
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Reliable"
-      },
-      {
-        "name": "Two-handed"
-      }
-    ]
-  },
-  {
-    "name": "Las Carbine",
-    "specialisation": "Long Gun",
-    "damage": 5,
-    "encumbrance": 1,
-    "cost": 800,
-    "availability": "Common",
-    "source": "Core Rulebook",
-    "range": "Medium",
-    "magazine": 6,
-    "magazineCost": 200,
-    "traits": [
-      {
-        "name": "Rapid Fire",
-        "value": 2
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Reliable"
-      },
-      {
-        "name": "Two-handed"
-      }
-    ]
-  },
-  {
-    "name": "Long Las",
-    "specialisation": "Long Gun",
-    "damage": 6,
-    "encumbrance": 2,
-    "cost": 1000,
-    "availability": "Scarce",
-    "source": "Core Rulebook",
-    "range": "Extreme",
-    "magazine": 4,
-    "magazineCost": 250,
-    "traits": [
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Burst"
-      },
-      {
-        "name": "Penetrating",
-        "value": 1
-      },
-      {
-        "name": "Reliable"
-      },
-      {
-        "name": "Two-handed"
-      }
-    ]
-  },
-  {
-    "name": "Hot-Shot Laspistol",
-    "specialisation": "Pistol",
-    "damage": 8,
-    "encumbrance": 1,
-    "cost": 900,
-    "availability": "Rare",
-    "source": "Core Rulebook",
-    "range": "Medium",
-    "magazine": 2,
-    "magazineCost": 225,
-    "traits": [
-      {
-        "name": "Burst"
-      },
-      {
-        "name": "Close"
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Penetrating",
-        "value": 2
-      }
-    ]
-  },
-  {
-    "name": "Hot-Shot Lasgun",
-    "specialisation": "Long Gun",
-    "damage": 8,
-    "encumbrance": 3,
-    "cost": 1000,
-    "availability": "Rare",
-    "source": "Core Rulebook",
-    "range": "Long",
-    "magazine": 4,
-    "magazineCost": 250,
-    "traits": [
-      {
-        "name": "Burst"
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Penetrating",
-        "value": 2
-      },
-      {
-        "name": "Two-handed"
-      }
-    ]
-  },
-  {
-    "name": "Lascanon",
-    "specialisation": "Ordnance",
-    "damage": 18,
-    "encumbrance": 4,
-    "cost": 8000,
-    "availability": "Rare",
-    "source": "Core Rulebook",
-    "range": "Extreme",
-    "magazine": 5,
-    "magazineCost": 2000,
-    "traits": [
-      {
-        "name": "Heavy",
-        "value": 4
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Penetrating",
-        "value": 10
-      },
-      {
-        "name": "Two-handed"
-      }
-    ]
-  },
-  {
-    "name": "Grenade Launcher",
-    "specialisation": "Ordnance",
-    "damage": null,
-    "encumbrance": 2,
-    "cost": 1000,
-    "availability": "Rare",
-    "source": "Core Rulebook",
-    "range": "Long",
-    "magazine": 6,
-    "magazineCost": null,
-    "traits": [
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Two-handed"
-      }
-    ]
-  },
-  {
-    "name": "Portable Missile Launcher",
-    "specialisation": "Ordnance",
-    "damage": null,
-    "encumbrance": 3,
-    "cost": 2000,
-    "availability": "Rare",
-    "source": "Core Rulebook",
-    "range": "Extreme",
-    "magazine": 1,
-    "magazineCost": null,
-    "traits": [
-      {
-        "name": "Heavy",
-        "value": 4
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Two-handed"
-      }
-    ]
-  },
-  {
-    "name": "Inferno Pistol",
-    "specialisation": "Pistol",
-    "damage": 16,
-    "encumbrance": 1,
-    "cost": 8000,
-    "availability": "Exotic",
-    "source": "Core Rulebook",
-    "range": "Short",
-    "magazine": 3,
-    "magazineCost": 400,
-    "traits": [
-      {
-        "name": "Close"
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Rend",
-        "value": 5
-      }
-    ]
-  },
-  {
-    "name": "Meltagun",
-    "specialisation": "Long Gun",
-    "damage": 16,
-    "encumbrance": 2,
-    "cost": 9000,
-    "availability": "Rare",
-    "source": "Core Rulebook",
-    "range": "Medium",
-    "magazine": 5,
-    "magazineCost": 450,
-    "traits": [
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Rend",
-        "value": 5
-      },
-      {
-        "name": "Two-handed"
-      }
-    ]
-  },
-  {
-    "name": "Plasma Pistol",
-    "specialisation": "Pistol",
-    "damage": 10,
-    "encumbrance": 1,
-    "cost": 7000,
-    "availability": "Rare",
-    "source": "Core Rulebook",
-    "range": "Medium",
-    "magazine": 6,
-    "magazineCost": 500,
-    "traits": [
-      {
-        "name": "Close"
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Penetrating",
-        "value": 6
-      },
-      {
-        "name": "Supercharge",
-        "value": 4
-      },
-      {
-        "name": "Unstable"
-      }
-    ]
-  },
-  {
-    "name": "Plasma Gun",
-    "specialisation": "Long Gun",
-    "damage": 10,
-    "encumbrance": 2,
-    "cost": 8000,
-    "availability": "Rare",
-    "source": "Core Rulebook",
-    "range": "Long",
-    "magazine": 12,
-    "magazineCost": 550,
-    "traits": [
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Penetrating",
-        "value": 6
-      },
-      {
-        "name": "Supercharge",
-        "value": 4
-      },
-      {
-        "name": "Two-handed"
-      },
-      {
-        "name": "Unstable"
-      }
-    ]
-  },
-  {
-    "name": "Autopistol",
-    "specialisation": "Pistol",
-    "damage": 5,
-    "encumbrance": 0,
-    "cost": 400,
-    "availability": "Common",
-    "source": "Core Rulebook",
-    "range": "Medium",
-    "magazine": 3,
-    "magazineCost": 20,
-    "traits": [
-      {
-        "name": "Close"
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Rapid Fire",
-        "value": 3
-      }
-    ]
-  },
-  {
-    "name": "Autogun",
-    "specialisation": "Long Gun",
-    "damage": 6,
-    "encumbrance": 2,
-    "cost": 600,
-    "availability": "Common",
-    "source": "Core Rulebook",
-    "range": "Long",
-    "magazine": 5,
-    "magazineCost": 30,
-    "traits": [
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Two-handed"
-      },
-      {
-        "name": "Rapid Fire",
-        "value": 3
-      }
-    ]
-  },
-  {
-    "name": "Hand Cannon",
-    "specialisation": "Pistol",
-    "damage": 8,
-    "encumbrance": 1,
-    "cost": 550,
-    "availability": "Scarce",
-    "source": "Core Rulebook",
-    "range": "Medium",
-    "magazine": 4,
-    "magazineCost": 12,
-    "traits": [
-      {
-        "name": "Close"
-      },
-      {
-        "name": "Heavy",
-        "value": 4
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Penetrating",
-        "value": 2
-      }
-    ]
-  },
-  {
-    "name": "Heavy Stubber",
-    "specialisation": "Ordnance",
-    "damage": 8,
-    "encumbrance": 3,
-    "cost": 2000,
-    "availability": "Scarce",
-    "source": "Core Rulebook",
-    "range": "Extreme",
-    "magazine": 8,
-    "magazineCost": 60,
-    "traits": [
-      {
-        "name": "Heavy",
-        "value": 4
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Penetrating",
-        "value": 3
-      },
-      {
-        "name": "Rapid Fire",
-        "value": 4
-      },
-      {
-        "name": "Two-handed"
-      }
-    ]
-  },
-  {
-    "name": "Shotgun (Combat)",
-    "specialisation": "Long Gun",
-    "damage": 6,
-    "encumbrance": 2,
-    "cost": 600,
-    "availability": "Scarce",
-    "source": "Core Rulebook",
-    "range": "Medium",
-    "magazine": 12,
-    "magazineCost": 15,
-    "traits": [
-      {
-        "name": "Inflict",
-        "value": "Prone"
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Spread Two-handed"
-      }
-    ]
-  },
-  {
-    "name": "Shotgun (Pump Action)",
-    "specialisation": "Long Gun",
-    "damage": 6,
-    "encumbrance": 1,
-    "cost": 400,
-    "availability": "Common",
-    "source": "Core Rulebook",
-    "range": "Medium",
-    "magazine": 8,
-    "magazineCost": 10,
-    "traits": [
-      {
-        "name": "Inflict",
-        "value": "Prone"
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Spread"
-      },
-      {
-        "name": "Two-handed"
-      }
-    ]
-  },
-  {
-    "name": "Sniper Rifle",
-    "specialisation": "Long Gun",
-    "damage": 8,
-    "encumbrance": 2,
-    "cost": 1000,
-    "availability": "Scarce",
-    "source": "Core Rulebook",
-    "range": "Extreme",
-    "magazine": 6,
-    "magazineCost": 40,
-    "traits": [
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Two-handed"
-      }
-    ]
-  },
-  {
-    "name": "Stub Pistol",
-    "specialisation": "Pistol",
-    "damage": 6,
-    "encumbrance": 0,
-    "cost": 250,
-    "availability": "Common",
-    "source": "Core Rulebook",
-    "range": "Medium",
-    "magazine": 2,
-    "magazineCost": 20,
-    "traits": [
-      {
-        "name": "Burst"
-      },
-      {
-        "name": "Close"
-      },
-      {
-        "name": "Loud"
-      }
-    ]
-  },
-  {
-    "name": "Stub Revolver",
-    "specialisation": "Pistol",
-    "damage": 6,
-    "encumbrance": 0,
-    "cost": 200,
-    "availability": "Common",
-    "source": "Core Rulebook",
-    "range": "Medium",
-    "magazine": 6,
-    "magazineCost": 5,
-    "traits": [
-      {
-        "name": "Close"
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Reliable"
-      }
-    ]
-  },
-  {
-    "name": "Needle Pistol",
-    "specialisation": "Pistol",
-    "damage": 1,
-    "encumbrance": 1,
-    "cost": 1500,
-    "availability": "Exotic",
-    "source": "Core Rulebook",
-    "range": "Medium",
-    "magazine": 4,
-    "magazineCost": 200,
-    "traits": [
-      {
-        "name": "Close"
-      },
-      {
-        "name": "Inflict",
-        "value": "Poisoned"
-      },
-      {
-        "name": "Penetrating",
-        "value": 6
-      },
-      {
-        "name": "Subtle"
-      }
-    ]
-  },
-  {
-    "name": "Needle Rifle",
-    "specialisation": "Long Gun",
-    "damage": 1,
-    "encumbrance": 2,
-    "cost": 1700,
-    "availability": "Exotic",
-    "source": "Core Rulebook",
-    "range": "Long",
-    "magazine": 6,
-    "magazineCost": 220,
-    "traits": [
-      {
-        "name": "Inflict",
-        "value": "Poisoned"
-      },
-      {
-        "name": "Penetrating",
-        "value": 6
-      },
-      {
-        "name": "Subtle"
-      },
-      {
-        "name": "Two-handed"
-      }
-    ]
-  },
-  {
-    "name": "Web Pistol",
-    "specialisation": "Pistol",
-    "damage": null,
-    "encumbrance": 1,
-    "cost": 1300,
-    "availability": "Rare",
-    "source": "Core Rulebook",
-    "range": "Short",
-    "magazine": 3,
-    "magazineCost": 130,
-    "traits": [
-      {
-        "name": "Close"
-      },
-      {
-        "name": "Inflict",
-        "value": "Restrained"
-      }
-    ]
-  },
-  {
-    "name": "Webber",
-    "specialisation": "Long Gun",
-    "damage": null,
-    "encumbrance": 2,
-    "cost": 1500,
-    "availability": "Rare",
-    "source": "Core Rulebook",
-    "range": "Medium",
-    "magazine": 6,
-    "magazineCost": 150,
-    "traits": [
-      {
-        "name": "Inflict",
-        "value": "Restrained"
-      },
-      {
-        "name": "Two-handed"
-      }
-    ]
-  },
-  {
-    "name": "Psycannon",
-    "specialisation": "Ordnance",
-    "damage": 12,
-    "encumbrance": 3,
-    "cost": 240000,
-    "availability": "Exotic",
-    "source": "Inquisitor Player's Guide",
-    "range": "Long",
-    "magazine": 6,
-    "magazineCost": 27000,
-    "traits": [
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Penetrating",
-        "value": 5
-      },
-      {
-        "name": "Rapid Fire",
-        "value": 3
-      },
-      {
-        "name": "Spread"
-      },
-      {
-        "name": "Two-handed"
-      }
-    ]
-  },
-  {
-    "name": "Condemnor Boltguns",
-    "specialisation": "Long Gun",
-    "damage": 8,
-    "encumbrance": 2,
-    "cost": 100000,
-    "availability": "Exotic",
-    "source": "Inquisitor Player's Guide",
-    "range": "Long",
-    "magazine": 4,
-    "magazineCost": 10000,
-    "traits": [
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Penetrating",
-        "value": 4
-      },
-      {
-        "name": "Rapid Fire",
-        "value": 2
-      },
-      {
-        "name": "Spread"
-      },
-      {
-        "name": "Two-handed"
-      }
-    ]
-  },
-  {
-    "name": "Condemnor Boltguns (Stake)",
-    "specialisation": "Long Gun",
-    "damage": 6,
-    "encumbrance": 2,
-    "cost": 100000,
-    "availability": "Exotic",
-    "source": "Inquisitor Player's Guide",
-    "range": "Long",
-    "magazine": 1,
-    "magazineCost": 10000,
-    "traits": [
-      {
-        "name": "Penetrating",
-        "value": 4
-      },
-      {
-        "name": "Two-handed"
-      }
-    ]
-  },
-  {
-    "name": "Handbow",
-    "specialisation": "Pistol",
-    "damage": 5,
-    "encumbrance": 0,
-    "cost": 500,
-    "availability": "Rare",
-    "source": "Inquisitor Player's Guide",
-    "range": "Short",
-    "magazine": 1,
-    "magazineCost": 50,
-    "traits": [
-      {
-        "name": "Close"
-      },
-      {
-        "name": "Penetrating",
-        "value": 2
-      },
-      {
-        "name": "Subtle"
-      }
-    ]
-  },
-  {
-    "name": "Purgatus Crossbow",
-    "specialisation": "Long Gun",
-    "damage": 7,
-    "encumbrance": 1,
-    "cost": 1900,
-    "availability": "Exotic",
-    "source": "Inquisitor Player's Guide",
-    "range": "Long",
-    "magazine": 1,
-    "magazineCost": 190,
-    "traits": [
-      {
-        "name": "Penetrating",
-        "value": 4
-      },
-      {
-        "name": "Reliable"
-      }
-    ]
-  },
-  {
-    "name": "Stake Crossbow",
-    "specialisation": "Long Gun",
-    "damage": 6,
-    "encumbrance": 1,
-    "cost": 700,
-    "availability": "Rare",
-    "source": "Inquisitor Player's Guide",
-    "range": "Long",
-    "magazine": 1,
-    "magazineCost": 70,
-    "traits": [
-      {
-        "name": "Penetrating",
-        "value": 2
-      }
-    ]
-  },
-  {
-    "name": "Incinerator",
-    "specialisation": "Long Gun",
-    "damage": 9,
-    "encumbrance": 2,
-    "cost": 4000,
-    "availability": "Rare",
-    "source": "Inquisitor Player's Guide",
-    "range": "Medium",
-    "magazine": 4,
-    "magazineCost": 200,
-    "traits": [
-      {
-        "name": "Flamer"
-      },
-      {
-        "name": "Inflict",
-        "value": "Ablaze"
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Two-handed"
-      }
-    ]
-  },
-  {
-    "name": "Graviton Pistol",
-    "specialisation": "Pistol",
-    "damage": 4,
-    "encumbrance": 0,
-    "cost": 1000,
-    "availability": "Exotic",
-    "source": "Inquisitor Player's Guide",
-    "range": "Short",
-    "magazine": 3,
-    "magazineCost": 200,
-    "traits": [
-      {
-        "name": "Close"
-      },
-      {
-        "name": "Spread"
-      }
-    ]
-  },
-  {
-    "name": "Graviton Gun",
-    "specialisation": "Long Gun",
-    "damage": 5,
-    "encumbrance": 1,
-    "cost": 1500,
-    "availability": "Exotic",
-    "source": "Inquisitor Player's Guide",
-    "range": "Long",
-    "magazine": 5,
-    "magazineCost": 300,
-    "traits": [
-      {
-        "name": "Spread"
-      }
-    ]
-  },
-  {
-    "name": "Kroot Gun",
-    "specialisation": "Ordnance",
-    "damage": 8,
-    "encumbrance": 3,
-    "cost": 15000,
-    "availability": "Exotic",
-    "source": "Inquisitor Player's Guide",
-    "range": "Long",
-    "magazine": 8,
-    "magazineCost": 1000,
-    "traits": [
-      {
-        "name": "Heavy",
-        "value": 4
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Penetrating",
-        "value": 2
-      },
-      {
-        "name": "Rapid Fire",
-        "value": 4
-      },
-      {
-        "name": "Two-handed"
-      }
-    ]
-  },
-  {
-    "name": "Kroot Pistol",
-    "specialisation": "Pistol",
-    "damage": 6,
-    "encumbrance": 0,
-    "cost": 8000,
-    "availability": "Exotic",
-    "source": "Inquisitor Player's Guide",
-    "range": "Short",
-    "magazine": 6,
-    "magazineCost": 400,
-    "traits": [
-      {
-        "name": "Close"
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Penetrating",
-        "value": 2
-      }
-    ]
-  },
-  {
-    "name": "Kroot Rifle",
-    "specialisation": "Long Gun",
-    "damage": 7,
-    "encumbrance": 1,
-    "cost": 10000,
-    "availability": "Exotic",
-    "source": "Inquisitor Player's Guide",
-    "range": "Long",
-    "magazine": 4,
-    "magazineCost": 500,
-    "traits": [
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Heavy",
-        "value": 4
-      },
-      {
-        "name": "Penetrating",
-        "value": 2
-      },
-      {
-        "name": "Rapid Fire",
-        "value": 2
-      },
-      {
-        "name": "Two-handed"
-      }
-    ]
-  },
-  {
-    "name": "Kroot Sniper Rifle",
-    "specialisation": "Long Gun",
-    "damage": 8,
-    "encumbrance": 2,
-    "cost": 12000,
-    "availability": "Exotic",
-    "source": "Inquisitor Player's Guide",
-    "range": "Extreme",
-    "magazine": 6,
-    "magazineCost": 800,
-    "traits": [
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Penetrating",
-        "value": 2
-      },
-      {
-        "name": "Two-handed"
-      }
-    ]
-  },
-  {
-    "name": "Hell Rifle",
-    "specialisation": "Long Gun",
-    "damage": 10,
-    "encumbrance": 2,
-    "cost": 10000,
-    "availability": "Exotic",
-    "source": "Inquisitor Player's Guide",
-    "range": "Extreme",
-    "magazine": 6,
-    "magazineCost": 1000,
-    "traits": [
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Rend",
-        "value": 4
-      },
-      {
-        "name": "Two-handed"
-      }
-    ]
-  },
-  {
-    "name": "Pulse Pistol",
-    "specialisation": "Pistol",
-    "damage": 6,
-    "encumbrance": 0,
-    "cost": 8000,
-    "availability": "Exotic",
-    "source": "Inquisitor Player's Guide",
-    "range": "Medium",
-    "magazine": 6,
-    "magazineCost": 800,
-    "traits": [
-      {
-        "name": "Close"
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Penetrating",
-        "value": 6
-      },
-      {
-        "name": "Subtle"
-      }
-    ]
-  },
-  {
-    "name": "Pulse Carbine",
-    "specialisation": "Long Gun",
-    "damage": 7,
-    "encumbrance": 1,
-    "cost": 10000,
-    "availability": "Exotic",
-    "source": "Inquisitor Player's Guide",
-    "range": "Long",
-    "magazine": 4,
-    "magazineCost": 1000,
-    "traits": [
-      {
-        "name": "Close"
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Burst"
-      },
-      {
-        "name": "Penetrating",
-        "value": 6
-      }
-    ]
-  },
-  {
-    "name": "Pulse Rifle",
-    "specialisation": "Long Gun",
-    "damage": 7,
-    "encumbrance": 1,
-    "cost": 12000,
-    "availability": "Exotic",
-    "source": "Inquisitor Player's Guide",
-    "range": "Extreme",
-    "magazine": 8,
-    "magazineCost": 1000,
-    "traits": [
-      {
-        "name": "Penetrating",
-        "value": 6
-      },
-      {
-        "name": "Rapid Fire",
-        "value": 2
-      },
-      {
-        "name": "Two-handed"
-      }
-    ]
-  },
-  {
-    "name": "Shuriken Pistol",
-    "specialisation": "Pistol",
-    "damage": 6,
-    "encumbrance": 0,
-    "cost": 8000,
-    "availability": "Exotic",
-    "source": "Inquisitor Player's Guide",
-    "range": "Medium",
-    "magazine": 4,
-    "magazineCost": 800,
-    "traits": [
-      {
-        "name": "Burst"
-      },
-      {
-        "name": "Close"
-      },
-      {
-        "name": "Penetrating",
-        "value": 4
-      },
-      {
-        "name": "Reliable"
-      }
-    ]
-  },
-  {
-    "name": "Shuriken Rifle",
-    "specialisation": "Long Gun",
-    "damage": 8,
-    "encumbrance": 1,
-    "cost": 12000,
-    "availability": "Exotic",
-    "source": "Inquisitor Player's Guide",
-    "range": "Long",
-    "magazine": 6,
-    "magazineCost": 1200,
-    "traits": [
-      {
-        "name": "Penetrating",
-        "value": 4
-      },
-      {
-        "name": "Rapid Fire",
-        "value": 3
-      },
-      {
-        "name": "Reliable"
-      },
-      {
-        "name": "Two-handed"
-      }
-    ]
-  },
-  {
-    "name": "Arbites Shotgun",
-    "specialisation": "Long Gun",
-    "damage": 8,
-    "encumbrance": 1,
-    "cost": 1000,
-    "availability": "Rare",
-    "source": "Inquisitor Player's Guide",
-    "range": "Long",
-    "magazine": 8,
-    "magazineCost": 50,
-    "traits": [
-      {
-        "name": "Inflict",
-        "value": "Prone"
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Spread"
-      },
-      {
-        "name": "Reliable"
-      },
-      {
-        "name": "Two-handed"
-      }
-    ]
-  },
-  {
-    "name": "Shotpistol",
-    "specialisation": "Pistol",
-    "damage": 7,
-    "encumbrance": 0,
-    "cost": 800,
-    "availability": "Rare",
-    "source": "Inquisitor Player's Guide",
-    "range": "Medium",
-    "magazine": 4,
-    "magazineCost": 40,
-    "traits": [
-      {
-        "name": "Close"
-      },
-      {
-        "name": "Inflict",
-        "value": "Prone"
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Reliable"
-      },
-      {
-        "name": "Spread"
-      }
-    ]
-  },
-  {
-    "name": "Digital Weapons",
-    "specialisation": "Pistol",
-    "damage": null,
-    "encumbrance": 0,
-    "cost": 50000,
-    "availability": "Exotic",
-    "source": "Inquisitor Player's Guide",
-    "range": "Short",
-    "magazine": 1,
-    "magazineCost": 5000,
-    "traits": [
-      {
-        "name": "Close"
-      },
-      {
-        "name": "Subtle"
-      }
-    ]
-  },
-  {
-    "name": "Neuro Disruptor Pistol",
-    "specialisation": "Pistol",
-    "damage": 8,
-    "encumbrance": 2,
-    "cost": 25000,
-    "availability": "Exotic",
-    "source": "Inquisitor Player's Guide",
-    "range": "Short",
-    "magazine": 3,
-    "magazineCost": 2500,
-    "traits": [
-      {
-        "name": "Close"
-      },
-      {
-        "name": "Inflict",
-        "value": "Stunned"
-      },
-      {
-        "name": "Penetrating",
-        "value": 6
-      }
-    ]
-  },
-  {
-    "name": "Splinter Pistol",
-    "specialisation": "Pistol",
-    "damage": 5,
-    "encumbrance": 0,
-    "cost": 10000,
-    "availability": "Exotic",
-    "source": "Inquisitor Player's Guide",
-    "range": "Short",
-    "magazine": 4,
-    "magazineCost": 1000,
-    "traits": [
-      {
-        "name": "Burst"
-      },
-      {
-        "name": "Close"
-      },
-      {
-        "name": "Inflict",
-        "value": "Poisoned"
-      },
-      {
-        "name": "Penetrating",
-        "value": 2
-      }
-    ]
-  },
-  {
-    "name": "Splinter Rifle",
-    "specialisation": "Long Gun",
-    "damage": 6,
-    "encumbrance": 1,
-    "cost": 15000,
-    "availability": "Exotic",
-    "source": "Inquisitor Player's Guide",
-    "range": "Long",
-    "magazine": 6,
-    "magazineCost": 1500,
-    "traits": [
-      {
-        "name": "Inflict",
-        "value": "Poisoned"
-      },
-      {
-        "name": "Penetrating",
-        "value": 2
-      },
-      {
-        "name": "Rapid Fire",
-        "value": 3
-      },
-      {
-        "name": "Two-handed"
-      }
-    ]
-  },
-  {
-    "name": "Ajax Pattern Boltgun",
-    "specialisation": "Long Gun",
-    "damage": 8,
-    "encumbrance": 3,
-    "cost": 6500,
-    "availability": "Exotic",
-    "source": "Macharian Requisition Guide",
-    "range": "Long",
-    "magazine": 4,
-    "magazineCost": 650,
-    "traits": [
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Penetrating",
-        "value": 4
-      },
-      {
-        "name": "Rapid Fire",
-        "value": 2
-      },
-      {
-        "name": "Reliable"
-      },
-      {
-        "name": "Spread"
-      },
-      {
-        "name": "Two-handed"
-      }
-    ]
-  },
-  {
-    "name": "Supremus Pattern Bolt Pistol",
-    "specialisation": "Pistol",
-    "damage": 8,
-    "encumbrance": 3,
-    "cost": 5500,
-    "availability": "Rare",
-    "source": "Macharian Requisition Guide",
-    "range": "Medium",
-    "magazine": 3,
-    "magazineCost": 550,
-    "traits": [
-      {
-        "name": "Burst"
-      },
-      {
-        "name": "Close"
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Penetrating",
-        "value": 4
-      },
-      {
-        "name": "Reliable"
-      },
-      {
-        "name": "Spread"
-      }
-    ]
-  },
-  {
-    "name": "Accatran Pattern 'Spearhead' Recon Lasgun",
-    "specialisation": "Long Gun",
-    "damage": 5,
-    "encumbrance": 2,
-    "cost": 700,
-    "availability": "Rare",
-    "source": "Macharian Requisition Guide",
-    "range": "Long",
-    "magazine": 8,
-    "magazineCost": 70,
-    "traits": [
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Rapid Fire",
-        "value": 1
-      },
-      {
-        "name": "Reliable"
-      },
-      {
-        "name": "Spread"
-      },
-      {
-        "name": "Two-handed"
-      }
-    ]
-  },
-  {
-    "name": "Eskuhtax Pattern Mark III 'Fury' Lasgun",
-    "specialisation": "Long Gun",
-    "damage": 6,
-    "encumbrance": 2,
-    "cost": 700,
-    "availability": "Rare",
-    "source": "Macharian Requisition Guide",
-    "range": "Medium",
-    "magazine": 8,
-    "magazineCost": 70,
-    "traits": [
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Rapid Fire",
-        "value": 2
-      },
-      {
-        "name": "Reliable"
-      },
-      {
-        "name": "Two-handed"
-      }
-    ]
-  },
-  {
-    "name": "Lucius Mk I Helbore Pattern Lasgun",
-    "specialisation": "Long Gun",
-    "damage": 6,
-    "encumbrance": 2,
-    "cost": 700,
-    "availability": "Rare",
-    "source": "Macharian Requisition Guide",
-    "range": "Long",
-    "magazine": 4,
-    "magazineCost": 70,
-    "traits": [
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Reliable"
-      },
-      {
-        "name": "Supercharge",
-        "value": 3
-      },
-      {
-        "name": "Two-handed"
-      }
-    ]
-  },
-  {
-    "name": "Mining Laser",
-    "specialisation": "Ordnance",
-    "damage": 18,
-    "encumbrance": 5,
-    "cost": 6000,
-    "availability": "Rare",
-    "source": "Macharian Requisition Guide",
-    "range": "Long",
-    "magazine": 8,
-    "magazineCost": 600,
-    "traits": [
-      {
-        "name": "Heavy",
-        "value": 5
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Penetrating",
-        "value": 8
-      },
-      {
-        "name": "Two-handed"
-      },
-      {
-        "name": "Unstable"
-      }
-    ]
-  },
-  {
-    "name": "Multi-melta",
-    "specialisation": "Ordnance",
-    "damage": 16,
-    "encumbrance": 3,
-    "cost": 13500,
-    "availability": "Rare",
-    "source": "Macharian Requisition Guide",
-    "range": "Long",
-    "magazine": 6,
-    "magazineCost": 1350,
-    "traits": [
-      {
-        "name": "Blast"
-      },
-      {
-        "name": "Heavy",
-        "value": 4
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Rend",
-        "value": 5
-      },
-      {
-        "name": "Two-handed"
-      }
-    ]
-  },
-  {
-    "name": "Autocannon",
-    "specialisation": "Ordnance",
-    "damage": 10,
-    "encumbrance": 3,
-    "cost": 4500,
-    "availability": "Rare",
-    "source": "Macharian Requisition Guide",
-    "range": "Extreme",
-    "magazine": 6,
-    "magazineCost": 225,
-    "traits": [
-      {
-        "name": "Heavy",
-        "value": 4
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Penetrating",
-        "value": 5
-      },
-      {
-        "name": "Rapid Fire",
-        "value": 3
-      },
-      {
-        "name": "Two-handed"
-      }
-    ]
-  },
-  {
-    "name": "Charcaros Pattern Autogun",
-    "specialisation": "Long Gun",
-    "damage": 6,
-    "encumbrance": 2,
-    "cost": 650,
-    "availability": "Rare",
-    "source": "Macharian Requisition Guide",
-    "range": "Long",
-    "magazine": 5,
-    "magazineCost": 30,
-    "traits": [
-      {
-        "name": "Defensive"
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Rapid Fire",
-        "value": 3
-      },
-      {
-        "name": "Two-handed"
-      }
-    ]
-  },
-  {
-    "name": "Desperion Enforcer Shotgun",
-    "specialisation": "Long Gun",
-    "damage": 6,
-    "encumbrance": 3,
-    "cost": 950,
-    "availability": "Rare",
-    "source": "Macharian Requisition Guide",
-    "range": "Medium",
-    "magazine": 12,
-    "magazineCost": 15,
-    "traits": [
-      {
-        "name": "Inflict",
-        "value": "Prone"
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Spread"
-      },
-      {
-        "name": "Two-handed"
-      }
-    ]
-  },
-  {
-    "name": "Kallastin Pattern 'Deadstop' Mk III Autogun",
-    "specialisation": "Long Gun",
-    "damage": 7,
-    "encumbrance": 2,
-    "cost": 700,
-    "availability": "Rare",
-    "source": "Macharian Requisition Guide",
-    "range": "Long",
-    "magazine": 5,
-    "magazineCost": 30,
-    "traits": [
-      {
-        "name": "Burst"
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Penetrating",
-        "value": 1
-      },
-      {
-        "name": "Two-handed"
-      }
-    ]
-  },
-  {
-    "name": "Macharian 'Shrinebreaker' Shrine Shotgun",
-    "specialisation": "Long Gun",
-    "damage": 6,
-    "encumbrance": 1,
-    "cost": 1000,
-    "availability": "Scarce",
-    "source": "Macharian Requisition Guide",
-    "range": "Medium",
-    "magazine": 10,
-    "magazineCost": 10,
-    "traits": [
-      {
-        "name": "Inflict",
-        "value": "Prone"
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Reliable"
-      },
-      {
-        "name": "Spread"
-      },
-      {
-        "name": "Two-handed"
-      }
-    ]
-  },
-  {
-    "name": "Osmodia Pattern Sniper Rifle",
-    "specialisation": "Long Gun",
-    "damage": 8,
-    "encumbrance": 1,
-    "cost": 1200,
-    "availability": "Scarce",
-    "source": "Macharian Requisition Guide",
-    "range": "Extreme",
-    "magazine": 6,
-    "magazineCost": 50,
-    "traits": [
-      {
-        "name": "Reliable"
-      },
-      {
-        "name": "Two-handed"
-      }
-    ]
-  },
-  {
-    "name": "RX-9 Rivet Gun",
-    "specialisation": "Long Gun",
-    "damage": 12,
-    "encumbrance": 3,
-    "cost": 1700,
-    "availability": "Scarce",
-    "source": "Macharian Requisition Guide",
-    "range": "Short",
-    "magazine": 10,
-    "magazineCost": 30,
-    "traits": [
-      {
-        "name": "Heavy",
-        "value": 3
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Penetrating",
-        "value": 4
-      },
-      {
-        "name": "Two-handed"
-      }
-    ]
-  },
-  {
-    "name": "RX-9 'ForgeStamp' Pattern Rivet Gun",
-    "specialisation": "Long Gun",
-    "damage": 12,
-    "encumbrance": 3,
-    "cost": 3400,
-    "availability": "Rare",
-    "source": "Macharian Requisition Guide",
-    "range": "Short",
-    "magazine": 10,
-    "magazineCost": 60,
-    "traits": [
-      {
-        "name": "Heavy",
-        "value": 4
-      },
-      {
-        "name": "Inflict",
-        "value": "Ablaze"
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Penetrating",
-        "value": 2
-      },
-      {
-        "name": "Rapid Fire",
-        "value": 2
-      },
-      {
-        "name": "Two-handed"
-      }
-    ]
-  },
-  {
-    "name": "Skarthius Pattern 'Last Word' Shotgun",
-    "specialisation": "Long Gun",
-    "damage": 9,
-    "encumbrance": 2,
-    "cost": 800,
-    "availability": "Scarce",
-    "source": "Macharian Requisition Guide",
-    "range": "Medium",
-    "magazine": 2,
-    "magazineCost": 15,
-    "traits": [
-      {
-        "name": "Close"
-      },
-      {
-        "name": "Inflict",
-        "value": "Prone"
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Spread"
-      },
-      {
-        "name": "Two-handed"
-      }
-    ]
-  },
-  {
-    "name": "Skarthius Pattern Mk IV Autogun",
-    "specialisation": "Long Gun",
-    "damage": 8,
-    "encumbrance": 1,
-    "cost": 700,
-    "availability": "Scarce",
-    "source": "Macharian Requisition Guide",
-    "range": "Long",
-    "magazine": 7,
-    "magazineCost": 35,
-    "traits": [
-      {
-        "name": "Close"
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Rapid Fire",
-        "value": 3
-      },
-      {
-        "name": "Two-handed"
-      }
-    ]
-  },
-  {
-    "name": "Deluge Fluid Cannon (High Pressure)",
-    "specialisation": "Ordnance",
-    "damage": 8,
-    "encumbrance": 4,
-    "cost": 2500,
-    "availability": "Scarce",
-    "source": "Macharian Requisition Guide",
-    "range": "Long",
-    "magazine": 5,
-    "traits": [
-      {
-        "name": "Flamer"
-      },
-      {
-        "name": "Heavy",
-        "value": 4
-      },
-      {
-        "name": "Ineffective"
-      },
-      {
-        "name": "Two-handed"
-      }
-    ]
-  },
-  {
-    "name": "Deluge Fluid Cannon (High Volume)",
-    "specialisation": "Ordnance",
-    "damage": 5,
-    "encumbrance": 4,
-    "cost": 2500,
-    "availability": "Scarce",
-    "source": "Macharian Requisition Guide",
-    "range": "Medium",
-    "magazine": 5,
-    "traits": [
-      {
-        "name": "Flamer"
-      },
-      {
-        "name": "Heavy",
-        "value": 4
-      },
-      {
-        "name": "Ineffective"
-      },
-      {
-        "name": "Inflict",
-        "value": "Stunned"
-      },
-      {
-        "name": "Two-handed"
-      }
-    ]
-  },
-  {
-    "name": "Seismic Cannon (Long Wave Pattern)",
-    "specialisation": "Ordnance",
-    "damage": 8,
-    "encumbrance": 5,
-    "cost": 6000,
-    "availability": "Scarce",
-    "source": "Macharian Requisition Guide",
-    "range": "Long",
-    "magazine": 4,
-    "magazineCost": 600,
-    "traits": [
-      {
-        "name": "Heavy",
-        "value": 5
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Penetrating",
-        "value": 10
-      },
-      {
-        "name": "Two-handed"
-      }
-    ]
-  },
-  {
-    "name": "Seismic Cannon (Short Wave Pattern)",
-    "specialisation": "Ordnance",
-    "damage": 12,
-    "encumbrance": 5,
-    "cost": 6000,
-    "availability": "Scarce",
-    "source": "Macharian Requisition Guide",
-    "range": "Short",
-    "magazine": 4,
-    "magazineCost": 600,
-    "traits": [
-      {
-        "name": "Heavy",
-        "value": 5
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Penetrating",
-        "value": 10
-      },
-      {
-        "name": "Two-handed"
-      }
-    ]
-  },
-  {
-    "name": "Storm Welder",
-    "specialisation": "Ordnance",
-    "damage": 10,
-    "encumbrance": 3,
-    "cost": 1900,
-    "availability": "Scarce",
-    "source": "Macharian Requisition Guide",
-    "range": "Medium",
-    "magazine": 9,
-    "magazineCost": 150,
-    "traits": [
-      {
-        "name": "Rapid Fire",
-        "value": 3
-      },
-      {
-        "name": "Spread"
-      },
-      {
-        "name": "Two-handed"
-      },
-      {
-        "name": "Unstable"
-      }
-    ]
-  },
-  {
-    "name": "Arc Pistol",
-    "specialisation": "Pistol",
-    "damage": 10,
-    "encumbrance": 2,
-    "cost": 3000,
-    "availability": "Rare",
-    "source": "Adeptus Mechanicus Player's Guide",
-    "range": "Medium",
-    "magazine": 3,
-    "magazineCost": 300,
-    "traits": [
-      {
-        "name": "Burst"
-      },
-      {
-        "name": "Close"
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Secret of Mars"
-      }
-    ]
-  },
-  {
-    "name": "Arc Rifle",
-    "specialisation": "Long Gun",
-    "damage": 12,
-    "encumbrance": 3,
-    "cost": 5000,
-    "availability": "Rare",
-    "source": "Adeptus Mechanicus Player's Guide",
-    "range": "Long",
-    "magazine": 3,
-    "magazineCost": 500,
-    "traits": [
-      {
-        "name": "Burst"
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Two-handed"
-      },
-      {
-        "name": "Secret of Mars"
-      }
-    ]
-  },
-  {
-    "name": "Heavy Arc Rifle",
-    "specialisation": "Ordnance",
-    "damage": 18,
-    "encumbrance": 4,
-    "cost": 8000,
-    "availability": "Exotic",
-    "source": "Adeptus Mechanicus Player's Guide",
-    "range": "Long",
-    "magazine": 5,
-    "magazineCost": 800,
-    "traits": [
-      {
-        "name": "Burst"
-      },
-      {
-        "name": "Heavy",
-        "value": 4
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Two-handed"
-      },
-      {
-        "name": "Secret of Mars"
-      }
-    ]
-  },
-  {
-    "name": "Flechette Blaster",
-    "specialisation": "Pistol",
-    "damage": 6,
-    "encumbrance": 1,
-    "cost": 2500,
-    "availability": "Scarce",
-    "source": "Adeptus Mechanicus Player's Guide",
-    "range": "Medium",
-    "magazine": 6,
-    "magazineCost": 250,
-    "traits": [
-      {
-        "name": "Close"
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Rapid Fire",
-        "value": 3
-      },
-      {
-        "name": "Reliable"
-      },
-      {
-        "name": "Secret of Mars"
-      }
-    ]
-  },
-  {
-    "name": "Flechette Carbine",
-    "specialisation": "Long Gun",
-    "damage": 6,
-    "encumbrance": 2,
-    "cost": 4500,
-    "availability": "Scarce",
-    "source": "Adeptus Mechanicus Player's Guide",
-    "range": "Medium",
-    "magazine": 8,
-    "magazineCost": 450,
-    "traits": [
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Rapid Fire",
-        "value": 4
-      },
-      {
-        "name": "Reliable"
-      },
-      {
-        "name": "Two-handed"
-      },
-      {
-        "name": "Secret of Mars"
-      }
-    ]
-  },
-  {
-    "name": "Galvanic Carbine",
-    "specialisation": "Long Gun",
-    "damage": 8,
-    "encumbrance": 2,
-    "cost": 2000,
-    "availability": "Rare",
-    "source": "Adeptus Mechanicus Player's Guide",
-    "range": "Medium",
-    "magazine": 4,
-    "magazineCost": 200,
-    "traits": [
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Penetrating",
-        "value": 2
-      },
-      {
-        "name": "Two-handed"
-      },
-      {
-        "name": "Secret of Mars"
-      }
-    ]
-  },
-  {
-    "name": "Galvanic Rifle",
-    "specialisation": "Long Gun",
-    "damage": 8,
-    "encumbrance": 3,
-    "cost": 4000,
-    "availability": "Rare",
-    "source": "Adeptus Mechanicus Player's Guide",
-    "range": "Long",
-    "magazine": 4,
-    "magazineCost": 400,
-    "traits": [
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Penetrating",
-        "value": 2
-      },
-      {
-        "name": "Two-handed"
-      },
-      {
-        "name": "Secret of Mars"
-      }
-    ]
-  },
-  {
-    "name": "Phosphor Blast Carbine",
-    "specialisation": "Long Gun",
-    "damage": 8,
-    "encumbrance": 2,
-    "cost": 4500,
-    "availability": "Rare",
-    "source": "Adeptus Mechanicus Player's Guide",
-    "range": "Medium",
-    "magazine": 5,
-    "magazineCost": 450,
-    "traits": [
-      {
-        "name": "Blast"
-      },
-      {
-        "name": "Inflict",
-        "value": "Ablaze"
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Rend",
-        "value": 1
-      },
-      {
-        "name": "Two-handed"
-      },
-      {
-        "name": "Secret of Mars"
-      }
-    ]
-  },
-  {
-    "name": "Phosphor Pistol",
-    "specialisation": "Pistol",
-    "damage": 7,
-    "encumbrance": 1,
-    "cost": 2500,
-    "availability": "Rare",
-    "source": "Adeptus Mechanicus Player's Guide",
-    "range": "Medium",
-    "magazine": 4,
-    "magazineCost": 250,
-    "traits": [
-      {
-        "name": "Close"
-      },
-      {
-        "name": "Inflict",
-        "value": "Ablaze"
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Rend",
-        "value": 1
-      },
-      {
-        "name": "Secret of Mars"
-      }
-    ]
-  },
-  {
-    "name": "Phosphor Serpenta",
-    "specialisation": "Pistol",
-    "damage": 8,
-    "encumbrance": 2,
-    "cost": 3500,
-    "availability": "Exotic",
-    "source": "Adeptus Mechanicus Player's Guide",
-    "range": "Medium",
-    "magazine": 5,
-    "magazineCost": 350,
-    "traits": [
-      {
-        "name": "Close"
-      },
-      {
-        "name": "Heavy",
-        "value": 3
-      },
-      {
-        "name": "Inflict",
-        "value": "Ablaze"
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Rend",
-        "value": 2
-      },
-      {
-        "name": "Secret of Mars"
-      }
-    ]
-  },
-  {
-    "name": "Phosphor Torch",
-    "specialisation": "Long Gun",
-    "damage": 8,
-    "encumbrance": 3,
-    "cost": 5500,
-    "availability": "Rare",
-    "source": "Adeptus Mechanicus Player's Guide",
-    "range": "Medium",
-    "magazine": 6,
-    "magazineCost": 550,
-    "traits": [
-      {
-        "name": "Flamer"
-      },
-      {
-        "name": "Inflict",
-        "value": "Ablaze"
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Rend",
-        "value": 1
-      },
-      {
-        "name": "Two-handed"
-      },
-      {
-        "name": "Secret of Mars"
-      }
-    ]
-  },
-  {
-    "name": "Radium Carbine",
-    "specialisation": "Long Gun",
-    "damage": 8,
-    "encumbrance": 2,
-    "cost": 5000,
-    "availability": "Rare",
-    "source": "Adeptus Mechanicus Player's Guide",
-    "range": "Medium",
-    "magazine": 6,
-    "magazineCost": 500,
-    "traits": [
-      {
-        "name": "Inflict",
-        "value": "Poisoned"
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Two-handed"
-      },
-      {
-        "name": "Secret of Mars"
-      }
-    ]
-  },
-  {
-    "name": "Radium Jezzail",
-    "specialisation": "Ordnance",
-    "damage": 12,
-    "encumbrance": 2,
-    "cost": 5000,
-    "availability": "Rare",
-    "source": "Adeptus Mechanicus Player's Guide",
-    "range": "Long",
-    "magazine": 4,
-    "magazineCost": 500,
-    "traits": [
-      {
-        "name": "Heavy",
-        "value": 4
-      },
-      {
-        "name": "Inflict",
-        "value": "Poisoned"
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Penetrating",
-        "value": 3
-      },
-      {
-        "name": "Two-handed"
-      },
-      {
-        "name": "Secret of Mars"
-      }
-    ]
-  },
-  {
-    "name": "Radium Pistol",
-    "specialisation": "Pistol",
-    "damage": 10,
-    "encumbrance": 2,
-    "cost": 7000,
-    "availability": "Exotic",
-    "source": "Adeptus Mechanicus Player's Guide",
-    "range": "Short",
-    "magazine": 5,
-    "magazineCost": 700,
-    "traits": [
-      {
-        "name": "Close"
-      },
-      {
-        "name": "Inflict",
-        "value": "Poisoned"
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Secret of Mars"
-      }
-    ]
-  },
-  {
-    "name": "Radium Serpenta",
-    "specialisation": "Pistol",
-    "damage": 10,
-    "encumbrance": 3,
-    "cost": 9000,
-    "availability": "Exotic",
-    "source": "Adeptus Mechanicus Player's Guide",
-    "range": "Medium",
-    "magazine": 6,
-    "magazineCost": 900,
-    "traits": [
-      {
-        "name": "Close"
-      },
-      {
-        "name": "Heavy",
-        "value": 3
-      },
-      {
-        "name": "Inflict",
-        "value": "Poisoned"
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Secret of Mars"
-      }
-    ]
-  },
-  {
-    "name": "Cognis Heavy Stubber",
-    "specialisation": "Ordnance",
-    "damage": 10,
-    "encumbrance": 3,
-    "cost": 8000,
-    "availability": "Rare",
-    "source": "Adeptus Mechanicus Player's Guide",
-    "range": "Extreme",
-    "magazine": 8,
-    "magazineCost": 800,
-    "traits": [
-      {
-        "name": "Heavy",
-        "value": 4
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Penetrating",
-        "value": 3
-      },
-      {
-        "name": "Rapid Fire",
-        "value": 4
-      },
-      {
-        "name": "Reliable"
-      },
-      {
-        "name": "Two-handed"
-      },
-      {
-        "name": "Secret of Mars"
-      }
-    ]
-  },
-  {
-    "name": "Macrostubber",
-    "specialisation": "Long Gun",
-    "damage": 10,
-    "encumbrance": 2,
-    "cost": 6000,
-    "availability": "Rare",
-    "source": "Adeptus Mechanicus Player's Guide",
-    "range": "Medium",
-    "magazine": 8,
-    "magazineCost": 600,
-    "traits": [
-      {
-        "name": "Heavy",
-        "value": 4
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Penetrating",
-        "value": 3
-      },
-      {
-        "name": "Reliable"
-      },
-      {
-        "name": "Rapid Fire",
-        "value": 2
-      },
-      {
-        "name": "Secret of Mars"
-      }
-    ]
-  },
-  {
-    "name": "Stubcarbine",
-    "specialisation": "Pistol",
-    "damage": 7,
-    "encumbrance": 2,
-    "cost": 4000,
-    "availability": "Rare",
-    "source": "Adeptus Mechanicus Player's Guide",
-    "range": "Short",
-    "magazine": 4,
-    "magazineCost": 200,
-    "traits": [
-      {
-        "name": "Close"
-      },
-      {
-        "name": "Heavy",
-        "value": 3
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Penetrating",
-        "value": 3
-      },
-      {
-        "name": "Rapid Fire",
-        "value": 4
-      },
-      {
-        "name": "Two-handed"
-      },
-      {
-        "name": "Secret of Mars"
-      }
-    ]
-  },
-  {
-    "name": "Eradication Pistol",
-    "specialisation": "Pistol",
-    "damage": 8,
-    "encumbrance": 2,
-    "cost": 8000,
-    "availability": "Exotic",
-    "source": "Adeptus Mechanicus Player's Guide",
-    "range": "Short",
-    "magazine": 5,
-    "magazineCost": 800,
-    "traits": [
-      {
-        "name": "Close"
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Penetrating",
-        "value": 4
-      },
-      {
-        "name": "Rend",
-        "value": 4
-      },
-      {
-        "name": "Secret of Mars"
-      }
-    ]
-  },
-  {
-    "name": "Eradication Ray",
-    "specialisation": "Ordnance",
-    "damage": 10,
-    "encumbrance": 3,
-    "cost": 10000,
-    "availability": "Exotic",
-    "source": "Adeptus Mechanicus Player's Guide",
-    "range": "Medium",
-    "magazine": 6,
-    "magazineCost": 1000,
-    "traits": [
-      {
-        "name": "Heavy",
-        "value": 4
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Penetrating",
-        "value": 4
-      },
-      {
-        "name": "Rend",
-        "value": 4
-      },
-      {
-        "name": "Secret of Mars"
-      }
-    ]
-  },
-  {
-    "name": "Gamma Pistol",
-    "specialisation": "Pistol",
-    "damage": 9,
-    "encumbrance": 2,
-    "cost": 7500,
-    "availability": "Exotic",
-    "source": "Adeptus Mechanicus Player's Guide",
-    "range": "Short",
-    "magazine": 5,
-    "magazineCost": 750,
-    "traits": [
-      {
-        "name": "Close"
-      },
-      {
-        "name": "Inflict",
-        "value": "Poisoned"
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Penetrating",
-        "value": 4
-      },
-      {
-        "name": "Secret of Mars"
-      }
-    ]
-  },
-  {
-    "name": "Magnarail Lance",
-    "specialisation": "Ordnance",
-    "damage": 18,
-    "encumbrance": 3,
-    "cost": 10000,
-    "availability": "Exotic",
-    "source": "Adeptus Mechanicus Player's Guide",
-    "range": "Long",
-    "magazine": 6,
-    "magazineCost": 1000,
-    "traits": [
-      {
-        "name": "Heavy",
-        "value": 4
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Penetrating",
-        "value": 5
-      },
-      {
-        "name": "Supercharge",
-        "value": 6
-      },
-      {
-        "name": "Two-handed"
-      },
-      {
-        "name": "Secret of Mars"
-      }
-    ]
-  },
-  {
-    "name": "Plasma Caliver",
-    "specialisation": "Long Gun",
-    "damage": 10,
-    "encumbrance": 3,
-    "cost": 10000,
-    "availability": "Exotic",
-    "source": "Adeptus Mechanicus Player's Guide",
-    "range": "Long",
-    "magazine": 10,
-    "magazineCost": 1000,
-    "traits": [
-      {
-        "name": "Burst"
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Penetrating",
-        "value": 6
-      },
-      {
-        "name": "Supercharge",
-        "value": 4
-      },
-      {
-        "name": "Two-handed"
-      },
-      {
-        "name": "Secret of Mars"
-      }
-    ]
-  },
-  {
-    "name": "Transonic Cannon",
-    "specialisation": "Long Gun",
-    "damage": 8,
-    "encumbrance": 3,
-    "cost": 5500,
-    "availability": "Exotic",
-    "source": "Adeptus Mechanicus Player's Guide",
-    "range": "Medium",
-    "magazine": 4,
-    "magazineCost": 500,
-    "traits": [
-      {
-        "name": "Flamer"
-      },
-      {
-        "name": "Heavy",
-        "value": 4
-      },
-      {
-        "name": "Inflict",
-        "value": "Bleeding"
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Reliable"
-      },
-      {
-        "name": "Secret of Mars"
-      }
-    ]
-  },
-  {
-    "name": "Transuranic Arquebus",
-    "specialisation": "Ordnance",
-    "damage": 8,
-    "encumbrance": 4,
-    "cost": 6500,
-    "availability": "Exotic",
-    "source": "Adeptus Mechanicus Player's Guide",
-    "range": "Extreme",
-    "magazine": 3,
-    "magazineCost": 650,
-    "traits": [
-      {
-        "name": "Heavy",
-        "value": 4
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Penetrating",
-        "value": 6
-      },
-      {
-        "name": "Two-handed"
-      },
-      {
-        "name": "Secret of Mars"
-      }
-    ]
-  },
-  {
-    "name": "Volkite Blaster",
-    "specialisation": "Ordnance",
-    "damage": 10,
-    "encumbrance": 3,
-    "cost": 7500,
-    "availability": "Exotic",
-    "source": "Adeptus Mechanicus Player's Guide",
-    "range": "Medium",
-    "magazine": 8,
-    "magazineCost": 750,
-    "traits": [
-      {
-        "name": "Heavy",
-        "value": 4
-      },
-      {
-        "name": "Inflict",
-        "value": "Ablaze"
-      },
-      {
-        "name": "Loud"
-      },
-      {
-        "name": "Rend",
-        "value": 3
-      },
-      {
-        "name": "Secret of Mars"
-      }
-    ]
-  }
+	{
+		"name": "Bolt Pistol",
+		"specialisation": "Pistol",
+		"damage": 8,
+		"encumbrance": 2,
+		"cost": 4000,
+		"availability": "Rare",
+		"source": "Core Rulebook",
+		"range": "Medium",
+		"magazine": 2,
+		"magazineCost": 400,
+		"traits": [
+			{
+				"name": "Burst"
+			},
+			{
+				"name": "Close"
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Penetrating",
+				"value": 4
+			},
+			{
+				"name": "Spread"
+			}
+		]
+	},
+	{
+		"name": "Boltgun",
+		"specialisation": "Long Gun",
+		"damage": 8,
+		"encumbrance": 3,
+		"cost": 5000,
+		"availability": "Rare",
+		"source": "Core Rulebook",
+		"range": "Long",
+		"magazine": 4,
+		"magazineCost": 500,
+		"traits": [
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Penetrating",
+				"value": 4
+			},
+			{
+				"name": "Rapid Fire",
+				"value": 2
+			},
+			{
+				"name": "Spread"
+			},
+			{
+				"name": "Two-handed"
+			}
+		]
+	},
+	{
+		"name": "Heavy Bolter",
+		"specialisation": "Ordnance",
+		"damage": 10,
+		"encumbrance": 4,
+		"cost": 9000,
+		"availability": "Rare",
+		"source": "Core Rulebook",
+		"range": "Long",
+		"magazine": 6,
+		"magazineCost": 900,
+		"traits": [
+			{
+				"name": "Heavy",
+				"value": 4
+			},
+			{
+				"name": "Penetrating",
+				"value": 5
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Rapid Fire",
+				"value": 3
+			},
+			{
+				"name": "Spread"
+			},
+			{
+				"name": "Two-handed"
+			}
+		]
+	},
+	{
+		"name": "Hand Flamer",
+		"specialisation": "Pistol",
+		"damage": 7,
+		"encumbrance": 1,
+		"cost": 500,
+		"availability": "Rare",
+		"source": "Core Rulebook",
+		"range": "Short",
+		"magazine": 2,
+		"magazineCost": 25,
+		"traits": [
+			{
+				"name": "Close"
+			},
+			{
+				"name": "Flamer"
+			},
+			{
+				"name": "Inflict",
+				"value": "Ablaze"
+			},
+			{
+				"name": "Loud"
+			}
+		]
+	},
+	{
+		"name": "Flamer",
+		"specialisation": "Long Gun",
+		"damage": 8,
+		"encumbrance": 2,
+		"cost": 1000,
+		"availability": "Scarce",
+		"source": "Core Rulebook",
+		"range": "Medium",
+		"magazine": 4,
+		"magazineCost": 50,
+		"traits": [
+			{
+				"name": "Flamer"
+			},
+			{
+				"name": "Inflict",
+				"value": "Ablaze"
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Two-handed"
+			}
+		]
+	},
+	{
+		"name": "Laspistol",
+		"specialisation": "Pistol",
+		"damage": 5,
+		"encumbrance": 0,
+		"cost": 400,
+		"availability": "Common",
+		"source": "Core Rulebook",
+		"range": "Medium",
+		"magazine": 4,
+		"magazineCost": 100,
+		"traits": [
+			{
+				"name": "Burst"
+			},
+			{
+				"name": "Close"
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Reliable"
+			}
+		]
+	},
+	{
+		"name": "Lasgun",
+		"specialisation": "Long Gun",
+		"damage": 6,
+		"encumbrance": 2,
+		"cost": 600,
+		"availability": "Common",
+		"source": "Core Rulebook",
+		"range": "Long",
+		"magazine": 8,
+		"magazineCost": 150,
+		"traits": [
+			{
+				"name": "Burst"
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Reliable"
+			},
+			{
+				"name": "Two-handed"
+			}
+		]
+	},
+	{
+		"name": "Las Carbine",
+		"specialisation": "Long Gun",
+		"damage": 5,
+		"encumbrance": 1,
+		"cost": 800,
+		"availability": "Common",
+		"source": "Core Rulebook",
+		"range": "Medium",
+		"magazine": 6,
+		"magazineCost": 200,
+		"traits": [
+			{
+				"name": "Rapid Fire",
+				"value": 2
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Reliable"
+			},
+			{
+				"name": "Two-handed"
+			}
+		]
+	},
+	{
+		"name": "Long Las",
+		"specialisation": "Long Gun",
+		"damage": 6,
+		"encumbrance": 2,
+		"cost": 1000,
+		"availability": "Scarce",
+		"source": "Core Rulebook",
+		"range": "Extreme",
+		"magazine": 4,
+		"magazineCost": 250,
+		"traits": [
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Burst"
+			},
+			{
+				"name": "Penetrating",
+				"value": 1
+			},
+			{
+				"name": "Reliable"
+			},
+			{
+				"name": "Two-handed"
+			}
+		]
+	},
+	{
+		"name": "Hot-Shot Laspistol",
+		"specialisation": "Pistol",
+		"damage": 8,
+		"encumbrance": 1,
+		"cost": 900,
+		"availability": "Rare",
+		"source": "Core Rulebook",
+		"range": "Medium",
+		"magazine": 2,
+		"magazineCost": 225,
+		"traits": [
+			{
+				"name": "Burst"
+			},
+			{
+				"name": "Close"
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Penetrating",
+				"value": 2
+			}
+		]
+	},
+	{
+		"name": "Hot-Shot Lasgun",
+		"specialisation": "Long Gun",
+		"damage": 8,
+		"encumbrance": 3,
+		"cost": 1000,
+		"availability": "Rare",
+		"source": "Core Rulebook",
+		"range": "Long",
+		"magazine": 4,
+		"magazineCost": 250,
+		"traits": [
+			{
+				"name": "Burst"
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Penetrating",
+				"value": 2
+			},
+			{
+				"name": "Two-handed"
+			}
+		]
+	},
+	{
+		"name": "Lascanon",
+		"specialisation": "Ordnance",
+		"damage": 18,
+		"encumbrance": 4,
+		"cost": 8000,
+		"availability": "Rare",
+		"source": "Core Rulebook",
+		"range": "Extreme",
+		"magazine": 5,
+		"magazineCost": 2000,
+		"traits": [
+			{
+				"name": "Heavy",
+				"value": 4
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Penetrating",
+				"value": 10
+			},
+			{
+				"name": "Two-handed"
+			}
+		]
+	},
+	{
+		"name": "Grenade Launcher",
+		"specialisation": "Ordnance",
+		"damage": null,
+		"encumbrance": 2,
+		"cost": 1000,
+		"availability": "Rare",
+		"source": "Core Rulebook",
+		"range": "Long",
+		"magazine": 6,
+		"magazineCost": null,
+		"traits": [
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Two-handed"
+			}
+		]
+	},
+	{
+		"name": "Portable Missile Launcher",
+		"specialisation": "Ordnance",
+		"damage": null,
+		"encumbrance": 3,
+		"cost": 2000,
+		"availability": "Rare",
+		"source": "Core Rulebook",
+		"range": "Extreme",
+		"magazine": 1,
+		"magazineCost": null,
+		"traits": [
+			{
+				"name": "Heavy",
+				"value": 4
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Two-handed"
+			}
+		]
+	},
+	{
+		"name": "Inferno Pistol",
+		"specialisation": "Pistol",
+		"damage": 16,
+		"encumbrance": 1,
+		"cost": 8000,
+		"availability": "Exotic",
+		"source": "Core Rulebook",
+		"range": "Short",
+		"magazine": 3,
+		"magazineCost": 400,
+		"traits": [
+			{
+				"name": "Close"
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Rend",
+				"value": 5
+			}
+		]
+	},
+	{
+		"name": "Meltagun",
+		"specialisation": "Long Gun",
+		"damage": 16,
+		"encumbrance": 2,
+		"cost": 9000,
+		"availability": "Rare",
+		"source": "Core Rulebook",
+		"range": "Medium",
+		"magazine": 5,
+		"magazineCost": 450,
+		"traits": [
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Rend",
+				"value": 5
+			},
+			{
+				"name": "Two-handed"
+			}
+		]
+	},
+	{
+		"name": "Plasma Pistol",
+		"specialisation": "Pistol",
+		"damage": 10,
+		"encumbrance": 1,
+		"cost": 7000,
+		"availability": "Rare",
+		"source": "Core Rulebook",
+		"range": "Medium",
+		"magazine": 6,
+		"magazineCost": 500,
+		"traits": [
+			{
+				"name": "Close"
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Penetrating",
+				"value": 6
+			},
+			{
+				"name": "Supercharge",
+				"value": 4
+			},
+			{
+				"name": "Unstable"
+			}
+		]
+	},
+	{
+		"name": "Plasma Gun",
+		"specialisation": "Long Gun",
+		"damage": 10,
+		"encumbrance": 2,
+		"cost": 8000,
+		"availability": "Rare",
+		"source": "Core Rulebook",
+		"range": "Long",
+		"magazine": 12,
+		"magazineCost": 550,
+		"traits": [
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Penetrating",
+				"value": 6
+			},
+			{
+				"name": "Supercharge",
+				"value": 4
+			},
+			{
+				"name": "Two-handed"
+			},
+			{
+				"name": "Unstable"
+			}
+		]
+	},
+	{
+		"name": "Autopistol",
+		"specialisation": "Pistol",
+		"damage": 5,
+		"encumbrance": 0,
+		"cost": 400,
+		"availability": "Common",
+		"source": "Core Rulebook",
+		"range": "Medium",
+		"magazine": 3,
+		"magazineCost": 20,
+		"traits": [
+			{
+				"name": "Close"
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Rapid Fire",
+				"value": 3
+			}
+		]
+	},
+	{
+		"name": "Autogun",
+		"specialisation": "Long Gun",
+		"damage": 6,
+		"encumbrance": 2,
+		"cost": 600,
+		"availability": "Common",
+		"source": "Core Rulebook",
+		"range": "Long",
+		"magazine": 5,
+		"magazineCost": 30,
+		"traits": [
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Two-handed"
+			},
+			{
+				"name": "Rapid Fire",
+				"value": 3
+			}
+		]
+	},
+	{
+		"name": "Hand Cannon",
+		"specialisation": "Pistol",
+		"damage": 8,
+		"encumbrance": 1,
+		"cost": 550,
+		"availability": "Scarce",
+		"source": "Core Rulebook",
+		"range": "Medium",
+		"magazine": 4,
+		"magazineCost": 12,
+		"traits": [
+			{
+				"name": "Close"
+			},
+			{
+				"name": "Heavy",
+				"value": 4
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Penetrating",
+				"value": 2
+			}
+		]
+	},
+	{
+		"name": "Heavy Stubber",
+		"specialisation": "Ordnance",
+		"damage": 8,
+		"encumbrance": 3,
+		"cost": 2000,
+		"availability": "Scarce",
+		"source": "Core Rulebook",
+		"range": "Extreme",
+		"magazine": 8,
+		"magazineCost": 60,
+		"traits": [
+			{
+				"name": "Heavy",
+				"value": 4
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Penetrating",
+				"value": 3
+			},
+			{
+				"name": "Rapid Fire",
+				"value": 4
+			},
+			{
+				"name": "Two-handed"
+			}
+		]
+	},
+	{
+		"name": "Shotgun (Combat)",
+		"specialisation": "Long Gun",
+		"damage": 6,
+		"encumbrance": 2,
+		"cost": 600,
+		"availability": "Scarce",
+		"source": "Core Rulebook",
+		"range": "Medium",
+		"magazine": 12,
+		"magazineCost": 15,
+		"traits": [
+			{
+				"name": "Inflict",
+				"value": "Prone"
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Spread Two-handed"
+			}
+		]
+	},
+	{
+		"name": "Shotgun (Pump Action)",
+		"specialisation": "Long Gun",
+		"damage": 6,
+		"encumbrance": 1,
+		"cost": 400,
+		"availability": "Common",
+		"source": "Core Rulebook",
+		"range": "Medium",
+		"magazine": 8,
+		"magazineCost": 10,
+		"traits": [
+			{
+				"name": "Inflict",
+				"value": "Prone"
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Spread"
+			},
+			{
+				"name": "Two-handed"
+			}
+		]
+	},
+	{
+		"name": "Sniper Rifle",
+		"specialisation": "Long Gun",
+		"damage": 8,
+		"encumbrance": 2,
+		"cost": 1000,
+		"availability": "Scarce",
+		"source": "Core Rulebook",
+		"range": "Extreme",
+		"magazine": 6,
+		"magazineCost": 40,
+		"traits": [
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Two-handed"
+			}
+		]
+	},
+	{
+		"name": "Stub Pistol",
+		"specialisation": "Pistol",
+		"damage": 6,
+		"encumbrance": 0,
+		"cost": 250,
+		"availability": "Common",
+		"source": "Core Rulebook",
+		"range": "Medium",
+		"magazine": 2,
+		"magazineCost": 20,
+		"traits": [
+			{
+				"name": "Burst"
+			},
+			{
+				"name": "Close"
+			},
+			{
+				"name": "Loud"
+			}
+		]
+	},
+	{
+		"name": "Stub Revolver",
+		"specialisation": "Pistol",
+		"damage": 6,
+		"encumbrance": 0,
+		"cost": 200,
+		"availability": "Common",
+		"source": "Core Rulebook",
+		"range": "Medium",
+		"magazine": 6,
+		"magazineCost": 5,
+		"traits": [
+			{
+				"name": "Close"
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Reliable"
+			}
+		]
+	},
+	{
+		"name": "Needle Pistol",
+		"specialisation": "Pistol",
+		"damage": 1,
+		"encumbrance": 1,
+		"cost": 1500,
+		"availability": "Exotic",
+		"source": "Core Rulebook",
+		"range": "Medium",
+		"magazine": 4,
+		"magazineCost": 200,
+		"traits": [
+			{
+				"name": "Close"
+			},
+			{
+				"name": "Inflict",
+				"value": "Poisoned"
+			},
+			{
+				"name": "Penetrating",
+				"value": 6
+			},
+			{
+				"name": "Subtle"
+			}
+		]
+	},
+	{
+		"name": "Needle Rifle",
+		"specialisation": "Long Gun",
+		"damage": 1,
+		"encumbrance": 2,
+		"cost": 1700,
+		"availability": "Exotic",
+		"source": "Core Rulebook",
+		"range": "Long",
+		"magazine": 6,
+		"magazineCost": 220,
+		"traits": [
+			{
+				"name": "Inflict",
+				"value": "Poisoned"
+			},
+			{
+				"name": "Penetrating",
+				"value": 6
+			},
+			{
+				"name": "Subtle"
+			},
+			{
+				"name": "Two-handed"
+			}
+		]
+	},
+	{
+		"name": "Web Pistol",
+		"specialisation": "Pistol",
+		"damage": null,
+		"encumbrance": 1,
+		"cost": 1300,
+		"availability": "Rare",
+		"source": "Core Rulebook",
+		"range": "Short",
+		"magazine": 3,
+		"magazineCost": 130,
+		"traits": [
+			{
+				"name": "Close"
+			},
+			{
+				"name": "Inflict",
+				"value": "Restrained"
+			}
+		]
+	},
+	{
+		"name": "Webber",
+		"specialisation": "Long Gun",
+		"damage": null,
+		"encumbrance": 2,
+		"cost": 1500,
+		"availability": "Rare",
+		"source": "Core Rulebook",
+		"range": "Medium",
+		"magazine": 6,
+		"magazineCost": 150,
+		"traits": [
+			{
+				"name": "Inflict",
+				"value": "Restrained"
+			},
+			{
+				"name": "Two-handed"
+			}
+		]
+	},
+	{
+		"name": "Psycannon",
+		"specialisation": "Ordnance",
+		"damage": 12,
+		"encumbrance": 3,
+		"cost": 240000,
+		"availability": "Exotic",
+		"source": "Inquisitor Player's Guide",
+		"range": "Long",
+		"magazine": 6,
+		"magazineCost": 27000,
+		"traits": [
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Penetrating",
+				"value": 5
+			},
+			{
+				"name": "Rapid Fire",
+				"value": 3
+			},
+			{
+				"name": "Spread"
+			},
+			{
+				"name": "Two-handed"
+			}
+		]
+	},
+	{
+		"name": "Condemnor Boltguns",
+		"specialisation": "Long Gun",
+		"damage": 8,
+		"encumbrance": 2,
+		"cost": 100000,
+		"availability": "Exotic",
+		"source": "Inquisitor Player's Guide",
+		"range": "Long",
+		"magazine": 4,
+		"magazineCost": 10000,
+		"traits": [
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Penetrating",
+				"value": 4
+			},
+			{
+				"name": "Rapid Fire",
+				"value": 2
+			},
+			{
+				"name": "Spread"
+			},
+			{
+				"name": "Two-handed"
+			}
+		]
+	},
+	{
+		"name": "Condemnor Boltguns (Stake)",
+		"specialisation": "Long Gun",
+		"damage": 6,
+		"encumbrance": 2,
+		"cost": 100000,
+		"availability": "Exotic",
+		"source": "Inquisitor Player's Guide",
+		"range": "Long",
+		"magazine": 1,
+		"magazineCost": 10000,
+		"traits": [
+			{
+				"name": "Penetrating",
+				"value": 4
+			},
+			{
+				"name": "Two-handed"
+			}
+		]
+	},
+	{
+		"name": "Handbow",
+		"specialisation": "Pistol",
+		"damage": 5,
+		"encumbrance": 0,
+		"cost": 500,
+		"availability": "Rare",
+		"source": "Inquisitor Player's Guide",
+		"range": "Short",
+		"magazine": 1,
+		"magazineCost": 50,
+		"traits": [
+			{
+				"name": "Close"
+			},
+			{
+				"name": "Penetrating",
+				"value": 2
+			},
+			{
+				"name": "Subtle"
+			}
+		]
+	},
+	{
+		"name": "Purgatus Crossbow",
+		"specialisation": "Long Gun",
+		"damage": 7,
+		"encumbrance": 1,
+		"cost": 1900,
+		"availability": "Exotic",
+		"source": "Inquisitor Player's Guide",
+		"range": "Long",
+		"magazine": 1,
+		"magazineCost": 190,
+		"traits": [
+			{
+				"name": "Penetrating",
+				"value": 4
+			},
+			{
+				"name": "Reliable"
+			}
+		]
+	},
+	{
+		"name": "Stake Crossbow",
+		"specialisation": "Long Gun",
+		"damage": 6,
+		"encumbrance": 1,
+		"cost": 700,
+		"availability": "Rare",
+		"source": "Inquisitor Player's Guide",
+		"range": "Long",
+		"magazine": 1,
+		"magazineCost": 70,
+		"traits": [
+			{
+				"name": "Penetrating",
+				"value": 2
+			}
+		]
+	},
+	{
+		"name": "Incinerator",
+		"specialisation": "Long Gun",
+		"damage": 9,
+		"encumbrance": 2,
+		"cost": 4000,
+		"availability": "Rare",
+		"source": "Inquisitor Player's Guide",
+		"range": "Medium",
+		"magazine": 4,
+		"magazineCost": 200,
+		"traits": [
+			{
+				"name": "Flamer"
+			},
+			{
+				"name": "Inflict",
+				"value": "Ablaze"
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Two-handed"
+			}
+		]
+	},
+	{
+		"name": "Graviton Pistol",
+		"specialisation": "Pistol",
+		"damage": 4,
+		"encumbrance": 0,
+		"cost": 1000,
+		"availability": "Exotic",
+		"source": "Inquisitor Player's Guide",
+		"range": "Short",
+		"magazine": 3,
+		"magazineCost": 200,
+		"traits": [
+			{
+				"name": "Close"
+			},
+			{
+				"name": "Spread"
+			}
+		]
+	},
+	{
+		"name": "Graviton Gun",
+		"specialisation": "Long Gun",
+		"damage": 5,
+		"encumbrance": 1,
+		"cost": 1500,
+		"availability": "Exotic",
+		"source": "Inquisitor Player's Guide",
+		"range": "Long",
+		"magazine": 5,
+		"magazineCost": 300,
+		"traits": [
+			{
+				"name": "Spread"
+			}
+		]
+	},
+	{
+		"name": "Kroot Gun",
+		"specialisation": "Ordnance",
+		"damage": 8,
+		"encumbrance": 3,
+		"cost": 15000,
+		"availability": "Exotic",
+		"source": "Inquisitor Player's Guide",
+		"range": "Long",
+		"magazine": 8,
+		"magazineCost": 1000,
+		"traits": [
+			{
+				"name": "Heavy",
+				"value": 4
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Penetrating",
+				"value": 2
+			},
+			{
+				"name": "Rapid Fire",
+				"value": 4
+			},
+			{
+				"name": "Two-handed"
+			}
+		]
+	},
+	{
+		"name": "Kroot Pistol",
+		"specialisation": "Pistol",
+		"damage": 6,
+		"encumbrance": 0,
+		"cost": 8000,
+		"availability": "Exotic",
+		"source": "Inquisitor Player's Guide",
+		"range": "Short",
+		"magazine": 6,
+		"magazineCost": 400,
+		"traits": [
+			{
+				"name": "Close"
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Penetrating",
+				"value": 2
+			}
+		]
+	},
+	{
+		"name": "Kroot Rifle",
+		"specialisation": "Long Gun",
+		"damage": 7,
+		"encumbrance": 1,
+		"cost": 10000,
+		"availability": "Exotic",
+		"source": "Inquisitor Player's Guide",
+		"range": "Long",
+		"magazine": 4,
+		"magazineCost": 500,
+		"traits": [
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Heavy",
+				"value": 4
+			},
+			{
+				"name": "Penetrating",
+				"value": 2
+			},
+			{
+				"name": "Rapid Fire",
+				"value": 2
+			},
+			{
+				"name": "Two-handed"
+			}
+		]
+	},
+	{
+		"name": "Kroot Sniper Rifle",
+		"specialisation": "Long Gun",
+		"damage": 8,
+		"encumbrance": 2,
+		"cost": 12000,
+		"availability": "Exotic",
+		"source": "Inquisitor Player's Guide",
+		"range": "Extreme",
+		"magazine": 6,
+		"magazineCost": 800,
+		"traits": [
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Penetrating",
+				"value": 2
+			},
+			{
+				"name": "Two-handed"
+			}
+		]
+	},
+	{
+		"name": "Hell Rifle",
+		"specialisation": "Long Gun",
+		"damage": 10,
+		"encumbrance": 2,
+		"cost": 10000,
+		"availability": "Exotic",
+		"source": "Inquisitor Player's Guide",
+		"range": "Extreme",
+		"magazine": 6,
+		"magazineCost": 1000,
+		"traits": [
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Rend",
+				"value": 4
+			},
+			{
+				"name": "Two-handed"
+			}
+		]
+	},
+	{
+		"name": "Pulse Pistol",
+		"specialisation": "Pistol",
+		"damage": 6,
+		"encumbrance": 0,
+		"cost": 8000,
+		"availability": "Exotic",
+		"source": "Inquisitor Player's Guide",
+		"range": "Medium",
+		"magazine": 6,
+		"magazineCost": 800,
+		"traits": [
+			{
+				"name": "Close"
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Penetrating",
+				"value": 6
+			},
+			{
+				"name": "Subtle"
+			}
+		]
+	},
+	{
+		"name": "Pulse Carbine",
+		"specialisation": "Long Gun",
+		"damage": 7,
+		"encumbrance": 1,
+		"cost": 10000,
+		"availability": "Exotic",
+		"source": "Inquisitor Player's Guide",
+		"range": "Long",
+		"magazine": 4,
+		"magazineCost": 1000,
+		"traits": [
+			{
+				"name": "Close"
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Burst"
+			},
+			{
+				"name": "Penetrating",
+				"value": 6
+			}
+		]
+	},
+	{
+		"name": "Pulse Rifle",
+		"specialisation": "Long Gun",
+		"damage": 7,
+		"encumbrance": 1,
+		"cost": 12000,
+		"availability": "Exotic",
+		"source": "Inquisitor Player's Guide",
+		"range": "Extreme",
+		"magazine": 8,
+		"magazineCost": 1000,
+		"traits": [
+			{
+				"name": "Penetrating",
+				"value": 6
+			},
+			{
+				"name": "Rapid Fire",
+				"value": 2
+			},
+			{
+				"name": "Two-handed"
+			}
+		]
+	},
+	{
+		"name": "Shuriken Pistol",
+		"specialisation": "Pistol",
+		"damage": 6,
+		"encumbrance": 0,
+		"cost": 8000,
+		"availability": "Exotic",
+		"source": "Inquisitor Player's Guide",
+		"range": "Medium",
+		"magazine": 4,
+		"magazineCost": 800,
+		"traits": [
+			{
+				"name": "Burst"
+			},
+			{
+				"name": "Close"
+			},
+			{
+				"name": "Penetrating",
+				"value": 4
+			},
+			{
+				"name": "Reliable"
+			}
+		]
+	},
+	{
+		"name": "Shuriken Rifle",
+		"specialisation": "Long Gun",
+		"damage": 8,
+		"encumbrance": 1,
+		"cost": 12000,
+		"availability": "Exotic",
+		"source": "Inquisitor Player's Guide",
+		"range": "Long",
+		"magazine": 6,
+		"magazineCost": 1200,
+		"traits": [
+			{
+				"name": "Penetrating",
+				"value": 4
+			},
+			{
+				"name": "Rapid Fire",
+				"value": 3
+			},
+			{
+				"name": "Reliable"
+			},
+			{
+				"name": "Two-handed"
+			}
+		]
+	},
+	{
+		"name": "Arbites Shotgun",
+		"specialisation": "Long Gun",
+		"damage": 8,
+		"encumbrance": 1,
+		"cost": 1000,
+		"availability": "Rare",
+		"source": "Inquisitor Player's Guide",
+		"range": "Long",
+		"magazine": 8,
+		"magazineCost": 50,
+		"traits": [
+			{
+				"name": "Inflict",
+				"value": "Prone"
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Spread"
+			},
+			{
+				"name": "Reliable"
+			},
+			{
+				"name": "Two-handed"
+			}
+		]
+	},
+	{
+		"name": "Shotpistol",
+		"specialisation": "Pistol",
+		"damage": 7,
+		"encumbrance": 0,
+		"cost": 800,
+		"availability": "Rare",
+		"source": "Inquisitor Player's Guide",
+		"range": "Medium",
+		"magazine": 4,
+		"magazineCost": 40,
+		"traits": [
+			{
+				"name": "Close"
+			},
+			{
+				"name": "Inflict",
+				"value": "Prone"
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Reliable"
+			},
+			{
+				"name": "Spread"
+			}
+		]
+	},
+	{
+		"name": "Digital Weapons",
+		"specialisation": "Pistol",
+		"damage": null,
+		"encumbrance": 0,
+		"cost": 50000,
+		"availability": "Exotic",
+		"source": "Inquisitor Player's Guide",
+		"range": "Short",
+		"magazine": 1,
+		"magazineCost": 5000,
+		"traits": [
+			{
+				"name": "Close"
+			},
+			{
+				"name": "Subtle"
+			}
+		]
+	},
+	{
+		"name": "Neuro Disruptor Pistol",
+		"specialisation": "Pistol",
+		"damage": 8,
+		"encumbrance": 2,
+		"cost": 25000,
+		"availability": "Exotic",
+		"source": "Inquisitor Player's Guide",
+		"range": "Short",
+		"magazine": 3,
+		"magazineCost": 2500,
+		"traits": [
+			{
+				"name": "Close"
+			},
+			{
+				"name": "Inflict",
+				"value": "Stunned"
+			},
+			{
+				"name": "Penetrating",
+				"value": 6
+			}
+		]
+	},
+	{
+		"name": "Splinter Pistol",
+		"specialisation": "Pistol",
+		"damage": 5,
+		"encumbrance": 0,
+		"cost": 10000,
+		"availability": "Exotic",
+		"source": "Inquisitor Player's Guide",
+		"range": "Short",
+		"magazine": 4,
+		"magazineCost": 1000,
+		"traits": [
+			{
+				"name": "Burst"
+			},
+			{
+				"name": "Close"
+			},
+			{
+				"name": "Inflict",
+				"value": "Poisoned"
+			},
+			{
+				"name": "Penetrating",
+				"value": 2
+			}
+		]
+	},
+	{
+		"name": "Splinter Rifle",
+		"specialisation": "Long Gun",
+		"damage": 6,
+		"encumbrance": 1,
+		"cost": 15000,
+		"availability": "Exotic",
+		"source": "Inquisitor Player's Guide",
+		"range": "Long",
+		"magazine": 6,
+		"magazineCost": 1500,
+		"traits": [
+			{
+				"name": "Inflict",
+				"value": "Poisoned"
+			},
+			{
+				"name": "Penetrating",
+				"value": 2
+			},
+			{
+				"name": "Rapid Fire",
+				"value": 3
+			},
+			{
+				"name": "Two-handed"
+			}
+		]
+	},
+	{
+		"name": "Ajax Pattern Boltgun",
+		"specialisation": "Long Gun",
+		"damage": 8,
+		"encumbrance": 3,
+		"cost": 6500,
+		"availability": "Exotic",
+		"source": "Macharian Requisition Guide",
+		"range": "Long",
+		"magazine": 4,
+		"magazineCost": 650,
+		"traits": [
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Penetrating",
+				"value": 4
+			},
+			{
+				"name": "Rapid Fire",
+				"value": 2
+			},
+			{
+				"name": "Reliable"
+			},
+			{
+				"name": "Spread"
+			},
+			{
+				"name": "Two-handed"
+			}
+		]
+	},
+	{
+		"name": "Supremus Pattern Bolt Pistol",
+		"specialisation": "Pistol",
+		"damage": 8,
+		"encumbrance": 3,
+		"cost": 5500,
+		"availability": "Rare",
+		"source": "Macharian Requisition Guide",
+		"range": "Medium",
+		"magazine": 3,
+		"magazineCost": 550,
+		"traits": [
+			{
+				"name": "Burst"
+			},
+			{
+				"name": "Close"
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Penetrating",
+				"value": 4
+			},
+			{
+				"name": "Reliable"
+			},
+			{
+				"name": "Spread"
+			}
+		]
+	},
+	{
+		"name": "Accatran Pattern 'Spearhead' Recon Lasgun",
+		"specialisation": "Long Gun",
+		"damage": 5,
+		"encumbrance": 2,
+		"cost": 700,
+		"availability": "Rare",
+		"source": "Macharian Requisition Guide",
+		"range": "Long",
+		"magazine": 8,
+		"magazineCost": 70,
+		"traits": [
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Rapid Fire",
+				"value": 1
+			},
+			{
+				"name": "Reliable"
+			},
+			{
+				"name": "Spread"
+			},
+			{
+				"name": "Two-handed"
+			}
+		]
+	},
+	{
+		"name": "Eskuhtax Pattern Mark III 'Fury' Lasgun",
+		"specialisation": "Long Gun",
+		"damage": 6,
+		"encumbrance": 2,
+		"cost": 700,
+		"availability": "Rare",
+		"source": "Macharian Requisition Guide",
+		"range": "Medium",
+		"magazine": 8,
+		"magazineCost": 70,
+		"traits": [
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Rapid Fire",
+				"value": 2
+			},
+			{
+				"name": "Reliable"
+			},
+			{
+				"name": "Two-handed"
+			}
+		]
+	},
+	{
+		"name": "Lucius Mk I Helbore Pattern Lasgun",
+		"specialisation": "Long Gun",
+		"damage": 6,
+		"encumbrance": 2,
+		"cost": 700,
+		"availability": "Rare",
+		"source": "Macharian Requisition Guide",
+		"range": "Long",
+		"magazine": 4,
+		"magazineCost": 70,
+		"traits": [
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Reliable"
+			},
+			{
+				"name": "Supercharge",
+				"value": 3
+			},
+			{
+				"name": "Two-handed"
+			}
+		]
+	},
+	{
+		"name": "Mining Laser",
+		"specialisation": "Ordnance",
+		"damage": 18,
+		"encumbrance": 5,
+		"cost": 6000,
+		"availability": "Rare",
+		"source": "Macharian Requisition Guide",
+		"range": "Long",
+		"magazine": 8,
+		"magazineCost": 600,
+		"traits": [
+			{
+				"name": "Heavy",
+				"value": 5
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Penetrating",
+				"value": 8
+			},
+			{
+				"name": "Two-handed"
+			},
+			{
+				"name": "Unstable"
+			}
+		]
+	},
+	{
+		"name": "Multi-melta",
+		"specialisation": "Ordnance",
+		"damage": 16,
+		"encumbrance": 3,
+		"cost": 13500,
+		"availability": "Rare",
+		"source": "Macharian Requisition Guide",
+		"range": "Long",
+		"magazine": 6,
+		"magazineCost": 1350,
+		"traits": [
+			{
+				"name": "Blast"
+			},
+			{
+				"name": "Heavy",
+				"value": 4
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Rend",
+				"value": 5
+			},
+			{
+				"name": "Two-handed"
+			}
+		]
+	},
+	{
+		"name": "Autocannon",
+		"specialisation": "Ordnance",
+		"damage": 10,
+		"encumbrance": 3,
+		"cost": 4500,
+		"availability": "Rare",
+		"source": "Macharian Requisition Guide",
+		"range": "Extreme",
+		"magazine": 6,
+		"magazineCost": 225,
+		"traits": [
+			{
+				"name": "Heavy",
+				"value": 4
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Penetrating",
+				"value": 5
+			},
+			{
+				"name": "Rapid Fire",
+				"value": 3
+			},
+			{
+				"name": "Two-handed"
+			}
+		]
+	},
+	{
+		"name": "Charcaros Pattern Autogun",
+		"specialisation": "Long Gun",
+		"damage": 6,
+		"encumbrance": 2,
+		"cost": 650,
+		"availability": "Rare",
+		"source": "Macharian Requisition Guide",
+		"range": "Long",
+		"magazine": 5,
+		"magazineCost": 30,
+		"traits": [
+			{
+				"name": "Defensive"
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Rapid Fire",
+				"value": 3
+			},
+			{
+				"name": "Two-handed"
+			}
+		]
+	},
+	{
+		"name": "Desperion Enforcer Shotgun",
+		"specialisation": "Long Gun",
+		"damage": 6,
+		"encumbrance": 3,
+		"cost": 950,
+		"availability": "Rare",
+		"source": "Macharian Requisition Guide",
+		"range": "Medium",
+		"magazine": 12,
+		"magazineCost": 15,
+		"traits": [
+			{
+				"name": "Inflict",
+				"value": "Prone"
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Spread"
+			},
+			{
+				"name": "Two-handed"
+			}
+		]
+	},
+	{
+		"name": "Kallastin Pattern 'Deadstop' Mk III Autogun",
+		"specialisation": "Long Gun",
+		"damage": 7,
+		"encumbrance": 2,
+		"cost": 700,
+		"availability": "Rare",
+		"source": "Macharian Requisition Guide",
+		"range": "Long",
+		"magazine": 5,
+		"magazineCost": 30,
+		"traits": [
+			{
+				"name": "Burst"
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Penetrating",
+				"value": 1
+			},
+			{
+				"name": "Two-handed"
+			}
+		]
+	},
+	{
+		"name": "Macharian 'Shrinebreaker' Shrine Shotgun",
+		"specialisation": "Long Gun",
+		"damage": 6,
+		"encumbrance": 1,
+		"cost": 1000,
+		"availability": "Scarce",
+		"source": "Macharian Requisition Guide",
+		"range": "Medium",
+		"magazine": 10,
+		"magazineCost": 10,
+		"traits": [
+			{
+				"name": "Inflict",
+				"value": "Prone"
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Reliable"
+			},
+			{
+				"name": "Spread"
+			},
+			{
+				"name": "Two-handed"
+			}
+		]
+	},
+	{
+		"name": "Osmodia Pattern Sniper Rifle",
+		"specialisation": "Long Gun",
+		"damage": 8,
+		"encumbrance": 1,
+		"cost": 1200,
+		"availability": "Scarce",
+		"source": "Macharian Requisition Guide",
+		"range": "Extreme",
+		"magazine": 6,
+		"magazineCost": 50,
+		"traits": [
+			{
+				"name": "Reliable"
+			},
+			{
+				"name": "Two-handed"
+			}
+		]
+	},
+	{
+		"name": "RX-9 Rivet Gun",
+		"specialisation": "Long Gun",
+		"damage": 12,
+		"encumbrance": 3,
+		"cost": 1700,
+		"availability": "Scarce",
+		"source": "Macharian Requisition Guide",
+		"range": "Short",
+		"magazine": 10,
+		"magazineCost": 30,
+		"traits": [
+			{
+				"name": "Heavy",
+				"value": 3
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Penetrating",
+				"value": 4
+			},
+			{
+				"name": "Two-handed"
+			}
+		]
+	},
+	{
+		"name": "RX-9 'ForgeStamp' Pattern Rivet Gun",
+		"specialisation": "Long Gun",
+		"damage": 12,
+		"encumbrance": 3,
+		"cost": 3400,
+		"availability": "Rare",
+		"source": "Macharian Requisition Guide",
+		"range": "Short",
+		"magazine": 10,
+		"magazineCost": 60,
+		"traits": [
+			{
+				"name": "Heavy",
+				"value": 4
+			},
+			{
+				"name": "Inflict",
+				"value": "Ablaze"
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Penetrating",
+				"value": 2
+			},
+			{
+				"name": "Rapid Fire",
+				"value": 2
+			},
+			{
+				"name": "Two-handed"
+			}
+		]
+	},
+	{
+		"name": "Skarthius Pattern 'Last Word' Shotgun",
+		"specialisation": "Long Gun",
+		"damage": 9,
+		"encumbrance": 2,
+		"cost": 800,
+		"availability": "Scarce",
+		"source": "Macharian Requisition Guide",
+		"range": "Medium",
+		"magazine": 2,
+		"magazineCost": 15,
+		"traits": [
+			{
+				"name": "Close"
+			},
+			{
+				"name": "Inflict",
+				"value": "Prone"
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Spread"
+			},
+			{
+				"name": "Two-handed"
+			}
+		]
+	},
+	{
+		"name": "Skarthius Pattern Mk IV Autogun",
+		"specialisation": "Long Gun",
+		"damage": 8,
+		"encumbrance": 1,
+		"cost": 700,
+		"availability": "Scarce",
+		"source": "Macharian Requisition Guide",
+		"range": "Long",
+		"magazine": 7,
+		"magazineCost": 35,
+		"traits": [
+			{
+				"name": "Close"
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Rapid Fire",
+				"value": 3
+			},
+			{
+				"name": "Two-handed"
+			}
+		]
+	},
+	{
+		"name": "Deluge Fluid Cannon (High Pressure)",
+		"specialisation": "Ordnance",
+		"damage": 8,
+		"encumbrance": 4,
+		"cost": 2500,
+		"availability": "Scarce",
+		"source": "Macharian Requisition Guide",
+		"range": "Long",
+		"magazine": 5,
+		"traits": [
+			{
+				"name": "Flamer"
+			},
+			{
+				"name": "Heavy",
+				"value": 4
+			},
+			{
+				"name": "Ineffective"
+			},
+			{
+				"name": "Two-handed"
+			}
+		]
+	},
+	{
+		"name": "Deluge Fluid Cannon (High Volume)",
+		"specialisation": "Ordnance",
+		"damage": 5,
+		"encumbrance": 4,
+		"cost": 2500,
+		"availability": "Scarce",
+		"source": "Macharian Requisition Guide",
+		"range": "Medium",
+		"magazine": 5,
+		"traits": [
+			{
+				"name": "Flamer"
+			},
+			{
+				"name": "Heavy",
+				"value": 4
+			},
+			{
+				"name": "Ineffective"
+			},
+			{
+				"name": "Inflict",
+				"value": "Stunned"
+			},
+			{
+				"name": "Two-handed"
+			}
+		]
+	},
+	{
+		"name": "Seismic Cannon (Long Wave Pattern)",
+		"specialisation": "Ordnance",
+		"damage": 8,
+		"encumbrance": 5,
+		"cost": 6000,
+		"availability": "Scarce",
+		"source": "Macharian Requisition Guide",
+		"range": "Long",
+		"magazine": 4,
+		"magazineCost": 600,
+		"traits": [
+			{
+				"name": "Heavy",
+				"value": 5
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Penetrating",
+				"value": 10
+			},
+			{
+				"name": "Two-handed"
+			}
+		]
+	},
+	{
+		"name": "Seismic Cannon (Short Wave Pattern)",
+		"specialisation": "Ordnance",
+		"damage": 12,
+		"encumbrance": 5,
+		"cost": 6000,
+		"availability": "Scarce",
+		"source": "Macharian Requisition Guide",
+		"range": "Short",
+		"magazine": 4,
+		"magazineCost": 600,
+		"traits": [
+			{
+				"name": "Heavy",
+				"value": 5
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Penetrating",
+				"value": 10
+			},
+			{
+				"name": "Two-handed"
+			}
+		]
+	},
+	{
+		"name": "Storm Welder",
+		"specialisation": "Ordnance",
+		"damage": 10,
+		"encumbrance": 3,
+		"cost": 1900,
+		"availability": "Scarce",
+		"source": "Macharian Requisition Guide",
+		"range": "Medium",
+		"magazine": 9,
+		"magazineCost": 150,
+		"traits": [
+			{
+				"name": "Rapid Fire",
+				"value": 3
+			},
+			{
+				"name": "Spread"
+			},
+			{
+				"name": "Two-handed"
+			},
+			{
+				"name": "Unstable"
+			}
+		]
+	},
+	{
+		"name": "Arc Pistol",
+		"specialisation": "Pistol",
+		"damage": 10,
+		"encumbrance": 2,
+		"cost": 3000,
+		"availability": "Rare",
+		"source": "Adeptus Mechanicus Player's Guide",
+		"range": "Medium",
+		"magazine": 3,
+		"magazineCost": 300,
+		"traits": [
+			{
+				"name": "Burst"
+			},
+			{
+				"name": "Close"
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Secret of Mars"
+			}
+		]
+	},
+	{
+		"name": "Arc Rifle",
+		"specialisation": "Long Gun",
+		"damage": 12,
+		"encumbrance": 3,
+		"cost": 5000,
+		"availability": "Rare",
+		"source": "Adeptus Mechanicus Player's Guide",
+		"range": "Long",
+		"magazine": 3,
+		"magazineCost": 500,
+		"traits": [
+			{
+				"name": "Burst"
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Two-handed"
+			},
+			{
+				"name": "Secret of Mars"
+			}
+		]
+	},
+	{
+		"name": "Heavy Arc Rifle",
+		"specialisation": "Ordnance",
+		"damage": 18,
+		"encumbrance": 4,
+		"cost": 8000,
+		"availability": "Exotic",
+		"source": "Adeptus Mechanicus Player's Guide",
+		"range": "Long",
+		"magazine": 5,
+		"magazineCost": 800,
+		"traits": [
+			{
+				"name": "Burst"
+			},
+			{
+				"name": "Heavy",
+				"value": 4
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Two-handed"
+			},
+			{
+				"name": "Secret of Mars"
+			}
+		]
+	},
+	{
+		"name": "Flechette Blaster",
+		"specialisation": "Pistol",
+		"damage": 6,
+		"encumbrance": 1,
+		"cost": 2500,
+		"availability": "Scarce",
+		"source": "Adeptus Mechanicus Player's Guide",
+		"range": "Medium",
+		"magazine": 6,
+		"magazineCost": 250,
+		"traits": [
+			{
+				"name": "Close"
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Rapid Fire",
+				"value": 3
+			},
+			{
+				"name": "Reliable"
+			},
+			{
+				"name": "Secret of Mars"
+			}
+		]
+	},
+	{
+		"name": "Flechette Carbine",
+		"specialisation": "Long Gun",
+		"damage": 6,
+		"encumbrance": 2,
+		"cost": 4500,
+		"availability": "Scarce",
+		"source": "Adeptus Mechanicus Player's Guide",
+		"range": "Medium",
+		"magazine": 8,
+		"magazineCost": 450,
+		"traits": [
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Rapid Fire",
+				"value": 4
+			},
+			{
+				"name": "Reliable"
+			},
+			{
+				"name": "Two-handed"
+			},
+			{
+				"name": "Secret of Mars"
+			}
+		]
+	},
+	{
+		"name": "Galvanic Carbine",
+		"specialisation": "Long Gun",
+		"damage": 8,
+		"encumbrance": 2,
+		"cost": 2000,
+		"availability": "Rare",
+		"source": "Adeptus Mechanicus Player's Guide",
+		"range": "Medium",
+		"magazine": 4,
+		"magazineCost": 200,
+		"traits": [
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Penetrating",
+				"value": 2
+			},
+			{
+				"name": "Two-handed"
+			},
+			{
+				"name": "Secret of Mars"
+			}
+		]
+	},
+	{
+		"name": "Galvanic Rifle",
+		"specialisation": "Long Gun",
+		"damage": 8,
+		"encumbrance": 3,
+		"cost": 4000,
+		"availability": "Rare",
+		"source": "Adeptus Mechanicus Player's Guide",
+		"range": "Long",
+		"magazine": 4,
+		"magazineCost": 400,
+		"traits": [
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Penetrating",
+				"value": 2
+			},
+			{
+				"name": "Two-handed"
+			},
+			{
+				"name": "Secret of Mars"
+			}
+		]
+	},
+	{
+		"name": "Phosphor Blast Carbine",
+		"specialisation": "Long Gun",
+		"damage": 8,
+		"encumbrance": 2,
+		"cost": 4500,
+		"availability": "Rare",
+		"source": "Adeptus Mechanicus Player's Guide",
+		"range": "Medium",
+		"magazine": 5,
+		"magazineCost": 450,
+		"traits": [
+			{
+				"name": "Blast"
+			},
+			{
+				"name": "Inflict",
+				"value": "Ablaze"
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Rend",
+				"value": 1
+			},
+			{
+				"name": "Two-handed"
+			},
+			{
+				"name": "Secret of Mars"
+			}
+		]
+	},
+	{
+		"name": "Phosphor Pistol",
+		"specialisation": "Pistol",
+		"damage": 7,
+		"encumbrance": 1,
+		"cost": 2500,
+		"availability": "Rare",
+		"source": "Adeptus Mechanicus Player's Guide",
+		"range": "Medium",
+		"magazine": 4,
+		"magazineCost": 250,
+		"traits": [
+			{
+				"name": "Close"
+			},
+			{
+				"name": "Inflict",
+				"value": "Ablaze"
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Rend",
+				"value": 1
+			},
+			{
+				"name": "Secret of Mars"
+			}
+		]
+	},
+	{
+		"name": "Phosphor Serpenta",
+		"specialisation": "Pistol",
+		"damage": 8,
+		"encumbrance": 2,
+		"cost": 3500,
+		"availability": "Exotic",
+		"source": "Adeptus Mechanicus Player's Guide",
+		"range": "Medium",
+		"magazine": 5,
+		"magazineCost": 350,
+		"traits": [
+			{
+				"name": "Close"
+			},
+			{
+				"name": "Heavy",
+				"value": 3
+			},
+			{
+				"name": "Inflict",
+				"value": "Ablaze"
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Rend",
+				"value": 2
+			},
+			{
+				"name": "Secret of Mars"
+			}
+		]
+	},
+	{
+		"name": "Phosphor Torch",
+		"specialisation": "Long Gun",
+		"damage": 8,
+		"encumbrance": 3,
+		"cost": 5500,
+		"availability": "Rare",
+		"source": "Adeptus Mechanicus Player's Guide",
+		"range": "Medium",
+		"magazine": 6,
+		"magazineCost": 550,
+		"traits": [
+			{
+				"name": "Flamer"
+			},
+			{
+				"name": "Inflict",
+				"value": "Ablaze"
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Rend",
+				"value": 1
+			},
+			{
+				"name": "Two-handed"
+			},
+			{
+				"name": "Secret of Mars"
+			}
+		]
+	},
+	{
+		"name": "Radium Carbine",
+		"specialisation": "Long Gun",
+		"damage": 8,
+		"encumbrance": 2,
+		"cost": 5000,
+		"availability": "Rare",
+		"source": "Adeptus Mechanicus Player's Guide",
+		"range": "Medium",
+		"magazine": 6,
+		"magazineCost": 500,
+		"traits": [
+			{
+				"name": "Inflict",
+				"value": "Poisoned"
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Two-handed"
+			},
+			{
+				"name": "Secret of Mars"
+			}
+		]
+	},
+	{
+		"name": "Radium Jezzail",
+		"specialisation": "Ordnance",
+		"damage": 12,
+		"encumbrance": 2,
+		"cost": 5000,
+		"availability": "Rare",
+		"source": "Adeptus Mechanicus Player's Guide",
+		"range": "Long",
+		"magazine": 4,
+		"magazineCost": 500,
+		"traits": [
+			{
+				"name": "Heavy",
+				"value": 4
+			},
+			{
+				"name": "Inflict",
+				"value": "Poisoned"
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Penetrating",
+				"value": 3
+			},
+			{
+				"name": "Two-handed"
+			},
+			{
+				"name": "Secret of Mars"
+			}
+		]
+	},
+	{
+		"name": "Radium Pistol",
+		"specialisation": "Pistol",
+		"damage": 10,
+		"encumbrance": 2,
+		"cost": 7000,
+		"availability": "Exotic",
+		"source": "Adeptus Mechanicus Player's Guide",
+		"range": "Short",
+		"magazine": 5,
+		"magazineCost": 700,
+		"traits": [
+			{
+				"name": "Close"
+			},
+			{
+				"name": "Inflict",
+				"value": "Poisoned"
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Secret of Mars"
+			}
+		]
+	},
+	{
+		"name": "Radium Serpenta",
+		"specialisation": "Pistol",
+		"damage": 10,
+		"encumbrance": 3,
+		"cost": 9000,
+		"availability": "Exotic",
+		"source": "Adeptus Mechanicus Player's Guide",
+		"range": "Medium",
+		"magazine": 6,
+		"magazineCost": 900,
+		"traits": [
+			{
+				"name": "Close"
+			},
+			{
+				"name": "Heavy",
+				"value": 3
+			},
+			{
+				"name": "Inflict",
+				"value": "Poisoned"
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Secret of Mars"
+			}
+		]
+	},
+	{
+		"name": "Cognis Heavy Stubber",
+		"specialisation": "Ordnance",
+		"damage": 10,
+		"encumbrance": 3,
+		"cost": 8000,
+		"availability": "Rare",
+		"source": "Adeptus Mechanicus Player's Guide",
+		"range": "Extreme",
+		"magazine": 8,
+		"magazineCost": 800,
+		"traits": [
+			{
+				"name": "Heavy",
+				"value": 4
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Penetrating",
+				"value": 3
+			},
+			{
+				"name": "Rapid Fire",
+				"value": 4
+			},
+			{
+				"name": "Reliable"
+			},
+			{
+				"name": "Two-handed"
+			},
+			{
+				"name": "Secret of Mars"
+			}
+		]
+	},
+	{
+		"name": "Macrostubber",
+		"specialisation": "Long Gun",
+		"damage": 10,
+		"encumbrance": 2,
+		"cost": 6000,
+		"availability": "Rare",
+		"source": "Adeptus Mechanicus Player's Guide",
+		"range": "Medium",
+		"magazine": 8,
+		"magazineCost": 600,
+		"traits": [
+			{
+				"name": "Heavy",
+				"value": 4
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Penetrating",
+				"value": 3
+			},
+			{
+				"name": "Reliable"
+			},
+			{
+				"name": "Rapid Fire",
+				"value": 2
+			},
+			{
+				"name": "Secret of Mars"
+			}
+		]
+	},
+	{
+		"name": "Stubcarbine",
+		"specialisation": "Pistol",
+		"damage": 7,
+		"encumbrance": 2,
+		"cost": 4000,
+		"availability": "Rare",
+		"source": "Adeptus Mechanicus Player's Guide",
+		"range": "Short",
+		"magazine": 4,
+		"magazineCost": 200,
+		"traits": [
+			{
+				"name": "Close"
+			},
+			{
+				"name": "Heavy",
+				"value": 3
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Penetrating",
+				"value": 3
+			},
+			{
+				"name": "Rapid Fire",
+				"value": 4
+			},
+			{
+				"name": "Two-handed"
+			},
+			{
+				"name": "Secret of Mars"
+			}
+		]
+	},
+	{
+		"name": "Eradication Pistol",
+		"specialisation": "Pistol",
+		"damage": 8,
+		"encumbrance": 2,
+		"cost": 8000,
+		"availability": "Exotic",
+		"source": "Adeptus Mechanicus Player's Guide",
+		"range": "Short",
+		"magazine": 5,
+		"magazineCost": 800,
+		"traits": [
+			{
+				"name": "Close"
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Penetrating",
+				"value": 4
+			},
+			{
+				"name": "Rend",
+				"value": 4
+			},
+			{
+				"name": "Secret of Mars"
+			}
+		]
+	},
+	{
+		"name": "Eradication Ray",
+		"specialisation": "Ordnance",
+		"damage": 10,
+		"encumbrance": 3,
+		"cost": 10000,
+		"availability": "Exotic",
+		"source": "Adeptus Mechanicus Player's Guide",
+		"range": "Medium",
+		"magazine": 6,
+		"magazineCost": 1000,
+		"traits": [
+			{
+				"name": "Heavy",
+				"value": 4
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Penetrating",
+				"value": 4
+			},
+			{
+				"name": "Rend",
+				"value": 4
+			},
+			{
+				"name": "Secret of Mars"
+			}
+		]
+	},
+	{
+		"name": "Gamma Pistol",
+		"specialisation": "Pistol",
+		"damage": 9,
+		"encumbrance": 2,
+		"cost": 7500,
+		"availability": "Exotic",
+		"source": "Adeptus Mechanicus Player's Guide",
+		"range": "Short",
+		"magazine": 5,
+		"magazineCost": 750,
+		"traits": [
+			{
+				"name": "Close"
+			},
+			{
+				"name": "Inflict",
+				"value": "Poisoned"
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Penetrating",
+				"value": 4
+			},
+			{
+				"name": "Secret of Mars"
+			}
+		]
+	},
+	{
+		"name": "Magnarail Lance",
+		"specialisation": "Ordnance",
+		"damage": 18,
+		"encumbrance": 3,
+		"cost": 10000,
+		"availability": "Exotic",
+		"source": "Adeptus Mechanicus Player's Guide",
+		"range": "Long",
+		"magazine": 6,
+		"magazineCost": 1000,
+		"traits": [
+			{
+				"name": "Heavy",
+				"value": 4
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Penetrating",
+				"value": 5
+			},
+			{
+				"name": "Supercharge",
+				"value": 6
+			},
+			{
+				"name": "Two-handed"
+			},
+			{
+				"name": "Secret of Mars"
+			}
+		]
+	},
+	{
+		"name": "Plasma Caliver",
+		"specialisation": "Long Gun",
+		"damage": 10,
+		"encumbrance": 3,
+		"cost": 10000,
+		"availability": "Exotic",
+		"source": "Adeptus Mechanicus Player's Guide",
+		"range": "Long",
+		"magazine": 10,
+		"magazineCost": 1000,
+		"traits": [
+			{
+				"name": "Burst"
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Penetrating",
+				"value": 6
+			},
+			{
+				"name": "Supercharge",
+				"value": 4
+			},
+			{
+				"name": "Two-handed"
+			},
+			{
+				"name": "Secret of Mars"
+			}
+		]
+	},
+	{
+		"name": "Transonic Cannon",
+		"specialisation": "Long Gun",
+		"damage": 8,
+		"encumbrance": 3,
+		"cost": 5500,
+		"availability": "Exotic",
+		"source": "Adeptus Mechanicus Player's Guide",
+		"range": "Medium",
+		"magazine": 4,
+		"magazineCost": 500,
+		"traits": [
+			{
+				"name": "Flamer"
+			},
+			{
+				"name": "Heavy",
+				"value": 4
+			},
+			{
+				"name": "Inflict",
+				"value": "Bleeding"
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Reliable"
+			},
+			{
+				"name": "Secret of Mars"
+			}
+		]
+	},
+	{
+		"name": "Transuranic Arquebus",
+		"specialisation": "Ordnance",
+		"damage": 8,
+		"encumbrance": 4,
+		"cost": 6500,
+		"availability": "Exotic",
+		"source": "Adeptus Mechanicus Player's Guide",
+		"range": "Extreme",
+		"magazine": 3,
+		"magazineCost": 650,
+		"traits": [
+			{
+				"name": "Heavy",
+				"value": 4
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Penetrating",
+				"value": 6
+			},
+			{
+				"name": "Two-handed"
+			},
+			{
+				"name": "Secret of Mars"
+			}
+		]
+	},
+	{
+		"name": "Volkite Blaster",
+		"specialisation": "Ordnance",
+		"damage": 10,
+		"encumbrance": 3,
+		"cost": 7500,
+		"availability": "Exotic",
+		"source": "Adeptus Mechanicus Player's Guide",
+		"range": "Medium",
+		"magazine": 8,
+		"magazineCost": 750,
+		"traits": [
+			{
+				"name": "Heavy",
+				"value": 4
+			},
+			{
+				"name": "Inflict",
+				"value": "Ablaze"
+			},
+			{
+				"name": "Loud"
+			},
+			{
+				"name": "Rend",
+				"value": 3
+			},
+			{
+				"name": "Secret of Mars"
+			}
+		]
+	}
 ]

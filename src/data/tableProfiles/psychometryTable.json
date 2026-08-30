@@ -1,32 +1,32 @@
 {
-  "name": "Psychometry Table",
-  "description": "Results (Cumulative)",
-  "data": [
-    {
-      "sl": 1,
-      "effect": "You receive general, vague impressions of the most recent strong emotions creatures felt while nearby or interacting with the target"
-    },
-    {
-      "sl": 2,
-      "effect": "You know how recently the emotions were experienced."
-    },
-    {
-      "sl": 3,
-      "effect": "You witness a hazy memory of the events that caused the strong emotions."
-    },
-    {
-      "sl": 4,
-      "effect": "You witness a clear, detailed memory of the events."
-    },
-    {
-      "sl": 5,
-      "effect": "You learn the identities of the people who left emotional impressions on the target"
-    },
-    {
-      "sl": {
-        "min": 6
-      },
-      "effect": "You gain a deep understanding of what transpired involving the target. Ask the GM a single question about the event, which they answer truthfully"
-    }
-  ]
+	"name": "Psychometry Table",
+	"description": "Results (Cumulative)",
+	"data": [
+		{
+			"sl": 1,
+			"effect": "You receive general, vague impressions of the most recent strong emotions creatures felt while nearby or interacting with the target"
+		},
+		{
+			"sl": 2,
+			"effect": "You know how recently the emotions were experienced."
+		},
+		{
+			"sl": 3,
+			"effect": "You witness a hazy memory of the events that caused the strong emotions."
+		},
+		{
+			"sl": 4,
+			"effect": "You witness a clear, detailed memory of the events."
+		},
+		{
+			"sl": 5,
+			"effect": "You learn the identities of the people who left emotional impressions on the target"
+		},
+		{
+			"sl": {
+				"min": 6
+			},
+			"effect": "You gain a deep understanding of what transpired involving the target. Ask the GM a single question about the event, which they answer truthfully"
+		}
+	]
 }
