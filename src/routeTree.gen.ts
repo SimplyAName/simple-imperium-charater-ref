@@ -8,266 +8,266 @@
 // You should NOT make any changes in this file as it will be overwritten.
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
-import { Route as rootRouteImport } from "./routes/__root";
-import { Route as AboutRouteImport } from "./routes/about";
-import { Route as AugmeticsRouteImport } from "./routes/augmetics";
-import { Route as CharacterRouteImport } from "./routes/character";
-import { Route as CombatRouteImport } from "./routes/combat";
-import { Route as EquipmentRouteImport } from "./routes/equipment";
-import { Route as IndexRouteImport } from "./routes/index";
-import { Route as ProtectionRouteImport } from "./routes/protection";
-import { Route as PsykersRouteImport } from "./routes/psykers";
-import { Route as ServicesRouteImport } from "./routes/services";
-import { Route as TalentsRouteImport } from "./routes/talents";
-import { Route as WeaponsRouteImport } from "./routes/weapons";
+import { Route as rootRouteImport } from './routes/__root'
+import { Route as IndexRouteImport } from './routes/index'
+import { Route as AboutRouteImport } from './routes/about'
+import { Route as AugmeticsRouteImport } from './routes/augmetics'
+import { Route as CharacterRouteImport } from './routes/character'
+import { Route as CombatRouteImport } from './routes/combat'
+import { Route as EquipmentRouteImport } from './routes/equipment'
+import { Route as ProtectionRouteImport } from './routes/protection'
+import { Route as PsykersRouteImport } from './routes/psykers'
+import { Route as ServicesRouteImport } from './routes/services'
+import { Route as TalentsRouteImport } from './routes/talents'
+import { Route as WeaponsRouteImport } from './routes/weapons'
 
 const IndexRoute = IndexRouteImport.update({
-	id: "/",
-	path: "/",
-	getParentRoute: () => rootRouteImport,
-} as any);
+  id: '/',
+  path: '/',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const AboutRoute = AboutRouteImport.update({
-	id: "/about",
-	path: "/about",
-	getParentRoute: () => rootRouteImport,
-} as any);
+  id: '/about',
+  path: '/about',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const AugmeticsRoute = AugmeticsRouteImport.update({
-	id: "/augmetics",
-	path: "/augmetics",
-	getParentRoute: () => rootRouteImport,
-} as any);
+  id: '/augmetics',
+  path: '/augmetics',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const CharacterRoute = CharacterRouteImport.update({
-	id: "/character",
-	path: "/character",
-	getParentRoute: () => rootRouteImport,
-} as any);
+  id: '/character',
+  path: '/character',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const CombatRoute = CombatRouteImport.update({
-	id: "/combat",
-	path: "/combat",
-	getParentRoute: () => rootRouteImport,
-} as any);
+  id: '/combat',
+  path: '/combat',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const EquipmentRoute = EquipmentRouteImport.update({
-	id: "/equipment",
-	path: "/equipment",
-	getParentRoute: () => rootRouteImport,
-} as any);
+  id: '/equipment',
+  path: '/equipment',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ProtectionRoute = ProtectionRouteImport.update({
-	id: "/protection",
-	path: "/protection",
-	getParentRoute: () => rootRouteImport,
-} as any);
+  id: '/protection',
+  path: '/protection',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const PsykersRoute = PsykersRouteImport.update({
-	id: "/psykers",
-	path: "/psykers",
-	getParentRoute: () => rootRouteImport,
-} as any);
+  id: '/psykers',
+  path: '/psykers',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ServicesRoute = ServicesRouteImport.update({
-	id: "/services",
-	path: "/services",
-	getParentRoute: () => rootRouteImport,
-} as any);
+  id: '/services',
+  path: '/services',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const TalentsRoute = TalentsRouteImport.update({
-	id: "/talents",
-	path: "/talents",
-	getParentRoute: () => rootRouteImport,
-} as any);
+  id: '/talents',
+  path: '/talents',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const WeaponsRoute = WeaponsRouteImport.update({
-	id: "/weapons",
-	path: "/weapons",
-	getParentRoute: () => rootRouteImport,
-} as any);
+  id: '/weapons',
+  path: '/weapons',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
-	"/": typeof IndexRoute;
-	"/about": typeof AboutRoute;
-	"/augmetics": typeof AugmeticsRoute;
-	"/character": typeof CharacterRoute;
-	"/combat": typeof CombatRoute;
-	"/equipment": typeof EquipmentRoute;
-	"/protection": typeof ProtectionRoute;
-	"/psykers": typeof PsykersRoute;
-	"/services": typeof ServicesRoute;
-	"/talents": typeof TalentsRoute;
-	"/weapons": typeof WeaponsRoute;
+  '/': typeof IndexRoute
+  '/about': typeof AboutRoute
+  '/augmetics': typeof AugmeticsRoute
+  '/character': typeof CharacterRoute
+  '/combat': typeof CombatRoute
+  '/equipment': typeof EquipmentRoute
+  '/protection': typeof ProtectionRoute
+  '/psykers': typeof PsykersRoute
+  '/services': typeof ServicesRoute
+  '/talents': typeof TalentsRoute
+  '/weapons': typeof WeaponsRoute
 }
 export interface FileRoutesByTo {
-	"/": typeof IndexRoute;
-	"/about": typeof AboutRoute;
-	"/augmetics": typeof AugmeticsRoute;
-	"/character": typeof CharacterRoute;
-	"/combat": typeof CombatRoute;
-	"/equipment": typeof EquipmentRoute;
-	"/protection": typeof ProtectionRoute;
-	"/psykers": typeof PsykersRoute;
-	"/services": typeof ServicesRoute;
-	"/talents": typeof TalentsRoute;
-	"/weapons": typeof WeaponsRoute;
+  '/': typeof IndexRoute
+  '/about': typeof AboutRoute
+  '/augmetics': typeof AugmeticsRoute
+  '/character': typeof CharacterRoute
+  '/combat': typeof CombatRoute
+  '/equipment': typeof EquipmentRoute
+  '/protection': typeof ProtectionRoute
+  '/psykers': typeof PsykersRoute
+  '/services': typeof ServicesRoute
+  '/talents': typeof TalentsRoute
+  '/weapons': typeof WeaponsRoute
 }
 export interface FileRoutesById {
-	__root__: typeof rootRouteImport;
-	"/": typeof IndexRoute;
-	"/about": typeof AboutRoute;
-	"/augmetics": typeof AugmeticsRoute;
-	"/character": typeof CharacterRoute;
-	"/combat": typeof CombatRoute;
-	"/equipment": typeof EquipmentRoute;
-	"/protection": typeof ProtectionRoute;
-	"/psykers": typeof PsykersRoute;
-	"/services": typeof ServicesRoute;
-	"/talents": typeof TalentsRoute;
-	"/weapons": typeof WeaponsRoute;
+  __root__: typeof rootRouteImport
+  '/': typeof IndexRoute
+  '/about': typeof AboutRoute
+  '/augmetics': typeof AugmeticsRoute
+  '/character': typeof CharacterRoute
+  '/combat': typeof CombatRoute
+  '/equipment': typeof EquipmentRoute
+  '/protection': typeof ProtectionRoute
+  '/psykers': typeof PsykersRoute
+  '/services': typeof ServicesRoute
+  '/talents': typeof TalentsRoute
+  '/weapons': typeof WeaponsRoute
 }
 export interface FileRouteTypes {
-	fileRoutesByFullPath: FileRoutesByFullPath;
-	fullPaths:
-		| "/"
-		| "/about"
-		| "/augmetics"
-		| "/character"
-		| "/combat"
-		| "/equipment"
-		| "/protection"
-		| "/psykers"
-		| "/services"
-		| "/talents"
-		| "/weapons";
-	fileRoutesByTo: FileRoutesByTo;
-	to:
-		| "/"
-		| "/about"
-		| "/augmetics"
-		| "/character"
-		| "/combat"
-		| "/equipment"
-		| "/protection"
-		| "/psykers"
-		| "/services"
-		| "/talents"
-		| "/weapons";
-	id:
-		| "__root__"
-		| "/"
-		| "/about"
-		| "/augmetics"
-		| "/character"
-		| "/combat"
-		| "/equipment"
-		| "/protection"
-		| "/psykers"
-		| "/services"
-		| "/talents"
-		| "/weapons";
-	fileRoutesById: FileRoutesById;
+  fileRoutesByFullPath: FileRoutesByFullPath
+  fullPaths:
+    | '/'
+    | '/about'
+    | '/augmetics'
+    | '/character'
+    | '/combat'
+    | '/equipment'
+    | '/protection'
+    | '/psykers'
+    | '/services'
+    | '/talents'
+    | '/weapons'
+  fileRoutesByTo: FileRoutesByTo
+  to:
+    | '/'
+    | '/about'
+    | '/augmetics'
+    | '/character'
+    | '/combat'
+    | '/equipment'
+    | '/protection'
+    | '/psykers'
+    | '/services'
+    | '/talents'
+    | '/weapons'
+  id:
+    | '__root__'
+    | '/'
+    | '/about'
+    | '/augmetics'
+    | '/character'
+    | '/combat'
+    | '/equipment'
+    | '/protection'
+    | '/psykers'
+    | '/services'
+    | '/talents'
+    | '/weapons'
+  fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
-	IndexRoute: typeof IndexRoute;
-	AboutRoute: typeof AboutRoute;
-	AugmeticsRoute: typeof AugmeticsRoute;
-	CharacterRoute: typeof CharacterRoute;
-	CombatRoute: typeof CombatRoute;
-	EquipmentRoute: typeof EquipmentRoute;
-	ProtectionRoute: typeof ProtectionRoute;
-	PsykersRoute: typeof PsykersRoute;
-	ServicesRoute: typeof ServicesRoute;
-	TalentsRoute: typeof TalentsRoute;
-	WeaponsRoute: typeof WeaponsRoute;
+  IndexRoute: typeof IndexRoute
+  AboutRoute: typeof AboutRoute
+  AugmeticsRoute: typeof AugmeticsRoute
+  CharacterRoute: typeof CharacterRoute
+  CombatRoute: typeof CombatRoute
+  EquipmentRoute: typeof EquipmentRoute
+  ProtectionRoute: typeof ProtectionRoute
+  PsykersRoute: typeof PsykersRoute
+  ServicesRoute: typeof ServicesRoute
+  TalentsRoute: typeof TalentsRoute
+  WeaponsRoute: typeof WeaponsRoute
 }
 
-declare module "@tanstack/react-router" {
-	interface FileRoutesByPath {
-		"/": {
-			id: "/";
-			path: "/";
-			fullPath: "/";
-			preLoaderRoute: typeof IndexRouteImport;
-			parentRoute: typeof rootRouteImport;
-		};
-		"/about": {
-			id: "/about";
-			path: "/about";
-			fullPath: "/about";
-			preLoaderRoute: typeof AboutRouteImport;
-			parentRoute: typeof rootRouteImport;
-		};
-		"/augmetics": {
-			id: "/augmetics";
-			path: "/augmetics";
-			fullPath: "/augmetics";
-			preLoaderRoute: typeof AugmeticsRouteImport;
-			parentRoute: typeof rootRouteImport;
-		};
-		"/character": {
-			id: "/character";
-			path: "/character";
-			fullPath: "/character";
-			preLoaderRoute: typeof CharacterRouteImport;
-			parentRoute: typeof rootRouteImport;
-		};
-		"/combat": {
-			id: "/combat";
-			path: "/combat";
-			fullPath: "/combat";
-			preLoaderRoute: typeof CombatRouteImport;
-			parentRoute: typeof rootRouteImport;
-		};
-		"/equipment": {
-			id: "/equipment";
-			path: "/equipment";
-			fullPath: "/equipment";
-			preLoaderRoute: typeof EquipmentRouteImport;
-			parentRoute: typeof rootRouteImport;
-		};
-		"/protection": {
-			id: "/protection";
-			path: "/protection";
-			fullPath: "/protection";
-			preLoaderRoute: typeof ProtectionRouteImport;
-			parentRoute: typeof rootRouteImport;
-		};
-		"/psykers": {
-			id: "/psykers";
-			path: "/psykers";
-			fullPath: "/psykers";
-			preLoaderRoute: typeof PsykersRouteImport;
-			parentRoute: typeof rootRouteImport;
-		};
-		"/services": {
-			id: "/services";
-			path: "/services";
-			fullPath: "/services";
-			preLoaderRoute: typeof ServicesRouteImport;
-			parentRoute: typeof rootRouteImport;
-		};
-		"/talents": {
-			id: "/talents";
-			path: "/talents";
-			fullPath: "/talents";
-			preLoaderRoute: typeof TalentsRouteImport;
-			parentRoute: typeof rootRouteImport;
-		};
-		"/weapons": {
-			id: "/weapons";
-			path: "/weapons";
-			fullPath: "/weapons";
-			preLoaderRoute: typeof WeaponsRouteImport;
-			parentRoute: typeof rootRouteImport;
-		};
-	}
+declare module '@tanstack/react-router' {
+  interface FileRoutesByPath {
+    '/': {
+      id: '/'
+      path: '/'
+      fullPath: '/'
+      preLoaderRoute: typeof IndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/about': {
+      id: '/about'
+      path: '/about'
+      fullPath: '/about'
+      preLoaderRoute: typeof AboutRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/augmetics': {
+      id: '/augmetics'
+      path: '/augmetics'
+      fullPath: '/augmetics'
+      preLoaderRoute: typeof AugmeticsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/character': {
+      id: '/character'
+      path: '/character'
+      fullPath: '/character'
+      preLoaderRoute: typeof CharacterRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/combat': {
+      id: '/combat'
+      path: '/combat'
+      fullPath: '/combat'
+      preLoaderRoute: typeof CombatRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/equipment': {
+      id: '/equipment'
+      path: '/equipment'
+      fullPath: '/equipment'
+      preLoaderRoute: typeof EquipmentRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/protection': {
+      id: '/protection'
+      path: '/protection'
+      fullPath: '/protection'
+      preLoaderRoute: typeof ProtectionRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/psykers': {
+      id: '/psykers'
+      path: '/psykers'
+      fullPath: '/psykers'
+      preLoaderRoute: typeof PsykersRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/services': {
+      id: '/services'
+      path: '/services'
+      fullPath: '/services'
+      preLoaderRoute: typeof ServicesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/talents': {
+      id: '/talents'
+      path: '/talents'
+      fullPath: '/talents'
+      preLoaderRoute: typeof TalentsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/weapons': {
+      id: '/weapons'
+      path: '/weapons'
+      fullPath: '/weapons'
+      preLoaderRoute: typeof WeaponsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+  }
 }
 
 const rootRouteChildren: RootRouteChildren = {
-	IndexRoute: IndexRoute,
-	AboutRoute: AboutRoute,
-	AugmeticsRoute: AugmeticsRoute,
-	CharacterRoute: CharacterRoute,
-	CombatRoute: CombatRoute,
-	EquipmentRoute: EquipmentRoute,
-	ProtectionRoute: ProtectionRoute,
-	PsykersRoute: PsykersRoute,
-	ServicesRoute: ServicesRoute,
-	TalentsRoute: TalentsRoute,
-	WeaponsRoute: WeaponsRoute,
-};
+  IndexRoute: IndexRoute,
+  AboutRoute: AboutRoute,
+  AugmeticsRoute: AugmeticsRoute,
+  CharacterRoute: CharacterRoute,
+  CombatRoute: CombatRoute,
+  EquipmentRoute: EquipmentRoute,
+  ProtectionRoute: ProtectionRoute,
+  PsykersRoute: PsykersRoute,
+  ServicesRoute: ServicesRoute,
+  TalentsRoute: TalentsRoute,
+  WeaponsRoute: WeaponsRoute,
+}
 export const routeTree = rootRouteImport
-	._addFileChildren(rootRouteChildren)
-	._addFileTypes<FileRouteTypes>();
+  ._addFileChildren(rootRouteChildren)
+  ._addFileTypes<FileRouteTypes>()
