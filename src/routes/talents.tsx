@@ -1,9 +1,20 @@
 import { createFileRoute } from "@tanstack/react-router";
 
+import { TalentsTable } from "@/components/pages/talents/talents-table";
+import { TalentService } from "@/services/talentService";
+
 export const Route = createFileRoute("/talents")({
-	component: RouteComponent,
+	component: TalentsComponent,
+	loader: () => TalentService.getTalentData(),
 });
 
-function RouteComponent() {
-	return <div>Hello "/talents"!</div>;
+function TalentsComponent() {
+	const talentData = Route.useLoaderData();
+
+	return (
+		<div>
+			Hello "/talents"!
+			<TalentsTable className="max-w-fit" talentData={talentData} />
+		</div>
+	);
 }

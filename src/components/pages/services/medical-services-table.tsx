@@ -14,24 +14,28 @@ type TravelTableProps = {
 	captionText?: string;
 };
 
-export function MedicalServicesTable({ serviceData, captionText }: TravelTableProps) {
+export function MedicalServicesTable({
+	serviceData,
+	captionText,
+	...props
+}: TravelTableProps & React.ComponentProps<"table">) {
 	return (
-		<Table>
+		<Table {...props}>
 			{captionText ? <TableCaption>{captionText}</TableCaption> : null}
 			<TableHeader>
 				<TableRow>
-					<TableHead className="w-[100px]">Quality</TableHead>
+					<TableHead>Quality</TableHead>
 					<TableHead>Examples</TableHead>
 					<TableHead>Medicae</TableHead>
 					<TableHead>Cost</TableHead>
 					<TableHead>Additional Resources</TableHead>
-					<TableHead className="text-right">Source</TableHead>
+					<TableHead>Source</TableHead>
 				</TableRow>
 			</TableHeader>
 			<TableBody>
 				{serviceData.map((row) => (
 					<TableRow key={`${row.quality}`}>
-						<TableCell className="font-medium">{row.quality}</TableCell>
+						<TableCell>{row.quality}</TableCell>
 						<TableCell>{row.examples}</TableCell>
 						<TableCell>{row.medicae}</TableCell>
 						<TableCell>{row.cost}</TableCell>
@@ -40,7 +44,7 @@ export function MedicalServicesTable({ serviceData, captionText }: TravelTablePr
 								? row.additionalResources.join(", ")
 								: "No additional resources required"}
 						</TableCell>
-						<TableCell className="text-right">{row.source}</TableCell>
+						<TableCell>{row.source}</TableCell>
 					</TableRow>
 				))}
 			</TableBody>

@@ -14,7 +14,10 @@ type TravelTableProps = {
 	captionText?: string;
 };
 
-export function ServicesTable({ serviceData, captionText }: TravelTableProps) {
+export function ServicesTable({
+	serviceData,
+	captionText,
+}: TravelTableProps & React.ComponentProps<"table">) {
 	return (
 		<Table>
 			{captionText ? <TableCaption>{captionText}</TableCaption> : null}
