@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 
 import { TalentsTable } from "@/components/pages/talents/talents-table";
-import { TalentService } from "@/services/talentService";
+import { TalentService } from "@/services/talentsService";
 
 export const Route = createFileRoute("/talents")({
 	component: TalentsComponent,

@@ -7,35 +7,32 @@ import {
 	TableBody,
 	TableCell,
 } from "@/components/ui/table";
+import type { NewSkillJson } from "@/types/json/JsonDataTypes";
 
-type TravelTableProps = {
-	talentData: NewSki[];
+type SkillTableProps = {
+	skillsData: NewSkillJson[];
 	captionText?: string;
 };
 
-export function TalentsTable(travelTableProps: TravelTableProps & React.ComponentProps<"table">) {
-	const { talentData, captionText, ...forwardProps } = travelTableProps;
+export function SkillsTable(skillTableProps: SkillTableProps & React.ComponentProps<"table">) {
+	const { skillsData, captionText, ...forwardProps } = skillTableProps;
 
 	return (
 		<Table {...forwardProps}>
 			{captionText ? <TableCaption>{captionText}</TableCaption> : null}
 			<TableHeader>
 				<TableRow>
-					<TableHead>Name</TableHead>
-					<TableHead>Description</TableHead>
-					<TableHead>Requirements</TableHead>
-					<TableHead>Source</TableHead>
+					<TableHead>Skill</TableHead>
+					<TableHead>Characteristic</TableHead>
+					<TableHead>Specialisations</TableHead>
 				</TableRow>
 			</TableHeader>
 			<TableBody>
-				{talentData.map((row) => (
-					<TableRow key={`${row.name}`}>
-						<TableCell>{row.name}</TableCell>
-						<TableCell>{row.description}</TableCell>
-						<TableCell>
-							{row.requirements ? row.requirements.join(", ") : "No requirements"}
-						</TableCell>
-						<TableCell>{row.source}</TableCell>
+				{skillsData.map((row) => (
+					<TableRow key={`${row.skill}`}>
+						<TableCell>{row.skill}</TableCell>
+						<TableCell>{row.characteristic}</TableCell>
+						<TableCell>{row.specialisations.join(", ")}</TableCell>
 					</TableRow>
 				))}
 			</TableBody>

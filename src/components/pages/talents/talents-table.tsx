@@ -1,5 +1,3 @@
-import type { TableHTMLAttributes } from "react";
-
 import {
 	Table,
 	TableCaption,

@@ -5,7 +5,7 @@ import { MedicalServicesTable } from "@/components/pages/services/medical-servic
 import { ServicesTable } from "@/components/pages/services/services-table";
 import { Field } from "@/components/ui/field";
 import { Input } from "@/components/ui/input";
-import { ServiceDataService, type AllServiceData } from "@/services/serviceService";
+import { ServiceDataService, type AllServiceData } from "@/services/servicesService";
 import type { NewMedicalServiceJson, NewServiceJson } from "@/types/json/JsonDataTypes";
 import { stringIncludes } from "@/utils/string-utils";
 
