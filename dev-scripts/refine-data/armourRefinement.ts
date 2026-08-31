@@ -1,18 +1,7 @@
-import type { NewTraitJsonProp } from "../../src/types/json/JsonDataTypes";
+import type { NewArmourJson } from "@/types/json/JsonDataTypes";
+
 import { extractValueFromBrackets } from "../utils/splitBracketProps";
 import { extractTraitArray } from "./traits/extractTraitArray";
-
-type NewArmourJson = {
-	name: string;
-	locations: string[];
-	armour?: number;
-	encumbrance: number;
-	wornEncumbrance?: number;
-	cost: number;
-	availability: string;
-	traits?: NewTraitJsonProp[];
-	source: string;
-};
 
 export function refineArmourData(
 	jsonData: {

@@ -32,6 +32,18 @@ export type NewAugmeticsJson = {
 	source: string;
 };
 
+export type NewArmourJson = {
+	name: string;
+	locations: string[];
+	armour?: number;
+	encumbrance: number;
+	wornEncumbrance?: number;
+	cost: number;
+	availability: string;
+	traits?: NewTraitJsonProp[];
+	source: string;
+};
+
 export type NewSkillJson = {
 	skill: string;
 	characteristic: string;
