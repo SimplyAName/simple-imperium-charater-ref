@@ -22,6 +22,22 @@ function RootComponent() {
 						Home
 					</Link>
 					<Link
+						to="/character"
+						activeProps={{
+							className: "font-bold",
+						}}
+					>
+						Character
+					</Link>
+					<Link
+						to="/talents"
+						activeProps={{
+							className: "font-bold",
+						}}
+					>
+						Talents
+					</Link>
+					<Link
 						to="/augmetics"
 						activeProps={{
 							className: "font-bold",
@@ -36,6 +52,38 @@ function RootComponent() {
 						}}
 					>
 						Psykers
+					</Link>
+					<Link
+						to="/equipment"
+						activeProps={{
+							className: "font-bold",
+						}}
+					>
+						Equipment
+					</Link>
+					<Link
+						to="/weapons"
+						activeProps={{
+							className: "font-bold",
+						}}
+					>
+						Weapons
+					</Link>
+					<Link
+						to="/protection"
+						activeProps={{
+							className: "font-bold",
+						}}
+					>
+						Protection
+					</Link>
+					<Link
+						to="/combat"
+						activeProps={{
+							className: "font-bold",
+						}}
+					>
+						Combat
 					</Link>
 					<Link
 						to="/services"
