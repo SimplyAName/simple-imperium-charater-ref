@@ -1,5 +1,3 @@
-import { generateJsonFile } from "../utils/generateJsonFile";
-
 type NewSkillJson = {
 	skill: string;
 	characteristic: string;
@@ -27,7 +25,7 @@ export function refineSkillsData(
 
 		const specList = skill.Specialisations.split(",").map((value) => {
 			return {
-				name: value,
+				name: value.trim(),
 			};
 		});
 
@@ -36,5 +34,5 @@ export function refineSkillsData(
 		newSkillsJsonData.push(newSkillsJson);
 	}
 
-	return generateJsonFile(newSkillsJsonData, "skills.json");
+	return newSkillsJsonData;
 }

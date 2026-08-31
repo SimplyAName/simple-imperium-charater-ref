@@ -7,16 +7,16 @@
 				"name": "Climbing"
 			},
 			{
-				"name": " Might"
+				"name": "Might"
 			},
 			{
-				"name": " Riding"
+				"name": "Riding"
 			},
 			{
-				"name": " Running"
+				"name": "Running"
 			},
 			{
-				"name": " Swimming"
+				"name": "Swimming"
 			}
 		]
 	},
@@ -28,19 +28,19 @@
 				"name": "Sight"
 			},
 			{
-				"name": " Smell"
+				"name": "Smell"
 			},
 			{
-				"name": " Hearing"
+				"name": "Hearing"
 			},
 			{
-				"name": " Taste"
+				"name": "Taste"
 			},
 			{
-				"name": " Touch"
+				"name": "Touch"
 			},
 			{
-				"name": " Psyniscience (Restricted)"
+				"name": "Psyniscience (Restricted)"
 			}
 		]
 	},
@@ -52,16 +52,16 @@
 				"name": "Lock Picking"
 			},
 			{
-				"name": " Pickpocket"
+				"name": "Pickpocket"
 			},
 			{
-				"name": " Sleight of Hand"
+				"name": "Sleight of Hand"
 			},
 			{
-				"name": " Defuse (Restricted)"
+				"name": "Defuse (Restricted)"
 			},
 			{
-				"name": " Disguise"
+				"name": "Disguise"
 			}
 		]
 	},
@@ -73,10 +73,10 @@
 				"name": "Composure"
 			},
 			{
-				"name": " Fear"
+				"name": "Fear"
 			},
 			{
-				"name": " Psychic"
+				"name": "Psychic"
 			}
 		]
 	},
@@ -88,10 +88,10 @@
 				"name": "Endurance"
 			},
 			{
-				"name": " Pain"
+				"name": "Pain"
 			},
 			{
-				"name": " Poison"
+				"name": "Poison"
 			}
 		]
 	},
@@ -103,10 +103,10 @@
 				"name": "People"
 			},
 			{
-				"name": " Group (Various)"
+				"name": "Group (Various)"
 			},
 			{
-				"name": " Surroundings"
+				"name": "Surroundings"
 			}
 		]
 	},
@@ -118,16 +118,16 @@
 				"name": "Cypher"
 			},
 			{
-				"name": " High Gothic"
+				"name": "High Gothic"
 			},
 			{
-				"name": " Forbidden (Various"
+				"name": "Forbidden (Various"
 			},
 			{
-				"name": " Restricted)"
+				"name": "Restricted)"
 			},
 			{
-				"name": " Cant Mechanicus (Restricted)"
+				"name": "Cant Mechanicus (Restricted)"
 			}
 		]
 	},
@@ -139,7 +139,7 @@
 				"name": "Evaluation"
 			},
 			{
-				"name": " Investigation"
+				"name": "Investigation"
 			}
 		]
 	},
@@ -151,31 +151,31 @@
 				"name": "Academics"
 			},
 			{
-				"name": " Adeptus Terra"
+				"name": "Adeptus Terra"
 			},
 			{
-				"name": " Planet"
+				"name": "Planet"
 			},
 			{
-				"name": " Sector"
+				"name": "Sector"
 			},
 			{
-				"name": " Theology (Restricted)"
+				"name": "Theology (Restricted)"
 			},
 			{
-				"name": " Forbidden (Various"
+				"name": "Forbidden (Various"
 			},
 			{
-				"name": " Restricted)"
+				"name": "Restricted)"
 			},
 			{
-				"name": " Major Ordos (Various"
+				"name": "Major Ordos (Various"
 			},
 			{
-				"name": " Restricted)"
+				"name": "Restricted)"
 			},
 			{
-				"name": " Cult Mechanicus (Restricted)"
+				"name": "Cult Mechanicus (Restricted)"
 			}
 		]
 	},
@@ -187,16 +187,16 @@
 				"name": "Animal"
 			},
 			{
-				"name": " Human"
+				"name": "Human"
 			},
 			{
-				"name": " Forbidden (Various"
+				"name": "Forbidden (Various"
 			},
 			{
-				"name": " Restricted)"
+				"name": "Restricted)"
 			},
 			{
-				"name": " Chem-Use"
+				"name": "Chem-Use"
 			}
 		]
 	},
@@ -208,10 +208,10 @@
 				"name": "Brawling"
 			},
 			{
-				"name": " One-handed"
+				"name": "One-handed"
 			},
 			{
-				"name": " Two-handed"
+				"name": "Two-handed"
 			}
 		]
 	},
@@ -223,13 +223,13 @@
 				"name": "Surface"
 			},
 			{
-				"name": " Tracking"
+				"name": "Tracking"
 			},
 			{
-				"name": " Void"
+				"name": "Void"
 			},
 			{
-				"name": " Warp (Restricted)"
+				"name": "Warp (Restricted)"
 			}
 		]
 	},
@@ -241,16 +241,16 @@
 				"name": "Aeronautica"
 			},
 			{
-				"name": " Civilian"
+				"name": "Civilian"
 			},
 			{
-				"name": " Military (Restricted)"
+				"name": "Military (Restricted)"
 			},
 			{
-				"name": " Minor Voidship (Restricted)"
+				"name": "Minor Voidship (Restricted)"
 			},
 			{
-				"name": " Major Voidship (Restricted)"
+				"name": "Major Voidship (Restricted)"
 			}
 		]
 	},
@@ -262,10 +262,10 @@
 				"name": "Interrogation"
 			},
 			{
-				"name": " Intimidation"
+				"name": "Intimidation"
 			},
 			{
-				"name": " Leadership"
+				"name": "Leadership"
 			}
 		]
 	},
@@ -277,19 +277,19 @@
 				"name": "Biomancy"
 			},
 			{
-				"name": " Divination"
+				"name": "Divination"
 			},
 			{
-				"name": " Pyromancy"
+				"name": "Pyromancy"
 			},
 			{
-				"name": " Telekinesis"
+				"name": "Telekinesis"
 			},
 			{
-				"name": " Telepathy"
+				"name": "Telepathy"
 			},
 			{
-				"name": " Various (Restricted)"
+				"name": "Various (Restricted)"
 			}
 		]
 	},
@@ -301,13 +301,13 @@
 				"name": "Long Guns"
 			},
 			{
-				"name": " Ordnance"
+				"name": "Ordnance"
 			},
 			{
-				"name": " Pistols"
+				"name": "Pistols"
 			},
 			{
-				"name": " Thrown"
+				"name": "Thrown"
 			}
 		]
 	},
@@ -319,19 +319,19 @@
 				"name": "Animals"
 			},
 			{
-				"name": " Charm"
+				"name": "Charm"
 			},
 			{
-				"name": " Deception"
+				"name": "Deception"
 			},
 			{
-				"name": " Haggle"
+				"name": "Haggle"
 			},
 			{
-				"name": " Inquiry"
+				"name": "Inquiry"
 			},
 			{
-				"name": " Xeno-Cant"
+				"name": "Xeno-Cant"
 			}
 		]
 	},
@@ -343,10 +343,10 @@
 				"name": "Acrobatics"
 			},
 			{
-				"name": " Balance"
+				"name": "Balance"
 			},
 			{
-				"name": " Dodge"
+				"name": "Dodge"
 			}
 		]
 	},
@@ -358,13 +358,13 @@
 				"name": "Conceal"
 			},
 			{
-				"name": " Hide"
+				"name": "Hide"
 			},
 			{
-				"name": " Move Silently"
+				"name": "Move Silently"
 			},
 			{
-				"name": " Disguise"
+				"name": "Disguise"
 			}
 		]
 	},
@@ -376,34 +376,34 @@
 				"name": "Augmetics (Restricted)"
 			},
 			{
-				"name": " Engineering"
+				"name": "Engineering"
 			},
 			{
-				"name": " Security"
+				"name": "Security"
 			},
 			{
-				"name": " Automata"
+				"name": "Automata"
 			},
 			{
-				"name": " Augmetics (Restricted)"
+				"name": "Augmetics (Restricted)"
 			},
 			{
-				"name": " Biologis (Restricted)"
+				"name": "Biologis (Restricted)"
 			},
 			{
-				"name": " Engineering"
+				"name": "Engineering"
 			},
 			{
-				"name": " Security"
+				"name": "Security"
 			},
 			{
-				"name": " Forbidden (Various"
+				"name": "Forbidden (Various"
 			},
 			{
-				"name": " Restricted)"
+				"name": "Restricted)"
 			},
 			{
-				"name": " Xenos (Restricted)"
+				"name": "Xenos (Restricted)"
 			}
 		]
 	}
