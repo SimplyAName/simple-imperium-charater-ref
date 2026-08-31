@@ -1,12 +1,12 @@
-import type { NewCriticalWoundsJson } from "../../src/types/json/JsonDataTypes";
+import type { NewCriticalWoundJson } from "../../src/types/json/JsonDataTypes";
 import { generateJsonFile } from "../utils/generateJsonFile";
 import { parseNumberRange } from "../utils/parseNumberRange";
 
 export type NewCriticalWoundsSections = {
-	head: NewCriticalWoundsJson;
-	arm: NewCriticalWoundsJson;
-	body: NewCriticalWoundsJson;
-	leg: NewCriticalWoundsJson;
+	head: NewCriticalWoundJson;
+	arm: NewCriticalWoundJson;
+	body: NewCriticalWoundJson;
+	leg: NewCriticalWoundJson;
 };
 
 export function refineCriticalWoundsData(
@@ -28,8 +28,8 @@ export function refineCriticalWoundsData(
 
 export function generateWoundObject(
 	woundData: { Roll: string; Description: string; Effect: string; Treatment: string }[],
-): NewCriticalWoundsJson[] {
-	return woundData.map((wound): NewCriticalWoundsJson => {
+): NewCriticalWoundJson[] {
+	return woundData.map((wound): NewCriticalWoundJson => {
 		return {
 			roll: parseNumberRange(wound.Roll),
 			description: wound.Description,

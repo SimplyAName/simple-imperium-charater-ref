@@ -73,7 +73,6 @@
 	{
 		"name": "Scrap-shield",
 		"locations": ["Special"],
-		"armour": null,
 		"encumbrance": 1,
 		"cost": 50,
 		"availability": "Common",
@@ -88,7 +87,6 @@
 	{
 		"name": "Combat Shield",
 		"locations": ["Special"],
-		"armour": null,
 		"encumbrance": 1,
 		"cost": 300,
 		"availability": "Common",
@@ -103,7 +101,6 @@
 	{
 		"name": "Boarding Shield",
 		"locations": ["Special"],
-		"armour": null,
 		"encumbrance": 2,
 		"cost": 800,
 		"availability": "Rare",
@@ -394,7 +391,6 @@
 	{
 		"name": "Crusader Storm Shield",
 		"locations": ["Special"],
-		"armour": null,
 		"encumbrance": 4,
 		"cost": 1000,
 		"availability": "Exotic",
@@ -409,7 +405,6 @@
 	{
 		"name": "Praesidium Protectiva",
 		"locations": ["Special"],
-		"armour": null,
 		"encumbrance": 4,
 		"cost": 1500,
 		"availability": "Exotic",

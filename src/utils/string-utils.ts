@@ -1,3 +1,5 @@
+import type { NumberRange } from "@/types/NumberRange";
+
 /**
  * Checks if string2 is contained in string1 after setting both to lower case for case insensitivity
  *
@@ -17,4 +19,20 @@ export function stringIncludes(string1: string | undefined, string2: string | un
 	const temp = string1.toLowerCase().includes(string2.toLowerCase());
 
 	return temp;
+}
+
+export function arrayToFormattedString(inputArray: string[]) {
+	return inputArray.join(", ");
+}
+
+export function numberRangeToString(inputNumberRange: number | NumberRange): string {
+	if (typeof inputNumberRange === "number") {
+		return String(inputNumberRange);
+	}
+
+	if (inputNumberRange.max === undefined) {
+		return String(inputNumberRange.min);
+	}
+
+	return `${inputNumberRange.min} - ${inputNumberRange.max}`;
 }

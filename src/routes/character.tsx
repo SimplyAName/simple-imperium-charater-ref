@@ -27,11 +27,6 @@ function CharacterComponent() {
 	return (
 		<div className="flex flex-col gap-2">
 			<h2>Hello "/character"!</h2>
-			<section className="flex flex-col gap-4">
-				<h3>Skills</h3>
-
-				<SkillsTable skillsData={skills} />
-			</section>
 
 			<section className="flex max-w-full flex-col gap-4">
 				<h3>Characteristics</h3>
@@ -39,9 +34,19 @@ function CharacterComponent() {
 				<CharacteristicsTable characteristicsData={characteristics} />
 			</section>
 
+			<hr />
+
+			<section className="flex flex-col gap-4">
+				<h3>Skills</h3>
+
+				<SkillsTable skillsData={skills} />
+			</section>
+
+			<hr />
+
 			<section>
 				<h3>XP costs</h3>
-				<div className="flex flex-row justify-evenly gap-2">
+				<div className="grid grid-cols-2 gap-2">
 					<div>
 						<h4>Skill Specialisations Costs</h4>
 						<SkillSpecialisationsTable skillSpecialisationsData={xpCosts.skillSpecs} />

@@ -1,5 +1,6 @@
 import type { NewArmourJson } from "@/types/json/JsonDataTypes";
 
+import { parseNumberOrText } from "../utils/parseTypesUtils";
 import { extractValueFromBrackets } from "../utils/splitBracketProps";
 import { extractTraitArray } from "./traits/extractTraitArray";
 
@@ -36,9 +37,9 @@ export function refineArmourData(
 			newArmourJson.locations = locationArray;
 		}
 
-		// Refine armour to null and int
-		if (armour.Armour && armour.Armour !== "-") {
-			newArmourJson.armour = Number.parseInt(armour.Armour);
+		// Refine armour to int or undefined
+		if (armour.Armour && armour.Armour !== "-" && armour.Armour !== "*") {
+			newArmourJson.armour = parseNumberOrText(armour.Armour);
 		}
 
 		// Refine encumbrance to wornEncumbrance

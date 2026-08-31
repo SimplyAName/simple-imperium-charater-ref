@@ -24,8 +24,8 @@ export function CharacteristicsTable(
 			{captionText ? <TableCaption>{captionText}</TableCaption> : null}
 			<TableHeader>
 				<TableRow>
-					<TableHead>Characteristic</TableHead>
-					<TableHead>Shortened</TableHead>
+					<TableHead className="text-center">Characteristic</TableHead>
+					<TableHead className="text-center">Shortened</TableHead>
 					<TableHead>Description</TableHead>
 				</TableRow>
 			</TableHeader>

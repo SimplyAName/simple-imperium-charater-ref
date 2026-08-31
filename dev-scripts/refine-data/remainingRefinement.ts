@@ -5,7 +5,7 @@ import type {
 	NewAmmunitionJson,
 	NewMedicalServiceJson,
 	NewFumbleJson,
-	NewHitLocationsJson,
+	NewHitLocationJson,
 	NewInjuriesJson,
 	NewNameJson,
 	NewPerilsOfTheWarpJson,
@@ -20,6 +20,7 @@ import type {
 	NewPsychicPowersJson,
 	NewWeaponProfileJson,
 	NewTableProfileJson,
+	NewForceFieldJson,
 } from "../../src/types/json/JsonDataTypes";
 import { parseNumberRange } from "../utils/parseNumberRange";
 import { parseNumberOrText, parseRequiredNumber } from "../utils/parseTypesUtils";
@@ -193,7 +194,7 @@ export function refineForceFieldData(
 		Effect: string;
 		Source: string;
 	}[],
-) {
+): NewForceFieldJson[] {
 	return jsonData.map((field) => ({
 		name: field.Name,
 		protection: field.Protection,
@@ -478,7 +479,7 @@ export function refineHitLocationsData(
 		"Units Result": string;
 		Location: string;
 	}[],
-): NewHitLocationsJson[] {
+): NewHitLocationJson[] {
 	return jsonData.map((hitLocation) => {
 		return {
 			roll: parseNumberRange(hitLocation["Units Result"]),

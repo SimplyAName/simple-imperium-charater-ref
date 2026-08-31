@@ -26,8 +26,8 @@ export function CharacteristicImprovementsTable(
 			{captionText ? <TableCaption>{captionText}</TableCaption> : null}
 			<TableHeader>
 				<TableRow>
-					<TableHead>Level bands</TableHead>
-					<TableHead>Cost per advance</TableHead>
+					<TableHead className="text-center">Level bands</TableHead>
+					<TableHead className="text-center">Cost per advance</TableHead>
 				</TableRow>
 			</TableHeader>
 			<TableBody>

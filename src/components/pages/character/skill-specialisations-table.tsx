@@ -26,10 +26,10 @@ export function SkillSpecialisationsTable(
 			{captionText ? <TableCaption>{captionText}</TableCaption> : null}
 			<TableHeader>
 				<TableRow>
-					<TableHead>Advances</TableHead>
-					<TableHead>Skill Total Increase</TableHead>
-					<TableHead>XP Cost</TableHead>
-					<TableHead>Cumulative XP Cost</TableHead>
+					<TableHead className="text-center">Advances</TableHead>
+					<TableHead className="text-center">Skill Total Increase</TableHead>
+					<TableHead className="text-center">XP Cost</TableHead>
+					<TableHead className="text-center">Cumulative XP Cost</TableHead>
 				</TableRow>
 			</TableHeader>
 			<TableBody>

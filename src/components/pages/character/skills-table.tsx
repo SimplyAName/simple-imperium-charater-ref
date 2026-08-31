@@ -11,19 +11,19 @@ import type { NewSkillJson } from "@/types/json/JsonDataTypes";
 
 type SkillTableProps = {
 	skillsData: NewSkillJson[];
-	captionText?: string;
+	caption?: string;
 };
 
 export function SkillsTable(skillTableProps: SkillTableProps & React.ComponentProps<"table">) {
-	const { skillsData, captionText, ...forwardProps } = skillTableProps;
+	const { skillsData, caption, ...forwardProps } = skillTableProps;
 
 	return (
 		<Table {...forwardProps}>
-			{captionText ? <TableCaption>{captionText}</TableCaption> : null}
+			{caption ? <TableCaption>{caption}</TableCaption> : null}
 			<TableHeader>
 				<TableRow>
-					<TableHead>Skill</TableHead>
-					<TableHead>Characteristic</TableHead>
+					<TableHead className="text-center">Skill</TableHead>
+					<TableHead className="text-center">Characteristic</TableHead>
 					<TableHead>Specialisations</TableHead>
 				</TableRow>
 			</TableHeader>

@@ -57,7 +57,7 @@ export type NewSpecialisationJson = {
 	description?: string;
 };
 
-export type NewCriticalWoundsJson = {
+export type NewCriticalWoundJson = {
 	roll: number | NumberRange;
 	description: string;
 	effects: string;
@@ -124,6 +124,17 @@ export type NewAmmunitionJson = {
 	source: string;
 };
 
+export type NewForceFieldJson = {
+	name: string;
+	protection: string;
+	overload: number;
+	encumbrance: number;
+	cost: number;
+	availability: string;
+	effect: string;
+	source: string;
+};
+
 export type NewPerilsOfTheWarpJson = {
 	roll: NumberRange;
 	corruption: number;
@@ -136,7 +147,7 @@ export type NewInjuriesJson = {
 	major: string;
 };
 
-export type NewHitLocationsJson = {
+export type NewHitLocationJson = {
 	roll: NumberRange | number;
 	location: string;
 };
