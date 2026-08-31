@@ -1,5 +1,18 @@
 import type { NumberRange } from "../NumberRange";
 
+export type NewSkillJson = {
+	skill: string;
+	characteristic: string;
+	specialisations: NewSpecialisationJson[];
+};
+
+// TODO: This data wasn't provided. Extract this from the book
+// For now going to set a name but no desc
+export type NewSpecialisationJson = {
+	name: string;
+	description?: string;
+};
+
 export type NewCriticalWoundsJson = {
 	roll: number | NumberRange;
 	description: string;

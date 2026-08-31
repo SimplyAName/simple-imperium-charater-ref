@@ -66,7 +66,7 @@ import {
 	type PsychicDetailProfileJson,
 } from "./refine-data/remainingRefinement";
 import { refineServiceData } from "./refine-data/serviceRefinement";
-import { refineSkillsData } from "./refine-data/specialisationsRefinement";
+import { refineSkillsData } from "./refine-data/skillsRefinement";
 import { weaponModificationsRefinement } from "./refine-data/weaponModificationsRefinement";
 import { generateJsonFile } from "./utils/generateJsonFile";
 

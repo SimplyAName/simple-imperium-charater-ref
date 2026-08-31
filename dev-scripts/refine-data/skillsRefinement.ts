@@ -1,15 +1,4 @@
-type NewSkillJson = {
-	skill: string;
-	characteristic: string;
-	specialisations: NewSpecialisationJson[];
-};
-
-// TODO: This data wasn't provided. Extract this from the book
-// For now going to set a name but no desc
-type NewSpecialisationJson = {
-	name: string;
-	description?: string;
-};
+import type { NewSkillJson } from "@/types/json/JsonDataTypes";
 
 export function refineSkillsData(
 	jsonData: { Skill: string; Characteristic: string; Specialisations: string }[],

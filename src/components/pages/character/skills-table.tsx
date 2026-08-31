@@ -7,7 +7,6 @@ import {
 	TableBody,
 	TableCell,
 } from "@/components/ui/table";
-import type { NewTalentJson } from "@/types/json/JsonDataTypes";
 
 type TravelTableProps = {
 	talentData: NewSki[];
