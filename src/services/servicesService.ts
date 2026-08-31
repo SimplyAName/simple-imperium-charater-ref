@@ -21,6 +21,7 @@ export type AllServiceData = {
 	};
 };
 
+//TODO: Extract this to an interface for better architecture in the future with a possible db
 export class ServiceDataService {
 	constructor() {}
 

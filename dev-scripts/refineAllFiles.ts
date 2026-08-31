@@ -34,10 +34,11 @@ import tools from "./archiveData/tools.json" with { type: "json" };
 import traits from "./archiveData/traits.json" with { type: "json" };
 import weaponModifications from "./archiveData/weaponModifications.json" with { type: "json" };
 import xpCosts from "./archiveData/xpCosts.json" with { type: "json" };
+import { createCharacteristicData } from "./create-data/createCharacteristicData";
+import { createOriginData } from "./create-data/createOriginData";
 import { refineArmourModificationsData } from "./refine-data/armourModificationsRefinement";
 import { refineArmourData } from "./refine-data/armourRefinement";
 import { refineAugmeticsData } from "./refine-data/augmeticsRefinement";
-import { createCharacteristicData } from "./refine-data/createMissingData";
 import { refineCriticalWoundsData } from "./refine-data/criticalWoundsRefinement";
 import { refinePersonalGearData } from "./refine-data/personalGearRefinement";
 import {
@@ -78,7 +79,6 @@ export function runAllRefinements() {
 		refineAugmeticsData(augmetics),
 		refinePersonalGearData(clothingAndPersonalGear),
 		generateJsonFile(refineSkillsData(skills), "skills.json"),
-		generateJsonFile(createCharacteristicData(), "characteristics.json"),
 		refineServiceData(cityHiveTravel, "services/travel/cityHiveTravel.json"),
 		refineServiceData(planetaryTravel, "services/travel/planetaryTravel.json"),
 		refineServiceData(systemTravel, "services/travel/systemTravel.json"),
@@ -119,6 +119,9 @@ export function runAllRefinements() {
 			weaponModificationsRefinement(weaponModifications),
 			"weaponModifications.json",
 		),
+
+		generateJsonFile(createCharacteristicData(), "character/characteristics.json"),
+		generateJsonFile(createOriginData(), "character/creation/origin.json"),
 	]);
 }
 

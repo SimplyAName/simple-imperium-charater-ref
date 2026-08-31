@@ -30,7 +30,7 @@ export function TalentsTable(travelTableProps: TravelTableProps & React.Componen
 			</TableHeader>
 			<TableBody>
 				{talentData.map((row) => (
-					<TableRow key={`${row.name}`}>
+					<TableRow key={`${row.name}`} className="text-left">
 						<TableCell>{row.name}</TableCell>
 						<TableCell>{row.description}</TableCell>
 						<TableCell>

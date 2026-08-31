@@ -32,7 +32,9 @@ export function SkillsTable(skillTableProps: SkillTableProps & React.ComponentPr
 					<TableRow key={`${row.skill}`}>
 						<TableCell>{row.skill}</TableCell>
 						<TableCell>{row.characteristic}</TableCell>
-						<TableCell>{row.specialisations.join(", ")}</TableCell>
+						<TableCell className="text-left">
+							{row.specialisations.map((spec) => spec.name).join(", ")}
+						</TableCell>
 					</TableRow>
 				))}
 			</TableBody>

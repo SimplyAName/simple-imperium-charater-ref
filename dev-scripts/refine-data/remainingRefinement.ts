@@ -14,8 +14,8 @@ import type {
 	NewConditionJson,
 	NewTraitJson,
 	NewPsychicPhenomenaJson,
-	NewSkillSpecialisationJsonProp,
-	NewCharacteristicImprovementJsonProp,
+	NewSkillSpecialisationJson,
+	NewCharacteristicImprovementJson,
 	NewTalentJson,
 	NewPsychicPowersJson,
 	NewWeaponProfileJson,
@@ -557,7 +557,7 @@ export function refinePsychicPhenomenaData(
 
 export function refineCharacteristicImprovementData(
 	jsonData: { "New Value": string; "Cost per Advance": number }[],
-): NewCharacteristicImprovementJsonProp[] {
+): NewCharacteristicImprovementJson[] {
 	return jsonData.map((charImpData) => {
 		return {
 			newValue: parseNumberRange(charImpData["New Value"]),
@@ -572,7 +572,7 @@ export function refineSkillSpecialisationData(
 		"XP Cost": number;
 		"Cumulative XP Cost": number;
 	}[],
-): NewSkillSpecialisationJsonProp[] {
+): NewSkillSpecialisationJson[] {
 	return jsonData.map((skillSpecData) => {
 		return {
 			advances: skillSpecData.Advances,

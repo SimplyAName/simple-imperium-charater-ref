@@ -1,5 +1,29 @@
 import type { NumberRange } from "../NumberRange";
 
+export type CharacteristicBonus = {
+	characteristic: string;
+	bonus: number;
+};
+
+export type EquipmentBonus = {
+	quality?: string;
+	equipmentName: string;
+};
+
+export type CharacterOriginJson = {
+	roll: NumberRange;
+	name: string;
+	description: string;
+	characteristicBonuses: { base: CharacteristicBonus[]; choice: CharacteristicBonus[] };
+	equipmentBonuses: EquipmentBonus[];
+};
+
+export type CharacteristicJson = {
+	name: string;
+	short: string;
+	description: string;
+};
+
 export type NewSkillJson = {
 	skill: string;
 	characteristic: string;
@@ -116,12 +140,12 @@ export type NewTraitJsonProp = {
 	value?: number | string;
 };
 
-export type NewCharacteristicImprovementJsonProp = {
+export type NewCharacteristicImprovementJson = {
 	newValue: NumberRange;
 	costPerAdvance: number;
 };
 
-export type NewSkillSpecialisationJsonProp = {
+export type NewSkillSpecialisationJson = {
 	advances: number;
 	totalIncrease: number;
 	xpCost: number;

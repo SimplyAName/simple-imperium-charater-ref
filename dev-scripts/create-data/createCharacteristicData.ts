@@ -1,8 +1,4 @@
-type CharacteristicJson = {
-	name: string;
-	short: string;
-	description: string;
-};
+import type { CharacteristicJson } from "@/types/json/JsonDataTypes";
 
 export function createCharacteristicData(): CharacteristicJson[] {
 	return [
@@ -37,7 +33,7 @@ export function createCharacteristicData(): CharacteristicJson[] {
 				"This measures your physical coordination, reflexes, and overall body awareness. High Agility allows a character to move silently, act first in dangerous situations, and dodge incoming attacks.",
 		},
 		{
-			name: "Intelligence ",
+			name: "Intelligence",
 			short: "INT",
 			description:
 				"Intelligence is your acumen, reason, and general knowledge. A character with a high Intelligence can recall huge volumes of data, correlate esoteric clues, or determine if an ancient archaeotech relic is genuine or not.",
