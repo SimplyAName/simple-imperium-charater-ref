@@ -1,250 +1,250 @@
 [
-  {
-    "name": "Backpack/Slings",
-    "cost": 20,
-    "availability": "Common",
-    "encumbrance": 1,
-    "effect": "Increases maximum Encumbrance by 4 when worn.",
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Cameleoline Cloak",
-    "cost": 500,
-    "availability": "Rare",
-    "encumbrance": 0,
-    "effect": "Grants +2 SL on Stealth Tests until movement or loud noise.",
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Explosive Collar",
-    "cost": 150,
-    "availability": "Scarce",
-    "encumbrance": 0,
-    "effect": "Requires a Very Hard (-30) Tech (Engineering) Test to remove with Disadvantage if attempted by the wearer; detonates if improperly removed or via remote action.",
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Filtration Plugs",
-    "cost": 20,
-    "availability": "Common",
-    "encumbrance": 0,
-    "effect": "Grants +2 SL on Fortitude Tests against harmful gases and in Hazard Zones.",
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Photo-Visors/Contacts",
-    "cost": 300,
-    "availability": "Scarce",
-    "encumbrance": 0,
-    "effect": "Ignores penalties from Poorly Lit and Dark Environmental Traits; grants Advantage on Tests to resist Blinded Condition.",
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Rebreather",
-    "cost": 200,
-    "availability": "Scarce",
-    "encumbrance": 1,
-    "effect": "Allows breathing in toxic atmospheres and underwater for up to 1 hour; ignores penalties from unhealthy air. One tank lasts for 1 hour, a tank costs 20 solars and two tanks are 1 Encumbrance.",
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Respirator/Gas Mask",
-    "cost": 50,
-    "availability": "Common",
-    "encumbrance": 0,
-    "effect": "Automatically passes Tests to resist airborne pathogens; bulky and obscures senses, imposes Disadvantage on Awareness (Sight) Tests.",
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Survival Gear",
-    "cost": 50,
-    "availability": "Common",
-    "encumbrance": 3,
-    "effect": "Includes essentials for wilderness survival such as a bedroll, Insulated tent, canteen, rope, firestarters, candles, hydro-purifier tabs, and other basics except food and water; can be used with Fortitude (Endurance) to endure Exposure.",
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Synskin",
-    "cost": 3000,
-    "availability": "Exotic",
-    "encumbrance": 0,
-    "effect": "Grants +1 SL to Stealth (Hide) Tests if not worn with other clothes or armour; counts as Armoured Bodyglove.",
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Void Suit",
-    "cost": 2000,
-    "availability": "Scarce",
-    "encumbrance": 5,
-    "effect": "Provides air and support in vacuum; includes rebreather and micro-thrusters; grants 2 AP to all locations and is Encumbrance 4 when worn. Air supply lasts for 10 hours, takes 3 hours to recharge in normal Atmosphere or can be recharged with an oxygen canister for an Action. Each canister costs 30 solars and are 1 encumbrance.",
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Hexagrammic Wards",
-    "cost": 1000,
-    "availability": "Exotic",
-    "encumbrance": 0,
-    "effect": "Power charms and faith canticles worn to defend against psychic attacks. Grants Disadvantage on the first psychic power targeting the wearer. Recharges after an hour of meditation.",
-    "source": "Inquisitor Player's Guide"
-  },
-  {
-    "name": "Null Hood",
-    "cost": 5000,
-    "availability": "Exotic",
-    "encumbrance": 1,
-    "effect": "Heavy collar with hood projection, creates nullifying psychic matrix. Dampens enemy psychic attacks, used by psychic Inquisitors. Enemy psykers have Disadvantage on psychic power Tests targeting the wearer.",
-    "source": "Inquisitor Player's Guide"
-  },
-  {
-    "name": "Psyocculum",
-    "cost": 5000,
-    "availability": "Exotic",
-    "encumbrance": 0,
-    "effect": "Visor with psychically-treated lenses and circuitry, allows viewing of the Immaterium. Advantage on Tests to perceive daemons or creatures with a Warp Threshold, Disadvantage on regular Perception Tests. +10 to Ranged Attacks against daemons or creatures with a Warp Threshold.",
-    "source": "Inquisitor Player's Guide"
-  },
-  {
-    "name": "Macharian Clothing (Various)",
-    "cost": null,
-    "availability": "Variable",
-    "encumbrance": 0,
-    "effect": "When worn as an appropriate disguise, grants +1 SL on Stealth Tests in the related environment and +1 SL in Opposed Tests if someone challenges credentials.",
-    "source": "Macharian Requisition Guide"
-  },
-  {
-    "name": "Bomb Disposal Suit",
-    "cost": 600,
-    "availability": "Rare",
-    "encumbrance": 0,
-    "effect": "Provides +3 Armour against Damage from weapons and explosives with the Blast or Spread Traits. Reduces Speed by one step.",
-    "source": "Macharian Requisition Guide"
-  },
-  {
-    "name": "Departamento Munitorum Issue Combat Fatigues and Battle Dress",
-    "cost": 100,
-    "availability": "Common",
-    "encumbrance": 0,
-    "effect": "When worn in matching terrain, grants +1 SL on Stealth Tests. In mismatched terrain, suffer -1 SL to Stealth Tests and enemies gain Advantage on Awareness (Sight) Tests. Add +100 Solars when purchasing camouflage armour or gear.",
-    "source": "Macharian Requisition Guide"
-  },
-  {
-    "name": "Document Harness (Simple)",
-    "cost": 30,
-    "availability": "Common",
-    "encumbrance": 0,
-    "effect": "Holds up to 4 Encumbrance of documents, books, or scrolls for the cost of 1 Encumbrance. Keeps items dry and clean.",
-    "source": "Macharian Requisition Guide"
-  },
-  {
-    "name": "Document Harness (Bio Lock)",
-    "cost": 100,
-    "availability": "Rare",
-    "encumbrance": 0,
-    "effect": "Functions as a Document Harness but requires the owner’s bio-imprint to open. Forcing it open damages the documents inside.",
-    "source": "Macharian Requisition Guide"
-  },
-  {
-    "name": "Service Identity Tags",
-    "cost": 2,
-    "availability": "Common",
-    "encumbrance": 0,
-    "effect": "Identifies bearer’s name, rank, regiment, and company. May grant Advantage or Disadvantage in social situations depending on military or naval associations.",
-    "source": "Macharian Requisition Guide"
-  },
-  {
-    "name": "Extreme Weather Clothing",
-    "cost": 50,
-    "availability": "Common",
-    "encumbrance": 0,
-    "effect": "Provides +1 SL on Fortitude (Endurance) Tests made to resist the extreme weather conditions it is designed to protect against.",
-    "source": "Macharian Requisition Guide"
-  },
-  {
-    "name": "Flame Resistant Fatigues",
-    "cost": 100,
-    "availability": "Scarce",
-    "encumbrance": 0,
-    "effect": "Provides +2 Armour against Flamer weapons and damage from Minor or Major Hazards related to flames or burning. Grants +1 SL on Fortitude (Endurance) Tests against extreme heat.",
-    "source": "Macharian Requisition Guide"
-  },
-  {
-    "name": "Grav Chute",
-    "cost": 500,
-    "availability": "Rare",
-    "encumbrance": 0,
-    "effect": "Allows wearer to complete controlled high-altitude descents. On ground, wearer may jump up to five times normal distance with a Piloting Test instead of Athletics. Optional grapnel launcher upgrade available. Piloting Test may allow Speed increase to Fast in Difficult Terrain.",
-    "source": "Macharian Requisition Guide"
-  },
-  {
-    "name": "Heat Shroud",
-    "cost": 150,
-    "availability": "Scarce",
-    "encumbrance": 0,
-    "effect": "Reduces damage taken from fire, frost, or hot/cold Hazards by 5. Provides protection against thermally sensitive detection.",
-    "source": "Macharian Requisition Guide"
-  },
-  {
-    "name": "Biocoded Holster",
-    "cost": 500,
-    "availability": "Rare",
-    "encumbrance": 0,
-    "effect": "Only releases the weapon to the keyed owner. Forcing open requires treating it as having 5 Wounds and 3 Armour points.",
-    "source": "Macharian Requisition Guide"
-  },
-  {
-    "name": "Militarum Ammo Harness",
-    "cost": 50,
-    "availability": "Common",
-    "encumbrance": 0,
-    "effect": "Holds numerous spare magazines, shells, or ammunition. Every 2 clips worn add 1 Encumbrance to the character. Reloading from this harness becomes a Free Action.",
-    "source": "Macharian Requisition Guide"
-  },
-  {
-    "name": "Militarum Munitions Harness",
-    "cost": 65,
-    "availability": "Common",
-    "encumbrance": 0,
-    "effect": "Holds grenades or missiles. Every 2 grenades or missiles worn add 1 Encumbrance. Reloading and readying becomes a Free Action.",
-    "source": "Macharian Requisition Guide"
-  },
-  {
-    "name": "Quickdraw Holster",
-    "cost": null,
-    "availability": "Rare",
-    "encumbrance": 0,
-    "effect": "Weapon stored grants the Quickdraw Talent but only with that weapon. If bearer already has the Talent, the weapon counts as a Surprise Attack.",
-    "source": "Macharian Requisition Guide"
-  },
-  {
-    "name": "Vehicle Combat Harness",
-    "cost": 100,
-    "availability": "Scarce",
-    "encumbrance": 0,
-    "effect": "Secures vehicle crew or passengers. Crew and passengers take half Damage (rounded up) from crashes. Passengers in open vehicles gain Reflexes Tests to stay inside when vehicle goes Out of Control.",
-    "source": "Macharian Requisition Guide"
-  },
-  {
-    "name": "‘Aegis Umbral’ Covert Pattern Void Suit",
-    "cost": 4000,
-    "availability": "Rare",
-    "encumbrance": 4,
-    "effect": "Grants benefits of Synskin, Encumbrance 3 when worn but only 1 AP. Provides improved dexterity and concealment from augurs.",
-    "source": "Macharian Requisition Guide"
-  },
-  {
-    "name": "Harjian Pattern Void Suit",
-    "cost": 2500,
-    "availability": "Rare",
-    "encumbrance": 5,
-    "effect": "Grants +1 AP and Fast Speed in low or zero gravity environments.",
-    "source": "Macharian Requisition Guide"
-  },
-  {
-    "name": "Yix ‘Ignorance’ Pattern Void Suit",
-    "cost": 3500,
-    "availability": "Rare",
-    "encumbrance": 5,
-    "effect": "Grants Advantage on first Test to resist Corruption each scene. Wearer suffers Disadvantage on vision-based Tests until suit is removed or a Challenging (+0) Tech (Security) Test is passed to override.",
-    "source": "Macharian Requisition Guide"
-  }
+	{
+		"name": "Backpack/Slings",
+		"cost": 20,
+		"availability": "Common",
+		"encumbrance": 1,
+		"effect": "Increases maximum Encumbrance by 4 when worn.",
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Cameleoline Cloak",
+		"cost": 500,
+		"availability": "Rare",
+		"encumbrance": 0,
+		"effect": "Grants +2 SL on Stealth Tests until movement or loud noise.",
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Explosive Collar",
+		"cost": 150,
+		"availability": "Scarce",
+		"encumbrance": 0,
+		"effect": "Requires a Very Hard (-30) Tech (Engineering) Test to remove with Disadvantage if attempted by the wearer; detonates if improperly removed or via remote action.",
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Filtration Plugs",
+		"cost": 20,
+		"availability": "Common",
+		"encumbrance": 0,
+		"effect": "Grants +2 SL on Fortitude Tests against harmful gases and in Hazard Zones.",
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Photo-Visors/Contacts",
+		"cost": 300,
+		"availability": "Scarce",
+		"encumbrance": 0,
+		"effect": "Ignores penalties from Poorly Lit and Dark Environmental Traits; grants Advantage on Tests to resist Blinded Condition.",
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Rebreather",
+		"cost": 200,
+		"availability": "Scarce",
+		"encumbrance": 1,
+		"effect": "Allows breathing in toxic atmospheres and underwater for up to 1 hour; ignores penalties from unhealthy air. One tank lasts for 1 hour, a tank costs 20 solars and two tanks are 1 Encumbrance.",
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Respirator/Gas Mask",
+		"cost": 50,
+		"availability": "Common",
+		"encumbrance": 0,
+		"effect": "Automatically passes Tests to resist airborne pathogens; bulky and obscures senses, imposes Disadvantage on Awareness (Sight) Tests.",
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Survival Gear",
+		"cost": 50,
+		"availability": "Common",
+		"encumbrance": 3,
+		"effect": "Includes essentials for wilderness survival such as a bedroll, Insulated tent, canteen, rope, firestarters, candles, hydro-purifier tabs, and other basics except food and water; can be used with Fortitude (Endurance) to endure Exposure.",
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Synskin",
+		"cost": 3000,
+		"availability": "Exotic",
+		"encumbrance": 0,
+		"effect": "Grants +1 SL to Stealth (Hide) Tests if not worn with other clothes or armour; counts as Armoured Bodyglove.",
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Void Suit",
+		"cost": 2000,
+		"availability": "Scarce",
+		"encumbrance": 5,
+		"effect": "Provides air and support in vacuum; includes rebreather and micro-thrusters; grants 2 AP to all locations and is Encumbrance 4 when worn. Air supply lasts for 10 hours, takes 3 hours to recharge in normal Atmosphere or can be recharged with an oxygen canister for an Action. Each canister costs 30 solars and are 1 encumbrance.",
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Hexagrammic Wards",
+		"cost": 1000,
+		"availability": "Exotic",
+		"encumbrance": 0,
+		"effect": "Power charms and faith canticles worn to defend against psychic attacks. Grants Disadvantage on the first psychic power targeting the wearer. Recharges after an hour of meditation.",
+		"source": "Inquisitor Player's Guide"
+	},
+	{
+		"name": "Null Hood",
+		"cost": 5000,
+		"availability": "Exotic",
+		"encumbrance": 1,
+		"effect": "Heavy collar with hood projection, creates nullifying psychic matrix. Dampens enemy psychic attacks, used by psychic Inquisitors. Enemy psykers have Disadvantage on psychic power Tests targeting the wearer.",
+		"source": "Inquisitor Player's Guide"
+	},
+	{
+		"name": "Psyocculum",
+		"cost": 5000,
+		"availability": "Exotic",
+		"encumbrance": 0,
+		"effect": "Visor with psychically-treated lenses and circuitry, allows viewing of the Immaterium. Advantage on Tests to perceive daemons or creatures with a Warp Threshold, Disadvantage on regular Perception Tests. +10 to Ranged Attacks against daemons or creatures with a Warp Threshold.",
+		"source": "Inquisitor Player's Guide"
+	},
+	{
+		"name": "Macharian Clothing (Various)",
+		"cost": null,
+		"availability": "Variable",
+		"encumbrance": 0,
+		"effect": "When worn as an appropriate disguise, grants +1 SL on Stealth Tests in the related environment and +1 SL in Opposed Tests if someone challenges credentials.",
+		"source": "Macharian Requisition Guide"
+	},
+	{
+		"name": "Bomb Disposal Suit",
+		"cost": 600,
+		"availability": "Rare",
+		"encumbrance": 0,
+		"effect": "Provides +3 Armour against Damage from weapons and explosives with the Blast or Spread Traits. Reduces Speed by one step.",
+		"source": "Macharian Requisition Guide"
+	},
+	{
+		"name": "Departamento Munitorum Issue Combat Fatigues and Battle Dress",
+		"cost": 100,
+		"availability": "Common",
+		"encumbrance": 0,
+		"effect": "When worn in matching terrain, grants +1 SL on Stealth Tests. In mismatched terrain, suffer -1 SL to Stealth Tests and enemies gain Advantage on Awareness (Sight) Tests. Add +100 Solars when purchasing camouflage armour or gear.",
+		"source": "Macharian Requisition Guide"
+	},
+	{
+		"name": "Document Harness (Simple)",
+		"cost": 30,
+		"availability": "Common",
+		"encumbrance": 0,
+		"effect": "Holds up to 4 Encumbrance of documents, books, or scrolls for the cost of 1 Encumbrance. Keeps items dry and clean.",
+		"source": "Macharian Requisition Guide"
+	},
+	{
+		"name": "Document Harness (Bio Lock)",
+		"cost": 100,
+		"availability": "Rare",
+		"encumbrance": 0,
+		"effect": "Functions as a Document Harness but requires the owner’s bio-imprint to open. Forcing it open damages the documents inside.",
+		"source": "Macharian Requisition Guide"
+	},
+	{
+		"name": "Service Identity Tags",
+		"cost": 2,
+		"availability": "Common",
+		"encumbrance": 0,
+		"effect": "Identifies bearer’s name, rank, regiment, and company. May grant Advantage or Disadvantage in social situations depending on military or naval associations.",
+		"source": "Macharian Requisition Guide"
+	},
+	{
+		"name": "Extreme Weather Clothing",
+		"cost": 50,
+		"availability": "Common",
+		"encumbrance": 0,
+		"effect": "Provides +1 SL on Fortitude (Endurance) Tests made to resist the extreme weather conditions it is designed to protect against.",
+		"source": "Macharian Requisition Guide"
+	},
+	{
+		"name": "Flame Resistant Fatigues",
+		"cost": 100,
+		"availability": "Scarce",
+		"encumbrance": 0,
+		"effect": "Provides +2 Armour against Flamer weapons and damage from Minor or Major Hazards related to flames or burning. Grants +1 SL on Fortitude (Endurance) Tests against extreme heat.",
+		"source": "Macharian Requisition Guide"
+	},
+	{
+		"name": "Grav Chute",
+		"cost": 500,
+		"availability": "Rare",
+		"encumbrance": 0,
+		"effect": "Allows wearer to complete controlled high-altitude descents. On ground, wearer may jump up to five times normal distance with a Piloting Test instead of Athletics. Optional grapnel launcher upgrade available. Piloting Test may allow Speed increase to Fast in Difficult Terrain.",
+		"source": "Macharian Requisition Guide"
+	},
+	{
+		"name": "Heat Shroud",
+		"cost": 150,
+		"availability": "Scarce",
+		"encumbrance": 0,
+		"effect": "Reduces damage taken from fire, frost, or hot/cold Hazards by 5. Provides protection against thermally sensitive detection.",
+		"source": "Macharian Requisition Guide"
+	},
+	{
+		"name": "Biocoded Holster",
+		"cost": 500,
+		"availability": "Rare",
+		"encumbrance": 0,
+		"effect": "Only releases the weapon to the keyed owner. Forcing open requires treating it as having 5 Wounds and 3 Armour points.",
+		"source": "Macharian Requisition Guide"
+	},
+	{
+		"name": "Militarum Ammo Harness",
+		"cost": 50,
+		"availability": "Common",
+		"encumbrance": 0,
+		"effect": "Holds numerous spare magazines, shells, or ammunition. Every 2 clips worn add 1 Encumbrance to the character. Reloading from this harness becomes a Free Action.",
+		"source": "Macharian Requisition Guide"
+	},
+	{
+		"name": "Militarum Munitions Harness",
+		"cost": 65,
+		"availability": "Common",
+		"encumbrance": 0,
+		"effect": "Holds grenades or missiles. Every 2 grenades or missiles worn add 1 Encumbrance. Reloading and readying becomes a Free Action.",
+		"source": "Macharian Requisition Guide"
+	},
+	{
+		"name": "Quickdraw Holster",
+		"cost": null,
+		"availability": "Rare",
+		"encumbrance": 0,
+		"effect": "Weapon stored grants the Quickdraw Talent but only with that weapon. If bearer already has the Talent, the weapon counts as a Surprise Attack.",
+		"source": "Macharian Requisition Guide"
+	},
+	{
+		"name": "Vehicle Combat Harness",
+		"cost": 100,
+		"availability": "Scarce",
+		"encumbrance": 0,
+		"effect": "Secures vehicle crew or passengers. Crew and passengers take half Damage (rounded up) from crashes. Passengers in open vehicles gain Reflexes Tests to stay inside when vehicle goes Out of Control.",
+		"source": "Macharian Requisition Guide"
+	},
+	{
+		"name": "‘Aegis Umbral’ Covert Pattern Void Suit",
+		"cost": 4000,
+		"availability": "Rare",
+		"encumbrance": 4,
+		"effect": "Grants benefits of Synskin, Encumbrance 3 when worn but only 1 AP. Provides improved dexterity and concealment from augurs.",
+		"source": "Macharian Requisition Guide"
+	},
+	{
+		"name": "Harjian Pattern Void Suit",
+		"cost": 2500,
+		"availability": "Rare",
+		"encumbrance": 5,
+		"effect": "Grants +1 AP and Fast Speed in low or zero gravity environments.",
+		"source": "Macharian Requisition Guide"
+	},
+	{
+		"name": "Yix ‘Ignorance’ Pattern Void Suit",
+		"cost": 3500,
+		"availability": "Rare",
+		"encumbrance": 5,
+		"effect": "Grants Advantage on first Test to resist Corruption each scene. Wearer suffers Disadvantage on vision-based Tests until suit is removed or a Challenging (+0) Tech (Security) Test is passed to override.",
+		"source": "Macharian Requisition Guide"
+	}
 ]

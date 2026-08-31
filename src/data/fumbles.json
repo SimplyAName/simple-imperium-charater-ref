@@ -1,42 +1,42 @@
 [
-  {
-    "roll": 1,
-    "result": "You flail inelegantly, and take a few crucial seconds to reassert a defensible stance. You fall to the bottom of the Initiative order on the next Round."
-  },
-  {
-    "roll": 2,
-    "result": "You flounder clumsily as you attack, knocking you precariously off balance. You have Disadvantage on all Tests until the end of your next turn."
-  },
-  {
-    "roll": 3,
-    "result": "A poorly controlled swing or shot causes you to lurch and drop your weapon. You drop the weapon you used to attack. Anyone can pick it up with a Free Action."
-  },
-  {
-    "roll": 4,
-    "result": "You stumble due to an unwieldy swing or unexpected recoil. You fall Prone."
-  },
-  {
-    "roll": 5,
-    "result": "Your reckless attack causes you to twist your ankle, either by overextending in melee or buckling when absorbing recoil. Your Speed is reduced to Slow until the end of the current encounter. This does not count as a Critical Wound"
-  },
-  {
-    "roll": 6,
-    "result": "You mishandle your weapon, striking it on a hard surface or interfering with the workings of its Machine Spirit. Your weapon is Unstable (page 125) until it is fixed with a Hard (-20) Tech (Engineering) Test."
-  },
-  {
-    "roll": 7,
-    "result": "Your ungainly attack manages to briefly blind or deafen you. Perhaps you overloaded a plasma weapon, causing a searing burst of light, used a Loud weapon too close to your ear, or clumsily struck your own eye when your attack ricochetted. Your are Blinded or Deafened, whichever is determined more appropriate for your weapon by the GM."
-  },
-  {
-    "roll": 8,
-    "result": "Your graceless attack causes minor damage to your protective gear. Your Armour in a random hit location is reduced by 1 until repaired (see Tech, page 101). If you aren't wearing any armour in that location, you suffer 1 Wound instead."
-  },
-  {
-    "roll": 9,
-    "result": "In the fumbling confusion of battle, you manage to clumsily strike yourself with a glancing blow. You are either Stunned or Bleeding, whichever is determined more appropriate for your weapon by the GM."
-  },
-  {
-    "roll": 10,
-    "result": "Your attack hits an unintended target. If you roll this Fumble on a successful attack, your melee weapon might cleave through an enemy and into an ally, or a bullet might ricochet after passing through a foe. Your attack hits a random ally within weapon range with +0 SL. Roll to determine a random hit location. If there is no target in range, you somehow hit yourself."
-  }
+	{
+		"roll": 1,
+		"result": "You flail inelegantly, and take a few crucial seconds to reassert a defensible stance. You fall to the bottom of the Initiative order on the next Round."
+	},
+	{
+		"roll": 2,
+		"result": "You flounder clumsily as you attack, knocking you precariously off balance. You have Disadvantage on all Tests until the end of your next turn."
+	},
+	{
+		"roll": 3,
+		"result": "A poorly controlled swing or shot causes you to lurch and drop your weapon. You drop the weapon you used to attack. Anyone can pick it up with a Free Action."
+	},
+	{
+		"roll": 4,
+		"result": "You stumble due to an unwieldy swing or unexpected recoil. You fall Prone."
+	},
+	{
+		"roll": 5,
+		"result": "Your reckless attack causes you to twist your ankle, either by overextending in melee or buckling when absorbing recoil. Your Speed is reduced to Slow until the end of the current encounter. This does not count as a Critical Wound"
+	},
+	{
+		"roll": 6,
+		"result": "You mishandle your weapon, striking it on a hard surface or interfering with the workings of its Machine Spirit. Your weapon is Unstable (page 125) until it is fixed with a Hard (-20) Tech (Engineering) Test."
+	},
+	{
+		"roll": 7,
+		"result": "Your ungainly attack manages to briefly blind or deafen you. Perhaps you overloaded a plasma weapon, causing a searing burst of light, used a Loud weapon too close to your ear, or clumsily struck your own eye when your attack ricochetted. Your are Blinded or Deafened, whichever is determined more appropriate for your weapon by the GM."
+	},
+	{
+		"roll": 8,
+		"result": "Your graceless attack causes minor damage to your protective gear. Your Armour in a random hit location is reduced by 1 until repaired (see Tech, page 101). If you aren't wearing any armour in that location, you suffer 1 Wound instead."
+	},
+	{
+		"roll": 9,
+		"result": "In the fumbling confusion of battle, you manage to clumsily strike yourself with a glancing blow. You are either Stunned or Bleeding, whichever is determined more appropriate for your weapon by the GM."
+	},
+	{
+		"roll": 10,
+		"result": "Your attack hits an unintended target. If you roll this Fumble on a successful attack, your melee weapon might cleave through an enemy and into an ally, or a bullet might ricochet after passing through a foe. Your attack hits a random ally within weapon range with +0 SL. Roll to determine a random hit location. If there is no target in range, you somehow hit yourself."
+	}
 ]

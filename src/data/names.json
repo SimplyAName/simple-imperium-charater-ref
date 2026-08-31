@@ -1,277 +1,277 @@
 [
-  {
-    "roll": {
-      "min": 1,
-      "max": 4
-    },
-    "lowGothic": "Arz",
-    "highGothic": "Azararch",
-    "archaic": "Aenisse",
-    "esoteric": "Alpha",
-    "informal": "Able"
-  },
-  {
-    "roll": {
-      "min": 5,
-      "max": 8
-    },
-    "lowGothic": "Barik",
-    "highGothic": "Baranoth",
-    "archaic": "Barbosa",
-    "esoteric": "Bot",
-    "informal": "Axer"
-  },
-  {
-    "roll": {
-      "min": 9,
-      "max": 12
-    },
-    "lowGothic": "Canto",
-    "highGothic": "Castella",
-    "archaic": "Caradoc",
-    "esoteric": "Conscript",
-    "informal": "Beakie"
-  },
-  {
-    "roll": {
-      "min": 13,
-      "max": 16
-    },
-    "lowGothic": "Cil",
-    "highGothic": "Davrus",
-    "archaic": "Draco",
-    "esoteric": "Designate",
-    "informal": "Bones"
-  },
-  {
-    "roll": {
-      "min": 17,
-      "max": 20
-    },
-    "lowGothic": "Darrial",
-    "highGothic": "Fausta",
-    "archaic": "Drusilla",
-    "esoteric": "Diamond",
-    "informal": "Bolt"
-  },
-  {
-    "roll": {
-      "min": 21,
-      "max": 24
-    },
-    "lowGothic": "Enoch",
-    "highGothic": "Flavia",
-    "archaic": "Eizen",
-    "esoteric": "Exactius",
-    "informal": "Burner"
-  },
-  {
-    "roll": {
-      "min": 25,
-      "max": 28
-    },
-    "lowGothic": "Horst",
-    "highGothic": "Galliach",
-    "archaic": "Genevieve",
-    "esoteric": "Fatal",
-    "informal": "Crusher"
-  },
-  {
-    "roll": {
-      "min": 29,
-      "max": 32
-    },
-    "lowGothic": "Gaius",
-    "highGothic": "Harthos",
-    "archaic": "Hanette",
-    "esoteric": "Gamma",
-    "informal": "Cutter"
-  },
-  {
-    "roll": {
-      "min": 33,
-      "max": 36
-    },
-    "lowGothic": "Galatia",
-    "highGothic": "Icharus",
-    "archaic": "Ingrita",
-    "esoteric": "Grace",
-    "informal": "Dokk"
-  },
-  {
-    "roll": {
-      "min": 37,
-      "max": 40
-    },
-    "lowGothic": "Kelle",
-    "highGothic": "Irissa",
-    "archaic": "Jaq",
-    "esoteric": "Harrow",
-    "informal": "Echo"
-  },
-  {
-    "roll": {
-      "min": 41,
-      "max": 44
-    },
-    "lowGothic": "Kulem",
-    "highGothic": "Karpath",
-    "archaic": "Jocasta",
-    "esoteric": "Incubus",
-    "informal": "Flair"
-  },
-  {
-    "roll": {
-      "min": 45,
-      "max": 48
-    },
-    "lowGothic": "Magdala",
-    "highGothic": "Lothos",
-    "archaic": "Karollon",
-    "esoteric": "Jewel",
-    "informal": "Grunt"
-  },
-  {
-    "roll": {
-      "min": 49,
-      "max": 52
-    },
-    "lowGothic": "Merra",
-    "highGothic": "Lucindia",
-    "archaic": "Killian",
-    "esoteric": "Killswitch",
-    "informal": "Lax"
-  },
-  {
-    "roll": {
-      "min": 53,
-      "max": 56
-    },
-    "lowGothic": "Mordicai",
-    "highGothic": "Mycandra",
-    "archaic": "Lemant",
-    "esoteric": "Lumen",
-    "informal": "Lho"
-  },
-  {
-    "roll": {
-      "min": 57,
-      "max": 60
-    },
-    "lowGothic": "Narcia",
-    "highGothic": "Noctine",
-    "archaic": "Lethe",
-    "esoteric": "Mortis",
-    "informal": "Mag"
-  },
-  {
-    "roll": {
-      "min": 61,
-      "max": 64
-    },
-    "lowGothic": "Noros",
-    "highGothic": "Novianna",
-    "archaic": "Naveen",
-    "esoteric": "Norn",
-    "informal": "Marrow"
-  },
-  {
-    "roll": {
-      "min": 65,
-      "max": 68
-    },
-    "lowGothic": "Pennette",
-    "highGothic": "Octavia",
-    "archaic": "Pollonia",
-    "esoteric": "Optima",
-    "informal": "Newt"
-  },
-  {
-    "roll": {
-      "min": 69,
-      "max": 72
-    },
-    "lowGothic": "Quinten",
-    "highGothic": "Partheos",
-    "archaic": "Sabanth",
-    "esoteric": "Promethium",
-    "informal": "Pincer"
-  },
-  {
-    "roll": {
-      "min": 73,
-      "max": 76
-    },
-    "lowGothic": "Quineel",
-    "highGothic": "Regia",
-    "archaic": "Tessera",
-    "esoteric": "Reject",
-    "informal": "Red"
-  },
-  {
-    "roll": {
-      "min": 77,
-      "max": 80
-    },
-    "lowGothic": "Rhia",
-    "highGothic": "Scythia",
-    "archaic": "Tzarelle",
-    "esoteric": "Stalker",
-    "informal": "Scab"
-  },
-  {
-    "roll": {
-      "min": 81,
-      "max": 84
-    },
-    "lowGothic": "Silvanto",
-    "highGothic": "Severan",
-    "archaic": "Verity",
-    "esoteric": "The Unnamed",
-    "informal": "Shiv"
-  },
-  {
-    "roll": {
-      "min": 85,
-      "max": 88
-    },
-    "lowGothic": "Sesselie",
-    "highGothic": "Tyruss",
-    "archaic": "Wynnif",
-    "esoteric": "Vulture",
-    "informal": "Starr"
-  },
-  {
-    "roll": {
-      "min": 89,
-      "max": 92
-    },
-    "lowGothic": "Uri",
-    "highGothic": "Venria",
-    "archaic": "Yasta",
-    "esoteric": "Whitenoise",
-    "informal": "Steel"
-  },
-  {
-    "roll": {
-      "min": 93,
-      "max": 96
-    },
-    "lowGothic": "Xandra",
-    "highGothic": "Ventium",
-    "archaic": "Zadora",
-    "esoteric": "X",
-    "informal": "Tranq"
-  },
-  {
-    "roll": {
-      "min": 97,
-      "max": 0
-    },
-    "lowGothic": "Zariel",
-    "highGothic": "Yemmise",
-    "archaic": "Zarkov",
-    "esoteric": "Zilch",
-    "informal": "Wurm"
-  }
+	{
+		"roll": {
+			"min": 1,
+			"max": 4
+		},
+		"lowGothic": "Arz",
+		"highGothic": "Azararch",
+		"archaic": "Aenisse",
+		"esoteric": "Alpha",
+		"informal": "Able"
+	},
+	{
+		"roll": {
+			"min": 5,
+			"max": 8
+		},
+		"lowGothic": "Barik",
+		"highGothic": "Baranoth",
+		"archaic": "Barbosa",
+		"esoteric": "Bot",
+		"informal": "Axer"
+	},
+	{
+		"roll": {
+			"min": 9,
+			"max": 12
+		},
+		"lowGothic": "Canto",
+		"highGothic": "Castella",
+		"archaic": "Caradoc",
+		"esoteric": "Conscript",
+		"informal": "Beakie"
+	},
+	{
+		"roll": {
+			"min": 13,
+			"max": 16
+		},
+		"lowGothic": "Cil",
+		"highGothic": "Davrus",
+		"archaic": "Draco",
+		"esoteric": "Designate",
+		"informal": "Bones"
+	},
+	{
+		"roll": {
+			"min": 17,
+			"max": 20
+		},
+		"lowGothic": "Darrial",
+		"highGothic": "Fausta",
+		"archaic": "Drusilla",
+		"esoteric": "Diamond",
+		"informal": "Bolt"
+	},
+	{
+		"roll": {
+			"min": 21,
+			"max": 24
+		},
+		"lowGothic": "Enoch",
+		"highGothic": "Flavia",
+		"archaic": "Eizen",
+		"esoteric": "Exactius",
+		"informal": "Burner"
+	},
+	{
+		"roll": {
+			"min": 25,
+			"max": 28
+		},
+		"lowGothic": "Horst",
+		"highGothic": "Galliach",
+		"archaic": "Genevieve",
+		"esoteric": "Fatal",
+		"informal": "Crusher"
+	},
+	{
+		"roll": {
+			"min": 29,
+			"max": 32
+		},
+		"lowGothic": "Gaius",
+		"highGothic": "Harthos",
+		"archaic": "Hanette",
+		"esoteric": "Gamma",
+		"informal": "Cutter"
+	},
+	{
+		"roll": {
+			"min": 33,
+			"max": 36
+		},
+		"lowGothic": "Galatia",
+		"highGothic": "Icharus",
+		"archaic": "Ingrita",
+		"esoteric": "Grace",
+		"informal": "Dokk"
+	},
+	{
+		"roll": {
+			"min": 37,
+			"max": 40
+		},
+		"lowGothic": "Kelle",
+		"highGothic": "Irissa",
+		"archaic": "Jaq",
+		"esoteric": "Harrow",
+		"informal": "Echo"
+	},
+	{
+		"roll": {
+			"min": 41,
+			"max": 44
+		},
+		"lowGothic": "Kulem",
+		"highGothic": "Karpath",
+		"archaic": "Jocasta",
+		"esoteric": "Incubus",
+		"informal": "Flair"
+	},
+	{
+		"roll": {
+			"min": 45,
+			"max": 48
+		},
+		"lowGothic": "Magdala",
+		"highGothic": "Lothos",
+		"archaic": "Karollon",
+		"esoteric": "Jewel",
+		"informal": "Grunt"
+	},
+	{
+		"roll": {
+			"min": 49,
+			"max": 52
+		},
+		"lowGothic": "Merra",
+		"highGothic": "Lucindia",
+		"archaic": "Killian",
+		"esoteric": "Killswitch",
+		"informal": "Lax"
+	},
+	{
+		"roll": {
+			"min": 53,
+			"max": 56
+		},
+		"lowGothic": "Mordicai",
+		"highGothic": "Mycandra",
+		"archaic": "Lemant",
+		"esoteric": "Lumen",
+		"informal": "Lho"
+	},
+	{
+		"roll": {
+			"min": 57,
+			"max": 60
+		},
+		"lowGothic": "Narcia",
+		"highGothic": "Noctine",
+		"archaic": "Lethe",
+		"esoteric": "Mortis",
+		"informal": "Mag"
+	},
+	{
+		"roll": {
+			"min": 61,
+			"max": 64
+		},
+		"lowGothic": "Noros",
+		"highGothic": "Novianna",
+		"archaic": "Naveen",
+		"esoteric": "Norn",
+		"informal": "Marrow"
+	},
+	{
+		"roll": {
+			"min": 65,
+			"max": 68
+		},
+		"lowGothic": "Pennette",
+		"highGothic": "Octavia",
+		"archaic": "Pollonia",
+		"esoteric": "Optima",
+		"informal": "Newt"
+	},
+	{
+		"roll": {
+			"min": 69,
+			"max": 72
+		},
+		"lowGothic": "Quinten",
+		"highGothic": "Partheos",
+		"archaic": "Sabanth",
+		"esoteric": "Promethium",
+		"informal": "Pincer"
+	},
+	{
+		"roll": {
+			"min": 73,
+			"max": 76
+		},
+		"lowGothic": "Quineel",
+		"highGothic": "Regia",
+		"archaic": "Tessera",
+		"esoteric": "Reject",
+		"informal": "Red"
+	},
+	{
+		"roll": {
+			"min": 77,
+			"max": 80
+		},
+		"lowGothic": "Rhia",
+		"highGothic": "Scythia",
+		"archaic": "Tzarelle",
+		"esoteric": "Stalker",
+		"informal": "Scab"
+	},
+	{
+		"roll": {
+			"min": 81,
+			"max": 84
+		},
+		"lowGothic": "Silvanto",
+		"highGothic": "Severan",
+		"archaic": "Verity",
+		"esoteric": "The Unnamed",
+		"informal": "Shiv"
+	},
+	{
+		"roll": {
+			"min": 85,
+			"max": 88
+		},
+		"lowGothic": "Sesselie",
+		"highGothic": "Tyruss",
+		"archaic": "Wynnif",
+		"esoteric": "Vulture",
+		"informal": "Starr"
+	},
+	{
+		"roll": {
+			"min": 89,
+			"max": 92
+		},
+		"lowGothic": "Uri",
+		"highGothic": "Venria",
+		"archaic": "Yasta",
+		"esoteric": "Whitenoise",
+		"informal": "Steel"
+	},
+	{
+		"roll": {
+			"min": 93,
+			"max": 96
+		},
+		"lowGothic": "Xandra",
+		"highGothic": "Ventium",
+		"archaic": "Zadora",
+		"esoteric": "X",
+		"informal": "Tranq"
+	},
+	{
+		"roll": {
+			"min": 97,
+			"max": 0
+		},
+		"lowGothic": "Zariel",
+		"highGothic": "Yemmise",
+		"archaic": "Zarkov",
+		"esoteric": "Zilch",
+		"informal": "Wurm"
+	}
 ]

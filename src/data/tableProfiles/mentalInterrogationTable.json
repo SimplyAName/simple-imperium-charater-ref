@@ -1,32 +1,32 @@
 {
-  "name": "Mental Interrogation Table",
-  "description": "Results (Cumulative)",
-  "data": [
-    {
-      "sl": 1,
-      "effect": "You can learn basic information about the target, such as name, age, mood, and general physical/mental health, as well as surface thoughts in the target’s mind, such as opinions about you, overarching motivations, immediate concerns, and conscious lies."
-    },
-    {
-      "sl": 2,
-      "effect": "You can learn about an object, location, or creature significant to the target and the nature of its importance."
-    },
-    {
-      "sl": 3,
-      "effect": "You can access the target’s memories of the last day from their perspective."
-    },
-    {
-      "sl": 4,
-      "effect": "You can access the target’s memories of the last year from their perspective."
-    },
-    {
-      "sl": 5,
-      "effect": "You can reveal the target’s innermost thoughts, feelings, motivations, fears, relationships, secrets, and agendas."
-    },
-    {
-      "sl": {
-        "min": 6
-      },
-      "effect": "The target is an open book to you. You have full access to the target’s mind and the information within."
-    }
-  ]
+	"name": "Mental Interrogation Table",
+	"description": "Results (Cumulative)",
+	"data": [
+		{
+			"sl": 1,
+			"effect": "You can learn basic information about the target, such as name, age, mood, and general physical/mental health, as well as surface thoughts in the target’s mind, such as opinions about you, overarching motivations, immediate concerns, and conscious lies."
+		},
+		{
+			"sl": 2,
+			"effect": "You can learn about an object, location, or creature significant to the target and the nature of its importance."
+		},
+		{
+			"sl": 3,
+			"effect": "You can access the target’s memories of the last day from their perspective."
+		},
+		{
+			"sl": 4,
+			"effect": "You can access the target’s memories of the last year from their perspective."
+		},
+		{
+			"sl": 5,
+			"effect": "You can reveal the target’s innermost thoughts, feelings, motivations, fears, relationships, secrets, and agendas."
+		},
+		{
+			"sl": {
+				"min": 6
+			},
+			"effect": "The target is an open book to you. You have full access to the target’s mind and the information within."
+		}
+	]
 }

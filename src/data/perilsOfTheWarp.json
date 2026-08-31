@@ -1,153 +1,153 @@
 [
-  {
-    "roll": {
-      "min": 11,
-      "max": 40
-    },
-    "corruption": 1,
-    "peril": "Rattled: You catch a glimpse of something in the Warp that sends shivers down your spine. Gain the Frightened (Minor) Condition."
-  },
-  {
-    "roll": {
-      "min": 41,
-      "max": 45
-    },
-    "corruption": 1,
-    "peril": "Gritted Teeth: The power surges through you, and you suffer 3 Wounds."
-  },
-  {
-    "roll": {
-      "min": 46,
-      "max": 50
-    },
-    "corruption": 1,
-    "peril": "Psychic Discharge: Any powered devices on your person, such as lasgun clips, dataslates, and vox-casters immediately lose their charge. You must recharge or repair these before they can be used again."
-  },
-  {
-    "roll": {
-      "min": 51,
-      "max": 55
-    },
-    "corruption": 1,
-    "peril": "Warplight Cascade: Power gushes from you in arcs of iridescent light. All other characters within Short Range suffer a hit that deals 1d10+6 Damage. Targets may attempt to Dodge this hit as if it were a Ranged Attack with 1 SL."
-  },
-  {
-    "roll": {
-      "min": 56,
-      "max": 60
-    },
-    "corruption": 2,
-    "peril": "Backlash: A violent burst of energy from the warp smashes your mind and you are sent reeling. You are Stunned."
-  },
-  {
-    "roll": {
-      "min": 61,
-      "max": 65
-    },
-    "corruption": 2,
-    "peril": "Stolen Tongue: The capricious whims of the warp rob you of the ability to speak for 1d10 hours."
-  },
-  {
-    "roll": {
-      "min": 66,
-      "max": 70
-    },
-    "corruption": 2,
-    "peril": "Photosensitivity: For 1d10 hours you become incredibly sensitive to light. You can see easily in almost pitch darkness. You do not suffer the effects of Obscured or Poorly Lit environments, but you are Blinded while in Zones without those Traits exposed to bright light."
-  },
-  {
-    "roll": {
-      "min": 71,
-      "max": 75
-    },
-    "corruption": 2,
-    "peril": "Feature Creep: Some element of your appearance — your eye or hair colour, your height, or your gait, changes subtly and permanently. The details of this are up to the GM."
-  },
-  {
-    "roll": {
-      "min": 76,
-      "max": 80
-    },
-    "corruption": 2,
-    "peril": "Gibbering Wreck: You scream in pain as terrible insights from the Warp twist your mind. You are Stunned and exposed to a source of moderate Corruption."
-  },
-  {
-    "roll": {
-      "min": 81,
-      "max": 85
-    },
-    "corruption": 2,
-    "peril": "Soul Scar: Warp power courses through your body, leaving a permanent scar on your soul. For the next 1d10 hours you may not use any Psychic Powers."
-  },
-  {
-    "roll": {
-      "min": 86,
-      "max": 90
-    },
-    "corruption": 2,
-    "peril": "Locked In: Warp energy floods your body, making it almost impossible to control. You are Restrained by an invisible force with Strength 50 for 1d10 rounds."
-  },
-  {
-    "roll": {
-      "min": 91,
-      "max": 95
-    },
-    "corruption": 3,
-    "peril": "Concussive Blast: With an explosive crack of power you are rendered Unconscious. Characters in Short Range must pass a Challenging (+0) Fortitude (Endurance) Test or be Stunned."
-  },
-  {
-    "roll": {
-      "min": 96,
-      "max": 100
-    },
-    "corruption": 3,
-    "peril": "Blood Rain: An unnatural psychic storm erupts, covering your Zone with a downpour of blood. In addition to this distressing effect, all Psychic Powers have their Warp Charge rating doubled if used inside this area."
-  },
-  {
-    "roll": {
-      "min": 101,
-      "max": 105
-    },
-    "corruption": 3,
-    "peril": "Timeslip: Time flows oddly around you, and you are flung 1d10 rounds into the future. From everyone else's point of view you simply disappear for 1d10 rounds."
-  },
-  {
-    "roll": {
-      "min": 106,
-      "max": 110
-    },
-    "corruption": 3,
-    "peril": "Daemonic Emergence: A daemon tears its way out of the Warp and emerges within Short Range of you. Roll a d10 to determine what kind of daemon appears: 1-3, a Plaguebearer; 4-6, a Bloodletter; 7-8 a Daemonette; or a Pink Horror appears."
-  },
-  {
-    "roll": {
-      "min": 111,
-      "max": 140
-    },
-    "corruption": 3,
-    "peril": "Cataclysmic Blast: Power erupts forth from you in great arcs of coruscating energy. You and all other characters within Short Range suffer a hit that deals 3d10 Energy Damage. Additionally, all of your gear is destroyed on the spot, leaving you standing in a smoking crater."
-  },
-  {
-    "roll": {
-      "min": 141,
-      "max": 150
-    },
-    "corruption": 5,
-    "peril": "Mass Possession: You scream in an unnatural, heretical tongue as daemonic entities attempt to use you as a bridge to enter the material universe. Roll a d10 at the beginning of each of your Turns — on a roll of 8 or more the effect ends. While the effect is in progress, you cannot Move and must spend your Action attempting to hold back the daemonic horde. You are a source of moderate Corruption while this effect persists."
-  },
-  {
-    "roll": {
-      "min": 151,
-      "max": 170
-    },
-    "corruption": 10,
-    "peril": "Daemonhost: You must immediately pass a Very Hard (-30) Discipline Test or be possessed by a daemon. The details of this remain up to the GM, but it is almost certain that the being will attack all those around it regardless of their relationship to you. While you are most likely effectively dead, destruction of the Daemonhost may free your soul, if not save your life."
-  },
-  {
-    "roll": {
-      "min": 171
-    },
-    "corruption": 5,
-    "peril": "Eye of Terror: A substantial gate to the immaterium opens, and something truly terrible emerges. The nature of this remains up to the GM, but a Greater Daemon stepping through or an ancient Space Hulk appearing in orbit would be appropriate."
-  }
+	{
+		"roll": {
+			"min": 11,
+			"max": 40
+		},
+		"corruption": 1,
+		"peril": "Rattled: You catch a glimpse of something in the Warp that sends shivers down your spine. Gain the Frightened (Minor) Condition."
+	},
+	{
+		"roll": {
+			"min": 41,
+			"max": 45
+		},
+		"corruption": 1,
+		"peril": "Gritted Teeth: The power surges through you, and you suffer 3 Wounds."
+	},
+	{
+		"roll": {
+			"min": 46,
+			"max": 50
+		},
+		"corruption": 1,
+		"peril": "Psychic Discharge: Any powered devices on your person, such as lasgun clips, dataslates, and vox-casters immediately lose their charge. You must recharge or repair these before they can be used again."
+	},
+	{
+		"roll": {
+			"min": 51,
+			"max": 55
+		},
+		"corruption": 1,
+		"peril": "Warplight Cascade: Power gushes from you in arcs of iridescent light. All other characters within Short Range suffer a hit that deals 1d10+6 Damage. Targets may attempt to Dodge this hit as if it were a Ranged Attack with 1 SL."
+	},
+	{
+		"roll": {
+			"min": 56,
+			"max": 60
+		},
+		"corruption": 2,
+		"peril": "Backlash: A violent burst of energy from the warp smashes your mind and you are sent reeling. You are Stunned."
+	},
+	{
+		"roll": {
+			"min": 61,
+			"max": 65
+		},
+		"corruption": 2,
+		"peril": "Stolen Tongue: The capricious whims of the warp rob you of the ability to speak for 1d10 hours."
+	},
+	{
+		"roll": {
+			"min": 66,
+			"max": 70
+		},
+		"corruption": 2,
+		"peril": "Photosensitivity: For 1d10 hours you become incredibly sensitive to light. You can see easily in almost pitch darkness. You do not suffer the effects of Obscured or Poorly Lit environments, but you are Blinded while in Zones without those Traits exposed to bright light."
+	},
+	{
+		"roll": {
+			"min": 71,
+			"max": 75
+		},
+		"corruption": 2,
+		"peril": "Feature Creep: Some element of your appearance — your eye or hair colour, your height, or your gait, changes subtly and permanently. The details of this are up to the GM."
+	},
+	{
+		"roll": {
+			"min": 76,
+			"max": 80
+		},
+		"corruption": 2,
+		"peril": "Gibbering Wreck: You scream in pain as terrible insights from the Warp twist your mind. You are Stunned and exposed to a source of moderate Corruption."
+	},
+	{
+		"roll": {
+			"min": 81,
+			"max": 85
+		},
+		"corruption": 2,
+		"peril": "Soul Scar: Warp power courses through your body, leaving a permanent scar on your soul. For the next 1d10 hours you may not use any Psychic Powers."
+	},
+	{
+		"roll": {
+			"min": 86,
+			"max": 90
+		},
+		"corruption": 2,
+		"peril": "Locked In: Warp energy floods your body, making it almost impossible to control. You are Restrained by an invisible force with Strength 50 for 1d10 rounds."
+	},
+	{
+		"roll": {
+			"min": 91,
+			"max": 95
+		},
+		"corruption": 3,
+		"peril": "Concussive Blast: With an explosive crack of power you are rendered Unconscious. Characters in Short Range must pass a Challenging (+0) Fortitude (Endurance) Test or be Stunned."
+	},
+	{
+		"roll": {
+			"min": 96,
+			"max": 100
+		},
+		"corruption": 3,
+		"peril": "Blood Rain: An unnatural psychic storm erupts, covering your Zone with a downpour of blood. In addition to this distressing effect, all Psychic Powers have their Warp Charge rating doubled if used inside this area."
+	},
+	{
+		"roll": {
+			"min": 101,
+			"max": 105
+		},
+		"corruption": 3,
+		"peril": "Timeslip: Time flows oddly around you, and you are flung 1d10 rounds into the future. From everyone else's point of view you simply disappear for 1d10 rounds."
+	},
+	{
+		"roll": {
+			"min": 106,
+			"max": 110
+		},
+		"corruption": 3,
+		"peril": "Daemonic Emergence: A daemon tears its way out of the Warp and emerges within Short Range of you. Roll a d10 to determine what kind of daemon appears: 1-3, a Plaguebearer; 4-6, a Bloodletter; 7-8 a Daemonette; or a Pink Horror appears."
+	},
+	{
+		"roll": {
+			"min": 111,
+			"max": 140
+		},
+		"corruption": 3,
+		"peril": "Cataclysmic Blast: Power erupts forth from you in great arcs of coruscating energy. You and all other characters within Short Range suffer a hit that deals 3d10 Energy Damage. Additionally, all of your gear is destroyed on the spot, leaving you standing in a smoking crater."
+	},
+	{
+		"roll": {
+			"min": 141,
+			"max": 150
+		},
+		"corruption": 5,
+		"peril": "Mass Possession: You scream in an unnatural, heretical tongue as daemonic entities attempt to use you as a bridge to enter the material universe. Roll a d10 at the beginning of each of your Turns — on a roll of 8 or more the effect ends. While the effect is in progress, you cannot Move and must spend your Action attempting to hold back the daemonic horde. You are a source of moderate Corruption while this effect persists."
+	},
+	{
+		"roll": {
+			"min": 151,
+			"max": 170
+		},
+		"corruption": 10,
+		"peril": "Daemonhost: You must immediately pass a Very Hard (-30) Discipline Test or be possessed by a daemon. The details of this remain up to the GM, but it is almost certain that the being will attack all those around it regardless of their relationship to you. While you are most likely effectively dead, destruction of the Daemonhost may free your soul, if not save your life."
+	},
+	{
+		"roll": {
+			"min": 171
+		},
+		"corruption": 5,
+		"peril": "Eye of Terror: A substantial gate to the immaterium opens, and something truly terrible emerges. The nature of this remains up to the GM, but a Greater Daemon stepping through or an ancient Space Hulk appearing in orbit would be appropriate."
+	}
 ]

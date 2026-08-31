@@ -1,205 +1,205 @@
 [
-  {
-    "name": "Augmetic Arm",
-    "cost": 1000,
-    "availability": "Scarce",
-    "effect": "Gain +1 Armour to the location, +1 SL to Strength-based Tests using the arm, +1 Damage to melee attacks with the arm. Two augmentic arms gives +2 SL to Strength Tests using both arms, and +2 Damage with Two-Handed melee weapons.",
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Augmetic Heart",
-    "cost": 3000,
-    "availability": "Rare",
-    "effect": "As an Action, make a Challenging (+0) Fortitude Test to remove the Bleeding (minor) Condition. As an Action, make a Hard (-20) Fortitude Test to remove the Bleeding (major) Condition.",
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Augmetic Leg",
-    "cost": 1000,
-    "availability": "Scarce",
-    "effect": "Gain +1 Armour to the location, +1  SL to  all Strength-based Tests using the leg.",
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Augmetic Respiratory System",
-    "cost": 2000,
-    "availability": "Rare",
-    "effect": "Gain +2 SL to Fortitude Tests to resist the effects of airborne toxins and poisonous gases.",
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Augmetic Eye",
-    "cost": 4000,
-    "availability": "Rare",
-    "effect": "Gain +1 SL to Tests using that sense. If you have two augmetic eyes, you gain +2 SL instead.",
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Augmetic Ear",
-    "cost": 4000,
-    "availability": "Rare",
-    "effect": "Gain +1 SL to Tests using that sense. If you have two augmetic ears, you gain +2 SL instead.",
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Augmetic Nose",
-    "cost": 4000,
-    "availability": "Rare",
-    "effect": "Gain +1 SL to Tests using that sense.",
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Augmetic Tracks/Wheels",
-    "cost": 1500,
-    "availability": "Scarce",
-    "effect": "Gain +1 Armour to legs. In clear Zones suitable for tracks or wheels, your Speed is now Fast. However, the GM may rule that cluttered Zones count as Difficult Terrain for you. Your Augmetic tracks or wheels use the mechanical rules for the Leg Critical Wound and the Broken Bones and Amputations rules just as Augmetic Legs would. However, you are free to describe any such Wounds as best suits your character's unique physical form.",
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Augur Array",
-    "cost": 6000,
-    "availability": "Rare",
-    "effect": "The user’s senses gain the abilities of an Auspex revealing energy, life signs, movement, and other data within Medium Range. The user also gains +5 Perception.",
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Ballistic Mechadendrite",
-    "cost": 2000,
-    "availability": "Rare",
-    "effect": "The Mechadendrite is fitted with a Laspistol that never needs reloading.",
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Biomechanical Interface",
-    "cost": 10000,
-    "availability": "Rare",
-    "effect": "The user gains +1 SL to Tech Tests when operating a machine with a suitable connection, or issuing orders to a suitably equipped cybernetic servant.",
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Calculus Logi Upgrade",
-    "cost": 10000,
-    "availability": "Rare",
-    "effect": "The user can perform simple mathematics instinctively, gaining +1 SL on any Logic (Mathematics) Tests. The user also gains +5 Intelligence.",
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Manipulator Mechadendrite",
-    "cost": 1400,
-    "availability": "Rare",
-    "effect": "This hefty Mechadendrite aids in heavy lifting. When using a Manipulator Mechadentrite, you gain +2 SL to Strength-based Tests, and −1 SL to Dexterity Tests. It can also be used as an Improvised Melee Weapon (Two-handed).",
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Medicae Mechadendrite",
-    "cost": 1400,
-    "availability": "Rare",
-    "effect": "Medicae: This device includes scalpels, bonesaws, and skin-sealants for surgical support. The Mechadendrite counts as having a Chirurgeon's Kit for Tests that require one. Unlike a standard Chirurgeon's Kit, a Medicae Mechandendrite's advanced tools do not have a limited number of uses and only need to be replaced if the device is broken.",
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Optical Mechadendrite",
-    "cost": 1200,
-    "availability": "Rare",
-    "effect": "Optical Mechadendrites are usually a metre longer than typical mechadendrites, allowing them to pass through crowded mechanisms and cramped areas to gain visual data. When using the Optical Mechadendrite, you gain +1 SL to Awareness (Sight) Tests and ignore the effects of Poorly Lit and Dark Zones due to the integrated Stablight. You can also use these to look around corners, over the heads of a thronging crowd, and in many other, inventive ways.",
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Utility Mechadendrite",
-    "cost": 1000,
-    "availability": "Rare",
-    "effect": "Utility: These are fitted with several devices for repairing and renovating machines, and are the most common form of Mechadendrite. They count as a Standard Quality Combi-Tool, granting +2 SL to Tech Tests, and can be used in melee combat as an Improvised Melee Weapon (One-handed).",
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Vocal Implant",
-    "cost": 400,
-    "availability": "Rare",
-    "effect": "When using a Vocal Implant, your voice or other sounds you play or generate can be easily heard up to 100 metres away.",
-    "source": "Core Rulebook"
-  },
-  {
-    "name": "Combat Gland",
-    "cost": 10000,
-    "availability": "Exotic",
-    "effect": "Augmetic Combat Gland which secretes combat drugs: Frenzon (+1 StrB, immunity to Frightened), Onslaught (+1 AgB/PerB, Fast Speed), Spur (+1 AgB/BsB, Advantage on Dodge). Each lasts 1d10 rounds. Challenging (+0) Fortitude Test required upon drug wear-off to avoid Fatigued (Minor) condition.",
-    "source": "Inquisitor's Player's Guide"
-  },
-  {
-    "name": "Engram Implantation",
-    "cost": 10000,
-    "availability": "Exotic",
-    "effect": "Augmetic Engram Implantation, used post-mind-cleansing, implants skills directly into the mind. Chooses a Skill at purchase. As a Free Action, grants Advantage on that Skill Test. Requires six hours of rest before reuse. Some engrams can meme-code information, resisting all but powerful psykers' removal.",
-    "source": "Inquisitor's Player's Guide"
-  },
-  {
-    "name": "Hexagrammic Wards",
-    "cost": 5000,
-    "availability": "Exotic",
-    "effect": "Surgically grafted wards and sigils against psychic attacks. Grants Disadvantage on the first psychic power targeting the wearer. Difficult to notice except in close encounters. Recharges over an hour with Chirurgeon's Kit or Medical Service.",
-    "source": "Inquisitor's Player's Guide"
-  },
-  {
-    "name": "Implanted Digital Weapons",
-    "cost": 3000,
-    "availability": "Exotic",
-    "effect": "Augmetic Implanted Digital Weapon, replacing eye or finger, fires as a Free Action. Functions as a normal Digital Weapon. Repairing it has -20 Difficulty modifier.",
-    "source": "Inquisitor's Player's Guide"
-  },
-  {
-    "name": "Memory Partition Cogitator",
-    "cost": 10000,
-    "availability": "Exotic",
-    "effect": "Brain-integrated cogitator for enhanced information storage and recall. Grants +1 SL on Logic (Investigation or Lore) Tests and +5 Intelligence.",
-    "source": "Inquisitor's Player's Guide"
-  },
-  {
-    "name": "Aortic Supercharger",
-    "cost": 3000,
-    "availability": "Rare",
-    "effect": "Augmetic reinforcement to the heart that enhances endurance. Once per session, the bearer may automatically pass a Test to resist becoming Fatigued.",
-    "source": "Macharian Requisition Guide"
-  },
-  {
-    "name": "Augmetic Organs",
-    "cost": 10000,
-    "availability": "Exotic",
-    "effect": "Grants +1 SL on Toughness Tests and extends natural lifespan by 3 + 1d10 decades. Augmetic Organs must be replaced after about 50 years. Chirurgeons suffer +1 step in Difficulty when treating a character with these organs.",
-    "source": "Macharian Requisition Guide"
-  },
-  {
-    "name": "Implanted Weapon",
-    "cost": 3000,
-    "availability": "Rare",
-    "effect": "Allows implantation of a weapon with Encumbrance value up to 3. Benefits: loses the Two-handed Trait; after a Charge Action, no Disadvantage on Melee and Reflex Tests to defend; Aim Action with an implanted ranged weapon grants Advantage on Aimed Shot; if replacing a limb, that Hit Location’s Armour equals the weapon’s Encumbrance (no other Armour applies); weapon’s Encumbrance does not count towards total carry value. The cost does not include the weapon itself.",
-    "source": "Macharian Requisition Guide"
-  },
-  {
-    "name": "Internal Compartment",
-    "cost": 1500,
-    "availability": "Rare",
-    "effect": "Hidden storage compartment for an item with Encumbrance value 0, no bigger than the Compartment’s body area. A character may have a maximum number of compartments equal to half their Toughness Bonus, rounded down.",
-    "source": "Macharian Requisition Guide"
-  },
-  {
-    "name": "Simple Prosthesis",
-    "cost": 200,
-    "availability": "Scarce",
-    "effect": "Basic prosthetic replacement functioning as a standard augmetic counterpart but without providing +1 Armour or bonus SL to related Tests.",
-    "source": "Macharian Requisition Guide"
-  },
-  {
-    "name": "Skinplant",
-    "cost": 500,
-    "availability": "Rare",
-    "effect": "Intracutaneous implant visible when triggered by a programmed stimulus (touch, light, or external control). Comes with a trigger and a display such as an image, dim light, or chrono.",
-    "source": "Macharian Requisition Guide"
-  },
-  {
-    "name": "Toxiphage",
-    "cost": 5000,
-    "availability": "Rare",
-    "effect": "Detects and neutralizes poisons in the bearer’s body. Automatically passes the first Test to resist Poisoned each day. If poisoned surreptitiously, the augment gives the bearer a silent warning.",
-    "source": "Macharian Requisition Guide"
-  }
+	{
+		"name": "Augmetic Arm",
+		"cost": 1000,
+		"availability": "Scarce",
+		"effect": "Gain +1 Armour to the location, +1 SL to Strength-based Tests using the arm, +1 Damage to melee attacks with the arm. Two augmentic arms gives +2 SL to Strength Tests using both arms, and +2 Damage with Two-Handed melee weapons.",
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Augmetic Heart",
+		"cost": 3000,
+		"availability": "Rare",
+		"effect": "As an Action, make a Challenging (+0) Fortitude Test to remove the Bleeding (minor) Condition. As an Action, make a Hard (-20) Fortitude Test to remove the Bleeding (major) Condition.",
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Augmetic Leg",
+		"cost": 1000,
+		"availability": "Scarce",
+		"effect": "Gain +1 Armour to the location, +1  SL to  all Strength-based Tests using the leg.",
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Augmetic Respiratory System",
+		"cost": 2000,
+		"availability": "Rare",
+		"effect": "Gain +2 SL to Fortitude Tests to resist the effects of airborne toxins and poisonous gases.",
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Augmetic Eye",
+		"cost": 4000,
+		"availability": "Rare",
+		"effect": "Gain +1 SL to Tests using that sense. If you have two augmetic eyes, you gain +2 SL instead.",
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Augmetic Ear",
+		"cost": 4000,
+		"availability": "Rare",
+		"effect": "Gain +1 SL to Tests using that sense. If you have two augmetic ears, you gain +2 SL instead.",
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Augmetic Nose",
+		"cost": 4000,
+		"availability": "Rare",
+		"effect": "Gain +1 SL to Tests using that sense.",
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Augmetic Tracks/Wheels",
+		"cost": 1500,
+		"availability": "Scarce",
+		"effect": "Gain +1 Armour to legs. In clear Zones suitable for tracks or wheels, your Speed is now Fast. However, the GM may rule that cluttered Zones count as Difficult Terrain for you. Your Augmetic tracks or wheels use the mechanical rules for the Leg Critical Wound and the Broken Bones and Amputations rules just as Augmetic Legs would. However, you are free to describe any such Wounds as best suits your character's unique physical form.",
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Augur Array",
+		"cost": 6000,
+		"availability": "Rare",
+		"effect": "The user’s senses gain the abilities of an Auspex revealing energy, life signs, movement, and other data within Medium Range. The user also gains +5 Perception.",
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Ballistic Mechadendrite",
+		"cost": 2000,
+		"availability": "Rare",
+		"effect": "The Mechadendrite is fitted with a Laspistol that never needs reloading.",
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Biomechanical Interface",
+		"cost": 10000,
+		"availability": "Rare",
+		"effect": "The user gains +1 SL to Tech Tests when operating a machine with a suitable connection, or issuing orders to a suitably equipped cybernetic servant.",
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Calculus Logi Upgrade",
+		"cost": 10000,
+		"availability": "Rare",
+		"effect": "The user can perform simple mathematics instinctively, gaining +1 SL on any Logic (Mathematics) Tests. The user also gains +5 Intelligence.",
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Manipulator Mechadendrite",
+		"cost": 1400,
+		"availability": "Rare",
+		"effect": "This hefty Mechadendrite aids in heavy lifting. When using a Manipulator Mechadentrite, you gain +2 SL to Strength-based Tests, and −1 SL to Dexterity Tests. It can also be used as an Improvised Melee Weapon (Two-handed).",
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Medicae Mechadendrite",
+		"cost": 1400,
+		"availability": "Rare",
+		"effect": "Medicae: This device includes scalpels, bonesaws, and skin-sealants for surgical support. The Mechadendrite counts as having a Chirurgeon's Kit for Tests that require one. Unlike a standard Chirurgeon's Kit, a Medicae Mechandendrite's advanced tools do not have a limited number of uses and only need to be replaced if the device is broken.",
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Optical Mechadendrite",
+		"cost": 1200,
+		"availability": "Rare",
+		"effect": "Optical Mechadendrites are usually a metre longer than typical mechadendrites, allowing them to pass through crowded mechanisms and cramped areas to gain visual data. When using the Optical Mechadendrite, you gain +1 SL to Awareness (Sight) Tests and ignore the effects of Poorly Lit and Dark Zones due to the integrated Stablight. You can also use these to look around corners, over the heads of a thronging crowd, and in many other, inventive ways.",
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Utility Mechadendrite",
+		"cost": 1000,
+		"availability": "Rare",
+		"effect": "Utility: These are fitted with several devices for repairing and renovating machines, and are the most common form of Mechadendrite. They count as a Standard Quality Combi-Tool, granting +2 SL to Tech Tests, and can be used in melee combat as an Improvised Melee Weapon (One-handed).",
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Vocal Implant",
+		"cost": 400,
+		"availability": "Rare",
+		"effect": "When using a Vocal Implant, your voice or other sounds you play or generate can be easily heard up to 100 metres away.",
+		"source": "Core Rulebook"
+	},
+	{
+		"name": "Combat Gland",
+		"cost": 10000,
+		"availability": "Exotic",
+		"effect": "Augmetic Combat Gland which secretes combat drugs: Frenzon (+1 StrB, immunity to Frightened), Onslaught (+1 AgB/PerB, Fast Speed), Spur (+1 AgB/BsB, Advantage on Dodge). Each lasts 1d10 rounds. Challenging (+0) Fortitude Test required upon drug wear-off to avoid Fatigued (Minor) condition.",
+		"source": "Inquisitor's Player's Guide"
+	},
+	{
+		"name": "Engram Implantation",
+		"cost": 10000,
+		"availability": "Exotic",
+		"effect": "Augmetic Engram Implantation, used post-mind-cleansing, implants skills directly into the mind. Chooses a Skill at purchase. As a Free Action, grants Advantage on that Skill Test. Requires six hours of rest before reuse. Some engrams can meme-code information, resisting all but powerful psykers' removal.",
+		"source": "Inquisitor's Player's Guide"
+	},
+	{
+		"name": "Hexagrammic Wards",
+		"cost": 5000,
+		"availability": "Exotic",
+		"effect": "Surgically grafted wards and sigils against psychic attacks. Grants Disadvantage on the first psychic power targeting the wearer. Difficult to notice except in close encounters. Recharges over an hour with Chirurgeon's Kit or Medical Service.",
+		"source": "Inquisitor's Player's Guide"
+	},
+	{
+		"name": "Implanted Digital Weapons",
+		"cost": 3000,
+		"availability": "Exotic",
+		"effect": "Augmetic Implanted Digital Weapon, replacing eye or finger, fires as a Free Action. Functions as a normal Digital Weapon. Repairing it has -20 Difficulty modifier.",
+		"source": "Inquisitor's Player's Guide"
+	},
+	{
+		"name": "Memory Partition Cogitator",
+		"cost": 10000,
+		"availability": "Exotic",
+		"effect": "Brain-integrated cogitator for enhanced information storage and recall. Grants +1 SL on Logic (Investigation or Lore) Tests and +5 Intelligence.",
+		"source": "Inquisitor's Player's Guide"
+	},
+	{
+		"name": "Aortic Supercharger",
+		"cost": 3000,
+		"availability": "Rare",
+		"effect": "Augmetic reinforcement to the heart that enhances endurance. Once per session, the bearer may automatically pass a Test to resist becoming Fatigued.",
+		"source": "Macharian Requisition Guide"
+	},
+	{
+		"name": "Augmetic Organs",
+		"cost": 10000,
+		"availability": "Exotic",
+		"effect": "Grants +1 SL on Toughness Tests and extends natural lifespan by 3 + 1d10 decades. Augmetic Organs must be replaced after about 50 years. Chirurgeons suffer +1 step in Difficulty when treating a character with these organs.",
+		"source": "Macharian Requisition Guide"
+	},
+	{
+		"name": "Implanted Weapon",
+		"cost": 3000,
+		"availability": "Rare",
+		"effect": "Allows implantation of a weapon with Encumbrance value up to 3. Benefits: loses the Two-handed Trait; after a Charge Action, no Disadvantage on Melee and Reflex Tests to defend; Aim Action with an implanted ranged weapon grants Advantage on Aimed Shot; if replacing a limb, that Hit Location’s Armour equals the weapon’s Encumbrance (no other Armour applies); weapon’s Encumbrance does not count towards total carry value. The cost does not include the weapon itself.",
+		"source": "Macharian Requisition Guide"
+	},
+	{
+		"name": "Internal Compartment",
+		"cost": 1500,
+		"availability": "Rare",
+		"effect": "Hidden storage compartment for an item with Encumbrance value 0, no bigger than the Compartment’s body area. A character may have a maximum number of compartments equal to half their Toughness Bonus, rounded down.",
+		"source": "Macharian Requisition Guide"
+	},
+	{
+		"name": "Simple Prosthesis",
+		"cost": 200,
+		"availability": "Scarce",
+		"effect": "Basic prosthetic replacement functioning as a standard augmetic counterpart but without providing +1 Armour or bonus SL to related Tests.",
+		"source": "Macharian Requisition Guide"
+	},
+	{
+		"name": "Skinplant",
+		"cost": 500,
+		"availability": "Rare",
+		"effect": "Intracutaneous implant visible when triggered by a programmed stimulus (touch, light, or external control). Comes with a trigger and a display such as an image, dim light, or chrono.",
+		"source": "Macharian Requisition Guide"
+	},
+	{
+		"name": "Toxiphage",
+		"cost": 5000,
+		"availability": "Rare",
+		"effect": "Detects and neutralizes poisons in the bearer’s body. Automatically passes the first Test to resist Poisoned each day. If poisoned surreptitiously, the augment gives the bearer a silent warning.",
+		"source": "Macharian Requisition Guide"
+	}
 ]

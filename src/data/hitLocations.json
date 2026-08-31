@@ -1,29 +1,29 @@
 [
-  {
-    "roll": 1,
-    "location": "Head"
-  },
-  {
-    "roll": 2,
-    "location": "Left Arm"
-  },
-  {
-    "roll": 3,
-    "location": "Right Arm"
-  },
-  {
-    "roll": 4,
-    "location": "Left Leg"
-  },
-  {
-    "roll": 5,
-    "location": "Right Leg"
-  },
-  {
-    "roll": {
-      "min": 6,
-      "max": 0
-    },
-    "location": "Body"
-  }
+	{
+		"roll": 1,
+		"location": "Head"
+	},
+	{
+		"roll": 2,
+		"location": "Left Arm"
+	},
+	{
+		"roll": 3,
+		"location": "Right Arm"
+	},
+	{
+		"roll": 4,
+		"location": "Left Leg"
+	},
+	{
+		"roll": 5,
+		"location": "Right Leg"
+	},
+	{
+		"roll": {
+			"min": 6,
+			"max": 0
+		},
+		"location": "Body"
+	}
 ]

@@ -1,103 +1,103 @@
 [
-  {
-    "roll": 1,
-    "description": "Winded",
-    "effects": "The blow knocks the wind out of you. You are Stunned until the end of your next turn.",
-    "treatment": "None."
-  },
-  {
-    "roll": 2,
-    "description": "Low Blow",
-    "effects": "You are struck in a sensitive area. You must make a Challenging (+0) Fortitude (Pain) Test or fall Prone.",
-    "treatment": "None."
-  },
-  {
-    "roll": 3,
-    "description": "Laceration",
-    "effects": "You suffer a laceration to the body. You are Bleeding.",
-    "treatment": "A Routine (+20) Medicae Test to stop the bleeding; application of bandages; or the laceration will close naturally after 1 hour."
-  },
-  {
-    "roll": 4,
-    "description": "Gut Shot",
-    "effects": "You are hit hard in the stomach. You are Bleeding and knocked Prone.",
-    "treatment": "A Challenging (+0) Medicae Test to stop the Bleeding; application of bandages; or the laceration will close naturally after 1 hour."
-  },
-  {
-    "roll": 5,
-    "description": "Cracked Rib",
-    "effects": "The attack cracks one of your ribs. You have Disadvantage on Strength and Agility Tests, and your Move is reduced one step.",
-    "treatment": "None."
-  },
-  {
-    "roll": 6,
-    "description": "Hammering Blow",
-    "effects": "You are thrown back by the force of the blow. You are Stunned for 1 minute and are Bleeding.",
-    "treatment": "A Challenging (+0) Medicae Test performed by someone with the Chirurgeon Talent."
-  },
-  {
-    "roll": 7,
-    "description": "Broken Collarbone",
-    "effects": "The attack fractures your collarbone — determine randomly if this is on your left or right. You drop any item held in the hand on that side and have Disadvantage on all Tests using the arm. Additionally, you must make a Challenging (+0) Fortitude (Pain) Test or be Stunned for one minute.",
-    "treatment": "A Difficult (-10) Medicae Test to treat shock. This Test does not count as treating the broken bone."
-  },
-  {
-    "roll": 8,
-    "description": "Deep Cut",
-    "effects": "You suffer a deep cut on your lower abdomen, which makes it difficult to move. You are Bleeding (Major), and your Speed is reduced one step.",
-    "treatment": "A Difficult (-10) Medicae Test using a chirurgeon’s kit to stop the Bleeding."
-  },
-  {
-    "roll": 9,
-    "description": "Fractured Hip",
-    "effects": "The attack shatters a bone in your hip. You are Bleeding (Major), and have Disadvantage on Tests that rely on mobility, and your Move is reduced one step. Additionally, you must make a Challenging (+0) Fortitude (Pain) Test or be Stunned for one minute.",
-    "treatment": "A Difficult (-10) Medicae Test performed by someone with the Chirurgeon Talent."
-  },
-  {
-    "roll": 10,
-    "description": "Shattered Ribs",
-    "effects": "The attack shatters multiple ribs, leaving shards of bone peppered throughout your flesh. You have Disadvantage on any physical Test, and your Move is reduced two steps to a minimum of Slow.",
-    "treatment": "A Difficult (-10) Medicae Test to treat shock. This Test does not count as treating the broken bone."
-  },
-  {
-    "roll": 11,
-    "description": "Punctured Lung",
-    "effects": "The attack punctures your lung, perhaps embedding shrapnel, a bullet, or a fragment of your own bone. You gain a Fatigued Condition and a Bleeding (Major) Condition.",
-    "treatment": "A Difficult (-10) Medicae Test performed by someone with the Chirurgeon Talent."
-  },
-  {
-    "roll": {
-      "min": 12,
-      "max": 13
-    },
-    "description": "Sliced Artery",
-    "effects": "You suffer a serious wound to a major artery. You are Bleeding (Major), Fatigued from blood loss, your arm is completely useless, and you immediately drop any item held in the hand.",
-    "treatment": "A Hard (-20) Medicae Test using a chirurgeon’s kit to stop the Bleeding."
-  },
-  {
-    "roll": {
-      "min": 14,
-      "max": 15
-    },
-    "description": "Played Flesh",
-    "effects": "Your flesh is mangled and torn apart, with only the barest piece of flesh attaching it to your body. Your arm is completely useless, and you drop any item held in the hand. Additionally, you must make a Very Hard (-30) Fortitude (Pain) Test or be Stunned for 1 hour. If you suffer any further Damage to the arm, you automatically suffer the Brutal Dismemberment Critical Wound and die.",
-    "treatment": "A Very Hard (-30) Medicae Test performed by someone with the Chirurgeon Talent or similar expertise."
-  },
-  {
-    "roll": {
-      "min": 16,
-      "max": 17
-    },
-    "description": "Injured Spine",
-    "effects": "You suffer a substantial injury to your spine, making it difficult to stand and move; you are Bleeding (Major) and Prone.",
-    "treatment": "A Very Hard (-30) Medicae Test performed by someone with the Chirurgeon Talent or similar expertise."
-  },
-  {
-    "roll": {
-      "min": 18
-    },
-    "description": "Torn Apart",
-    "effects": "You are split in two or otherwise torn apart. Creatures within Short Range are showered in blood and gore. You are dead.",
-    "treatment": "None."
-  }
+	{
+		"roll": 1,
+		"description": "Winded",
+		"effects": "The blow knocks the wind out of you. You are Stunned until the end of your next turn.",
+		"treatment": "None."
+	},
+	{
+		"roll": 2,
+		"description": "Low Blow",
+		"effects": "You are struck in a sensitive area. You must make a Challenging (+0) Fortitude (Pain) Test or fall Prone.",
+		"treatment": "None."
+	},
+	{
+		"roll": 3,
+		"description": "Laceration",
+		"effects": "You suffer a laceration to the body. You are Bleeding.",
+		"treatment": "A Routine (+20) Medicae Test to stop the bleeding; application of bandages; or the laceration will close naturally after 1 hour."
+	},
+	{
+		"roll": 4,
+		"description": "Gut Shot",
+		"effects": "You are hit hard in the stomach. You are Bleeding and knocked Prone.",
+		"treatment": "A Challenging (+0) Medicae Test to stop the Bleeding; application of bandages; or the laceration will close naturally after 1 hour."
+	},
+	{
+		"roll": 5,
+		"description": "Cracked Rib",
+		"effects": "The attack cracks one of your ribs. You have Disadvantage on Strength and Agility Tests, and your Move is reduced one step.",
+		"treatment": "None."
+	},
+	{
+		"roll": 6,
+		"description": "Hammering Blow",
+		"effects": "You are thrown back by the force of the blow. You are Stunned for 1 minute and are Bleeding.",
+		"treatment": "A Challenging (+0) Medicae Test performed by someone with the Chirurgeon Talent."
+	},
+	{
+		"roll": 7,
+		"description": "Broken Collarbone",
+		"effects": "The attack fractures your collarbone — determine randomly if this is on your left or right. You drop any item held in the hand on that side and have Disadvantage on all Tests using the arm. Additionally, you must make a Challenging (+0) Fortitude (Pain) Test or be Stunned for one minute.",
+		"treatment": "A Difficult (-10) Medicae Test to treat shock. This Test does not count as treating the broken bone."
+	},
+	{
+		"roll": 8,
+		"description": "Deep Cut",
+		"effects": "You suffer a deep cut on your lower abdomen, which makes it difficult to move. You are Bleeding (Major), and your Speed is reduced one step.",
+		"treatment": "A Difficult (-10) Medicae Test using a chirurgeon’s kit to stop the Bleeding."
+	},
+	{
+		"roll": 9,
+		"description": "Fractured Hip",
+		"effects": "The attack shatters a bone in your hip. You are Bleeding (Major), and have Disadvantage on Tests that rely on mobility, and your Move is reduced one step. Additionally, you must make a Challenging (+0) Fortitude (Pain) Test or be Stunned for one minute.",
+		"treatment": "A Difficult (-10) Medicae Test performed by someone with the Chirurgeon Talent."
+	},
+	{
+		"roll": 10,
+		"description": "Shattered Ribs",
+		"effects": "The attack shatters multiple ribs, leaving shards of bone peppered throughout your flesh. You have Disadvantage on any physical Test, and your Move is reduced two steps to a minimum of Slow.",
+		"treatment": "A Difficult (-10) Medicae Test to treat shock. This Test does not count as treating the broken bone."
+	},
+	{
+		"roll": 11,
+		"description": "Punctured Lung",
+		"effects": "The attack punctures your lung, perhaps embedding shrapnel, a bullet, or a fragment of your own bone. You gain a Fatigued Condition and a Bleeding (Major) Condition.",
+		"treatment": "A Difficult (-10) Medicae Test performed by someone with the Chirurgeon Talent."
+	},
+	{
+		"roll": {
+			"min": 12,
+			"max": 13
+		},
+		"description": "Sliced Artery",
+		"effects": "You suffer a serious wound to a major artery. You are Bleeding (Major), Fatigued from blood loss, your arm is completely useless, and you immediately drop any item held in the hand.",
+		"treatment": "A Hard (-20) Medicae Test using a chirurgeon’s kit to stop the Bleeding."
+	},
+	{
+		"roll": {
+			"min": 14,
+			"max": 15
+		},
+		"description": "Played Flesh",
+		"effects": "Your flesh is mangled and torn apart, with only the barest piece of flesh attaching it to your body. Your arm is completely useless, and you drop any item held in the hand. Additionally, you must make a Very Hard (-30) Fortitude (Pain) Test or be Stunned for 1 hour. If you suffer any further Damage to the arm, you automatically suffer the Brutal Dismemberment Critical Wound and die.",
+		"treatment": "A Very Hard (-30) Medicae Test performed by someone with the Chirurgeon Talent or similar expertise."
+	},
+	{
+		"roll": {
+			"min": 16,
+			"max": 17
+		},
+		"description": "Injured Spine",
+		"effects": "You suffer a substantial injury to your spine, making it difficult to stand and move; you are Bleeding (Major) and Prone.",
+		"treatment": "A Very Hard (-30) Medicae Test performed by someone with the Chirurgeon Talent or similar expertise."
+	},
+	{
+		"roll": {
+			"min": 18
+		},
+		"description": "Torn Apart",
+		"effects": "You are split in two or otherwise torn apart. Creatures within Short Range are showered in blood and gore. You are dead.",
+		"treatment": "None."
+	}
 ]
