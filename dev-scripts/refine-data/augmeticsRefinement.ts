@@ -1,12 +1,4 @@
-import { generateJsonFile } from "../utils/generateJsonFile";
-
-type NewAugmeticsJson = {
-	name: string;
-	cost: number;
-	availability: string;
-	effect: string;
-	source: string;
-};
+import type { NewAugmeticsJson } from "@/types/json/JsonDataTypes";
 
 export function refineAugmeticsData(
 	jsonData: { Name: string; Cost: string; Availability: string; Effect: string; Source: string }[],
@@ -25,5 +17,5 @@ export function refineAugmeticsData(
 		newAugmeticsJsonData.push(newAugmeticsJson);
 	}
 
-	return generateJsonFile(newAugmeticsJsonData, "augmetics.json");
+	return newAugmeticsJsonData;
 }

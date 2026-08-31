@@ -1,5 +1,3 @@
-import { generateJsonFile } from "../utils/generateJsonFile";
-
 export type NewArmourModificationsJson = {
 	name: string;
 	cost: number;
@@ -25,5 +23,5 @@ export function refineArmourModificationsData(
 		newArmourModificationsJsonData.push(newArmourModificationsJson);
 	}
 
-	return generateJsonFile(newArmourModificationsJsonData, "armourModifications.json");
+	return newArmourModificationsJsonData;
 }

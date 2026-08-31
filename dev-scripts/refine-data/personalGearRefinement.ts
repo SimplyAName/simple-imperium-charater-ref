@@ -1,5 +1,3 @@
-import { generateJsonFile } from "../utils/generateJsonFile";
-
 type NewPersonalGearJson = {
 	name: string;
 	cost: number;
@@ -34,5 +32,5 @@ export function refinePersonalGearData(
 		newPersonalGearJsonData.push(newPersonalGearJson);
 	}
 
-	return generateJsonFile(newPersonalGearJsonData, "clothingAndPersonalGear.json");
+	return newPersonalGearJsonData;
 }

@@ -24,6 +24,14 @@ export type CharacteristicJson = {
 	description: string;
 };
 
+export type NewAugmeticsJson = {
+	name: string;
+	cost: number;
+	availability: string;
+	effect: string;
+	source: string;
+};
+
 export type NewSkillJson = {
 	skill: string;
 	characteristic: string;

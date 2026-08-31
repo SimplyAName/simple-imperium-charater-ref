@@ -1,4 +1,4 @@
-import characteristicData from "@/data/characteristics.json";
+import characteristicData from "@/data/character/characteristics.json";
 import type { CharacteristicJson } from "@/types/json/JsonDataTypes";
 
 export class CharacteristicsService {

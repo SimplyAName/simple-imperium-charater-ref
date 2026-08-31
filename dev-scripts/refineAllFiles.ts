@@ -74,33 +74,45 @@ import { generateJsonFile } from "./utils/generateJsonFile";
 export function runAllRefinements() {
 	return Promise.all([
 		refineServiceData(accomodationsServicesJson, "services/accommodationsServices.json"),
-		refineArmourModificationsData(armourModifications),
-		refineArmourData(armour),
-		refineAugmeticsData(augmetics),
-		refinePersonalGearData(clothingAndPersonalGear),
-		generateJsonFile(refineSkillsData(skills), "skills.json"),
+		generateJsonFile(
+			refineArmourModificationsData(armourModifications),
+			"protection/armourModifications.json",
+		),
+		generateJsonFile(refineArmourData(armour), "protection/armour.json"),
+		generateJsonFile(refineAugmeticsData(augmetics), "equipment/augmetics.json"),
+		generateJsonFile(
+			refinePersonalGearData(clothingAndPersonalGear),
+			"equipment/clothingAndPersonalGear.json",
+		),
+		generateJsonFile(refineSkillsData(skills), "character/skills.json"),
 		refineServiceData(cityHiveTravel, "services/travel/cityHiveTravel.json"),
 		refineServiceData(planetaryTravel, "services/travel/planetaryTravel.json"),
 		refineServiceData(systemTravel, "services/travel/systemTravel.json"),
 		refineServiceData(interstellarTravel, "services/travel/interstellarTravel.json"),
 		refineServiceData(provisionsServices, "services/provisionsServices.json"),
-		refineCriticalWoundsData(criticalWounds),
-		generateJsonFile(refineEquipmentData(medicaeEquipment), "medicaeEquipement.json"),
-		generateJsonFile(refineEquipmentData(tools), "tools.json"),
-		generateJsonFile(refineMeleeWeaponData(meleeWeapons), "meleeWeapons.json"),
-		generateJsonFile(refineWeaponData(rangedWeapons), "rangedWeapons.json"),
-		generateJsonFile(refineWeaponData(explosiveWeapons), "explosiveWeapons.json"),
-		generateJsonFile(refineAmmunitionData(customAmmunitions), "customAmmunitions.json"),
-		generateJsonFile(refineForceFieldData(forceFields), "forceFields.json"),
-		generateJsonFile(refineCombatActionData(combatActions), "combatActions.json"),
-		generateJsonFile(refineEnvironmentalTraitData(environmentalTraits), "environmentalTraits.json"),
+		refineCriticalWoundsData(criticalWounds, "combat/criticalWounds"),
+		generateJsonFile(refineEquipmentData(medicaeEquipment), "equipment/medicaeEquipment.json"),
+		generateJsonFile(refineEquipmentData(tools), "equipment/tools.json"),
+		generateJsonFile(refineMeleeWeaponData(meleeWeapons), "weapons/meleeWeapons.json"),
+		generateJsonFile(refineWeaponData(rangedWeapons), "weapons/rangedWeapons.json"),
+		generateJsonFile(refineWeaponData(explosiveWeapons), "weapons/explosiveWeapons.json"),
+		generateJsonFile(refineAmmunitionData(customAmmunitions), "weapons/customAmmunitions.json"),
+		generateJsonFile(refineForceFieldData(forceFields), "protection/forceFields.json"),
+		generateJsonFile(refineCombatActionData(combatActions), "combat/combatActions.json"),
+		generateJsonFile(
+			refineEnvironmentalTraitData(environmentalTraits),
+			"combat/environmentalTraits.json",
+		),
 		generateJsonFile(refineConditionData(conditions), "conditions.json"),
-		generateJsonFile(refineToolDetailProfilesData(toolDetailProfiles), "toolDetailProfiles.json"),
+		generateJsonFile(
+			refineToolDetailProfilesData(toolDetailProfiles),
+			"equipment/toolDetailProfiles.json",
+		),
 		generateJsonFile(refineTraitsData(traits), "traits.json"),
-		generateJsonFile(refineFumbleData(fumbles), "fumbles.json"),
-		generateJsonFile(refineNamesData(names.names.data), "names.json"),
-		generateJsonFile(refineHitLocationsData(hitLocations), "hitLocations.json"),
-		generateJsonFile(refineInjuriesData(injuries), "injuries.json"),
+		generateJsonFile(refineFumbleData(fumbles), "combat/fumbles.json"),
+		generateJsonFile(refineNamesData(names.names.data), "character/creation/names.json"),
+		generateJsonFile(refineHitLocationsData(hitLocations), "combat/hitLocations.json"),
+		generateJsonFile(refineInjuriesData(injuries), "combat/injuries.json"),
 		generateJsonFile(
 			refineCharacteristicImprovementXpData(xpCosts.characteristicImprovement.data),
 			"xpCosts/characteristicImprovement.json",
@@ -110,14 +122,14 @@ export function runAllRefinements() {
 			"xpCosts/skillSpecialisation.json",
 		),
 		generateJsonFile(refineMedicalServicesData(medicalServices), "services/medicalServices.json"),
-		generateJsonFile(refinePerilsOfTheWarpData(perilsOfTheWarp), "perilsOfTheWarp.json"),
-		generateJsonFile(refinePsychicPhenomenaData(psychicPhenomena), "psychicPhenomena.json"),
-		generateJsonFile(refinePsychicPowersData(psychicPowers), "psychicPowers.json"),
+		generateJsonFile(refinePerilsOfTheWarpData(perilsOfTheWarp), "psychic/perilsOfTheWarp.json"),
+		generateJsonFile(refinePsychicPhenomenaData(psychicPhenomena), "psychic/psychicPhenomena.json"),
+		generateJsonFile(refinePsychicPowersData(psychicPowers), "psychic/psychicPowers.json"),
 		generatePsyProfileFiles(refinePsychicDetailProfilesData(psychicDetailProfiles)),
-		generateJsonFile(refineTalentData(talents), "talents.json"),
+		generateJsonFile(refineTalentData(talents), "character/talents.json"),
 		generateJsonFile(
 			weaponModificationsRefinement(weaponModifications),
-			"weaponModifications.json",
+			"weapons/weaponModifications.json",
 		),
 
 		generateJsonFile(createCharacteristicData(), "character/characteristics.json"),
@@ -127,11 +139,17 @@ export function runAllRefinements() {
 
 function generatePsyProfileFiles(input: PsychicDetailProfileJson) {
 	for (const weaponProfile of input.weaponProfiles) {
-		generateJsonFile(weaponProfile, `weaponProfiles/${createFileName(weaponProfile.name)}.json`);
+		generateJsonFile(
+			weaponProfile,
+			`psychic/weaponProfiles/${createFileName(weaponProfile.name)}.json`,
+		);
 	}
 
 	for (const tableProfile of input.tableProfiles) {
-		generateJsonFile(tableProfile, `tableProfiles/${createFileName(tableProfile.name)}.json`);
+		generateJsonFile(
+			tableProfile,
+			`psychic/tableProfiles/${createFileName(tableProfile.name)}.json`,
+		);
 	}
 }
 

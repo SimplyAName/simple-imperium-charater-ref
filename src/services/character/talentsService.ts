@@ -1,4 +1,4 @@
-import talentData from "@/data/talents.json";
+import talentData from "@/data/character/talents.json";
 import type { NewTalentJson } from "@/types/json/JsonDataTypes";
 
 export class TalentService {

@@ -1,5 +1,4 @@
 import type { NewTraitJsonProp } from "../../src/types/json/JsonDataTypes";
-import { generateJsonFile } from "../utils/generateJsonFile";
 import { extractValueFromBrackets } from "../utils/splitBracketProps";
 import { extractTraitArray } from "./traits/extractTraitArray";
 
@@ -77,5 +76,5 @@ export function refineArmourData(
 		newArmourJsonData.push(newArmourJson);
 	}
 
-	return generateJsonFile(newArmourJsonData, "armour.json");
+	return newArmourJsonData;
 }
