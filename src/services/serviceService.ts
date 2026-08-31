@@ -9,6 +9,18 @@ import type { NewMedicalServiceJson, NewServiceJson } from "@/types/json/JsonDat
 
 // Going through a service so functionality can be extended in future to parse files better for more functionailty
 
+export type AllServiceData = {
+	medicalData: NewMedicalServiceJson[];
+	accommodationData: NewServiceJson[];
+	provisionData: NewServiceJson[];
+	travel: {
+		city: NewServiceJson[];
+		planet: NewServiceJson[];
+		system: NewServiceJson[];
+		interstellar: NewServiceJson[];
+	};
+};
+
 export class ServiceDataService {
 	constructor() {}
 
@@ -40,7 +52,7 @@ export class ServiceDataService {
 		return interstellarTravelJson;
 	}
 
-	static getAllServiceData() {
+	static getAllServiceData(): AllServiceData {
 		return {
 			medicalData: this.getMedicalServices(),
 			accommodationData: this.getAccommodations(),

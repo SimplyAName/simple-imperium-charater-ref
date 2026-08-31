@@ -1,13 +1,16 @@
 import { Link, Outlet, createRootRoute } from "@tanstack/react-router";
 import { TanStackRouterDevtools } from "@tanstack/react-router-devtools";
 
+import { Switch } from "@/components/ui/switch";
+import { ThemeToggle } from "@/components/ui/theme-toggle";
+
 export const Route = createRootRoute({
 	component: RootComponent,
 });
 
 function RootComponent() {
 	return (
-		<html className="dark">
+		<>
 			<div className="flex flex-row items-center justify-between">
 				<div className="flex gap-2 p-2 text-lg">
 					<Link
@@ -18,7 +21,7 @@ function RootComponent() {
 						activeOptions={{ exact: true }}
 					>
 						Home
-					</Link>{" "}
+					</Link>
 					<Link
 						to="/augmetics"
 						activeProps={{
@@ -26,7 +29,7 @@ function RootComponent() {
 						}}
 					>
 						Augmetics
-					</Link>{" "}
+					</Link>
 					<Link
 						to="/psykers"
 						activeProps={{
@@ -34,7 +37,7 @@ function RootComponent() {
 						}}
 					>
 						Psykers
-					</Link>{" "}
+					</Link>
 					<Link
 						to="/services"
 						activeProps={{
@@ -42,7 +45,7 @@ function RootComponent() {
 						}}
 					>
 						Services
-					</Link>{" "}
+					</Link>
 					<Link
 						to="/about"
 						activeProps={{
@@ -53,11 +56,13 @@ function RootComponent() {
 					</Link>
 				</div>
 
-				<div className="p-2">Dark mode toggle</div>
+				<div className="p-2">
+					<ThemeToggle />
+				</div>
 			</div>
 			<hr />
 			<Outlet />
 			<TanStackRouterDevtools position="bottom-right" />
-		</html>
+		</>
 	);
 }
