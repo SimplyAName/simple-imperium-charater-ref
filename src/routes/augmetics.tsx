@@ -12,9 +12,9 @@ function AugmeticsComponent() {
 	const augmeticsData = Route.useLoaderData();
 
 	return (
-		<div>
+		<div className="flex flex-col items-center justify-center-safe gap-4 py-4">
 			Hello "/augmetics"!
-			<AugmeticsTable augmeticsData={augmeticsData} />
+			<AugmeticsTable augmeticsData={augmeticsData} className="p-2" />
 		</div>
 	);
 }

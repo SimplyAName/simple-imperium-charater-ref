@@ -14,7 +14,7 @@ function TalentsComponent() {
 	return (
 		<div>
 			Hello "/talents"!
-			<TalentsTable className="max-w-fit" talentData={talentData} />
+			<TalentsTable className="p-2" talentData={talentData} />
 		</div>
 	);
 }

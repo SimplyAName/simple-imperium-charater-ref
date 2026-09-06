@@ -18,7 +18,9 @@ function parseSplit(splitString: string, splitIndex: number) {
 }
 
 export function parseNumberRange(rangeData: string | number): number | NumberRange {
-	if (typeof rangeData === "number") return rangeData;
+	if (typeof rangeData === "number") {
+		return rangeData;
+	}
 
 	const splitIndex = rangeData.indexOf("-");
 	if (splitIndex != -1) {

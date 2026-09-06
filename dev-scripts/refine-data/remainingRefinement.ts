@@ -1,3 +1,5 @@
+import type { NumberRange } from "@/types/NumberRange";
+
 import type {
 	NewEquipmentJson,
 	NewWeaponJson,
@@ -464,7 +466,7 @@ export function refineNamesData(
 ): NewNameJson[] {
 	return jsonData.map((nameData) => {
 		return {
-			roll: parseNumberRange(nameData["1d100"]),
+			roll: parseNumberRange(nameData["1d100"]) as NumberRange,
 			lowGothic: nameData["Low Gothic"],
 			highGothic: nameData["High Gothic"],
 			archaic: nameData.Archaic,
@@ -537,7 +539,7 @@ export function refinePerilsOfTheWarpData(
 ): NewPerilsOfTheWarpJson[] {
 	return jsonData.map((perilData) => {
 		return {
-			roll: parseNumberRange(perilData["1d100"]),
+			roll: parseNumberRange(perilData["1d100"]) as NumberRange,
 			corruption: parseNumberOrText(perilData.Corruption),
 			peril: perilData.Peril,
 		};
@@ -549,7 +551,7 @@ export function refinePsychicPhenomenaData(
 ): NewPsychicPhenomenaJson[] {
 	return jsonData.map((psyPhenoData) => {
 		return {
-			roll: parseNumberRange(psyPhenoData["1d100"]),
+			roll: parseNumberRange(psyPhenoData["1d100"]) as NumberRange,
 			phenomenon: psyPhenoData.Phenomenon,
 			lingering: psyPhenoData.Lingering.includes("-") ? undefined : psyPhenoData.Lingering,
 		};
@@ -561,7 +563,7 @@ export function refineCharacteristicImprovementData(
 ): NewCharacteristicImprovementJson[] {
 	return jsonData.map((charImpData) => {
 		return {
-			newValue: parseNumberRange(charImpData["New Value"]),
+			newValue: parseNumberRange(charImpData["New Value"]) as NumberRange,
 			costPerAdvance: charImpData["Cost per Advance"],
 		};
 	});

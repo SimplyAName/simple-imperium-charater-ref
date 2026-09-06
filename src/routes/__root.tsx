@@ -1,5 +1,7 @@
+import { TanStackDevtools } from "@tanstack/react-devtools";
 import { Link, Outlet, createRootRoute } from "@tanstack/react-router";
 import { TanStackRouterDevtools } from "@tanstack/react-router-devtools";
+import { tableDevtoolsPlugin } from "@tanstack/react-table-devtools";
 
 import { ThemeToggle } from "@/components/ui/theme-toggle";
 
@@ -9,9 +11,9 @@ export const Route = createRootRoute({
 
 function RootComponent() {
 	return (
-		<>
-			<div className="flex flex-row items-center justify-between">
-				<div className="flex gap-2 p-2 text-lg">
+		<div className="flex min-h-screen flex-col">
+			<div className="flex flex-row items-center justify-between px-4">
+				<div className="*:border-r-border flex p-2 text-lg *:border-r *:px-2 [&>*:last-child]:border-r-0">
 					<Link
 						to="/"
 						activeProps={{
@@ -109,7 +111,8 @@ function RootComponent() {
 			</div>
 			<hr />
 			<Outlet />
-			<TanStackRouterDevtools position="bottom-right" />
-		</>
+			<TanStackDevtools plugins={[tableDevtoolsPlugin()]} />
+			<TanStackRouterDevtools position="bottom-left" />
+		</div>
 	);
 }
