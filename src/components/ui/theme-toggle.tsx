@@ -1,4 +1,4 @@
-import { Sun, Moon } from "lucide-react";
+import { Sun, Moon, Computer } from "lucide-react";
 
 import { useTheme } from "@/components/providers/theme-provider";
 import {
@@ -10,14 +10,19 @@ import {
 
 // This was yoinked from shadcn directly. Can be replaced later
 export function ThemeToggle() {
-	const { setTheme } = useTheme();
+	const { setTheme, theme } = useTheme();
 
 	return (
 		<DropdownMenu>
 			<DropdownMenuTrigger>
 				<div>
-					<Sun className="h-[1.2rem] w-[1.2rem] scale-100 rotate-0 transition-all dark:scale-0 dark:-rotate-90" />
-					<Moon className="absolute h-[1.2rem] w-[1.2rem] scale-0 rotate-90 transition-all dark:scale-100 dark:rotate-0" />
+					{theme === "light" ? (
+						<Sun className="h-4 w-4" />
+					) : theme === "dark" ? (
+						<Moon className="h-4 w-4" />
+					) : theme == "system" ? (
+						<Computer className="h-4 w-4" />
+					) : null}
 					<span className="sr-only">Toggle theme</span>
 				</div>
 			</DropdownMenuTrigger>
