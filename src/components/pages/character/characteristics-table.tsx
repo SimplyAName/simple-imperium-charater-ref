@@ -1,12 +1,8 @@
 import {
-	Table,
-	TableCaption,
-	TableHeader,
-	TableRow,
-	TableHead,
-	TableBody,
-	TableCell,
-} from "@/components/ui/table";
+	extractColumnKeys,
+	simpleDataColumnsFactory,
+} from "@/components/ui/data-table/customColumnHelper";
+import { DataTable } from "@/components/ui/data-table/data-table";
 import type { CharacteristicJson } from "@/types/json/JsonDataTypes";
 
 type CharacteristicTableProps = {
@@ -18,26 +14,18 @@ export function CharacteristicsTable(
 	characteristicTableProps: CharacteristicTableProps & React.ComponentProps<"table">,
 ) {
 	const { characteristicsData, captionText, ...forwardProps } = characteristicTableProps;
+	const columns = simpleDataColumnsFactory<CharacteristicJson>(
+		extractColumnKeys(characteristicsData),
+	);
 
 	return (
-		<Table {...forwardProps}>
-			{captionText ? <TableCaption>{captionText}</TableCaption> : null}
-			<TableHeader>
-				<TableRow>
-					<TableHead className="text-center">Characteristic</TableHead>
-					<TableHead className="text-center">Shortened</TableHead>
-					<TableHead>Description</TableHead>
-				</TableRow>
-			</TableHeader>
-			<TableBody>
-				{characteristicsData.map((row) => (
-					<TableRow key={`${row.name}`}>
-						<TableCell>{row.name}</TableCell>
-						<TableCell>{row.short}</TableCell>
-						<TableCell className="text-left">{row.description}</TableCell>
-					</TableRow>
-				))}
-			</TableBody>
-		</Table>
+		<div {...forwardProps}>
+			<DataTable
+				columns={columns}
+				data={characteristicsData}
+				caption={captionText}
+				wrapColumns={["description"]}
+			/>
+		</div>
 	);
 }

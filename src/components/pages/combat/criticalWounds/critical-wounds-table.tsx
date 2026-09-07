@@ -1,12 +1,8 @@
 import {
-	Table,
-	TableCaption,
-	TableHeader,
-	TableRow,
-	TableHead,
-	TableBody,
-	TableCell,
-} from "@/components/ui/table";
+	extractColumnKeys,
+	simpleDataColumnsFactory,
+} from "@/components/ui/data-table/customColumnHelper";
+import { DataTable } from "@/components/ui/data-table/data-table";
 import type { NewCriticalWoundJson } from "@/types/json/JsonDataTypes";
 import { numberRangeToString } from "@/utils/string-utils";
 
@@ -19,28 +15,16 @@ export function CriticalWoundsTable(
 	criticalWoundProps: CriticalWoundTableProps & React.ComponentProps<"table">,
 ) {
 	const { criticalWounds, caption, ...forwardProps } = criticalWoundProps;
+	const columns = simpleDataColumnsFactory<NewCriticalWoundJson>(extractColumnKeys(criticalWounds));
 
 	return (
-		<Table {...forwardProps}>
-			{caption ? <TableCaption>{caption}</TableCaption> : null}
-			<TableHeader>
-				<TableRow>
-					<TableHead>Roll</TableHead>
-					<TableHead>Description</TableHead>
-					<TableHead>Effects</TableHead>
-					<TableHead>Treatment</TableHead>
-				</TableRow>
-			</TableHeader>
-			<TableBody>
-				{criticalWounds.map((row) => (
-					<TableRow key={`${row.roll}`} className="text-left">
-						<TableCell>{numberRangeToString(row.roll)}</TableCell>
-						<TableCell>{row.description}</TableCell>
-						<TableCell>{row.effects}</TableCell>
-						<TableCell>{row.treatment}</TableCell>
-					</TableRow>
-				))}
-			</TableBody>
-		</Table>
+		<div {...forwardProps}>
+			<DataTable
+				columns={columns}
+				data={criticalWounds}
+				caption={caption}
+				wrapColumns={["description", "effects", "treatment"]}
+			/>
+		</div>
 	);
 }

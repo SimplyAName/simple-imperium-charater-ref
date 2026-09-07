@@ -1,12 +1,8 @@
 import {
-	Table,
-	TableCaption,
-	TableHeader,
-	TableRow,
-	TableHead,
-	TableBody,
-	TableCell,
-} from "@/components/ui/table";
+	extractColumnKeys,
+	simpleDataColumnsFactory,
+} from "@/components/ui/data-table/customColumnHelper";
+import { DataTable } from "@/components/ui/data-table/data-table";
 import type { NewServiceJson } from "@/types/json/JsonDataTypes";
 
 type TravelTableProps = {
@@ -17,28 +13,18 @@ type TravelTableProps = {
 export function ServicesTable({
 	serviceData,
 	captionText,
+	...forwardProps
 }: TravelTableProps & React.ComponentProps<"table">) {
+	const columns = simpleDataColumnsFactory<NewServiceJson>(extractColumnKeys(serviceData));
+
 	return (
-		<Table>
-			{captionText ? <TableCaption>{captionText}</TableCaption> : null}
-			<TableHeader>
-				<TableRow>
-					<TableHead>Quality</TableHead>
-					<TableHead>Examples</TableHead>
-					<TableHead>Cost</TableHead>
-					<TableHead>Source</TableHead>
-				</TableRow>
-			</TableHeader>
-			<TableBody>
-				{serviceData.map((row) => (
-					<TableRow key={`${row.quality}`}>
-						<TableCell>{row.quality}</TableCell>
-						<TableCell>{row.examples}</TableCell>
-						<TableCell>{row.cost}</TableCell>
-						<TableCell>{row.source}</TableCell>
-					</TableRow>
-				))}
-			</TableBody>
-		</Table>
+		<div {...forwardProps}>
+			<DataTable
+				columns={columns}
+				data={serviceData}
+				caption={captionText}
+				wrapColumns={["examples"]}
+			/>
+		</div>
 	);
 }

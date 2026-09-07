@@ -1,12 +1,8 @@
 import {
-	Table,
-	TableCaption,
-	TableHeader,
-	TableRow,
-	TableHead,
-	TableBody,
-	TableCell,
-} from "@/components/ui/table";
+	extractColumnKeys,
+	simpleDataColumnsFactory,
+} from "@/components/ui/data-table/customColumnHelper";
+import { DataTable } from "@/components/ui/data-table/data-table";
 import type { NewCombatActionJson } from "@/types/json/JsonDataTypes";
 
 type CombatActionTableProps = {
@@ -18,24 +14,16 @@ export function CombatActionsTable(
 	combatActionTableProps: CombatActionTableProps & React.ComponentProps<"table">,
 ) {
 	const { combatActions, caption, ...forwardProps } = combatActionTableProps;
+	const columns = simpleDataColumnsFactory<NewCombatActionJson>(extractColumnKeys(combatActions));
 
 	return (
-		<Table {...forwardProps}>
-			{caption ? <TableCaption>{caption}</TableCaption> : null}
-			<TableHeader>
-				<TableRow>
-					<TableHead className="text-left">Name</TableHead>
-					<TableHead className="text-left">Description</TableHead>
-				</TableRow>
-			</TableHeader>
-			<TableBody>
-				{combatActions.map((row) => (
-					<TableRow key={`${row.name}`} className="text-left">
-						<TableCell>{row.name}</TableCell>
-						<TableCell>{row.description}</TableCell>
-					</TableRow>
-				))}
-			</TableBody>
-		</Table>
+		<div {...forwardProps}>
+			<DataTable
+				columns={columns}
+				data={combatActions}
+				caption={caption}
+				wrapColumns={["description"]}
+			/>
+		</div>
 	);
 }

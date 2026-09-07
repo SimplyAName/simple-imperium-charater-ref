@@ -1,4 +1,7 @@
-import { createCustomColumns } from "@/components/ui/data-table/customColumnHelper";
+import {
+	extractColumnKeys,
+	simpleDataColumnsFactory,
+} from "@/components/ui/data-table/customColumnHelper";
 import { DataTable } from "@/components/ui/data-table/data-table";
 import type { NewTalentJson } from "@/types/json/JsonDataTypes";
 
@@ -10,9 +13,7 @@ type TravelTableProps = {
 export function TalentsTable(travelTableProps: TravelTableProps & React.ComponentProps<"table">) {
 	const { talentData, caption, ...forwardProps } = travelTableProps;
 
-	const columns = createCustomColumns<NewTalentJson>(
-		talentData[0] ? Object.keys(talentData[0]) : [],
-	);
+	const columns = simpleDataColumnsFactory<NewTalentJson>(extractColumnKeys(talentData));
 
 	return (
 		<div {...forwardProps}>

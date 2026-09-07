@@ -1,12 +1,8 @@
 import {
-	Table,
-	TableCaption,
-	TableHeader,
-	TableRow,
-	TableHead,
-	TableBody,
-	TableCell,
-} from "@/components/ui/table";
+	extractColumnKeys,
+	simpleDataColumnsFactory,
+} from "@/components/ui/data-table/customColumnHelper";
+import { DataTable } from "@/components/ui/data-table/data-table";
 import type { NewCharacteristicImprovementJson } from "@/types/json/JsonDataTypes";
 
 type CharacteristicImprovementTableProps = {
@@ -20,24 +16,13 @@ export function CharacteristicImprovementsTable(
 ) {
 	const { characteristicImprovementsData, captionText, ...forwardProps } =
 		characteristicImprovementTableProps;
+	const columns = simpleDataColumnsFactory<NewCharacteristicImprovementJson>(
+		extractColumnKeys(characteristicImprovementsData),
+	);
 
 	return (
-		<Table {...forwardProps}>
-			{captionText ? <TableCaption>{captionText}</TableCaption> : null}
-			<TableHeader>
-				<TableRow>
-					<TableHead className="text-center">Level bands</TableHead>
-					<TableHead className="text-center">Cost per advance</TableHead>
-				</TableRow>
-			</TableHeader>
-			<TableBody>
-				{characteristicImprovementsData.map((row) => (
-					<TableRow key={`${row.newValue}`}>
-						<TableCell>{`${row.newValue.min}-${row.newValue.max}`}</TableCell>
-						<TableCell>{row.costPerAdvance}</TableCell>
-					</TableRow>
-				))}
-			</TableBody>
-		</Table>
+		<div {...forwardProps}>
+			<DataTable columns={columns} data={characteristicImprovementsData} caption={captionText} />
+		</div>
 	);
 }

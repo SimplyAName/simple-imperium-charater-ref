@@ -27,11 +27,11 @@ export function arrayToFormattedString(inputArray: string[]) {
 
 export function numberRangeToString(inputNumberRange: number | NumberRange): string {
 	if (typeof inputNumberRange === "number") {
-		return String(inputNumberRange);
+		return inputNumberRange.toString();
 	}
 
 	if (inputNumberRange.max === undefined) {
-		return String(inputNumberRange.min);
+		return inputNumberRange.min.toString();
 	}
 
 	return `${inputNumberRange.min} - ${inputNumberRange.max}`;

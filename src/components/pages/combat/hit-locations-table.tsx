@@ -1,14 +1,9 @@
 import {
-	Table,
-	TableCaption,
-	TableHeader,
-	TableRow,
-	TableHead,
-	TableBody,
-	TableCell,
-} from "@/components/ui/table";
+	extractColumnKeys,
+	simpleDataColumnsFactory,
+} from "@/components/ui/data-table/customColumnHelper";
+import { DataTable } from "@/components/ui/data-table/data-table";
 import type { NewHitLocationJson } from "@/types/json/JsonDataTypes";
-import { numberRangeToString } from "@/utils/string-utils";
 
 type HitLocationTableProps = {
 	hitLocations: NewHitLocationJson[];
@@ -20,23 +15,11 @@ export function HitLocationsTable(
 ) {
 	const { hitLocations, caption, ...forwardProps } = hitLocationTableProps;
 
+	const columns = simpleDataColumnsFactory<NewHitLocationJson>(extractColumnKeys(hitLocations));
+
 	return (
-		<Table {...forwardProps}>
-			{caption ? <TableCaption>{caption}</TableCaption> : null}
-			<TableHeader>
-				<TableRow>
-					<TableHead className="text-left">Roll</TableHead>
-					<TableHead className="text-left">Location</TableHead>
-				</TableRow>
-			</TableHeader>
-			<TableBody>
-				{hitLocations.map((row) => (
-					<TableRow key={`${row.roll}`} className="text-left">
-						<TableCell>{numberRangeToString(row.roll)}</TableCell>
-						<TableCell>{row.location}</TableCell>
-					</TableRow>
-				))}
-			</TableBody>
-		</Table>
+		<div {...forwardProps}>
+			<DataTable columns={columns} data={hitLocations} caption={caption} />
+		</div>
 	);
 }

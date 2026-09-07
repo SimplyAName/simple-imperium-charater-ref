@@ -1,15 +1,7 @@
 "use client";
 
-import {
-	useTable,
-	type ColumnDef,
-	type ColumnFiltersState,
-	type ColumnVisibilityState,
-	type RowData,
-	type SortingState,
-} from "@tanstack/react-table";
+import { useTable, type ColumnDef, type RowData } from "@tanstack/react-table";
 import { useTanStackTableDevtools } from "@tanstack/react-table-devtools";
-import { useState } from "react";
 
 import {
 	Table,
