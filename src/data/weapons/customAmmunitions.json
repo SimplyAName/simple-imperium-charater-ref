@@ -1,8 +1,7 @@
 [
 	{
 		"name": "Bleeder Rounds",
-		"damage": null,
-		"cost": null,
+		"costMultiplier": 2,
 		"availability": "Rare",
 		"usedWith": "Solid Projectile Weapons, excluding Shotguns",
 		"traits": [
@@ -15,8 +14,7 @@
 	},
 	{
 		"name": "Executioner Rounds",
-		"damage": null,
-		"cost": null,
+		"costMultiplier": 2,
 		"availability": "Rare",
 		"usedWith": "Bolt weapons, Shotguns",
 		"traits": [
@@ -30,7 +28,7 @@
 	{
 		"name": "Hot-Shot Las Pack",
 		"damage": 2,
-		"cost": null,
+		"costMultiplier": 3,
 		"availability": "Scarce",
 		"usedWith": "Las weapons with the Reliable trait",
 		"traits": [
@@ -43,8 +41,7 @@
 	},
 	{
 		"name": "Inferno Shells",
-		"damage": null,
-		"cost": null,
+		"costMultiplier": 2,
 		"availability": "Rare",
 		"usedWith": "Bolt weapons, Shotguns",
 		"traits": [
@@ -57,8 +54,7 @@
 	},
 	{
 		"name": "Man-Stopper Bullets",
-		"damage": null,
-		"cost": null,
+		"costMultiplier": 3,
 		"availability": "Scarce",
 		"usedWith": "Solid Projectile Weapons, excluding Shotguns",
 		"traits": [
@@ -71,8 +67,7 @@
 	},
 	{
 		"name": "Tox Rounds",
-		"damage": null,
-		"cost": null,
+		"costMultiplier": 3,
 		"availability": "Scarce",
 		"usedWith": "Any Bolt weapon or Solid Projectile weapon, excluding Shotguns",
 		"traits": [
@@ -85,8 +80,8 @@
 	},
 	{
 		"name": "Blessed Rounds",
-		"damage": null,
-		"cost": null,
+		"damage": "X",
+		"costMultiplier": 2,
 		"availability": "Exotic",
 		"usedWith": "Any Bolt weapon, Crossbow, or Solid Projectile weapon",
 		"traits": [
@@ -98,8 +93,7 @@
 	},
 	{
 		"name": "Poison Stake",
-		"damage": null,
-		"cost": null,
+		"costMultiplier": 2,
 		"availability": "Exotic",
 		"usedWith": "Crossbow Weapons",
 		"traits": [
@@ -112,8 +106,7 @@
 	},
 	{
 		"name": "Psybolt Rounds",
-		"damage": null,
-		"cost": null,
+		"costMultiplier": 3,
 		"availability": "Exotic",
 		"usedWith": "Bolt Weapons",
 		"traits": [
@@ -125,8 +118,7 @@
 	},
 	{
 		"name": "Purgatus Stake",
-		"damage": null,
-		"cost": null,
+		"costMultiplier": 2,
 		"availability": "Exotic",
 		"usedWith": "Crossbow Weapons",
 		"traits": [
@@ -139,8 +131,7 @@
 	},
 	{
 		"name": "Silver Stake",
-		"damage": null,
-		"cost": null,
+		"costMultiplier": 2,
 		"availability": "Exotic",
 		"usedWith": "Crossbow Weapons",
 		"traits": [
@@ -153,8 +144,8 @@
 	},
 	{
 		"name": "Tainted Rounds",
-		"damage": null,
-		"cost": null,
+		"damage": "X",
+		"costMultiplier": 2,
 		"availability": "Exotic",
 		"usedWith": "Solid Projectile Weapons, excluding Shotguns",
 		"traits": [
@@ -167,8 +158,8 @@
 	},
 	{
 		"name": "Amputator Rounds",
-		"damage": 0,
-		"cost": null,
+		"damage": "0",
+		"costMultiplier": 3,
 		"availability": "Rare",
 		"usedWith": "Solid Projectile Weapons",
 		"traits": [
@@ -184,8 +175,8 @@
 	},
 	{
 		"name": "CX-19 Web Agent",
-		"damage": 0,
-		"cost": null,
+		"damage": "0",
+		"costMultiplier": 2,
 		"availability": "Rare",
 		"usedWith": "Web Guns",
 		"traits": [
@@ -201,8 +192,8 @@
 	},
 	{
 		"name": "Promethium Rounds",
-		"damage": 0,
-		"cost": null,
+		"damage": "0",
+		"costMultiplier": 2,
 		"availability": "Scarce",
 		"usedWith": "Solid Projectile Weapons, excluding Shotguns",
 		"traits": [
@@ -222,7 +213,7 @@
 	{
 		"name": "Electroplasmic Gel Canister",
 		"damage": 2,
-		"cost": null,
+		"costMultiplier": 2,
 		"availability": "Rare",
 		"usedWith": "Flamer",
 		"traits": [
@@ -236,7 +227,7 @@
 	{
 		"name": "Enriched Rounds",
 		"damage": 4,
-		"cost": null,
+		"costMultiplier": 2,
 		"availability": "Scarce",
 		"usedWith": "Solid Projectile, Flechette, Radium",
 		"traits": [
@@ -250,7 +241,7 @@
 	{
 		"name": "Haywire Rounds",
 		"damage": 2,
-		"cost": null,
+		"costMultiplier": 3,
 		"availability": "Rare",
 		"usedWith": "Bolt, Solid Projectile (excluding pistols), Needle Rifles",
 		"traits": [

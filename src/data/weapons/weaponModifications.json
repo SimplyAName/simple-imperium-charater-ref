@@ -55,7 +55,7 @@
 	},
 	{
 		"name": "Backpack Ammo Supply",
-		"cost": null,
+		"cost": "Same as linked Weapon",
 		"type": "Support Attachments",
 		"usedWith": "Any Ranged Weapon",
 		"availability": "Same as linked Weapon",

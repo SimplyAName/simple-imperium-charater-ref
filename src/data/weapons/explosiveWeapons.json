@@ -26,7 +26,6 @@
 	{
 		"name": "Choke Grenade",
 		"specialisation": "Thrown, Ordnance",
-		"damage": null,
 		"encumbrance": 0,
 		"cost": 40,
 		"availability": "Scarce",
@@ -68,7 +67,6 @@
 	{
 		"name": "Fire Bomb",
 		"specialisation": "Thrown",
-		"damage": null,
 		"encumbrance": 0,
 		"cost": 10,
 		"availability": "Common",
@@ -213,7 +211,6 @@
 	{
 		"name": "Photon Flash Grenade",
 		"specialisation": "Thrown, Ordnance",
-		"damage": null,
 		"encumbrance": 0,
 		"cost": 200,
 		"availability": "Rare",
@@ -238,7 +235,6 @@
 	{
 		"name": "Smoke Grenade",
 		"specialisation": "Thrown, Ordnance",
-		"damage": null,
 		"encumbrance": 0,
 		"cost": 30,
 		"availability": "Common",
@@ -259,7 +255,6 @@
 	{
 		"name": "Web Grenade",
 		"specialisation": "Thrown",
-		"damage": null,
 		"encumbrance": 0,
 		"cost": 150,
 		"availability": "Rare",
@@ -284,7 +279,6 @@
 	{
 		"name": "Empyrean Brain Mines",
 		"specialisation": "Engineering",
-		"damage": null,
 		"encumbrance": 1,
 		"cost": 1000,
 		"availability": "Exotic",
@@ -305,7 +299,6 @@
 	{
 		"name": "Hallucinogen Grenade",
 		"specialisation": "Thrown, Ordnance",
-		"damage": null,
 		"encumbrance": 0,
 		"cost": 200,
 		"availability": "Exotic",
@@ -325,7 +318,6 @@
 	{
 		"name": "Psychotroke Grenade",
 		"specialisation": "Thrown, Ordnance",
-		"damage": null,
 		"encumbrance": 0,
 		"cost": 300,
 		"availability": "Exotic",
@@ -345,7 +337,6 @@
 	{
 		"name": "Psyk-out Grenade",
 		"specialisation": "Thrown, Ordnance",
-		"damage": null,
 		"encumbrance": 0,
 		"cost": 400,
 		"availability": "Exotic",
@@ -369,7 +360,6 @@
 	{
 		"name": "Rad Grenade",
 		"specialisation": "Thrown, Ordnance",
-		"damage": null,
 		"encumbrance": 0,
 		"cost": 400,
 		"availability": "Exotic",
@@ -486,7 +476,6 @@
 	{
 		"name": "Scare Gas Grenade",
 		"specialisation": "Thrown",
-		"damage": null,
 		"encumbrance": 0,
 		"cost": 200,
 		"availability": "Rare",
@@ -542,7 +531,6 @@
 	{
 		"name": "Cant Grenades",
 		"specialisation": "Thrown",
-		"damage": 0,
 		"encumbrance": 1,
 		"cost": 1000,
 		"availability": "Rare",
@@ -570,7 +558,6 @@
 	{
 		"name": "Haywire Grenades",
 		"specialisation": "Thrown",
-		"damage": 0,
 		"encumbrance": 0,
 		"cost": 800,
 		"availability": "Scarce",

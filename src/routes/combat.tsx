@@ -3,7 +3,9 @@ import { createFileRoute } from "@tanstack/react-router";
 import { CombatActionsTable } from "@/components/pages/combat/combat-actions-table";
 import { CriticalWoundsTable } from "@/components/pages/combat/criticalWounds/critical-wounds-table";
 import { HitLocationsTable } from "@/components/pages/combat/hit-locations-table";
+import { SimpleDataTable } from "@/components/ui/data-table/simple-data-table";
 import { CombatActionsService } from "@/services/combat/combatActionsService";
+import { ConditionsService } from "@/services/combat/conditionsService";
 import { CriticalWoundsService } from "@/services/combat/criticalWoundsService";
 import { HitLocationsService } from "@/services/combat/hitLocationsService";
 
@@ -13,11 +15,20 @@ export const Route = createFileRoute("/combat")({
 		combatActions: CombatActionsService.getCombatActionsData(),
 		hitLocations: HitLocationsService.getHitLocationData(),
 		criticalWounds: CriticalWoundsService.getAllCriticalWoundData(),
+		...ConditionsService.getCombatReferenceData(),
 	}),
 });
 
 function RouteComponent() {
-	const { combatActions, hitLocations, criticalWounds } = Route.useLoaderData();
+	const {
+		combatActions,
+		hitLocations,
+		criticalWounds,
+		conditions,
+		environmentalTraits,
+		fumbles,
+		injuries,
+	} = Route.useLoaderData();
 
 	return (
 		<div>
@@ -36,6 +47,26 @@ function RouteComponent() {
 				<h3>Hit locations</h3>
 
 				<HitLocationsTable hitLocations={hitLocations} />
+			</section>
+
+			<section>
+				<h3>Conditions</h3>
+				<SimpleDataTable data={conditions} wrapColumns={["description"]} />
+			</section>
+
+			<section>
+				<h3>Environmental Traits</h3>
+				<SimpleDataTable data={environmentalTraits} wrapColumns={["description"]} />
+			</section>
+
+			<section>
+				<h3>Fumbles</h3>
+				<SimpleDataTable data={fumbles} wrapColumns={["result"]} />
+			</section>
+
+			<section>
+				<h3>Injuries</h3>
+				<SimpleDataTable data={injuries} wrapColumns={["minor", "major"]} />
 			</section>
 
 			<section>
@@ -59,12 +90,6 @@ function RouteComponent() {
 						<CriticalWoundsTable criticalWounds={criticalWounds.leg} />
 					</div>
 				</div>
-			</section>
-
-			<section>
-				<h3>Injuries</h3>
-
-				<HitLocationsTable hitLocations={hitLocations} />
 			</section>
 
 			<section>

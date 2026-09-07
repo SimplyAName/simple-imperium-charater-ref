@@ -4,6 +4,8 @@ import { CharacteristicImprovementsTable } from "@/components/pages/character/ch
 import { CharacteristicsTable } from "@/components/pages/character/characteristics-table";
 import { SkillSpecialisationsTable } from "@/components/pages/character/skill-specialisations-table";
 import { SkillsTable } from "@/components/pages/character/skills-table";
+import { SimpleDataTable } from "@/components/ui/data-table/simple-data-table";
+import { CharacterCreationService } from "@/services/character/characterCreationService";
 import { CharacteristicImprovementService } from "@/services/character/characteristicImprovementsService";
 import { CharacteristicsService } from "@/services/characteristicsService";
 import { SkillSpecialisationService } from "@/services/skillSpecialisationsService";
@@ -14,6 +16,10 @@ export const Route = createFileRoute("/character")({
 	loader: () => ({
 		skills: SkillService.getSkillData(),
 		characteristics: CharacteristicsService.getCharacteristicData(),
+		creation: {
+			names: CharacterCreationService.getNamesData(),
+			origins: CharacterCreationService.getOriginData(),
+		},
 		xpCosts: {
 			skillSpecs: SkillSpecialisationService.getSkillSpecialisationData(),
 			characteristics: CharacteristicImprovementService.getCharacteristicImprovementData(),
@@ -22,7 +28,7 @@ export const Route = createFileRoute("/character")({
 });
 
 function CharacterComponent() {
-	const { skills, characteristics, xpCosts } = Route.useLoaderData();
+	const { skills, characteristics, creation, xpCosts } = Route.useLoaderData();
 
 	return (
 		<div className="flex flex-col gap-2">
@@ -43,6 +49,16 @@ function CharacterComponent() {
 			</section>
 
 			<hr />
+
+			<section>
+				<h3>Names</h3>
+				<SimpleDataTable
+					data={creation.names}
+					wrapColumns={["lowGothic", "highGothic", "archaic", "informal", "esoteric"]}
+				/>
+			</section>
+
+			{/* TODO: Add a dedicated view for origin characteristic and equipment bonuses. */}
 
 			<section>
 				<h3>XP costs</h3>

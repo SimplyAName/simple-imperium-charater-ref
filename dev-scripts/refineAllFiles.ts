@@ -42,7 +42,7 @@ import { refineAugmeticsData } from "./refine-data/augmeticsRefinement";
 import { refineCriticalWoundsData } from "./refine-data/criticalWoundsRefinement";
 import { refinePersonalGearData } from "./refine-data/personalGearRefinement";
 import {
-	refineAmmunitionData,
+	refineCustomAmmunitionData,
 	refineCharacteristicImprovementData as refineCharacteristicImprovementXpData,
 	refineCombatActionData,
 	refineConditionData,
@@ -63,8 +63,9 @@ import {
 	refineTalentData,
 	refineToolDetailProfilesData,
 	refineTraitsData,
-	refineWeaponData,
+	refineRangedWeaponData,
 	type PsychicDetailProfileJson,
+	refineExplosiveWeaponData,
 } from "./refine-data/remainingRefinement";
 import { refineServiceData } from "./refine-data/serviceRefinement";
 import { refineSkillsData } from "./refine-data/skillsRefinement";
@@ -94,9 +95,16 @@ export function runAllRefinements() {
 		generateJsonFile(refineEquipmentData(medicaeEquipment), "equipment/medicaeEquipment.json"),
 		generateJsonFile(refineEquipmentData(tools), "equipment/tools.json"),
 		generateJsonFile(refineMeleeWeaponData(meleeWeapons), "weapons/meleeWeapons.json"),
-		generateJsonFile(refineWeaponData(rangedWeapons), "weapons/rangedWeapons.json"),
-		generateJsonFile(refineWeaponData(explosiveWeapons), "weapons/explosiveWeapons.json"),
-		generateJsonFile(refineAmmunitionData(customAmmunitions), "weapons/customAmmunitions.json"),
+		generateJsonFile(refineRangedWeaponData(rangedWeapons), "weapons/rangedWeapons.json"),
+		generateJsonFile(refineExplosiveWeaponData(explosiveWeapons), "weapons/explosiveWeapons.json"),
+		generateJsonFile(
+			refineCustomAmmunitionData(customAmmunitions),
+			"weapons/customAmmunitions.json",
+		),
+		generateJsonFile(
+			weaponModificationsRefinement(weaponModifications),
+			"weapons/weaponModifications.json",
+		),
 		generateJsonFile(refineForceFieldData(forceFields), "protection/forceFields.json"),
 		generateJsonFile(refineCombatActionData(combatActions), "combat/combatActions.json"),
 		generateJsonFile(
@@ -127,10 +135,6 @@ export function runAllRefinements() {
 		generateJsonFile(refinePsychicPowersData(psychicPowers), "psychic/psychicPowers.json"),
 		generatePsyProfileFiles(refinePsychicDetailProfilesData(psychicDetailProfiles)),
 		generateJsonFile(refineTalentData(talents), "character/talents.json"),
-		generateJsonFile(
-			weaponModificationsRefinement(weaponModifications),
-			"weapons/weaponModifications.json",
-		),
 
 		generateJsonFile(createCharacteristicData(), "character/characteristics.json"),
 		generateJsonFile(createOriginData(), "character/creation/origin.json"),

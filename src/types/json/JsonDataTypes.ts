@@ -32,6 +32,14 @@ export type NewAugmeticsJson = {
 	source: string;
 };
 
+export type NewArmourModificationJson = {
+	name: string;
+	cost: number;
+	availability: string;
+	effect: string;
+	source: string;
+};
+
 export type NewArmourJson = {
 	name: string;
 	locations: string[];
@@ -78,22 +86,33 @@ export type NewMedicalServiceJson = {
 
 export type NewEquipmentJson = {
 	name: string;
-	cost: number;
+	cost: number | string;
 	availability: string;
 	encumbrance: number;
 	effect: string;
 	source: string;
 };
 
-export type NewWeaponJson = {
+export type NewRangedWeaponJson = {
 	name: string;
 	specialisation: string;
-	damage: number;
+	damage?: number;
 	range?: string;
 	magazine?: number;
 	encumbrance: number;
 	cost: number;
 	magazineCost?: number;
+	availability: string;
+	traits?: NewTraitJsonProp[];
+	source: string;
+};
+
+export type NewExplosiveWeaponJson = {
+	name: string;
+	specialisation: string;
+	damage?: number;
+	encumbrance: number;
+	cost: number;
 	availability: string;
 	traits?: NewTraitJsonProp[];
 	source: string;
@@ -107,17 +126,17 @@ export type NewMeleeWeaponJson = {
 	range?: string;
 	magazine?: number;
 	encumbrance: number;
-	cost: number;
+	cost?: number;
 	magazineCost?: number;
 	availability: string;
 	traits?: NewTraitJsonProp[];
 	source: string;
 };
 
-export type NewAmmunitionJson = {
+export type NewCustomAmmunitionJson = {
 	name: string;
-	damage: number;
-	cost: number;
+	damage?: number | string;
+	costMultiplier: number;
 	availability: string;
 	usedWith: string;
 	traits?: NewTraitJsonProp[];
@@ -262,7 +281,7 @@ export type NewPsychicPowersJson = {
 
 export type NewWeaponModificationsJson = {
 	name: string;
-	cost: number;
+	cost: number | string;
 	availability: string;
 	type: string;
 	usedWith: string;

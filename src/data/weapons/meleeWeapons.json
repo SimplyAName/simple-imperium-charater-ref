@@ -176,7 +176,6 @@
 		"damage": 1,
 		"bonus": "StrB",
 		"encumbrance": 1,
-		"cost": null,
 		"availability": "-",
 		"source": "Core Rulebook",
 		"traits": [
@@ -191,7 +190,6 @@
 		"damage": 2,
 		"bonus": "StrB",
 		"encumbrance": 3,
-		"cost": null,
 		"availability": "-",
 		"source": "Core Rulebook",
 		"traits": [
@@ -256,7 +254,6 @@
 		"damage": 0,
 		"bonus": "StrB",
 		"encumbrance": 0,
-		"cost": null,
 		"availability": "-",
 		"source": "Core Rulebook",
 		"traits": [

@@ -17,7 +17,7 @@ export function weaponModificationsRefinement(
 	for (const weaponMod of jsonData) {
 		const newArmourModificationsJson: NewWeaponModificationsJson = {
 			name: weaponMod.Name,
-			cost: Number.parseInt(weaponMod.Cost),
+			cost: Number.parseInt(weaponMod.Cost) || weaponMod.Cost,
 			type: weaponMod.Type,
 			usedWith: weaponMod["Used With"],
 			availability: weaponMod.Availability,

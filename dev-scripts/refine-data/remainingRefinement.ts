@@ -2,9 +2,9 @@ import type { NumberRange } from "@/types/NumberRange";
 
 import type {
 	NewEquipmentJson,
-	NewWeaponJson,
+	NewRangedWeaponJson,
 	NewMeleeWeaponJson,
-	NewAmmunitionJson,
+	NewCustomAmmunitionJson,
 	NewMedicalServiceJson,
 	NewFumbleJson,
 	NewHitLocationJson,
@@ -23,6 +23,7 @@ import type {
 	NewWeaponProfileJson,
 	NewTableProfileJson,
 	NewForceFieldJson,
+	NewExplosiveWeaponJson,
 } from "../../src/types/json/JsonDataTypes";
 import { parseNumberRange } from "../utils/parseNumberRange";
 import { parseNumberOrText, parseRequiredNumber } from "../utils/parseTypesUtils";
@@ -38,17 +39,28 @@ type EquipmentRecord = {
 	Source: string;
 };
 
-type WeaponRecord = {
+type RangedWeaponRecord = {
 	Name: string;
 	Specialisation: string;
 	Damage: string | number;
-	Range?: string;
-	Magazine?: string | number;
+	Range: string;
+	Magazine: string | number;
 	Encumbrance: string | number;
 	Cost?: string | number;
 	"Cost (Mag)"?: string | number;
 	Availability: string;
-	Traits?: string | { name: string; value?: number | null }[];
+	Traits: string | { name: string; value?: number | null }[];
+	Source: string;
+};
+
+type ExplosiveWeaponRecord = {
+	Name: string;
+	Specialisation: string;
+	Damage: string | number;
+	Encumbrance: string | number;
+	Cost: string | number;
+	Availability: string;
+	Traits: string | { name: string; value?: number | null }[];
 	Source: string;
 };
 
@@ -56,13 +68,10 @@ type MeleeWeaponRecord = {
 	Name: string;
 	Specialisation: string;
 	Damage: string;
-	Range?: string;
-	Magazine?: string | number;
 	Encumbrance: string | number;
-	Cost?: string | number;
-	"Cost (Mag)"?: string | number;
+	Cost: string | number;
 	Availability: string;
-	Traits?: string | { name: string; value?: number | null }[];
+	Traits: string | { name: string; value?: number | null }[];
 	Source: string;
 };
 
@@ -83,7 +92,7 @@ function parseMeleeWeaponDamage(value: string): ParsedWeaponDamage {
 export function refineEquipmentData(jsonData: EquipmentRecord[]): NewEquipmentJson[] {
 	return jsonData.map((equipment) => ({
 		name: equipment.Name,
-		cost: parseNumberOrText(equipment.Cost),
+		cost: parseNumberOrText(equipment.Cost) || equipment.Cost,
 		availability: equipment.Availability,
 		encumbrance: parseRequiredNumber(equipment.Encumbrance, "encumbrance"),
 		effect: equipment.Effect,
@@ -91,30 +100,53 @@ export function refineEquipmentData(jsonData: EquipmentRecord[]): NewEquipmentJs
 	}));
 }
 
-export function refineWeaponData(jsonData: WeaponRecord[]): NewWeaponJson[] {
+export function refineRangedWeaponData(jsonData: RangedWeaponRecord[]): NewRangedWeaponJson[] {
 	return jsonData.map((weapon) => {
 		const costText = weapon["Cost (Mag)"] ?? weapon.Cost ?? "-";
 		const { baseValue: cost, bracketValue: magazineCost } =
 			typeof costText === "string"
 				? extractValueFromBrackets(costText)
 				: { baseValue: costText.toString() };
-		const refinedWeapon: NewWeaponJson = {
+
+		const refinedWeapon: NewRangedWeaponJson = {
 			name: weapon.Name,
 			specialisation: weapon.Specialisation,
-			damage: parseNumberOrText(weapon.Damage),
+			damage: parseNumberOrText(weapon.Damage) || undefined,
+			range: weapon.Range,
+			magazine: parseNumberOrText(weapon.Magazine),
 			encumbrance: parseRequiredNumber(weapon.Encumbrance, "encumbrance"),
 			cost: parseNumberOrText(cost),
 			availability: weapon.Availability,
 			source: weapon.Source,
 		};
 
-		if (weapon.Range !== undefined) refinedWeapon.range = weapon.Range;
-		if (weapon.Magazine !== undefined) {
-			refinedWeapon.magazine = parseRequiredNumber(weapon.Magazine, "magazine");
-		}
 		if (magazineCost !== undefined) {
-			refinedWeapon.magazineCost = parseNumberOrText(magazineCost);
+			refinedWeapon.magazineCost = parseNumberOrText(magazineCost) || undefined;
 		}
+		if (weapon.Traits) {
+			refinedWeapon.traits = Array.isArray(weapon.Traits)
+				? weapon.Traits.map(({ name, value }) => (value === null ? { name } : { name, value }))
+				: extractTraitArray(weapon.Traits);
+		}
+
+		return refinedWeapon;
+	});
+}
+
+export function refineExplosiveWeaponData(
+	jsonData: ExplosiveWeaponRecord[],
+): NewExplosiveWeaponJson[] {
+	return jsonData.map((weapon) => {
+		const refinedWeapon: NewExplosiveWeaponJson = {
+			name: weapon.Name,
+			specialisation: weapon.Specialisation,
+			damage: parseNumberOrText(weapon.Damage) || undefined,
+			encumbrance: parseRequiredNumber(weapon.Encumbrance, "encumbrance"),
+			cost: parseNumberOrText(weapon.Cost),
+			availability: weapon.Availability,
+			source: weapon.Source,
+		};
+
 		if (weapon.Traits) {
 			refinedWeapon.traits = Array.isArray(weapon.Traits)
 				? weapon.Traits.map(({ name, value }) => (value === null ? { name } : { name, value }))
@@ -127,11 +159,6 @@ export function refineWeaponData(jsonData: WeaponRecord[]): NewWeaponJson[] {
 
 export function refineMeleeWeaponData(jsonData: MeleeWeaponRecord[]): NewMeleeWeaponJson[] {
 	return jsonData.map((weapon) => {
-		const costText = weapon["Cost (Mag)"] ?? weapon.Cost ?? "-";
-		const { baseValue: cost, bracketValue: magazineCost } =
-			typeof costText === "string"
-				? extractValueFromBrackets(costText)
-				: { baseValue: costText.toString() };
 		const { bonus, damage } = parseMeleeWeaponDamage(weapon.Damage);
 		const refinedWeapon: NewMeleeWeaponJson = {
 			name: weapon.Name,
@@ -139,18 +166,11 @@ export function refineMeleeWeaponData(jsonData: MeleeWeaponRecord[]): NewMeleeWe
 			damage: damage,
 			bonus: bonus,
 			encumbrance: parseRequiredNumber(weapon.Encumbrance, "encumbrance"),
-			cost: parseNumberOrText(cost),
+			cost: parseNumberOrText(weapon.Cost) || undefined,
 			availability: weapon.Availability,
 			source: weapon.Source,
 		};
 
-		if (weapon.Range !== undefined) refinedWeapon.range = weapon.Range;
-		if (weapon.Magazine !== undefined) {
-			refinedWeapon.magazine = parseRequiredNumber(weapon.Magazine, "magazine");
-		}
-		if (magazineCost !== undefined) {
-			refinedWeapon.magazineCost = parseNumberOrText(magazineCost);
-		}
 		if (weapon.Traits) {
 			refinedWeapon.traits = Array.isArray(weapon.Traits)
 				? weapon.Traits.map(({ name, value }) => (value === null ? { name } : { name, value }))
@@ -161,21 +181,23 @@ export function refineMeleeWeaponData(jsonData: MeleeWeaponRecord[]): NewMeleeWe
 	});
 }
 
-export function refineAmmunitionData(
+export function refineCustomAmmunitionData(
 	jsonData: {
 		Name: string;
-		Damage: string | number;
-		Cost: string | number;
+		Damage: string;
+		Cost: string;
 		Availability: string;
 		"Used With"?: string;
 		Traits: string | { name: string; value?: number | null }[];
 		Source: string;
 	}[],
-): NewAmmunitionJson[] {
+): NewCustomAmmunitionJson[] {
 	return jsonData.map((ammunition) => ({
 		name: ammunition.Name,
-		damage: parseNumberOrText(ammunition.Damage),
-		cost: parseNumberOrText(ammunition.Cost),
+		damage:
+			parseNumberOrText(ammunition.Damage.substring(1)) ||
+			(ammunition.Damage != "-" ? ammunition.Damage.substring(1) : undefined),
+		costMultiplier: parseNumberOrText(ammunition.Cost.substring(1)),
 		availability: ammunition.Availability,
 		usedWith: ammunition["Used With"] ?? "",
 		traits: Array.isArray(ammunition.Traits)

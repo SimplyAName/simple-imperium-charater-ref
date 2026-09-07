@@ -11,11 +11,12 @@ export const Route = createFileRoute("/protection")({
 	loader: () => ({
 		forceFields: ForceFieldService.getForceFieldData(),
 		armour: ArmourService.getArmourData(),
+		armourModifications: ArmourService.getArmourModificationsData(),
 	}),
 });
 
 function RouteComponent() {
-	const { forceFields, armour } = Route.useLoaderData();
+	const { forceFields, armour, armourModifications } = Route.useLoaderData();
 
 	return (
 		<div className="flex flex-col gap-4">
@@ -29,7 +30,7 @@ function RouteComponent() {
 			<section>
 				<h3>Armour Modifications</h3>
 
-				<ArmourModificationsTable armourModifications={armour} />
+				<ArmourModificationsTable armourModifications={armourModifications} />
 			</section>
 			<hr />
 			<section>

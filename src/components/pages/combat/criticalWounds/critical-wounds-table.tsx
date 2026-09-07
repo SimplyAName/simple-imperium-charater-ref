@@ -4,7 +4,6 @@ import {
 } from "@/components/ui/data-table/customColumnHelper";
 import { DataTable } from "@/components/ui/data-table/data-table";
 import type { NewCriticalWoundJson } from "@/types/json/JsonDataTypes";
-import { numberRangeToString } from "@/utils/string-utils";
 
 type CriticalWoundTableProps = {
 	criticalWounds: NewCriticalWoundJson[];
